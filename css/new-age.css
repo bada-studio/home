@@ -53,6 +53,7 @@ section {
 
 section h2 {
   font-size: 32px;
+  font-weight: bold;
 }
 
 #mainNav {
@@ -269,7 +270,7 @@ section.features .feature-item {
 }
 
 section.features .feature-item h3 {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 section.features .feature-item i {
