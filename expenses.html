@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dashboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Dashboard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.html">Balance</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Expense</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dividend.html">Dividend</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main role="main" class="container" id="app">
+      <h1 class="balance mt-5">{{ adminstate.expenses }}</h1>
+      <p>전체 운영비 지출 액수</p>
+
+      <h1 class="mt-5">Expenses Logs</h1>
+      <p>최근 20개의 운영비 지출 내역을 가져옵니다.</p>
+
+      <div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">시간</th>
+              <th scope="col">비용</th>
+              <th scope="col">사용처</th>
+              <th scope="col">메모</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="expense in expenseslog">
+              <td>{{ moment((expense.at + 1500000000) * 1000).format('l') }}</td>
+              <td>{{ expense.amount }}</td>
+              <td>{{ expense.to }}</td>
+              <td>{{ expense.memo }}</td>
+            </tr>
+          </tbody>
+        </table>      
+      </div>
+
+    </main>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/vue/vue.min.js"></script>
+    <script src="vendor/moment/moment-with-locales.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/axios/axios.min.js"></script>
+    <script src="js/expenses.js"></script>
+  </body>
+</html>
