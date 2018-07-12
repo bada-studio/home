@@ -1,0 +1,22 @@
+{  
+   "connection":[  
+      {  
+         "key":"mainnet",
+         "chainApi":"http://user-api.eoseoul.io:80/",
+         "apiServer":"http://121.168.149.101:8080/api/v1/",
+         "sockServer":"http://35.234.42.186:15000"
+      },
+      {  
+         "key":"testnet",
+         "chainApi":"http://testnet01.eoseoul.io:8801/",
+         "apiServer":"http://121.168.149.101:8080/api/v1/",
+         "sockServer":"http://35.234.42.186:15000"
+      },
+      {  
+         "key":"alphanet",
+         "chainApi":"http://121.168.149.101:8888/",
+         "apiServer":"http://121.168.149.101:8080/api/v1/",
+         "sockServer":"http://35.234.42.186:15000"
+      }
+   ]
+}
