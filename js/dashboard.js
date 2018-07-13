@@ -1,9 +1,14 @@
+function toEos(text) {
+    return parseFloat(text.replace(" EOS","")); 
+}
+
 
 var app = new Vue({
   el: '#app',
   data: {
     adminstate: [],
-    balance: []
+    balance: [],
+    total: []
   },
   created: function () {
     var baseUrl = "http://testnet01.eoseoul.io:8801";
@@ -25,8 +30,10 @@ var app = new Vue({
         limit: 1
       }
     }).then(function(response) {
-        console.log(response.data.rows[0]);
-        this.adminstate = response.data.rows[0];
+        var row = response.data.rows[0];
+        this.adminstate = row;
+        this.total = toEos(row.player_deposit) 
+                   + toEos(row.revenue);
     }.bind(this))
     .catch(function(e) {
         this.errors.push(e)
