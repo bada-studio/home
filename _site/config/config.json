@@ -3,10 +3,6 @@
       "ios":"1.0.0",
       "android":"1.0.0"
    },
-   "upgradeUrl": {
-      "ios":"http://eosknights.io",
-      "android":"http://eosknights.io"
-   },
    "connection":[  
       {  
          "key":"mainnet",
@@ -16,7 +12,7 @@
       },
       {  
          "key":"testnet",
-         "chainApi":"http://193.93.219.219:8888/",
+         "chainApi":"https://jungle.eosio.cr",
          "apiServer":"http://121.168.149.101:8080/",
          "sockServer":"http://35.234.42.186:15000"
       },
