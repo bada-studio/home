@@ -6,7 +6,7 @@ var app = new Vue({
     expenseslog: []
   },
   created: function () {
-    var baseUrl = "http://testnet01.eoseoul.io:8801";
+    var baseUrl = "http://user-api.eoseoul.io:80";
 
     axios({
       method: 'POST',
