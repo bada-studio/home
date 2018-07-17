@@ -7,7 +7,7 @@
       "ios":"",
       "android":"https://play.google.com/store/apps/details?id=com.bada.ck"
    },
-   "connection":[  
+   "connections":[  
       {  
          "key":"mainnet",
          "chainApi":"http://user-api.eoseoul.io:80/",
