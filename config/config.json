@@ -16,7 +16,7 @@
       },
       {  
          "key":"testnet",
-         "chainApi":"http://node1.eosgreen.io:8888/",
+         "chainApi":"http://193.93.219.219:8888/",
          "apiServer":"http://121.168.149.101:8080/",
          "sockServer":"http://35.234.42.186:15000"
       },
