@@ -3,6 +3,8 @@
       "ios":"1.0.0",
       "android":"1.0.0"
    },
+   "maintenance": false,
+   "newAccount": true,
    "downloadUrl": {
       "ios":"",
       "android":"https://play.google.com/store/apps/details?id=com.bada.ck"
@@ -10,22 +12,18 @@
    "connections":[  
       {  
          "key":"mainnet",
+         "active":false,
          "chainApi":"http://user-api.eoseoul.io:80/",
          "apiServer":"http://121.168.149.101:8080/",
          "sockServer":"http://35.234.42.186:15000"
       },
       {  
          "key":"testnet",
-         "chainApi":"http://dolphin.eosblocksmith.io:8888/",
-         "apiServer":"http://121.168.149.101:8080/",
-         "sockServer":"http://35.234.42.186:15000"
-      },
-      {  
-         "key":"alphanet",
+         "active":true,
          "chainApi":"http://121.168.149.101:8888/",
          "apiServer":"http://121.168.149.101:8080/",
          "sockServer":"http://35.234.42.186:15000"
-      }  
+      }
    ]
 }
 
