@@ -11,7 +11,7 @@ var app = new Vue({
     total: []
   },
   created: function () {
-    var baseUrl = "http://user-api.eoseoul.io:80";
+    var baseUrl = "http://121.168.149.101:8888";
 
     axios({
       method: 'POST',
