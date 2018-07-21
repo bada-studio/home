@@ -9,7 +9,7 @@
       "datetime":"2018-07-23T09:00:00.000",
       "expiration":"2018-08-10T00:00:00.000",
       "padding":40,
-      "popup":true,
+      "needPopup":true,
       "link":""
    }, {  
       "id":1,
@@ -21,7 +21,7 @@
       "datetime":"2018-07-23T09:00:00.000",
       "expiration":"2018-08-10T00:00:00.000",
       "padding":40,
-      "popup":false,
+      "needPopup":false,
       "link":"https://steemit.com/eos/@raindays/2xzg8r"
    },
 ]
