@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dashboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Dashboard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.html">Balance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="expenses.html">Expense</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="">Dividend</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main role="main" class="container" id="app">
+      <h1 class="balance mt-5">{{ adminstate.dividend }}</h1>
+      <p>전체 수익 배분 액수</p>
+
+      <h1 class="mt-5">Dividened Logs</h1>
+      <p>최근 20개의 수익 쉐어 내역을 가져옵니다</p>
+      <br/>
+      <div v-for="dividend in dividendlog">
+        <div>지급일 {{ moment((dividend.at + 1500000000) * 1000).format('l') }}</div>
+        <div class="balance">분배액 {{ dividend.amount }}</div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">주주</th>
+              <th scope="col">액수</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="log in dividend.to">
+              <td>{{ log.to }}</td>
+              <td>{{ log.amount }}</td>
+            </tr>
+          </tbody>
+        </table>      
+      </div>
+
+    </main>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/vue/vue.min.js"></script>
+    <script src="vendor/moment/moment-with-locales.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/axios/axios.min.js"></script>
+    <script src="js/dividend.js"></script>
+  </body>
+</html>

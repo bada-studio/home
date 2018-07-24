@@ -448,3 +448,6 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   height:64px;
 }
 
+.list-inline-item:not(:last-child) {
+    margin-right: 0.25rem;
+}

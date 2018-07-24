@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dashboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Dashboard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Balance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="expenses.html">Expense</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dividend.html">Dividend</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main role="main" class="container" id="app">
+      <h1 class="balance mt-5">{{ balance.balance }}</h1>
+      <p>컨트랙트 계좌에 유지하고 있는 EOS 잔액입니다.</p>
+
+      <h1 class="mt-5">Assets</h1>
+
+      <div>
+        <h6>Player Deposit</h6>
+        <p>유저가 앱으로 입금해둔 돈입니다. 출금을 위해 이 이상 계좌에 유지하고 있어야 합니다.</p>
+        <p class="balance">{{ adminstate.player_deposit }}<p>
+
+        <h6>Revenue</h6>
+        <p>운영 수익입니다. 분배하거나, 지출시 줄어듭니다.</p>
+        <p class="balance">{{ adminstate.revenue }}<p>
+
+        <h6>Expenses</h6>
+        <p>운영시 지출한 내역입니다. 출금시 자동 기록됩니다.</p>
+        <p class="balance">{{ adminstate.expenses }}<p>
+
+        <h6>Dividend</h6>
+        <p>운영 수익중 주주에게 분배한 액수입니다.</p>
+        <p class="balance">{{ adminstate.dividend }}<p>
+
+        <h6>Sum</h6>
+        <p>전체 합계</p>
+        <p class="balance">{{ total }}<p>
+      </div>
+    </main>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/vue/vue.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/axios/axios.min.js"></script>
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>
