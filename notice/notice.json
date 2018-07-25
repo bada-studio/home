@@ -1,5 +1,17 @@
 [  
    {  
+      "id":3,
+      "titleKo":"정글넷이 불안정합니다.",
+      "titleEn":"Jungle net is unstable.",
+      "titleImage":"http://eosknights.io/img/jungle.png",
+      "bodyKo":"![](http://eosknights.io/img/lion.png =256x256)\n# 정글넷이 불안정합니다.\n죄송합니다. 현재 정글넷 블럭 생성에 문제가 있습니다. 트랜잭션의 50% 정도가 실패할 수 있습니다. 이슈가 해결되는대로 공유드리겠습니다.",
+      "bodyEn":"![](http://eosknights.io/img/lion.png =256x256)\n# Jungle net is unstable.\nSorry. There are currently some problem creating block on jungle net. About 50% of transactions could fail. We'll inform you as soon as the issue is resolved.",
+      "datetime":"2018-07-25T09:00:00.000",
+      "expiration":"2018-08-10T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   },  {  
       "id":2,
       "titleKo":"정글넷에서 베타를 진행합니다!",
       "titleEn":"Beta test on JungleNet!",
