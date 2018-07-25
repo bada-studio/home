@@ -9,18 +9,28 @@
       "ios":"",
       "android":"https://play.google.com/store/apps/details?id=com.bada.ck"
    },
+   "trxWait": {
+      "normal":1.5,
+      "long":4,
+   },
    "connections":[  
       {  
          "key":"mainnet",
          "active":false,
          "chainApi":"http://user-api.eoseoul.io:80/",
          "apiServer":"http://35.194.185.201:80/",
-         "sockServer":"http://35.229.234.66:80/"
+         "sockServer":"http://35.229.234.66:80/",
+         "bp": [
+            {
+               "key:":"nodeone",
+               "url:":"http://api.main-net.eosnodeone.io"
+            }
+         ]
       },
       {  
          "key":"testnet",
          "active":true,
-         "chainApi":"http://121.168.149.101:8888/",
+         "chainApi":"http://193.93.219.219:8888/",
          "apiServer":"http://121.168.149.101:8080/",
          "sockServer":"http://35.234.42.186:15000/"
       }
