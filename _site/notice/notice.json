@@ -1,5 +1,17 @@
 [  
    {  
+      "id":4,
+      "titleKo":"정글넷이 멈췄습니다.",
+      "titleEn":"The jungle net has stopped.",
+      "titleImage":"http://eosknights.io/img/testnet.jpg",
+      "bodyKo":"![](http://eosknights.io/img/testnet.jpg =256x256)\n# 정글넷이 멈췄습니다 ㅠㅠ\n정글넷이 1.1.1 버전으로 패치하는 과정에 문제가 있어 블록생성이 중지되었습니다. 이슈가 해결되는대로 공유드리겠습니다.",
+      "bodyEn":"![](http://eosknights.io/img/testnet.jpg =256x256)\n# The jungle net has stopped.\nBlock creation has been stopped due to a problem in the process of patching Jungle Net to version 1.1.1. We'll inform you as soon as the issue is resolved.",
+      "datetime":"2018-07-26T09:13:00.000",
+      "expiration":"2018-08-10T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":3,
       "titleKo":"정글넷이 불안정합니다.",
       "titleEn":"Jungle net is unstable.",
