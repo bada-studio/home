@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="css/new-age.min.css" rel="stylesheet">
+    <link href="css/new-age.css" rel="stylesheet">
 
   </head>
 
@@ -51,9 +51,6 @@
               <a class="nav-link js-scroll-trigger" href="#review">Review</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#beta">Beta-Test</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
@@ -67,7 +64,7 @@
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
               <h1 class="mb-5">EOS Knights is a first mobile game that runs on an EOS block chain.</h1>
-              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">PLAY NOW!</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -94,13 +91,23 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 mx-auto section-heading">
-            <h2>Play on any mobile device!</h2>
-            <p>Available on early August!</p>
+            <h2>Play on a mobile device and PC web!</h2>
+            <br/>
             <!--p>Download now to get started!</p-->
             <div class="badges">
-              <a href="https://play.google.com/store/apps/details?id=com.bada.ck" class="badge-link"><img src="img/google-play-badge.svg" alt=""></a>
-              <a class="badge-link" onclick="alert('Available on early August!')"><img src="img/app-store-badge.svg" alt=""></a>
+              <div class="badge-link">
+                <a href="http://game.eosknights.io" class="btn btn-xl"><img src="/img/icon-chrome.png"> Beta Test Now</a>
+              </div>
+
+              <div class="badge-link">
+                <a href="https://play.google.com/store/apps/details?id=com.bada.ck" class="btn btn-xl"><img src="/img/icon-google.png"> Beta Teat Now</a>
+                
+              </div>
+              <div class="badge-link">
+                <a onclick="alert('Available on August!')" class="btn btn-xl"><img src="/img/icon-apple.png">Avaiable Soon</a>
+              </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -181,16 +188,14 @@
           <p class="text-muted">If you want to see the full review, please visit [ <a href="https://eosapps.net/eos-knights-beta-first-look-gameplay-review/#pro" target="_blank">https://eosapps.net</a> ]</p>
           <hr>
         </div>
-        <div class="row" id="beta">
-          <div class="col-lg-4 my-auto">
-            <div class="device-container">
-              <div class="screen">
+        <div id="beta">
+          <div>
+              <div style="text-align: center;max-width: 500px;margin: auto">
                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                <img src="img/app_review3.png" class="img-fluid" alt="">
+                <img src="/img/app_review3.png" class="img-fluid">
               </div>
-            </div>
           </div>
-          <div class="col-lg-8 my-auto">
+          <!--div class="col-lg-8 my-auto">
             <h2>EOS Knights Beta: First Look Gameplay Review</h2>
 
             Impressions
@@ -210,11 +215,10 @@
             <div class="device-container">
               <div class="screen">
                 <br/><br/><br/><br/>
-                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                 <img src="img/beta_app3.png" class="img-fluid" alt="">
               </div>
             </div>
-          </div>
+          </div-->
 
         </div>
       </div>
@@ -254,18 +258,15 @@
     <footer>
       <div class="container">
         <p>&copy; 2018 Bada Studio. All Rights Reserved.</p>
-        <!--ul class="list-inline">
+        <ul class="list-inline">
           <li class="list-inline-item">
-            <a href="#">Privacy</a>
+            <a href="/privacy/en/">Privacy</a>
           </li>
           <li class="list-inline-item">
-            <a href="#">Terms</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">FAQ</a>
+            <a href="/terms/en/">Terms</a>
           </li>
         </ul>
-      </div-->
+      </div>
     </footer>
 
     <!-- Bootstrap core JavaScript -->

@@ -211,10 +211,13 @@ section.download h2 {
 
 section.download .badges .badge-link {
   display: block;
+  width: 100px;
+  margin-right: 25px;
   margin-bottom: 25px;
 }
 
 section.download .badges .badge-link:last-child {
+  margin-right: 0;
   margin-bottom: 0;
 }
 

@@ -11,7 +11,7 @@
    },
    "transactionWait": {
       "normalWait":1.5,
-      "longWait":4,
+      "longWait":4.5,
       "longActions": [
          "eosknightsio:rebirth",
          "eosknightsio:craft",
