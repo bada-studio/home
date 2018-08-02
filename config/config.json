@@ -10,8 +10,8 @@
       "android":"https://play.google.com/store/apps/details?id=com.bada.ck"
    },
    "transactionWait": {
-      "normalWait":1.5,
-      "longWait":4.5,
+      "normalWait":1,
+      "longWait":1,
       "longActions": [
          "eosknightsio:rebirth",
          "eosknightsio:craft",
