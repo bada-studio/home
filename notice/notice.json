@@ -1,5 +1,17 @@
 [  
    {  
+      "id":7,
+      "titleKo":"아이템 삭제 버그",
+      "titleEn":"Deleting item bugs",
+      "titleImage":"http://eosknights.io/img/bug.png",
+      "bodyKo":"![](http://eosknights.io/img/bug.png =256x256)\n# 아이템 삭제 버그\n안드로이드 0.9.1 버전에서 아이템 삭제가 안되는 버그가 발생했습니다. 수요일 오후에 수정이 가능할것 같습니다. 불편을 드려 죄송합니다ㅠ\n아이템 삭제는 Chrome Web버전을 이용해주시기 바랍니다.\n",
+      "bodyEn":"![](http://eosknights.io/img/bug.png =256x256)\n# Item deletion bug on Andorid\nThere was a bug that the item could not be deleted in 0.9.1 version. It will be fixed on Wednesday afternoon. We apologize for the inconvenience.\nPlease use the Chrome Web version to remove items.",
+      "datetime":"2018-08-06T20:00:00.000",
+      "expiration":"2018-08-15T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":6,
       "titleKo":"EOS Knights Beta 일정",
       "titleEn":"EOS Knights Beta schedule",
