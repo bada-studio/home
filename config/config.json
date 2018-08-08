@@ -4,6 +4,10 @@
       "android":"0.9.0"
    },
    "maintenance": false,
+   "maintenanceMessage": {
+      "bodyKo":"![](http://eosknights.io/img/eos.png =256x256)\n# 베타테스트가 종료되었습니다!\n열심히 플레이해주신 분들 덕분에 잘 준비할 수 있었습니다. 일주일간 준비 후 메인넷에서 뵙겠습니다. [텔레그램](https://t.me/joinchat/IAL3EwvtSVMml_qkYPXbrw) 방에서 소식 전할께요.\n",
+      "bodyEn":"![](http://eosknights.io/img/eos.png =256x256)\n# Betatest is over!\nThanks to the hard players, we were able to prepare well. We'll see you at Mainnet after a week of preparation. You can check out the latest news at the [Telegram room](https://t.me/joinchat/IAL3EwvtSVMml_qkYPXbrw)\n",
+   },
    "newAccount": true,
    "downloadUrl": {
       "ios":"",
