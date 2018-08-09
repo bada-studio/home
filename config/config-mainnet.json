@@ -1,0 +1,40 @@
+{  
+   "minVersion": {
+      "ios":"0.9.0",
+      "android":"0.9.2"
+   },
+   "maintenance": false,
+   "maintenanceMessage": {
+      "bodyKo":"",
+      "bodyEn":"",
+   },
+   "newAccount": true,
+   "downloadUrl": {
+      "ios":"",
+      "android":"https://play.google.com/store/apps/details?id=com.bada.ck"
+   },
+   "transactionWait": {
+      "normalWait":0,
+      "longWait":0,
+      "longActions": [
+         "eosknightsio:rebirth",
+         "eosknightsio:craft",
+         "eosknightsio:petgacha",
+         "eosio.token:transfer",
+      ]
+   },
+   "connections": {
+      "chainApi":"http://mainnet.eoscalgary.io",
+      "apiServer":"http://35.194.185.201:80/",
+      "sockServer":"http://35.229.234.66:80/",
+      "bp": [
+         {
+            "key:":"nodeone",
+            "url:":"http://api.main-net.eosnodeone.io"
+         }, {
+            "key:":"eoscalgary",
+            "url:":"http://mainnet.eoscalgary.io"
+         }
+      ]
+   }
+}
