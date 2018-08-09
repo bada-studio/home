@@ -1,11 +1,11 @@
 [  
    {  
       "id":1,
-      "titleKo":"메인넷이 런칭했습니다!!",
+      "titleKo":"드디어 메인넷!",
       "titleEn":"MAINNET!!",
-      "titleImage":"http://eosknights.io/img/eos.png",
-      "bodyKo":"![](http://eosknights.io/img/eos.png =256x256)\n# 메인넷이 런칭했습니다!!\n드디어 메인넷입니다.",
-      "bodyEn":"![](http://eosknights.io/img/eos.png =256x256)\n# MAINNET!!\n",
+      "titleImage":"http://eosknights.io/img/notice/notice1.png",
+      "bodyKo":"![](http://eosknights.io/img/notice/notice1.png =256x256)\n# 드디어 메인넷!\n반갑습니당!",
+      "bodyEn":"![](http://eosknights.io/img/notice/notice1.png =256x256)\n# MAINNET!!\nHi!",
       "datetime":"2018-08-15T09:00:00.000",
       "expiration":"2018-08-22T00:00:00.000",
       "padding":40,
