@@ -25,8 +25,8 @@
    },
    "connections": {
       "chainApi":"http://mainnet.eoscalgary.io",
-      "apiServer":"http://35.194.185.201:80/",
-      "sockServer":"http://35.229.234.66:80/",
+      "apiServer":"http://121.168.149.101:8080/",
+      "sockServer":"http://35.234.42.186:15000/",
       "bp": [
          {
             "key:":"nodeone",
