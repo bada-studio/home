@@ -24,13 +24,13 @@
       ]
    },
    "connections": {
-      "chainApi":"http://mainnet.eoscalgary.io",
+      "chainApi":"https://rpc.eosys.io:443",
       "apiServer":"http://121.168.149.101:8080/",
       "sockServer":"http://35.234.42.186:15000/",
       "bp": [
          {
-            "key:":"nodeone",
-            "url:":"http://api.main-net.eosnodeone.io"
+            "key:":"eosys",
+            "url:":"https://rpc.eosys.io:443"            
          }, {
             "key:":"eoscalgary",
             "url:":"http://mainnet.eoscalgary.io"

@@ -11,7 +11,7 @@ var app = new Vue({
     total: []
   },
   created: function () {
-    var baseUrl = "http://121.168.149.101:8888";
+    var baseUrl = "https://rpc.eosys.io:443";
 
     axios({
       method: 'POST',
