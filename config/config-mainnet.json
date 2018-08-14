@@ -24,7 +24,7 @@
       ]
    },
    "connections": {
-      "chainApi":"https://rpc.eosys.io:443",
+      "chainApi":"http://mainnet.eoscalgary.io",
       "apiServer":"http://35.194.185.201:80/",
       "sockServer":"http://35.229.234.66:80/",
       "bp": [
