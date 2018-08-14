@@ -19,6 +19,8 @@
       "longActions": [
          "eosknightsio:rebirth",
          "eosknightsio:craft",
+         "eosknightsio:sellmat",
+         "eosknightsio:sellitem",
          "eosknightsio:petgacha",
          "eosio.token:transfer",
       ]
