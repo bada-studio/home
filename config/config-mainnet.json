@@ -31,15 +31,15 @@
       "sockServer":"http://35.229.234.66:80/",
       "nodes": [
          {
-            "key:":"eosys",
-            "defaultFor:":"ko",
+            "key":"eosys",
+            "defaultFor":"ko",
             "location":"Korea",
-            "api:":"https://rpc.eosys.io:443"            
+            "api":"https://rpc.eosys.io:443"            
          }, {
-            "key:":"eoscalgary",
-            "defaultFor:":"en",
+            "key":"eoscalgary",
+            "defaultFor":"en",
             "location":"Canada",
-            "api:":"https://mainnet.eoscalgary.io"
+            "api":"https://mainnet.eoscalgary.io"
          }
       ]
    }
