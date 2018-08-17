@@ -27,8 +27,8 @@
    },
    "connections": {
       "chainApi":"https://rpc.eosys.io:443",
-      "apiServer":"http://35.194.185.201:80/",
-      "sockServer":"http://35.229.234.66:80/",
+      "apiServer":"http://api.eosknights.io/",
+      "sockServer":"https://connection.eosknights.io",
       "nodes": [
          {
             "key":"eosys",
