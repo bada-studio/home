@@ -30,8 +30,9 @@ Users shall not engage in the following when using the Service.
 6.2. The Company may take measures that the Company considers necessary and appropriate, if the Company acknowledges that a User is using the service in a way which violates the Terms and Conditions. However, the Company shall not be responsible for correcting or preventing such violation towards Users or others
 
 7. The Company's Exemption of Liability
-7.1. The Users have the right to withdraw from the EOS deposit within the service. However, EOS already used is not refundable.
-7.2. The Company does not expressly or impliedly guarantee that the Service(including the Contents)are free from de facto or legal flaws(including but not limited to stability, reliability, accuracy, integrity, effectiveness, fitness for certain purposes, security-related faults, errors, bugs, or infringements of rights). The Company shall not be responsible for providing the Service without such defects.
+7.1. EOS already used is not refundable.
+7.2. You accept the inherent security risks of providing information and dealing online over the internet, and agree that we have no liability or responsibility for any breach of security unless it is due to our gross negligence.
+7.3. we will not be responsible or liable to you for any losses you incur as the result of your use of the eos network or the scatter, including but not limited to any losses, damages or claims arising from: (a) user error, such as forgotten passwords or incorrectly construed smart contracts or other transactions; (b) server failure or data loss; (c) corrupted wallet files; (d) unauthorized access or activities by third parties, including but not limited to the use of viruses, phishing, bruteforcing or other means of attack against the app, eos network, or the scatter electronic wallet.
 
 8. Notification and Contact
 8.1. When the Company notifies or contacts Users regarding the Service, the Company may use a method that the Company considers appropriate, such as posting on the website operated by the Company.
