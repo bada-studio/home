@@ -16,8 +16,8 @@
    "connections": {
       "apiServer":"http://api.eosknights.io/",
       "sockServer":"https://connection.eosknights.io/",
-      "apiServer-mobile":"http://api.eosknights.io/",
-      "sockServer-mobile":"http://35.229.234.66:8080",
+      "apiServerMobile":"http://api.eosknights.io/",
+      "sockServerMobile":"http://35.229.234.66:8080",
       "nodes": [
          {
             "key":"eosys",
@@ -25,7 +25,7 @@
             "location":"Korea",
             "wait":1.5,
             "api":"https://rpc.eosys.io:443",
-            "api-mobile":"https://rpc.eosys.io:443"
+            "apiMobile":"https://rpc.eosys.io:443"
          }
       ]
    }
