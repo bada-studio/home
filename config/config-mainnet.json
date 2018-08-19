@@ -16,7 +16,7 @@
    "connections": {
       "chainApi":"https://rpc.eosys.io:443",
       "apiServer":"http://api.eosknights.io/",
-      "sockServer":"http://35.229.234.66:8080",
+      "sockServer":"https://connection.eosknights.io/",
       "nodes": [
          {
             "key":"eosys",
@@ -24,12 +24,6 @@
             "location":"Korea",
             "wait":1.5,
             "api":"https://rpc.eosys.io:443"
-         }, {
-            "key":"eoscalgary",
-            "defaultFor":"en",
-            "location":"Canada",
-            "wait":1.5,
-            "api":"http://mainnet.eoscalgary.io"
          }
       ]
    }
