@@ -14,16 +14,18 @@
       "android":"https://play.google.com/store/apps/details?id=com.bada.ck"
    },
    "connections": {
-      "chainApi":"https://rpc.eosys.io:443",
       "apiServer":"http://api.eosknights.io/",
       "sockServer":"https://connection.eosknights.io/",
+      "apiServer-mobile":"http://api.eosknights.io/",
+      "sockServer-mobile":"http://35.229.234.66:8080",
       "nodes": [
          {
             "key":"eosys",
             "defaultFor":"ko",
             "location":"Korea",
             "wait":1.5,
-            "api":"https://rpc.eosys.io:443"
+            "api":"https://rpc.eosys.io:443",
+            "api-mobile":"https://rpc.eosys.io:443"
          }
       ]
    }
