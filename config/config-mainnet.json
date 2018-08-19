@@ -13,18 +13,6 @@
       "ios":"",
       "android":"https://play.google.com/store/apps/details?id=com.bada.ck"
    },
-   "transactionWait": {
-      "normalWait":1.5,
-      "longWait":1.5,
-      "longActions": [
-         "eosknightsio:rebirth",
-         "eosknightsio:craft",
-         "eosknightsio:sellmat",
-         "eosknightsio:sellitem",
-         "eosknightsio:petgacha",
-         "eosio.token:transfer",
-      ]
-   },
    "connections": {
       "chainApi":"https://rpc.eosys.io:443",
       "apiServer":"http://api.eosknights.io/",
@@ -36,12 +24,6 @@
             "location":"Korea",
             "wait":1.5,
             "api":"https://rpc.eosys.io:443"
-         }, {
-            "key":"eoscalgary",
-            "defaultFor":"en",
-            "location":"Canada",
-            "wait":1.5,
-            "api":"http://mainnet.eoscalgary.io"
          }
       ]
    }
