@@ -30,6 +30,13 @@
             "wait":1.5,
             "api":"https://rpc.eosys.io:443",
             "apiMobile":"https://rpc.eosys.io:443"
+         }, {
+            "key":"eoscafecalgary",
+            "defaultFor":"ko",
+            "location":"Canada",
+            "wait":2.5,
+            "api":"https://mainnet.eoscalgary.io:443",
+            "apiMobile":"http://mainnet.eoscalgary.io"
          }
       ]
    }
