@@ -8,10 +8,12 @@ var app = new Vue({
   data: {
     adminstate: [],
     balance: [],
-    total: []
+    total: [],
+    connectionUserCount: 0
   },
   created: function () {
     var baseUrl = "https://rpc.eosys.io:443";
+    let connectionUrl = "https://connection.eosknights.io"
 
     axios({
       method: 'POST',
@@ -61,6 +63,17 @@ var app = new Vue({
     }.bind(this))
     .catch(function(e) {
         this.errors.push(e)
-    });    
+    });
+
+    axios({
+        method: 'GET',
+        url: connectionUrl + '/v1/users/count'
+    }).then(function(response) {
+        console.log(response.data);
+        this.connectionUserCount = response.data;
+    }.bind(this))
+    .catch(function(e) {
+        this.errors.push(e)
+    });
   }
 })
