@@ -15,6 +15,7 @@
    },
    "url": {
       "monitor":"https://bloks.io/live",
+      "trx":"https://www.myeoskit.com/#/tx/{0}?dapp=eosknightsio",
       "telegram":"https://t.me/joinchat/IAL3EwvtSVMml_qkYPXbrw"
    },
    "connections": {
@@ -24,19 +25,26 @@
       "sockServerMobile":"http://35.229.234.66:8080",
       "nodes": [
          {
-            "key":"eosys",
-            "defaultFor":"ko",
-            "location":"Korea",
-            "wait":1.5,
-            "api":"https://rpc.eosys.io:443",
-            "apiMobile":"https://rpc.eosys.io:443"
+            "key":"eosasia",
+            "defaultFor":"en",
+            "location":"Hong Kong",
+            "wait":2.5,
+            "api":"https://api1.eosasia.one",
+            "apiMobile":"http://api1.eosasia.one"
          }, {
             "key":"eoscafecalgary",
-            "defaultFor":"ko",
+            "defaultFor":"",
             "location":"Canada",
             "wait":2.5,
             "api":"https://mainnet.eoscalgary.io:443",
             "apiMobile":"http://mainnet.eoscalgary.io"
+         }, {
+            "key":"eosys",
+            "defaultFor":"ko",
+            "location":"South Korea",
+            "wait":1.5,
+            "api":"https://rpc.eosys.io:443",
+            "apiMobile":"https://rpc.eosys.io:443"
          }
       ]
    }
