@@ -45,6 +45,13 @@
             "wait":1.5,
             "api":"https://rpc.eosys.io:443",
             "apiMobile":"https://rpc.eosys.io:443"
+         }, {
+            "key":"eosrio",
+            "defaultFor":"",
+            "location":"Brazil",
+            "wait":2.5,
+            "api":"https://api.eosrio.io:443",
+            "apiMobile":"https://api.eosrio.io:443"
          }
       ]
    }
