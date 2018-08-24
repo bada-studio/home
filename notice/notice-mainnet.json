@@ -1,5 +1,17 @@
 [  
    {  
+      "id":5,
+      "titleKo":"층수 버그가 수정되었습니다.",
+      "titleEn":"A bug about the floors limitation has been fixed",
+      "titleImage":"https://eosknights.io/img/notice/notice3.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/notice3.png =256x256)\n# 드랍 층수제한 버그가 수정되었습니다.\n40층부터 유니크 재료가 떨어져야 했는데, 층수 계산을 각각의 기사의 킬수로 잘못 판단하는 버그가 있었습니다. 그결과 훨씬 더 높은 층에서 부활해야 유니크 재료가 떨어지지 않은 버그가 있었습니다. 잘못된 적용 죄송합니다ㅠㅠ 버그 제보해주신 Jinhyeon Hong님 감사합다. 컨트랙의 버그를 발견하시면 계속 제보 부탁드립니다. \n\n## 수정된곳\n* [16번 이슈](https://github.com/bada-studio/knights_contract/issues/16)",
+      "bodyEn":"![](https://eosknights.io/img/notice/notice3.png =256x256)\n# A bug about the floors limitation has been fixed.\nUnique material had to dropped from the 40th floor, but there was a bug that calcualting floor as kills of each knight. As a result, unique material did not drop on 40th floor. I am sorry for the bug. And thank you Jinhyeon Hong for reporting the bug. If you find a bug in contract, please keep reporting.\n\n## Fixed code\n* [Issue 16](https://github.com/bada-studio/knights_contract/issues/16)",
+      "datetime":"2018-08-24T00:00:00.000",
+      "expiration":"2018-08-25T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":4,
       "titleKo":"MyEOSKit <color=\"#888888\">x</color> EOS Knights",
       "titleEn":"MyEOSKit <color=\"#888888\">x</color> EOS Knights",
