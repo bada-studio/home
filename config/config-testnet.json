@@ -13,6 +13,7 @@
       "ios":"",
       "android":"https://play.google.com/store/apps/details?id=com.bada.ck"
    },
+   "contract":"ek.test",
    "transactionWait": {
       "normalWait":0.5,
       "longWait":0.5,
@@ -24,7 +25,7 @@
       ]
    },
    "connections": {  
-      "chainApi":"http://junglehistory.cryptolions.io:18888/",
+      "chainApi":"http://jungle.eos9cat.com:8888/",
       "apiServer":"http://121.168.149.101:8080/",
       "sockServer":"http://35.234.42.186:15000/",
       "apiServerMobile":"http://121.168.149.101:8080/",
@@ -35,8 +36,8 @@
             "defaultFor":"ko",
             "location":"Korea",
             "wait":1.5,
-            "api":"http://junglehistory.cryptolions.io:18888",
-            "apiMobile":"http://junglehistory.cryptolions.io:18888"
+            "api":"http://jungle.eos9cat.com:8888/",
+            "apiMobile":"http://jungle.eos9cat.com:8888/"
          }
       ]
    }
