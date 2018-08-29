@@ -18,6 +18,7 @@
       "trx":"https://www.myeoskit.com/#/tx/{0}?dapp=eosknightsio",
       "telegram":"https://t.me/joinchat/IAL3EwvtSVMml_qkYPXbrw"
    },
+   "contract":"eosknightsio",
    "connections": {
       "apiServer":"https://api.eosknights.io/",
       "sockServer":"https://connection.eosknights.io/",
