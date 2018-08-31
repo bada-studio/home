@@ -1,5 +1,17 @@
 [  
    {  
+      "id":8,
+      "titleKo":"업데이트 뉴스",
+      "titleEn":"Update News",
+      "titleImage":"https://eosknights.io/img/notice/notice4.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/notice4.png =256x256)\n### 추천 보너스 지원\n추천인을 입력하시면 나와 추천인 모두 1,000 매직워터를 보너스로 받습니다. 최대 30명에게서 추천을 받을 수 있습니다. 어뷰징을 방지하기 위해 나와 추천인 모두 최소한 기사를 한명 이상은 고용해야 지급됩니다. \"메뉴 > 설정 > 추천인 보상\"을 확인하세요.\n\n### 중국어지원\n번역은 완료되었지만, 웹빌드는 폰트 문제로 중국어가 포함되지 않습니다. 안드로이드에서 제공될 예정입니다.\n\n### 부활시 최대 3배 매직워터 보상\n부활시 기존에 비해서 최대 3배이상 매직워터를 추가 지급받습니다. \n* 100층 20->24 (120%)\n* 500층 100->200 (200%)\n* 1000층 200->600 (300%)\n* 1000층 이상 (300%)\n\n### 마켓과 아이템 상세창에 점수 표시\n마켓에서 상품을 누르지 않고도 한눈에 장비의 스탯을 볼 수 있습니다. 0~100 점 단위로 표시됩니다. 자신의 아이템 상세창에서도 볼 수 있습니다.\n\n### 기타 수정 \n* 아이템 / 재료 상세창에서 마켓으로 바로 연결 버튼 추가\n* 시장가보다 50% 이하로 매물을 등록할 때 확인창 추가\n\n### 봇 방지\n* 스크립트 봇을 방지하기 위해 일부 API에 checkksum이 추가 되었습니다.\n* 대상: rebirth2 / craft2 / petgacha2 \n* 구버전은 사용이 불가능합니다.",
+      "bodyEn":"![](https://eosknights.io/img/notice/notice4.png =256x256)\n### Referral bonus\nWhen you enter the referrer, both the referrer and I will receive 1,000 Magic Water as a bonus. You can get referrals from up to 30 people. In order to prevent an abusing, both me and the referrer are required to hire at least one knight. Go to \"Menu> Settings> Referral Bonus\"\n\n### Chinese support\nThe translation is complete, but the web build has a font issue. It will be available on Android.\n\n### Magic water compensation up to 3 times when rebirth\nAt the rebirth, You will get Magic Water up to 3 times more.\n* 100F 20->24 (120%)\n* 500F 100->200 (200%)\n* 1000F 200->600 (300%)\n* 1000F above (300%)\n\n### Display item score\nYou can see the stats of the equipment at a glance without having to click the items in the market. It is displayed in 0 to 100 point. \n\n### Etc\n* Add button to market directly from item / material details popup\n* Add confirmation window when registering for sale at less than 50% of market price\n\n### Anti Bot\n* To prevent script bots, checkksum has been added to some APIs.\n* Target: rebirth2 / craft2 / petgacha2 \n* Old versions are not available from now.",
+      "datetime":"2018-08-31T00:00:00.000",
+      "expiration":"2018-09-05T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":7,
       "titleKo":"업데이트 뉴스",
       "titleEn":"Update News",
