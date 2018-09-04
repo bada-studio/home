@@ -1,5 +1,17 @@
 [  
    {  
+      "id":9,
+      "titleKo":"어뷰징 모니터링",
+      "titleEn":"Abusing Monitoring",
+      "titleImage":"https://eosknights.io/img/notice/notice5.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/notice5.png =256x256)## 어뷰저 모니터링\n전수 조사를 실시했습니다. 아래 계정의 어뷰징이 확실시 되어 모두 밴처리 했습니다.\n\nmrnumberzero\nsiuhangmeiyu\namazinggamer\nmantikmantik\nmeiyusiuhang\n\n블럭체인의 특성상 결정론적인 랜덤함수(deterministic random)가 필요한데, 이 부분이 brute force공격에 취약한 면이 있습니다. 컨트랙트 코드를 공개하면서 이런 공격을 더 쉽게 유발한 면이 있는 것 같습니다.\n[contract code](https://github.com/bada-studio/knights_contract)\n\n해당 공격에 대한 방어는 이미 진행되었지만, 추후 또 이와 같은 공격 시도를 원천 봉쇄하기 위해 랜덤 시드에 관한 코드는 비공개로 변경할 예정입니다.\n\n지속적으로 모니터링하고, 어뷰저가 없는 게임이 되기 위해 노력하겠습니다. \n계속 안좋은 소식 전해드려 죄송합니다.\n\n## 뉴스체널\n뉴스 체널에서 좀더 소식을 빨리 확인할 수 있습니다.\n[new channel](https://t.me/eosknightsnewskor)",
+      "bodyEn":"![](https://eosknights.io/img/notice/notice5.png =256x256)## Abusing monitoring\nI checked all accounts related to issues last night about abusing. We are sure that the accounts below are abusing account. And we banned.\n\nmrnumberzero\nsiuhangmeiyu\namazinggamer\nmantikmantik\nmeiyusiuhang\n\nA deterministic random function is needed in blockchain, and there is a weakness from brute force attacks. We opened our contract code here. And that makes this attack easier.\n[contract code](https://github.com/bada-studio/knights_contract)\n\nThe defense against the attack has already been made. But the code for the random seed generation will be changed to private in order prevent this attack. The rest of the code, including random probability, is still open. When the random seed is perfectly safe from the brute force attack, we will reopen the seed generation code.\n\nWe will continue to monitor and try to become a game with no abusing player.\nI apology for the bad news.\n\n## English News channel\n[news channel](https://t.me/eosknightsnewseng)",
+      "datetime":"2018-09-04T00:00:00.000",
+      "expiration":"2018-09-05T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":8,
       "titleKo":"업데이트 뉴스",
       "titleEn":"Update News",
