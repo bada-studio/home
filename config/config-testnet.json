@@ -25,10 +25,10 @@
       ]
    },
    "connections": {  
-      "apiServer":"http://121.168.149.101:8080/",
-      "sockServer":"http://35.234.42.186:15000/",
-      "apiServerMobile":"http://121.168.149.101:8080/",
-      "sockServerMobile":"http://35.234.42.186:15000/",
+      "apiServer":"http://35.241.0.251",
+      "sockServer":"http://alpha-ck-connection.eosknights.io",
+      "apiServerMobile":"http://35.241.0.251",
+      "sockServerMobile":"http://alpha-ck-connection.eosknights.io",
       "nodes": [
          {
             "key":"cryptolions",
