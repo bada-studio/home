@@ -5,7 +5,7 @@
       "titleEn":"There is a problem with the connection.",
       "titleImage":"https://eosknights.io/img/notice/notice5.png",
       "bodyKo":"![](https://eosknights.io/img/notice/notice5.png =256x256)\n현재 전반적으로 노드가 느린 상태입니다. 웹페이지 캐시를 지우고 페이지를 리로드 한 후, 가장 빠른 노드를 찾아보세요. 원인이 밝혀지면 공유드리겠습니다. 전반적으로 노드의 상태가 불안한 상태라 갑자기 다시 느려질수 있습니다.",
-      "bodyEn":"![](https://eosknights.io/img/notice/notice5.png =256x256)\nThe nodes is in a slow state. I will share it if the cause is revealed. After clearing your web cache and reloading the page, then find the fastest node. The state of the node is unstable. Even if it is connected, it may suddenly slow down again.",
+      "bodyEn":"![](https://eosknights.io/img/notice/notice5.png =256x256)\nThe nodes are in a slow state. I will share it if the cause is revealed. After clearing your web cache and reloading the page, then find the fastest node. The state of the node is unstable. Even if it is connected, it may suddenly slow down again.",
       "datetime":"2018-09-09T00:00:00.000",
       "expiration":"2018-09-10T00:00:00.000",
       "padding":40,
