@@ -40,13 +40,6 @@
             "api":"https://mainnet.eoscalgary.io:443",
             "apiMobile":"http://mainnet.eoscalgary.io"
          }, {
-            "key":"eosys",
-            "defaultFor":"ko",
-            "location":"South Korea",
-            "wait":1.5,
-            "api":"https://rpc.eosys.io:443",
-            "apiMobile":"https://rpc.eosys.io:443"
-         }, {
             "key":"eosrio",
             "defaultFor":"",
             "location":"Brazil",
