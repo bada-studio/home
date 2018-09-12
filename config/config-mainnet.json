@@ -43,7 +43,7 @@
             "key":"eosys",
             "defaultFor":"ko",
             "location":"South Korea",
-            "wait":1.5,
+            "wait":2.5,
             "api":"https://rpc.eosys.io:443",
             "apiMobile":"https://rpc.eosys.io:443"
          }, {
