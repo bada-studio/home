@@ -1,13 +1,13 @@
 [  
    {  
-      "id":10,
-      "titleKo":"접속이 원할하지 않습니다.",
-      "titleEn":"There is a problem with the connection.",
+      "id":11,
+      "titleKo":"마켓이 정상화 되었습니다.",
+      "titleEn":"Market is back",
       "titleImage":"https://eosknights.io/img/notice/notice5.png",
-      "bodyKo":"![](https://eosknights.io/img/notice/notice5.png =256x256)\n현재 전반적으로 노드가 느린 상태입니다. 웹페이지 캐시를 지우고 페이지를 리로드 한 후, 가장 빠른 노드를 찾아보세요. 원인이 밝혀지면 공유드리겠습니다. 전반적으로 노드의 상태가 불안한 상태라 갑자기 다시 느려질수 있습니다.",
-      "bodyEn":"![](https://eosknights.io/img/notice/notice5.png =256x256)\nThe nodes are in a slow state. I will share it if the cause is revealed. After clearing your web cache and reloading the page, then find the fastest node. The state of the node is unstable. Even if it is connected, it may suddenly slow down again.",
-      "datetime":"2018-09-09T00:00:00.000",
-      "expiration":"2018-09-09T00:00:00.000",
+      "bodyKo":"![](https://eosknights.io/img/notice/notice5.png =256x256)\n안녕하세요. 이오스나이츠팀입니다.\nMarket 서버 장애로 불편을 드려서 죄송합니다.\n장애 원인은 Market DB 장비가 늘어난 마켓 규모를 수용하지 못해서 발생하였습니다.\n장비를 업그레이드 하는데 문제가 발생해서 시간이 많이 소요 되었습니다.\n현재는 DB를 기존보다 4배 Scale Up하여 정상화되었습니다.\n기다려 주셔서 정말 감사합니다.\n\n죄송한 마음을 표현하고자 소정의 보상이 지급될 예정입니다.\n빠른 시일 내에 보상이 지급될 수있도록 보상기능을 [스마트 컨트랙트](https://github.com/bada-studio/knights_contract/issues/17)로 개발중입니다.",
+      "bodyEn":"![](https://eosknights.io/img/notice/notice5.png =256x256)\nHello. This is EOS Knights Team.\nSorry for the inconvenience caused by Market Server failure.\nThe cause of the failure was that the Market DB equipment could not accommodate the increased market size.\nUpgrading equipment took a lot of time because of some issues.\nThe DB has now been normalized by four times scale up.\nThank you very much for waiting.\n\nA small reward will be given to express our apologies.\nWe will develop a reward [Smart Contract](https://github.com/bada-studio/knights_contract/issues/17) so that compensation can be paid in the near future.",
+      "datetime":"2018-09-13T00:00:00.000",
+      "expiration":"2018-09-14T00:00:00.000",
       "padding":40,
       "needPopup":true,
       "link":""
