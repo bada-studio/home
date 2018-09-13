@@ -53,13 +53,6 @@
             "wait":2.5,
             "api":"https://api.eosrio.io:443",
             "apiMobile":"https://api.eosrio.io:443"
-         }, {
-            "key":"meet.one",
-            "defaultFor":"",
-            "location":" Singapore",
-            "wait":2.5,
-            "api":"https://mainnet-tw.meet.one:443",
-            "apiMobile":"https://mainnet-tw.meet.one:443"
          }
       ]
    }
