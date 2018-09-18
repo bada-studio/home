@@ -56,10 +56,17 @@
          }, {
             "key":"meet.one",
             "defaultFor":"",
-            "location":" Singapore",
+            "location":"Singapore",
             "wait":2.5,
             "api":"https://mainnet-tw.meet.one:443",
             "apiMobile":"https://mainnet-tw.meet.one:443"
+         }, {
+            "key":"franceos",
+            "defaultFor":"",
+            "location":"France",
+            "wait":2.5,
+            "api":"https://api.franceos.fr:443",
+            "apiMobile":"https://api.franceos.fr:443"
          }
       ]
    }
