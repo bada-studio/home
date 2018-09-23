@@ -22,8 +22,8 @@
    "connections": {
       "apiServer":"https://api.eosknights.io/",
       "sockServer":"https://connection.eosknights.io/",
-      "apiServerMobile":"http://api.eosknights.io/",
-      "sockServerMobile":"http://35.229.234.66:8080",
+      "apiServerMobile":"https://api.eosknights.io/",
+      "sockServerMobile":"https://35.229.234.66:8080",
       "nodes": [
          {
             "key":"eosasia",
@@ -31,14 +31,14 @@
             "location":"Hong Kong",
             "wait":2.5,
             "api":"https://api1.eosasia.one",
-            "apiMobile":"http://api1.eosasia.one"
+            "apiMobile":"https://api1.eosasia.one"
          }, {
             "key":"eoscafecalgary",
             "defaultFor":"",
             "location":"Canada",
             "wait":2.5,
             "api":"https://mainnet.eoscalgary.io:443",
-            "apiMobile":"http://mainnet.eoscalgary.io"
+            "apiMobile":"https://mainnet.eoscalgary.io:443"
          }, {
             "key":"eosys",
             "defaultFor":"ko",
