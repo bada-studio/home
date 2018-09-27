@@ -31,12 +31,12 @@
       "sockServerMobile":"http://alpha-ck-connection.eosknights.io",
       "nodes": [
          {
-            "key":"cryptolions",
+            "key":"blockgenesys",
             "defaultFor":"ko",
-            "location":"Korea",
+            "location":"Hong kong",
             "wait":1.5,
-            "api":"http://jungle.cryptolions.io:18888",
-            "apiMobile":"http://jungle.cryptolions.io:18888"
+            "api":"https://testnet.blockgenesys.com",
+            "apiMobile":"https://testnet.blockgenesys.com"
          }
       ]
    }
