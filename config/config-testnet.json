@@ -31,12 +31,12 @@
       "sockServerMobile":"http://alpha-ck-connection.eosknights.io",
       "nodes": [
          {
-            "key":"blockgenesys",
+            "key":"eosasia-kylin",
             "defaultFor":"ko",
             "location":"Hong kong",
             "wait":1.5,
-            "api":"https://testnet.blockgenesys.com",
-            "apiMobile":"https://testnet.blockgenesys.com"
+            "api":"https://api-kylin.eosasia.one",
+            "apiMobile":"https://api-kylin.eosasia.one"
          }
       ]
    }
