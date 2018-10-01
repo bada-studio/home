@@ -3,7 +3,7 @@
       "ios":"1.0.0",
       "android":"1.0.0"
    },
-   "maintenance": true,
+   "maintenance": false,
    "maintenanceMessage": {
       "bodyKo":"![](http://eosknights.io/img/notice/notice2.png =256x256)\n# 업데이트를 위해 작업중입니다.\n조금만 기다려 주세요.\n* 오후 2시부터 작업이 시작됩니다.\n* 1시간에서 최대 3시간이 걸립니다.",
       "bodyEn":"![](http://eosknights.io/img/notice/notice2.png =256x256)\n# Maintenance break\nPlease wait a moment.\n* It will start at 2 PM.(GMT+9)\n* It takes up to 3 hours from 1 hour.",
