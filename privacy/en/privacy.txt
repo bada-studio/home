@@ -23,6 +23,12 @@ This Policy may change from time to time. We will always keep this up to date so
 5. Complaints
 You can lodge a complaint with us about any breach of our Privacy Policy at the address below.
 
-6. Privacy Policy Contact Information
+6. Service Usage History Analysis
+The company uses your advertising identifier and analysis software to provide users with more useful and useful services. The advertisement identifier may be configured to change the settings of the device to a permanent, non-personal identifier such as Android Advertising ID, Apple's Advertising ID, etc., so that the advertisement identifier can be refused or reset to prevent it from being used for ads based on the interests, It is not used to identify or identify individuals. The analysis software is used to analyze the information that is generated automatically when you visit a website or use a mobile service, and you can refuse it.
+
+Refuse collection of advertising identifier
+Android: [Settings -> Google> Ads] or [Settings -> General -> Accounts & Sync -> Goolge -> Privacy & privacy -> Ads Settings]
+
+7. Privacy Policy Contact Information
 If you have any questions about our Privacy Policy, please contact us at:
 killrain@gmail.com
