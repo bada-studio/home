@@ -67,6 +67,13 @@
             "wait":2.5,
             "api":"https://api.franceos.fr:443",
             "apiMobile":"https://api.franceos.fr:443"
+         }, {
+            "key":"eosphere",
+            "defaultFor":"",
+            "location":"Australia",
+            "wait":2.5,
+            "api":"https://node1.eosphere.io:443",
+            "apiMobile":"https://node1.eosphere.io:443"
          }
       ]
    }
