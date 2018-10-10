@@ -1,5 +1,17 @@
 [  
    {  
+      "id":20,
+      "titleKo":"EOSphere 노드가 추가되었습니다.",
+      "titleEn":"EOSphere Node was added",
+      "titleImage":"https://eosknights.io/img/bp/eosphere.png",
+      "bodyKo":"![](https://eosknights.io/img/bp/eosphere.png =256x256)\n\nEOSphere 노드가 추가되었습니다. 호주 지역에서도 좀더 빨리 EOS Knights를 플레이할 수 있습니다.\n\n웹버전의 경우 캐시를 클리어 해야 합니다.\n\nEOSphere에 대한 자세한 정보는 아래 링크를 참고해주세요.\n[https://www.eosphere.io/](https://www.eosphere.io/)",
+      "bodyEn":"![](https://eosknights.io/img/bp/eosphere.png =256x256)\n\nEOSphere node was added.\nYou can play EOS Knights faster in Australia too.\n\nThe web version needs to clear the cache to use new node.\n\nFor more information please check below.\n[https://www.eosphere.io/](https://www.eosphere.io/)",
+      "datetime":"2018-10-10T00:00:00.000",
+      "expiration":"2018-10-11T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":19,
       "titleKo":"펫원정대 해킹 대응",
       "titleEn":"Pet Expedition Hack Statement",
