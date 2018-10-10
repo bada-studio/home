@@ -33,7 +33,7 @@
             "api":"https://api1.eosasia.one",
             "apiMobile":"https://api1.eosasia.one"
          }, {
-            "key":"eoscafecalgary",
+            "key":"eoscafeblock",
             "defaultFor":"",
             "location":"Canada",
             "wait":2.5,
