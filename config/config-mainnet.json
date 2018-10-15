@@ -27,14 +27,14 @@
       "nodes": [
          {
             "key":"eosasia",
-            "defaultFor":"en",
+            "defaultFor":"",
             "location":"Hong Kong",
             "wait":2.5,
             "api":"https://api1.eosasia.one",
             "apiMobile":"https://api1.eosasia.one"
          }, {
             "key":"eoscafeblock",
-            "defaultFor":"",
+            "defaultFor":"en",
             "location":"Canada",
             "wait":2.5,
             "api":"https://mainnet.eoscalgary.io:443",
