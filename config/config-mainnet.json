@@ -58,8 +58,8 @@
             "defaultFor":"zh-cn",
             "location":"Singapore",
             "wait":2.5,
-            "api":"https://mainnet-tw.meet.one:443",
-            "apiMobile":"https://mainnet-tw.meet.one:443"
+            "api":"https://mainnet.meet.one:443",
+            "apiMobile":"https://mainnet.meet.one:443"
          }, {
             "key":"franceos",
             "defaultFor":"",
