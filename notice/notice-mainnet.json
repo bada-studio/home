@@ -1,5 +1,17 @@
 [  
    {  
+      "id":23,
+      "titleKo":"EosStore 노드가 추가되었습니다.",
+      "titleEn":"EosStore Node was added",
+      "titleImage":"https://eosknights.io/img/bp/eosstore.png",
+      "bodyKo":"![](https://eosknights.io/img/bp/eosstore.png =256x256)\n\nEosStore 노드가 추가되었습니다!\n새 노드를 사용하기 위해 웹버전은 캐시를 클리어해 줘야 합니다.\nEosStore에 대한 자세한 정보는 아래 링크를 참고해주세요.\n[https://www.eosstore.co/](https://www.eosstore.co/)",
+      "bodyEn":"![](https://eosknights.io/img/bp/eosstore.png =256x256)\n\nEosStore node was added.\nThe web version needs to clear the cache to use new node.\n\nFor more information please check below.\n[https://www.eosstore.co/](https://www.eosstore.co/)",
+      "datetime":"2018-10-19T00:00:00.000",
+      "expiration":"2018-10-20T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":22,
       "titleKo":"iOS 릴리즈",
       "titleEn":"iOS Release",
