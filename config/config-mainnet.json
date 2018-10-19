@@ -74,6 +74,13 @@
             "wait":2.5,
             "api":"https://node1.eosphere.io:443",
             "apiMobile":"https://node1.eosphere.io:443"
+         }, {
+            "key":"eosstore",
+            "defaultFor":"",
+            "location":"China",
+            "wait":2.5,
+            "api":"https://api.eosstore.co:443",
+            "apiMobile":"https://api.eosstore.co:443"
          }
       ]
    }
