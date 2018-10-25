@@ -6,7 +6,7 @@ It starts at GMT+0 05:00 ~ 07:00 on Friday, 10/26 and ends on 07:00 on the 27th 
 ## How do I participate in the event?
 We make items that meet special conditions required by NPC. Submitting the items you have created to the NPC will take you to the event.
 You can submit up to three items per user.
-Special conditions are specific Score ranges. For example, [2-level wooden dagger Score 12%~15%]
+Special conditions are specific Score ranges. For example, [2-level Wooden Dagger - score 12%~15%]
 
 ## What happens to the submitted item?
 Items submitted to the event will be discarded and EOS compensation will be paid.
