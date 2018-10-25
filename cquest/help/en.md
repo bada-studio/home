@@ -20,7 +20,7 @@ If the total number of items that are successfully produced by the entire articl
 My Compensation = Total Compensation / Total Submitted Items * Number of Items I Submitted
 
 ## When will I receive my reward?
-Rewards will be paid sequentially from 16:00 on the 27th, when the event ends.
+Rewards will be paid sequentially from 07:00 on the 27th, when the event ends.
 
 ## Will the event continue?
 Yes There will be an EOS payment event on an irregular basis. Please look forward to.
