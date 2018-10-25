@@ -1,22 +1,25 @@
-# 아이템 제작 이벤트 FAQ
+# CUSTOM ITEM EVENT FAQ
 
-## 이벤트 진행 기간은 언제부터 언제까지 인가요? 
-10/26 (금) 16:00 에 시작되어 24시간 후인 27일 16:00 에 종료됩니다.
+## When is the event going on?
+It starts at GMT+0 05:00 ~ 07:00 on Friday, 10/26 and ends on 07:00 on the 27th after 24 hours.
 
-## 이벤트에 어떻게 참여하나요? 
-NPC 가 요구하는 특별한 조건에 맞는 아이템을 제작합니다. 제작한 아이템을 NPC 에게 제출하면 이벤트에 참여하게 됩니다. 
-유저당 최대 3개까지 제작한 아이템을 제출할 수 있습니다. 
-특별한 조건이란 특정 Score 범위를 말합니다. 예를 들면 2레벨 나무단검 Score 12% ~ 5% 와 같은 조건입니다.
+## How do I participate in the event?
+We make items that meet special conditions required by NPC. Submitting the items you have created to the NPC will take you to the event.
+You can submit up to three items per user.
+Special conditions are specific Score ranges. For example, [2-level wooden dagger Score 12%~15%]
 
-## 보상은 어떻게 분배되나요? 
-NPC 가 가진 보상금이 100 EOS 라고 가정하고 전체 기사들이 제작에 성공한 아이템의 갯수가 10개라고 하면 
-제작된 아이템 1개당 10 EOS ( 총 보상금 100 EOS / 제작된 아이템 갯수 10개 ) 의 보상이 지급됩니다. 
-최대 갯수인 3개의 아이템 제작에 성공했다면 총 30 EOS 의 상금을 받을 수 있을 것입니다. 
-만약 전체 기사들이 제작에 성공한 아이템의 총 갯수가 100개라면 성공 아이템당 지급 보상금은 1 EOS 가 됩니다.  
-내 보상금 = 총 보상금 / 전체 제출된 아이템 * 내가 제출한 아이템 수 
+## What happens to the submitted item?
+Items submitted to the event will be discarded and EOS compensation will be paid.
 
-## 보상은 언제 받게 되나요?  
-이벤트 종료 시점인 27일 16시 부터 순차적으로 보상이 지급됩니다.
+## How is compensation distributed?
+Assuming that the NPC's reward is 100 EOS, and the total number of items that the articles have produced is 10
+Reward is paid for 10 EOS (total reward 100 EOS / 10 items produced) per produced item.
+If you succeed in creating the maximum number of 3 items, you will receive a total prize of 30 EOS.
+If the total number of items that are successfully produced by the entire article is 100, the payout per successful item will be 1 EOS.
+My Compensation = Total Compensation / Total Submitted Items * Number of Items I Submitted
 
-## 이벤트는 계속 되나요?
-네 비정기적으로 EOS 지급 이벤트가 있을 예정입니다. 기대해주세요.
+## When will I receive my reward?
+Rewards will be paid sequentially from 16:00 on the 27th, when the event ends.
+
+## Will the event continue?
+Yes There will be an EOS payment event on an irregular basis. Please look forward to.
