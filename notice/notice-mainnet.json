@@ -6,8 +6,8 @@
       "titleImage":"https://eosknights.io/img/notice/notice1.png",
       "bodyKo":"![](https://eosknights.io/img/notice/notice1.png =256x256)\n\n# 아이템 제작 이벤트\n총 100이오스의 상금이 걸린 퀘스트 이벤트를 진행합니다! 메인화면의 퀘스트 버튼을 눌러보세요.\n이벤트에 참가하기 위해서 최신 버전으로 앱을 업데이트 해야 합니다.\n\niOS: [다운로드](https://eosknights.io/app/ios/ko/)\nAndroid: [다운로드](https://eosknights.io/app/android/ko/)\nWeb: 캐시 제거 후 페이지 리프레시 \n\n# 기타 업데이트 \n방어력 계산 소수점 정밀도 이슈 수정",
       "bodyEn":"![](https://eosknights.io/img/notice/notice1.png =256x256)\n\n# Item craft event\nWe will run a quest event with a total prize of 100 EOS! Press the quest button on the main screen.\nYou must update your app to the latest version to participate in the event.\n\niOS: [Download](https://eosknights.io/app/ios/en/)\nAndroid: [Download](https://eosknights.io/app/android/en/)\nWeb: Please refresh the page after cache removal.\n\n# Other updates\nDecimal precision issue of defense calculation was fixed.",
-      "datetime":"2018-10-18T00:00:00.000",
-      "expiration":"2018-10-19T00:00:00.000",
+      "datetime":"2018-10-26T00:00:00.000",
+      "expiration":"2018-10-28T00:00:00.000",
       "padding":40,
       "needPopup":true,
       "link":""
