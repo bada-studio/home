@@ -46,7 +46,7 @@ var app = new Vue({
         table_key: "",
         lower_bound: "",
         upper_bound: "-1",
-        limit: 20
+        limit: 100
       }
     }).then(function(response) {
         console.log(response.data.rows[0]);
