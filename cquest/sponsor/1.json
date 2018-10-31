@@ -1,8 +1,8 @@
 {  
     "name": "MEET.ONE",
     "link": "http://meet.one",
-    "bannerKo": "https://eosknights.io/cquest/sponsor/1.png",
-    "bannerEn": "https://eosknights.io/cquest/sponsor/1.png",
-    "bannerZhCn": "https://eosknights.io/cquest/sponsor/1.png",
-    "bannerJp": "https://eosknights.io/cquest/sponsor/1.png"
+    "bannerKo": "https://eosknights.io/cquest/sponsor/meetone/ko.png",
+    "bannerEn": "https://eosknights.io/cquest/sponsor/meetone/en.png",
+    "bannerZhCn": "https://eosknights.io/cquest/sponsor/meetone/cn.png",
+    "bannerJp": "https://eosknights.io/cquest/sponsor/meetone/en.png"
 }
