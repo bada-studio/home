@@ -32,4 +32,4 @@ iOS: 설정 > 개인정보 > 광고
 
 7. 개인 정보 보호 정책 관련 연락처
 개인 정보 보호 정책에 관한 질문이 있을 경우, 다음으로 저희에게 연락하시기 바랍니다:
-killrain@gmail.com
+bada.dev.master@gmail.com

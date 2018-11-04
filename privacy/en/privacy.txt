@@ -32,4 +32,4 @@ iOS: Settings > Privacy > Advertising
 
 7. Privacy Policy Contact Information
 If you have any questions about our Privacy Policy, please contact us at:
-killrain@gmail.com
+bada.dev.master@gmail.com
