@@ -1,5 +1,17 @@
 [  
    {  
+      "id":28,
+      "titleKo":"아이템 제작이벤트 by TRYBE",
+      "titleEn":"Item Craft Evet by TRYBE",
+      "titleImage":"https://eosknights.io/cquest/sponsor/trybe/trybe.png",
+      "bodyKo":"![](https://eosknights.io/cquest/sponsor/trybe/trybe.png =256x256)\n\n# 아이템 제작이벤트\n50 EOS와 30,000 TRYBE가 걸린 이벤트가 이번주에 열립니다!\n* 11월 10일 토요일 오후 6시에 시작합니다.\n* 아이템과 스코어는 이벤트 직전 공개됩니다.\n\n행운이 있길 바랍니다!",
+      "bodyEn":"![](https://eosknights.io/cquest/sponsor/trybe/trybe.png =256x256)\n\n# Item Craft Event\nEarn 50 EOS and 30,000 TRYBE sponsored by TRYBE\n* Event starts on Sat, November 10 at 18:00 GMT+9\n* Item and score conditions will be released at the start of the events.\n\nWe wish you the very best of luck in your participation!\n\nThe EOS Knights Team",
+      "datetime":"2018-11-06T00:00:00.000",
+      "expiration":"2018-11-08T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":27,
       "titleKo":"아이템 제작이벤트 by MEET.ONE",
       "titleEn":"Item Craft Evet by MEET.ONE",
