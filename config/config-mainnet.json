@@ -23,7 +23,7 @@
       "apiServer":"https://api.eosknights.io/",
       "sockServer":"https://connection.eosknights.io/",
       "apiServerMobile":"https://api.eosknights.io/",
-      "sockServerMobile":"https://35.229.234.66:8080",
+      "sockServerMobile":"https://connection.eosknights.io/",
       "nodes": [
          {
             "key":"eosasia",
