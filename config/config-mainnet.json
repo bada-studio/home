@@ -19,7 +19,7 @@
       "telegram":"https://t.me/joinchat/IAL3EwvtSVMml_qkYPXbrw"
    },
    "experimental": [
-      "nova"
+      "none"
    ],
    "contract":"eosknightsio",
    "connections": {
