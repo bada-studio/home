@@ -552,7 +552,7 @@ wallet.cpu.limit.desc
     |ja| CPUが不足しています。一時的にチェーンがビジーであることがあります。
 
 wallet.cpu.limit.desc1
-    |ko| 체인이 한가해지길 기다리다려 보세요.
+    |ko| 체인이 한가해지길 기다려 보세요.
     |en| Wait for the chain to get free.
     |zh-cn| 请等待空闲之后再试。
     |ja| チェーンがビジーでなくなるまでお待ちください。
@@ -674,7 +674,7 @@ stake.more.btn.stake.more
     |zh-cn| 质押更多
     |ja| もう少しステーク
 stake.more.btn.wait.little
-    |ko| 기다릴께요
+    |ko| 기다릴게요
     |en| Wait a little
     |zh-cn| 稍候
     |ja| 待っています
@@ -3794,6 +3794,11 @@ item.name.233
     |en| The Battle Axe Against Death
     |zh-cn| 死亡之战斧
     |ja| 死に逆らうバトルアックス
+item.name.241
+    |ko| 왕의 액스
+    |en| King's Axe
+    |zh-cn| 国王的斧头
+    |ja| キングズアックス
 item.name.301
     |ko| 나무 궁
     |en| Wooden Bow
@@ -3889,6 +3894,16 @@ item.name.333
     |en| The Crossbow Against Death
     |zh-cn| 死亡之弩
     |ja| 死に逆らうクロスボウ
+item.name.334
+    |ko| 도리안 보우
+    |en| Doric Bow
+    |zh-cn| 多利安弓
+    |ja| ドリアン弓
+item.name.341
+    |ko| 왕의 석궁
+    |en| King's Crossbow
+    |zh-cn| 国王的弩 
+    |ja| キングスクロスボウ
 item.name.401
     |ko| 로드
     |en| Rod
@@ -3984,6 +3999,16 @@ item.name.434
     |en| Raphael's Staff
     |zh-cn| 拉斐尔的杖
     |ja| ラファエルのスタッフ
+item.name.435
+    |ko| 도리안 스태프
+    |en| Doric Staff
+    |zh-cn| 多利安杖
+    |ja| ドリアンスタッフ
+item.name.441
+    |ko| 왕의 지휘봉
+    |en| King's Sceptre 
+    |zh-cn| 国王的权杖
+    |ja| 王の笏
 item.name.501
     |ko| 방호복
     |en| Basic Robe
@@ -4069,6 +4094,11 @@ item.name.533
     |en| The Armor Against Death
     |zh-cn| 死亡盔甲
     |ja| 死に逆らうアーマー
+item.name.534
+    |ko| 도리안 로브
+    |en| Doric Robe
+    |zh-cn| 多利安长袍
+    |ja| ドリアンローブ
 item.name.601
     |ko| 청동 갑옷
     |en| Bronze Armor
@@ -4169,6 +4199,11 @@ item.name.634
     |en| Raphael's Armor
     |zh-cn| 拉斐尔的甲
     |ja| ラファエルのアーマー
+item.name.641
+    |ko| 왕의 아머
+    |en| King's Armor
+    |zh-cn| 国王的盔甲
+    |ja| 王の鎧
 item.name.701
     |ko| 나무반지
     |en| Wood Ring
@@ -4269,6 +4304,11 @@ item.name.742
     |en| Blood Ring
     |zh-cn| 血戒指
     |ja| チタンの指輪
+item.name.743
+    |ko| 왕의 링
+    |en| King's Ring
+    |zh-cn| 国王的戒指
+    |ja| キングス・リング
 item.name.801
     |ko| 나무 목걸이
     |en| Wooden Necklace
@@ -4339,6 +4379,11 @@ item.name.824
     |en| The Dead Princess's Necklace
     |zh-cn| 死去公主的项链
     |ja| 亡き王女の首飾り
+item.name.825
+    |ko| 콜 오브 밋원
+    |en| Call of MEET.ONE
+    |zh-cn| MEET.ONE的召唤
+    |ja| MEET.ONEの呼び出し
 item.name.831
     |ko| 줄리엣의 심장
     |en| Juliet's Heart
@@ -4359,6 +4404,11 @@ item.name.834
     |en| Raphael's Star
     |zh-cn| 拉斐尔的明星
     |ja| ラファエルの星
+item.name.835
+    |ko| 도리안 하프
+    |en| Doric Harp
+    |zh-cn| 多利安哈普
+    |ja| ドリアンハープ
 
 
 #------------------------------------------------------------------------------
