@@ -1,5 +1,17 @@
 [  
    {  
+      "id":33,
+      "titleKo":"아이템 제작이벤트",
+      "titleEn":"Item Craft Evet",
+      "titleImage":"https://eosknights.io/img/resource/origin/item/item_825.png",
+      "bodyKo":"# 아이템 제작이벤트\n100 EOS와 100000 MEETONE 걸린 이벤트가 오늘 열립니다. 이번 이벤트는 MEET.ONE에서 후원합니다. 행운이 있길 바랍니다!\n* 11월 21일 수요일 오후 9시에 시작합니다.\n* 스코어는 이벤트 직전 공개됩니다.\n![](https://eosknights.io/img/notice/cquest_com.jpg =400x712)",
+      "bodyEn":"# Item Craft Event\nEarn 100 EOS and 100000 MEETONE!\nThis event is sponsored by MEET.ONE\nWe wish you the very best of luck in your participation!\n* Event starts on Wed, November 21 at 12:00 GMT\n* Item score conditions will be released at the start of the event.\n![](https://eosknights.io/img/notice/cquest_com.jpg =400x712)",
+      "datetime":"2018-11-21T00:00:00.000",
+      "expiration":"2018-11-22T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":32,
       "titleKo":"Update News",
       "titleEn":"Update News",
