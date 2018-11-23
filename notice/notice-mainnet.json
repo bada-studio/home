@@ -1,5 +1,17 @@
 [  
    {  
+      "id":32,
+      "titleKo":"Android Update",
+      "titleEn":"Android Update",
+      "titleImage":"https://eosknights.io/img/notice/tokenpocket.png",
+      "bodyKo":"## 안드로이드 1.4.1 업데이트\nToken Pocket 지갑이 지원됩니다. 해당 지갑을 사용하시는분은 아래에서 앱을 업데이트 해주세요.\n* [Google Play](https://play.google.com/store/apps/details?id=com.bada.ck)\n* [APK](https://github.com/bada-studio/home/releases/download/1.4.1/knights.apk)\n",
+      "bodyEn":"## Android 1.4.1 Updates\nToken Pocket Wallet is supported. You can update app here to use this wallet.\n* [Google Play](https://play.google.com/store/apps/details?id=com.bada.ck)\n* [APK](https://github.com/bada-studio/home/releases/download/1.4.1/knights.apk)",
+      "datetime":"2018-11-23T00:00:00.000",
+      "expiration":"2018-11-24T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":33,
       "titleKo":"아이템 제작이벤트",
       "titleEn":"Item Craft Evet",
