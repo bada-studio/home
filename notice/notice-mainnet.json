@@ -1,11 +1,23 @@
 [  
    {  
+      "id":35,
+      "titleKo":"아이템 제작이벤트",
+      "titleEn":"Item Craft Evet",
+      "titleImage":"https://eosknights.io/img/notice/notice4.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/notice4.png =256x256)\n# 아이템 제작이벤트\n100 EOS가 걸린 이벤트가 오늘 열립니다. 행운이 있길 바랍니다!\n* 11월 25일 일요일 오후 9시에 시작합니다.\n* 아이템과 스코어는 이벤트 직전 공개됩니다.",
+      "bodyEn":"![](https://eosknights.io/img/notice/notice4.png =256x256)\n# Item Craft Event\nEarn 100 EOS!\nWe wish you the very best of luck in your participation!\n* Event starts on Sun, November 25 at 12:00 GMT\n* Item and score conditions will be released at the start of the event.",
+      "datetime":"2018-11-25T00:00:00.000",
+      "expiration":"2018-11-26T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":34,
       "titleKo":"Android Update",
       "titleEn":"Android Update",
       "titleImage":"https://eosknights.io/img/notice/tokenpocket.png",
       "bodyKo":"![](https://eosknights.io/img/notice/tokenpocket.png =256x256)\n# 안드로이드 1.4.1 업데이트\n[Token Pocket](https://www.mytokenpocket.vip/en/) 지갑이 지원됩니다.\n해당 지갑을 사용하시는분은 아래에서 앱을 업데이트 해주세요.\n* [Google Play](https://play.google.com/store/apps/details?id=com.bada.ck)\n* [APK](https://github.com/bada-studio/home/releases/download/1.4.1/knights.apk)\n",
-      "bodyEn":"![](https://eosknights.io/img/notice/tokenpocket.png =256x256)\n# Android 1.4.1 Updates\n[Token Pocket](https://www.mytokenpocket.vip/en/) Wallet is supported.\nYou can update app here to use this wallet.\n* [Google Play](https://play.google.com/store/apps/details?id=com.bada.ck)\n* [APK](https://github.com/bada-studio/home/releases/download/1.4.1/knights.apk)",
+      "bodyEn":"![](https://eosknights.io/img/notice/tokenpocket.png =256x256)\n# c\n[Token Pocket](https://www.mytokenpocket.vip/en/) Wallet is supported.\n     \n* [Google Play](https://play.google.com/store/apps/details?id=com.bada.ck)\n* [APK](https://github.com/bada-studio/home/releases/download/1.4.1/knights.apk)",
       "datetime":"2018-11-23T00:00:00.000",
       "expiration":"2018-11-24T00:00:00.000",
       "padding":40,
