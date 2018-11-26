@@ -24,6 +24,9 @@
          "eosio.token:transfer",
       ]
    },
+   "experimental": [
+      "nova","math"
+   ],
    "connections": {  
       "apiServer":"http://35.241.0.251",
       "sockServer":"http://alpha-ck-connection.eosknights.io",
