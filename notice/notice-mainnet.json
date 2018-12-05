@@ -1,13 +1,13 @@
 [  
    {  
-      "id":36,
+      "id":37,
       "titleKo":"아이템 제작이벤트",
       "titleEn":"Item Craft Evet",
       "titleImage":"https://eosknights.io/img/notice/notice4.png",
-      "bodyKo":"![](https://eosknights.io/img/notice/notice4.png =256x256)\n# 아이템 제작이벤트\n100 EOS가 걸린 이벤트가 오늘 열립니다. 행운이 있길 바랍니다!\n* 12월 1일 토요일 오후 9시에 시작합니다.\n* 아이템과 스코어는 이벤트 직전 공개됩니다.",
-      "bodyEn":"![](https://eosknights.io/img/notice/notice4.png =256x256)\n# Item Craft Event\nEarn 100 EOS!\nWe wish you the very best of luck in your participation!\n* Event starts on Sat, December 1 at 12:00 GMT\n* Item and score conditions will be released at the start of the event.",
-      "datetime":"2018-12-01T00:00:00.000",
-      "expiration":"2018-12-02T00:00:00.000",
+      "bodyKo":"![](https://eosknights.io/img/notice/10k.png =600x504)\n# 10,000명 돌파\n3개월 하고 2주만에 EOS Knights에 등록한 계정수가 10,000이 넘었습니다! \n감사의 마음을 담아 500EOS가 걸린 이벤트를 진행합니다. \n행운이 있길 바랍니다! (EOS에도 행운이 있기를!)\n\n* 12월 5일 토요일 오후 9시에 시작합니다.\n* 아이템과 스코어는 이벤트 직전 공개됩니다.\n* 4개의 제작 이벤트가 동시에 진행됩니다.",
+      "bodyEn":"![](https://eosknights.io/img/notice/10k.png =600x504)\n# We have 10,000 players now!\nOver 10,000 registered accounts in EOS Knights in 3 months and two weeks! \nThank you very much and we have a 500 EOS event! \nWe wish you the very best of luck in your participation! (Also in EOS!)\n\n* Event starts on Sat, December 5 at 12:00 GMT\n* Item and score conditions will be released at the start of the event.\n* 4 crafting events are held at the same time.",
+      "datetime":"2018-12-05T00:00:00.000",
+      "expiration":"2018-12-07T00:00:00.000",
       "padding":40,
       "needPopup":true,
       "link":""
