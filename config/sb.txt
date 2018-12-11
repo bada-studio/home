@@ -109,6 +109,11 @@ petexp.loading
     |en| Load pet expedition.
     |zh-cn| 加载宠物探险。
     |ja| ペット遠征隊を読み込みます。
+skills.loading
+    |ko| 스킬을 불러옵니다.
+    |en| Load skills.
+    |zh-cn| 加载技能
+    |ja| スキルを読み込む
 knight.loading
     |ko| 기사를 불러옵니다.
     |en| Load knights
@@ -190,6 +195,16 @@ title.failed.petexp
     |en| Could not load all pet expedition.
     |zh-cn| 无法加载宠物探险。
     |ja| ペット遠征隊を読み込めませんでした。
+title.failed.skills
+    |ko| 스킬을 불러오지 못했습니다.
+    |en| Could not load skills.
+    |zh-cn| 无法加载技能
+    |ja| スキルを読み込めませんでした
+title.failed.dungeon
+    |ko| 던전을 불러오지 못했습니다.
+    |en| Could not load dungeons.
+    |zh-cn| 无法加载地牢
+    |ja| ダンジョンを読み込めませんでした    
 title.failed.account
     |ko| 계정 정보를 읽지 못했습니다.
     |en| Could not load account information
@@ -262,7 +277,7 @@ stat.name.ExpeditionTime
     |zh-cn| 远征时间
     |ja| 遠征時間
 stat.name.ExpeditionDrop
-    |ko| {0} 드랍 확율
+    |ko| {0} 드랍 확률
     |en| {0} droprate 
     |zh-cn| {0}掉落概率
     |ja| {0}ドロップ確率
@@ -297,6 +312,11 @@ grade.name.Ancient
     |en| Ancient
     |zh-cn| 远古
     |ja| 古代
+grade.name.Chaos
+    |ko| 혼돈
+    |en| Chaos
+    |zh-cn| 混沌
+    |ja| 混沌
     
 sort.type.IdHL
     |ko| 최신순
@@ -1153,7 +1173,7 @@ rebirth.desc.lock
     |ja| <color="#0072bc">{0}</color>秒後に復活できます。
 
 rebirth.more
-    |ko| 아직 기사의 체력이 많이 남아 있습니다. 더 멀리 갈수록 좋은 재료를 얻을 확율이 큽니다. 그래도 부활 하시겠습니까?
+    |ko| 아직 기사의 체력이 많이 남아 있습니다. 더 멀리 갈수록 좋은 재료를 얻을 확률이 큽니다. 그래도 부활 하시겠습니까?
     |en| There are still a lot of Knights hp. The further you go, the greater the chance of getting good material. Would you revive, though?
     |zh-cn| 骑士的体力还剩余很多。走的越远可以获得更好的材料。是否确认复活？
     |ja| まだ騎士の体力がたくさん残っています。更に遠くへ行くほど良い材料を得る確率が高くなります。それでも復活しますか？
@@ -1184,6 +1204,11 @@ lobby.tab.pet
     |en| PET
     |zh-cn| 宠物
     |ja| ペット
+lobby.tab.dungeon
+    |ko| 던전
+    |en| Dungeon
+    |zh-cn| 地下城
+    |ja| ダンジョン
 lobby.tab.chat
     |ko| 채팅
     |en| CHAT
@@ -2049,7 +2074,7 @@ pet.gacha.desc.LowClass
     |zh-cn| 一般 / 稀有 / 特殊
     |ja| ノーマル / レア / ユニーク
 pet.gacha.droprate
-    |ko| 드랍 확율\n노멀 <color="#0072bc">{0:0.000}%</color>  레어 <color="#0072bc">{1:0.000}%</color>\n유니크 <color="#0072bc">{2:0.000}%</color>  레전드 <color="#0072bc">{3:0.000}%</color>
+    |ko| 드랍 확률\n노멀 <color="#0072bc">{0:0.000}%</color>  레어 <color="#0072bc">{1:0.000}%</color>\n유니크 <color="#0072bc">{2:0.000}%</color>  레전드 <color="#0072bc">{3:0.000}%</color>
     |en| Drop Rate\nNormal <color="#0072bc">{0:0.000}%</color>  Rare <color="#0072bc">{1:0.000}%</color>\nUnique <color="#0072bc">{2:0.000}%</color>  Legendary <color="#0072bc">{3:0.000}%</color>
     |zh-cn| 掉落概率\n一般 <color="#0072bc">{0:0.000}%</color>  稀有 <color="#0072bc">{1:0.000}%</color>\n特殊 <color="#0072bc">{2:0.000}%</color>  传奇 <color="#0072bc">{3:0.000}%</color>
     |ja| ドロップ確率\nノーマル <color="#0072bc">{0:0.000}%</color> レア<color="#0072bc">{1:0.000}%</color>\n ユニーク<color="# 0072bc">{2:0.000}%</color> レジェンド<color="#0072bc"> {3:0.000}%</color>
@@ -2595,12 +2620,12 @@ setting.wallet.auto.lock
     |ko| 내장 지갑 자동 잠금
     |en| Built-in wallet auto lock
     |zh-cn| 内置钱包自动锁定
-    |za| 内蔵財布オートロック
+    |ja| 内蔵財布オートロック
 setting.wallet.auto.lock.not.use
     |ko| 사용 안함
     |en| Never Lock
     |zh-cn| 从不锁定
-    |za| を無効にする
+    |ja| を無効にする
 
 about.title
     |ko| 앱 정보
@@ -2701,7 +2726,55 @@ bot.check.timeout
     |en| Time limit
     |zh-cn| 时间限制
     |ja| 時間制限
-
+    
+#------------------------------------------------------------------------------
+# Skill Box
+#------------------------------------------------------------------------------
+skill.dt.title
+    |ko| 스킬 
+    |en| Skill
+    |zh-cn| 技能
+    |ja| スキル
+skill.dt.desc.title.current
+    |ko| 현재 레벨
+    |en| Current Level
+    |zh-cn| 目前的等级
+    |ja| 現在のレベル
+skill.dt.desc.title.next
+    |ko| 다음 레벨
+    |en| Next Level
+    |zh-cn| 下一等级
+    |ja| 次のレベル
+skill.dt.skill.point
+    |ko| <color="#0072BC">{0}</color>/{1}
+    |en| <color="#0072BC">{0}</color>/{1}
+    |zh-cn| <color="#0072BC">{0}</color>/{1}
+    |ja| <color="#0072BC">{0}</color>/{1}
+skill.dt.skill.0
+    |ko| 스킬이 아직 없습니다.
+    |en| No skills yet.
+    |zh-cn| 还没有技能。
+    |ja| スキルがまだありません。   
+skill.dt.skill.max
+    |ko| 최대 스킬
+    |en| Max skill
+    |zh-cn| 最高技能
+    |ja| 最大スキル
+skill.dt.reset.title
+    |ko| 스킬 리셋
+    |en| Reset Skill
+    |zh-cn| 重置技能
+    |ja| リセット技能
+skill.dt.up.done    
+    |ko| 스킬 레벨업 완료!
+    |en| Skill Level Up Completed!
+    |zh-cn| 技能等级完成！
+    |ja| スキルレベルアップ完了！
+skill.dt.reset.done    
+    |ko| 스킬 리셋 완료
+    |en| Skill Reset Completed!
+    |zh-cn| 技能初始化完成
+    |ja| スキル初期化完了
 
 #------------------------------------------------------------------------------
 # craft quest
@@ -2842,7 +2915,7 @@ stage.name.9
     |ja| ボラ火山
     
 stage.drop.rate
-    |ko| 드랍 확율: {0}%
+    |ko| 드랍 확률: {0}%
     |en| Drop rate: {0}%
     |zh-cn| 掉落概率：{0}%
     |ja| ドロップ確率: {0}%
@@ -2870,6 +2943,186 @@ player.popup.no.knight
     |zh-cn| 骑士不存在。
     |ja| 騎士が存在しません。
 
+#------------------------------------------------------------------------------
+# dungeon
+#------------------------------------------------------------------------------
+lobby.dungeon.title
+    |ko| 던전
+    |en| Dungeon
+    |zh-cn| 地下城
+    |ja| ダンジョン
+lobby.dungeon.ticket
+    |ko| 티켓
+    |en| Ticket
+    |zh-cn| 门票
+    |ja| チケット
+lobby.dungeon.ticket.dec    
+    |ko| 보스전 입장에 필요한 티켓을 제작하세요.
+    |en| Craft tickets for boss entry.
+    |zh-cn| 为你的老板入场门票。
+    |ja| ボス戦入場に必要なチケットを製作します。
+lobby.dungeon.ticket.free
+    |ko| 무료 티켓
+    |en| Get Free
+    |zh-cn| 免费门票
+    |ja| 無料チケット
+lobby.dungeon.ticket.free.full
+    |ko| 최대
+    |en| Full
+    |zh-cn| 充分
+    |ja| フル
+
+dungeon.skill.level
+    |ko| Level {0}
+    |en| Level {0}
+    |zh-cn| Level {0}
+dungeon.skill.cooltime
+    |ko| Cooltime {0}
+    |en| Cooltime {0}
+    |zh-cn| Cooltime {0}
+dungeon.get.reward
+    |ko| 보상 받기
+    |en| Get Reward
+    |zh-cn| 获得奖励 
+dungeon.won.title
+    |ko| 보스를 물리쳤습니다.
+    |en| I defeated the boss.
+    |zh-cn| 我打败了老板。 
+dungeon.lost.title
+    |ko| 보스에 당했습니다.
+    |en| You were killed by the boss.
+    |zh-cn| 你被老板杀死了。
+
+dungeon.end.turn.confirm
+    |ko| 턴을 종료하시겠습니까?
+    |en| Do you want to end the turn?
+    |zh-cn| 你想结束转弯吗？
+    |ja| ターンを終了しますか？
+dungeon.end.battle.confirm
+    |ko| 포기하시겠습니까?
+    |en| Do you want to give up?
+    |zh-cn| 你想放弃吗？
+    |ja| 放棄しますか？
+    
+dungeon.ticket.Easy
+    |ko| 이지 모드 티켓 
+    |en| Easy mode ticket
+    |zh-cn| 简易模式票
+    |ja| イージーモードチケット
+dungeon.ticket.Normal
+    |ko| 노말 모드 티켓 
+    |en| Normal mode ticket
+    |zh-cn| 普通模式票
+    |ja| ノーマルモードのチケット
+dungeon.ticket.Hard
+    |ko| 하드 모드 티켓 
+    |en| Hard mode ticket
+    |zh-cn| 硬模票
+    |ja| ハードモードチケット    
+dungeon.ticket.Hell
+    |ko| 헬 모드 티켓 
+    |en| Hell mode ticket
+    |zh-cn| 地狱模式门票
+    |ja| 地獄モードチケット    
+    
+dungeon.mode.Easy
+    |ko| 이지
+    |en| Easy
+    |zh-cn| 简单
+    |ja| シンプル
+dungeon.mode.Normal
+    |ko| 노말
+    |en| Normal
+    |zh-cn| 正常
+    |ja| ノーマル
+dungeon.mode.Hard
+    |ko| 하드
+    |en| Hard
+    |zh-cn| 硬
+    |ja| ハード
+
+#------------------------------------------------------------------------------
+# dungeon detail
+#------------------------------------------------------------------------------
+ltg.button.enter
+    |ko| 모험 하기
+    |en| Adventure
+    |zh-cn| 要冒险
+    |ja| 冒険する
+ltg.button.retry
+    |ko| 다시 하기
+    |en| Retry
+    |zh-cn| 重试
+    |ja| リトライ
+ltg.button.get.reward
+    |ko| 보상 받기
+    |en| Get Reward
+    |zh-cn| 获得奖励
+    |ja| 補償受ける
+    
+ltg.reward.title
+    |ko| 보상
+    |en| Reward
+    |zh-cn| 奖励
+    |ja| 補償
+    
+ltg.reward.mat.noraml
+    |ko| 일반 재료 드랍 확률
+    |en| Normal material drop rate
+    |zh-cn| 一般材料获取概率
+    |ja| 一般材料獲得確率
+ltg.reward.mat.sp
+    |ko| 보스 재료 드랍 확률
+    |en| Boss material drop rate
+    |zh-cn| 老板材料掉落概率
+    |ja| ボスの材料ドロップ確率
+
+lgt.not.enough.ticket
+    |ko| 입장 티켓이 부족합니다.
+    |en| There is not enough admission ticket.
+    |zh-cn| 门票不够。
+    |ja| 入場チケットが不足します。
+
+lgt.not.enough.skill.count
+    |ko| 모든 영웅의 스킬이 5개 이상이어야 합니다.
+    |en| All characters must have at least 5 skills.
+    |zh-cn| 所有角色必须至少有5个技能。
+    |ja| すべてのキャラクターのスキルが5個以上である必要があります。
+lgt.not.enough.max.floor
+    |ko| 최대 층수가 부족합니다.\n{0} 층수 이상만 진입 가능합니다.
+    |en| The maximum number of floors is insufficient.\nOnly above {0} floors are allowed.
+    |zh-cn| 最大楼层数不足。 仅限{0}层以上。
+    |ja| フロアの最大数は不十分です。 わずか{0}階以上が許可されています。
+    
+#------------------------------------------------------------------------------
+# dungeon name
+#------------------------------------------------------------------------------
+dungeon.name.1
+    |ko| 치즈의 기사
+    |en| Knights of Cheese
+    |zh-cn| 奶酪骑士
+    |ja| ナイツオブチーズ
+dungeon.name.2
+    |ko| 악마의 해변
+    |en| Devil's Beach
+    |zh-cn| 魔鬼的海滩
+    |ja| 悪魔のビーチ
+dungeon.name.3
+    |ko| 튤립 정원
+    |en| Tulip Garden
+    |zh-cn| 郁金香花园
+    |ja| チューリップガーデン
+dungeon.name.4
+    |ko| 강철 고블린 군단
+    |en| Steel Goblin Legion
+    |zh-cn| 钢精灵军团
+    |ja| 鋼ゴブリン軍団
+dungeon.name.5
+    |ko| 붉은 드래곤
+    |en| Red dragon
+    |zh-cn| 红龙
+    |ja| 赤いドラゴン
+    
 #------------------------------------------------------------------------------
 # knight name
 #------------------------------------------------------------------------------
@@ -2903,6 +3156,379 @@ knight.nick.Mage
     |en| SCARLLET
     |zh-cn| 斯卡莱特 
     |ja| スカーレット
+
+#------------------------------------------------------------------------------
+# skill name
+#------------------------------------------------------------------------------
+skill.name.11
+    |ko| 강타
+    |en| Strike
+    |zh-cn| 攻击
+    |ja| 攻撃
+skill.name.12
+    |ko| 연타
+    |en| Repetitive attack
+    |zh-cn| 重复攻击
+    |ja|反復攻撃
+skill.name.13
+    |ko| 버서커
+    |en| Berserker
+    |zh-cn| 狂战士
+    |ja| バーサーカー
+skill.name.14
+    |ko| 돌진
+    |en| Rush
+    |zh-cn| 赶
+    |ja| 突進
+skill.name.15
+    |ko| 예열
+    |en| Preheating
+    |zh-cn| 预热
+    |ja| 予熱
+skill.name.16
+    |ko| 금속 코팅
+    |en| Metal coating
+    |zh-cn| 金属涂层
+    |ja| 金属コーティング
+skill.name.17
+    |ko| 공간 가르기
+    |en| Cutting space
+    |zh-cn| 切割空间
+    |ja| カッティングスペース
+skill.name.18
+    |ko| 무의 정수
+    |en| Spirit of a martial art
+    |zh-cn| 武术的本质
+    |ja| 武道の整数
+skill.name.21
+    |ko| 조준
+    |en| Aiming
+    |zh-cn| 针对
+    |ja| 照準
+skill.name.22
+    |ko| 비화살
+    |en| Multi arrow
+    |zh-cn| 多箭矢
+    |ja| 矢の束
+skill.name.23
+    |ko| 투명화
+    |en| Invisibility
+    |zh-cn| 隐形
+    |ja| 透明化
+skill.name.24
+    |ko| 집중
+    |en| Concentration
+    |zh-cn| 承诺
+    |ja| 没頭
+skill.name.25
+    |ko| 중독
+    |en| Poison
+    |zh-cn| 毒
+    |ja| 毒
+skill.name.26
+    |ko| 소금 화살
+    |en| Salt arrow
+    |zh-cn| 盐矢
+    |ja| 塩矢
+skill.name.27
+    |ko| 독 폭탄 화살
+    |en| Poison bomb arrow
+    |zh-cn| 毒药炸弹矢
+    |ja| 毒爆弾矢
+skill.name.28
+    |ko| 독의 정수
+    |en| Spirit of poison
+    |zh-cn| 毒药的本质
+    |ja| 毒の整数
+skill.name.31
+    |ko| 파이어볼
+    |en| Fireball
+    |zh-cn| 火球
+    |ja| 火球
+skill.name.32
+    |ko| 힘의 열매
+    |en| Power bean
+    |zh-cn| 权力的果实
+    |ja| 力の実
+skill.name.33
+    |ko| 치유
+    |en| Heal
+    |zh-cn| 愈合
+    |ja| 治癒
+skill.name.34
+    |ko| 저주
+    |en| Curse
+    |zh-cn| 诅咒
+    |ja| 呪い
+skill.name.35
+    |ko| 갑주
+    |en| Armor
+    |zh-cn| 装甲
+    |ja| 甲冑
+skill.name.36
+    |ko| 가벼운 발걸음
+    |en| Light footwork
+    |zh-cn| 轻脚
+    |ja| 軽い足取り
+skill.name.37
+    |ko| 아드레날린
+    |en| Adrenaline
+    |zh-cn| 肾上腺素
+    |ja| アドレナリン
+skill.name.38
+    |ko| 신의 축복
+    |en| God bless
+    |zh-cn| 上帝保佑
+    |ja| 神の祝福
+
+#------------------------------------------------------------------------------
+# skill desc
+#------------------------------------------------------------------------------
+skill.desc.out.11
+    |ko| 적에게 공격력의 {0}%의 피해를 줍니다.
+    |en| Gives {0}% damage of the attack to the enemy.
+    |zh-cn| 它对敌人造成{0}％的攻击伤害。
+    |ja| 敵に{0}％の攻撃ダメージを与える。
+skill.desc.out.12
+    |ko| 전체 적에게 공격력의 {0}%의 피해를 줍니다.
+    |en| Gives {0}% damage of the attack to all enemies.
+    |zh-cn| 对所有敌人造成{0}％的攻击伤害。
+    |ja| すべての敵に攻撃の{0}％のダメージを与える
+skill.desc.out.13
+    |ko| 무작위 {0} 적들에게 공격력의 {1}%의 피해를 줍니다.
+    |en| Gives {1}% damage of the attack to random {0} enemies.
+    |zh-cn| 对随机{0}敌人造成{1}％的攻击伤害。
+    |ja| ランダム{0}の敵に攻撃の{1}％のダメージを与える。
+skill.desc.out.14
+    |ko| 공격력과 방어력을 더한 값의 {0}%의 피해를 줍니다.
+    |en| Gives {0}% damage of sum of the attack and defense to the enemy
+    |zh-cn| 对敌人造成{0}％的攻击和防御伤害
+    |ja| 敵に攻撃と防御の合計の{0}％のダメージを与える
+skill.desc.out.15
+    |ko| 이번 턴의 공격력을 {1}% 상승시킵니다.
+    |en| Increases your attack by {1}% this turn.
+    |zh-cn| 本回合你的攻击力提高{1}％。
+    |ja| このターン、あなたの攻撃を{1}％増加させる。 
+skill.desc.out.16
+    |ko| 이번 턴의 방어력을 {1}% 상승시킵니다.
+    |en| Increases your defense by {1}% this turn.
+    |zh-cn| 本回合你的防守提高{1}％。
+    |ja| このターン、あなたの防御力は{1}％増加する。 
+skill.desc.out.17
+    |ko| 적에게 공격력의 {0}%의 피해를 줍니다.
+    |en| Gives {0}% damage of the attack to the enemy.
+    |zh-cn| 它对敌人造成{0}％的攻击伤害。
+    |ja| 敵に{0}％の攻撃ダメージを与える。
+skill.desc.out.18
+    |ko| 매 턴 공격력이 {1}% 증가합니다.
+    |en| Increases attack by {1} each turn.
+    |zh-cn| 每回合增加{1}的攻击力。
+    |ja| 1ターンごとに攻撃力が{1}増加する。
+skill.desc.out.21
+    |ko| 적에게 공격력의 {0}%의 피해를 줍니다.
+    |en| Gives {0}% damage of the attack to the enemy.
+    |zh-cn| 它对敌人造成{0}％的攻击伤害。
+    |ja| 敵に{0}％の攻撃ダメージを与える。
+skill.desc.out.22
+    |ko| 전체 적에게 공격력의 {0}%의 피해를 줍니다.
+    |en| Gives {0}% damage of the attack to all enemies.
+    |zh-cn| 对所有敌人造成{0}％的攻击伤害。
+    |ja| すべての敵に攻撃の{0}％のダメージを与える
+skill.desc.out.23
+    |ko| 다음 턴의 공격을 회피합니다.
+    |en| Avoids the next turn attack.
+    |zh-cn| 避免下一轮攻击。
+    |ja| 次のターンの攻撃を回避します。
+skill.desc.out.24
+    |ko| 이번 턴의 공격력을 {1}% 상승시킵니다.
+    |en| Increases your attack by {1}% this turn.
+    |zh-cn| 本回合你的攻击力提高{1}％。
+    |ja| このターン、あなたの攻撃を{1}％増加させる。 
+skill.desc.out.25
+    |ko| 적에게 공격력의 {0}%의 피해를 입히고 {1}턴간 중독을 공격력의 {2}% 만큼 부여합니다.
+    |en| Gives {0}% damage, and give {2}% poison of the attack to the enemy for the next {1} turn.
+    |zh-cn| 造成{0}％伤害，并在下一个{1}转弯时向敌人提供{2}％的攻击毒药。
+    |ja| {0}％のダメージを与え、次の{1}ターンの敵に攻撃の{2}％の毒を与える。
+skill.desc.out.26
+    |ko| 적에게 공격력의 {0}% 피해를 입히고 해당 적이 중독 상태이면 {1}%의 피해를 더 입힙니다.
+    |en| Gives {0}% damage, and {1}% additional damage if the enemy is poisoned.
+    |zh-cn| 造成{0}％伤害。 如果敌人中毒，则会额外造成{1}％的伤害。
+    |ja| {0}％のダメージを与える。 敵が毒を被った場合、{1}％の追加ダメージを与えます。
+skill.desc.out.27
+    |ko| 적에게 공격력의 {0}%의 피해를 입히고 {1}턴간 중독을 공격력의 {2}% 만큼 부여합니다.
+    |en| Gives {0}% damage, and give {2}% poison of the attack to all enemies for the next {1} turn.
+    |zh-cn| 造成{0}％的伤害，并在下一个{1}转弯时对所有敌人造成{2}％的攻击毒药。
+    |ja| {0}％のダメージを与え、次の{1}ターンのすべての敵に攻撃の毒を{2}％与える。
+skill.desc.out.28
+    |ko| 중독 데미지를 {1}% 늘립니다.
+    |en| Increases poison damage by {1}%.
+    |zh-cn| 毒药伤害提高{1}％。
+    |ja| 毒のダメージが{1}％増加する。
+skill.desc.out.31
+    |ko| 불덩이를 발사해 적에게 공격력의 {0}%의 피해를 줍니다.
+    |en| Gives {0}% damage of the attack to the enemy by the fireball.
+    |zh-cn| 通过火球给敌人造成{0}％的攻击伤害。
+    |ja| ファイアボールによって攻撃の{0}％のダメージを敵に与える。
+skill.desc.out.32
+    |ko| 이번 턴의 공격력을 {1}% 상승시킵니다.
+    |en| Increases your attack by {1}% this turn.
+    |zh-cn| 本回合你的攻击力提高{1}％。
+    |ja| このターン、あなたの攻撃を{1}％増加させる。 
+skill.desc.out.33
+    |ko| 기사의 체력을 {0}% 회복합니다.
+    |en| Heals {0}% the knight health
+    |zh-cn| 治疗骑士生命值{0}％
+    |ja| 騎士の健康{0}％を回復します
+skill.desc.out.34
+    |ko| 적에게 공격력의 {0}%의 피해를 주고, 이후 {1} 턴간 {2}%의 방어력을 감소시킵니다.
+    |en| Gives {0}% damage, and decrease {2}% defense of the attack to the enemy for the next {1} turn.
+    |zh-cn| 造成{0}％伤害，并在下一个{1}转弯时减少{2}％对敌人的攻击防御。
+    |ja| {0}％のダメージを与え、次の{1}ターンの敵への攻撃の防御を{2}％減少させます。
+skill.desc.out.35
+    |ko| 이번 턴의 방어도를 {1}% 증가시킵니다. 
+    |en| Increases the defense of this turn by {1}%.
+    |zh-cn| 使本回合的防守提高{1}％。
+    |ja| このターンの防御力は{1}％増加する。
+skill.desc.out.36
+    |ko| 추가 행동 포인트 {0}을 얻습니다.
+    |en| Obtain additional AP {0}.
+    |zh-cn| 获取额外的AP {0}。
+    |ja| 追加のAP {0}を取得します。
+skill.desc.out.37
+    |ko| 다음 스킬이 {0}번 발동 됩니다.
+    |en| The next skill is fired {0} times.
+    |zh-cn| 下一个技能被解雇{0}次。
+    |ja| 次の技能は{0}回発射されます。
+skill.desc.out.38
+    |ko| 매턴 {1}%의 체력을 회복합니다.
+    |en| Recovers {1}% hp each turn.
+    |zh-cn| 每回合恢复{1}％hp。
+    |ja| 各ターン{1}％HP回復する。
+
+#------------------------------------------------------------------------------
+# skill desc
+#------------------------------------------------------------------------------
+skill.desc.11
+    |ko| 적에게 {0}의 피해를 줍니다.
+    |en| Gives {0} damage to the enemy.
+    |zh-cn| 对敌人造成{0}的伤害。
+    |ja| 敵に{0}のダメージを与える。
+skill.desc.12
+    |ko| 전체 적에게 {0}의 피해를 줍니다.
+    |en| Gives {0} damage to all enemies.
+    |zh-cn| 对所有敌人造成{0}伤害。
+    |ja| すべての敵に{0}のダメージを与える。
+skill.desc.13
+    |ko| 무작위 {0} 적들에게 {1}의 피해를 줍니다.
+    |en| Gives {1} damage to random {0} enemies.
+    |zh-cn| 对随机{0}敌人造成{1}伤害。
+    |ja| ランダム{0}の敵に{1}のダメージを与える。
+skill.desc.14
+    |ko| 공격력과 방어력을 더한 값의 {0}의 피해를 줍니다.
+    |en| Gives {0} damage of sum of the attack and defense to the enemy
+    |zh-cn| 对敌人造成{0}的攻击和防御伤害
+    |ja| 敵に攻撃と防御の合計の{0}のダメージを与える
+skill.desc.15
+    |ko| 이번 턴의 공격력을 {1}% 상승시킵니다.
+    |en| Increases your attack by {1}% this turn.
+    |zh-cn| 本回合你的攻击力提高{1}％。
+    |ja| このターン、あなたの攻撃を{1}％増加させる。 
+skill.desc.16
+    |ko| 이번 턴의 방어력을 {1}% 상승시킵니다.
+    |en| Increases your defense by {1}% this turn.
+    |zh-cn| 本回合你的防守提高{1}％。
+    |ja| このターン、あなたの防御力は{1}％増加する。 
+skill.desc.17
+    |ko| 적에게 {0}의 피해를 줍니다.
+    |en| Gives {0} damage to the enemy.
+    |zh-cn| 对敌人造成{0}的伤害。
+    |ja| 敵に{0}のダメージを与える。
+skill.desc.18
+    |ko| 매 턴 공격력이 {1}% 증가합니다.
+    |en| Increases attack by {1} each turn.
+    |zh-cn| 每回合增加{1}的攻击力。
+    |ja| 1ターンごとに攻撃力が{1}増加する。
+skill.desc.21
+    |ko| 적에게 {0}의 피해를 줍니다.
+    |en| Gives {0} damage to the enemy.
+    |zh-cn| 对敌人造成{0}的伤害。
+    |ja| 敵に{0}のダメージを与える。
+skill.desc.22
+    |ko| 전체 적에게 {0}의 피해를 줍니다.
+    |en| Gives {0} damage to all enemies.
+    |zh-cn| 对所有敌人造成{0}伤害。
+    |ja| すべての敵に{0}のダメージを与える。
+skill.desc.23
+    |ko| 다음 턴의 공격을 회피합니다.
+    |en| Avoids the next turn attack.
+    |zh-cn| 避免下一轮攻击。
+    |ja| 次のターンの攻撃を回避します。
+skill.desc.24
+    |ko| 이번 턴의 공격력을 {1}% 상승시킵니다.
+    |en| Increases your attack by {1}% this turn.
+    |zh-cn| 本回合你的攻击力提高{1}％。
+    |ja| このターン、あなたの攻撃を{1}％増加させる。 
+skill.desc.25
+    |ko| 적에게 {0}의 피해를 입히고 {1}턴간 중독을 {2} 부여합니다.
+    |en| Gives {0} damage, and give {2} poison to the enemy for the next {1} turn.
+    |zh-cn| 造成{0}点伤害，并在下一个{1}转弯时给予敌人{2}毒药。
+    |ja| {0}ダメージを与え、次の{1}ターンの敵に{2}の毒を与える。
+skill.desc.26
+    |ko| 적에게 공격력{0} 피해를 입히고 해당 적이 중독 상태이면 {1}의 피해를 더 입힙니다.
+    |en| Gives {0} damage, and {1} additional damage if the enemy is poisoned.
+    |zh-cn| 造成{0}点伤害。 如果敌人中毒，则给予{1}额外伤害。
+    |ja| {0}ダメージを与える。 敵が毒を被った場合、{1}のダメージを与える。 
+skill.desc.27
+    |ko| 전체 적에게 {0}의 피해를 입히고 {1}턴간 중독을 {2} 부여합니다.
+    |en| Gives {0} damage, and give {2} poison to all enemies for the next {1} turn.
+    |zh-cn| 造成{0}点伤害。 并且为下一个{1}转弯的所有敌人提供{2}毒药。
+    |ja| {0}ダメージを与える。 そして次の{1}ターンのためにすべての敵に{2}毒を与える。 
+skill.desc.28
+    |ko| 중독 데미지를 {1}% 늘립니다.
+    |en| Increases poison damage by {1}%.
+    |zh-cn| 毒药伤害提高{1}％。
+    |ja| 毒のダメージが{1}％増加する。
+skill.desc.31
+    |ko| 불덩이를 발사해 적에게 {0}의 피해를 줍니다.
+    |en| Gives {0} damage to the enemy.
+    |zh-cn| 火球给敌人造成{0}点伤害。
+    |ja| 火の玉によって{0}ダメージを与える。
+skill.desc.32
+    |ko| 이번 턴의 공격력을 {1}% 상승시킵니다.
+    |en| Increases your attack by {1}% this turn.
+    |zh-cn| 本回合你的攻击力提高{1}％。
+    |ja| このターン、あなたの攻撃を{1}％増加させる。 
+skill.desc.33
+    |ko| 기사의 체력을 {0}% 회복합니다.
+    |en| Heals {0}% the knight health
+    |zh-cn| 治疗骑士生命值{0}％
+    |ja| 騎士の健康{0}％を回復します
+skill.desc.34
+    |ko| 적에게 {0}의 피해를 주고, 이후 {1} 턴간 {2}%의 방어력을 감소시킵니다.
+    |en| Gives {0} damage, and decrease {2}% defense of the attack to the enemy for the next {1} turn.
+    |zh-cn| 造成{0}伤害，并在下一个{1}转弯时减少{2}％对敌人的攻击防御。
+    |ja| {0}のダメージを与え、次の{1}ターンの敵への攻撃の防御を{2}％減少させます。 
+skill.desc.35
+    |ko| 이번 턴의 방어도를 {1}% 증가시킵니다. 
+    |en| Increases the defense of this turn by {1}%.
+    |zh-cn| 使本回合的防守提高{1}％。
+    |ja| このターンの防御力は{1}％増加する。
+skill.desc.36
+    |ko| 추가 행동 포인트 {0}을 얻습니다.
+    |en| Obtain additional AP {0}.
+    |zh-cn| 获取额外的AP {0}。
+    |ja| 追加のAP {0}を取得します。
+skill.desc.37
+    |ko| 다음 스킬이 {0}번 발동 됩니다.
+    |en| The next skill is fired {0} times.
+    |zh-cn| 下一个技能被解雇{0}次。
+    |ja| 次の技能は{0}回発射されます。
+skill.desc.38
+    |ko| 매턴 {1}%의 체력을 회복합니다.
+    |en| Recovers {1}% hp each turn.
+    |zh-cn| 每回合恢复{1}％hp。
+    |ja| 各ターン{1}％HP回復する。
+
 
 #------------------------------------------------------------------------------
 # raw material type
@@ -3306,6 +3932,81 @@ raw.material.name.91
     |en| Golden Lapis Lazuli
     |zh-cn| 青金石
     |ja| 黄金ラピスラズリ
+raw.material.name.201
+    |ko| 치즈 스톤
+    |en| Cheese stone
+    |zh-cn| 芝士石 
+    |ja| チーズストーン
+raw.material.name.202
+    |ko| 정령 버섯
+    |en| Elemental Mushroom
+    |zh-cn| 香辣蘑菇
+    |ja| 精霊キノコ
+raw.material.name.203
+    |ko| 제이드 스컬  
+    |en| Jade Skull
+    |zh-cn| 玉骷髅
+    |ja| ジェイドスカル
+raw.material.name.204
+    |ko| 게 껍질    
+    |en| Crab shell
+    |zh-cn| 蟹壳
+    |ja| カニの殻
+raw.material.name.205
+    |ko| 복어독
+    |en| Blowfish poison
+    |zh-cn| 河豚毒
+    |ja| フグ毒
+raw.material.name.206
+    |ko| 푸른 가죽 
+    |en| Blue Scales
+    |zh-cn| 蓝色鳞片
+    |ja| 青いうろこ
+raw.material.name.207
+    |ko| 나팔꽃
+    |en| Trumpet flower
+    |zh-cn| 牵牛花
+    |ja| 朝顔
+raw.material.name.208
+    |ko| 엘프의 잎
+    |en| Leaf of the Elves
+    |zh-cn| 精灵的叶子
+    |ja| エルフの葉
+raw.material.name.209
+    |ko| 붉은 튤립 
+    |en| Red Tulip
+    |zh-cn| 红色郁金香
+    |ja| 赤いチューリップ
+raw.material.name.210
+    |ko| 붉은 뿔
+    |en| Red Horn
+    |zh-cn| 红角
+    |ja| 赤い角
+raw.material.name.211
+    |ko| 블러드 스톤  
+    |en| Blood Stone
+    |zh-cn| 鸡血石
+    |ja| ブラッドストーン
+raw.material.name.212
+    |ko| 강철 심장
+    |en| Steel heart
+    |zh-cn| 钢心
+    |ja| 鋼心
+raw.material.name.213
+    |ko| 드래곤의 눈
+    |en| Dragon's Eye
+    |zh-cn| ドラゴンズアイ
+    |ja| ドラゴンズアイ
+raw.material.name.214
+    |ko| 오닉스 
+    |en| Onyx
+    |zh-cn| 缟玛瑙
+    |ja| オニキス
+raw.material.name.215
+    |ko| CPU
+    |en| CPU
+    |zh-cn| CPU
+    |ja| CPU
 
 #------------------------------------------------------------------------------
 # raw material desc
@@ -3361,7 +4062,7 @@ raw.material.desc.10
     |zh-cn| 远古神在战场中死亡的血，只能在神界的血之河流中获得。
     |ja| 古代の神々の戦争で死んだ巨神の血、神界の血の川でのみ求めることができる。
 raw.material.desc.11
-    |ko| 거신의 피중에 낮은 확율로 발견된다.
+    |ko| 거신의 피중에 낮은 확률로 발견된다.
     |en| It is found with low probability among Giant's Blood.
     |zh-cn| 巨人血被发现的概率很低。
     |ja| 巨神の血の中に低い確率で発見される。
@@ -3416,7 +4117,7 @@ raw.material.desc.30
     |zh-cn| 红色，带有神血的金属
     |ja| 赤みがかった神々の血が宿った金属
 raw.material.desc.31
-    |ko| 블러디늄 중에 낮은 확율로 발견된다.
+    |ko| 블러디늄 중에 낮은 확률로 발견된다.
     |en| It is found with low probability among Bloodium.
     |zh-cn| 在血液中发现的可能性很小。
     |ja| ブラッディニウムの中に低い確率で発見される。
@@ -3471,7 +4172,7 @@ raw.material.desc.50
     |zh-cn| 你可以通过杀死在地下深处的骷髅获得。
     |ja| 地下ダンジョン奥深くのスケルトンキングを退治して獲得できる。
 raw.material.desc.51
-    |ko| 스켈레톤킹 헤드 중에 낮은 확율로 발견된다.
+    |ko| 스켈레톤킹 헤드 중에 낮은 확률로 발견된다.
     |en| It is found with low probability among Skeleton King Skull.
     |zh-cn| 远古用的皮，获得概率很小。
     |ja| 古代竜の革の中に低い確率で発見される。
@@ -3526,7 +4227,7 @@ raw.material.desc.70
     |zh-cn| 创造世界之后死亡的远古龙皮
     |ja| 世界を創造して死んだ古代竜の革
 raw.material.desc.71
-    |ko| 과대용의 가죽중 중에 낮은 확율로 발견된다.
+    |ko| 과대용의 가죽중 중에 낮은 확률로 발견된다.
     |en| It is found with low probability among ancient dragon's leather.
     |zh-cn| 在古龙的皮革中发现概率很低。
     |ja| 古代竜の革の中に低い確率で発見される。
@@ -3581,10 +4282,85 @@ raw.material.desc.90
     |zh-cn| 像是看着明朗天空似的颜色，古埃及神的头发是由青金石制成的。
     |ja| 澄んだ夜空を見るような色で、古代エジプトの神々の頭がラピスラズリになっていた。
 raw.material.desc.91
-    |ko| 청금석 중에 낮은 확율로 발견된다.
+    |ko| 청금석 중에 낮은 확률로 발견된다.
     |en| It is found with low probability among Lapis Lazuli.
     |zh-cn| 青金石中获得概率低。
     |ja| ラピスラズリの中に低い確率で発見される。
+raw.material.desc.201
+    |ko| 현무암의 일종으로 치즈 같은 모양새 때문에 맛있어 보인다.
+    |en| It is a kind of basalt and looks delicious because it looks like a cheese.
+    |zh-cn| 它是一种玄武岩，看起来很美味，因为它看起来像奶酪。
+    |ja| それは玄武岩の一種で、チーズのように見えるので美味しく見えます。
+raw.material.desc.202
+    |ko| 깊은 숲에서 정령들이 정성스레 키운 버섯
+    |en| Mushroom grows in deep forest
+    |zh-cn| 蘑菇生长在森林深处
+    |ja| 深い森の中で丁寧に育てたキノコ
+raw.material.desc.203
+    |ko| 옥으로 정교하게 세공한 해골 모양의 장식물
+    |en| Elaborately crafted skull-shaped ornament
+    |zh-cn| 精心制作的雕塑装饰
+    |ja| 精巧に細工された頭蓋骨の装飾
+raw.material.desc.204
+    |ko| 대부분의 게 껍질은 강도가 그리 높지 않지만 특수한 종의 껍질은 매우 단단하다.
+    |en| Most crab shells are not very high in strength, but the crab shell of a particular species is very hard.
+    |zh-cn| 大多数蟹壳的强度不是很高，但特定种类的蟹壳非常坚硬。
+    |ja| ほとんどのカニの殻は強度はあまり高くありませんが、特定の種のカニの殻は非常に硬いです。
+raw.material.desc.205
+    |ko| 복어의 알과 내장에 있는 독. 중추신경을 마비시켜 죽음에 이르게 한다.
+    |en| Poison in egg and egg of blowfish. Paralysis of the central nervous system leads to death.
+    |zh-cn| 在河豚鸡蛋和鸡蛋的毒药。 中枢神经系统瘫痪导致死亡。
+    |ja| フグの卵と内臓の毒。中枢神経を麻痺させて死につながる。
+raw.material.desc.206
+    |ko| 은백색의 광택을 띄는 푸른 생선의 가죽
+    |en| Silver white lustrous blue fish leather
+    |zh-cn| 银白色光泽蓝色鱼皮
+    |ja| 銀白色の光沢を帯び青魚の皮
+raw.material.desc.207
+    |ko| 주로 관상용으로 재배하며, 씨는 약으로 쓴다.
+    |en| It is mainly grown for ornamental purposes, and seeds are used for medicine.
+    |zh-cn| 它主要用于观赏植物栽培，种子用作药物。
+    |ja| 主に観賞用に栽培されており、種子は薬として使われています。
+raw.material.desc.208
+    |ko| 엘프들이 숭상하는 나무는 잎사귀 한 잎마다 강한 마력을 지닌다.
+    |en| The trees that the elves admire have strong magical power on every leaf.
+    |zh-cn| 精灵崇拜的树木在每片叶子上都有强大的神奇力量。
+    |ja| エルフが崇める木は葉した葉ごとに強い魔法力を持つ。
+raw.material.desc.209
+    |ko| 선홍빛을 띄는 꽃잎이 겹겹으로 나서 단정한 아름다움을 느끼게 한다.
+    |en| Reddish petals are layered to create a neat beauty.
+    |zh-cn| 红色花瓣分层，营造出整洁美感。
+    |ja| 赤い光を帯び花びらが幾重にもに出て整頓された美しさを感じさせる。
+raw.material.desc.210
+    |ko| 동물의 뼈를 붉은 염료로 염색한 것으로 행운을 준다고 한다.
+    |en| It is said that it gives good luck by dyeing animal bones with red dye.
+    |zh-cn| 据说通过用红色染料染色动物骨头可以带来好运。
+    |ja| 動物の骨を赤色染料で染めたもので幸運を与えるという。
+raw.material.desc.211
+    |ko| 핏빛을 띄는 돌. 소유자의 감정을 고조시킨다.
+    |en| Blood stones. Excite the owner's feelings.
+    |zh-cn| 血石。 激发主人的感受。
+    |ja| 血を引く石。所有者の感情を興奮させる。
+raw.material.desc.212
+    |ko| 강철로 된 동물의 심장. 펌프가 달려 있다.
+    |en| Animal's heart of steel. There is a pump.
+    |zh-cn| 钢动物心脏。 有一个泵。
+    |ja| 鋼動物の心臓。ポンプがかかっている。
+raw.material.desc.213
+    |ko| 용을 잡는다 하더라도 두 개 밖에 나오지 않기 때문에 매우 희귀한 재료다.
+    |en| Even if you catch a dragon, it is very rare because it is only two pieces.
+    |zh-cn| 即使你抓到一条龙，它也是非常罕见的，因为它只有两件。
+    |ja| 用をキャッチしても二本しか出てこないので、非常に希少な材料である。
+raw.material.desc.214
+    |ko| 영롱한 검은색 광채를 띄며 잘 세공된 것은 고가에 팔린다.
+    |en| The lustrous black shine and well-crafted are sold at high prices.
+    |zh-cn| 光泽的黑色光泽和精心制作的高价出售。
+    |ja| きらめく黒輝きをツイミョよく細工されたのは、高価なの売れる。
+raw.material.desc.215
+    |ko| 이 세계의 시스템을 통제한다고 한다.
+    |en| It is said to control the system of this world.
+    |zh-cn| 据说可以控制这个世界的体系。
+    |ja| この世界のシステムを制御するという。
 
 #------------------------------------------------------------------------------
 # item name
@@ -3689,6 +4465,26 @@ item.name.134
     |en| Raphael's Sword
     |zh-cn| 拉斐尔的剑
     |ja| ラファエルの剣
+item.name.135
+    |ko| 특별한 후라이팬
+    |en| Special Frying Pan
+    |zh-cn| 特制煎锅
+    |ja| 特別なフライパン
+item.name.136
+    |ko| 튤립 정원 스워드
+    |en| Tulip Garden Sword
+    |zh-cn| 郁金香花园的剑
+    |ja| チューリップの庭の剣
+item.name.137
+    |ko| 강철 고블린의 스워드
+    |en| Steel Goblin's Sword
+    |zh-cn| 钢哥布林之剑
+    |ja| 鋼ゴブリンの剣
+item.name.138
+    |ko| 검은 드래곤의 스워드
+    |en| Black Dragon's Sword
+    |zh-cn| 黑龙之剑
+    |ja| 黒いドラゴンの剣
 item.name.141
     |ko| 엑스칼리버
     |en| Excalibur
@@ -3699,6 +4495,21 @@ item.name.142
     |en| Blood Sword
     |zh-cn| 血剑    
     |ja| 血の剣
+item.name.143
+    |ko| 앤리아의 스워드
+    |en| Anria's Sword
+    |zh-cn| 安德里亚之剑
+    |ja| アンリアの剣
+item.name.144
+    |ko| 광전사의 검
+    |en| Berserker's Sword
+    |zh-cn| 狂战士的剑
+    |ja| バーサーカーの剣
+item.name.151
+    |ko| 댄의 검
+    |en| Dan's Sword
+    |zh-cn| 丹的剑
+    |ja| ダンの剣    
 item.name.201
     |ko| 핸드 액스
     |en| Hand Axe
@@ -3794,11 +4605,36 @@ item.name.233
     |en| The Battle Axe Against Death
     |zh-cn| 死亡之战斧
     |ja| 死に逆らうバトルアックス
+item.name.234
+    |ko| 치즈 망치
+    |en| Cheese Hammer
+    |zh-cn| 奶酪锤
+    |ja| チーズハンマー
+item.name.235
+    |ko| 거대게 엑스
+    |en| Giant Crab Axe
+    |zh-cn| 巨蟹斧
+    |ja| 巨大カニ斧
+item.name.236
+    |ko| 강철 고블린의 액스
+    |en| Steel Goblin's Axe
+    |zh-cn| 钢哥布林之斧
+    |ja| 鋼ゴブリンの斧
+item.name.237
+    |ko| 검은 드래곤의 액스
+    |en| Black Dragon's Axe
+    |zh-cn| 黑龙之斧
+    |ja| 黒いドラゴンの斧
 item.name.241
     |ko| 왕의 액스
     |en| King's Axe
     |zh-cn| 国王的斧头
     |ja| キングズアックス
+item.name.242
+    |ko| 광전사의 도끼
+    |en| Berserker's Axe
+    |zh-cn| 狂战士的斧
+    |ja| バーサーカーの斧
 item.name.301
     |ko| 나무 궁
     |en| Wooden Bow
@@ -3899,11 +4735,26 @@ item.name.334
     |en| Doric Bow
     |zh-cn| 多利安弓
     |ja| ドリアン弓
+item.name.335
+    |ko| 튤립 정원 보우
+    |en| Tulip Garden Bow
+    |zh-cn| 郁金香花园的弓
+    |ja| チューリップの庭の弓
+item.name.336
+    |ko| 검은 드래곤의 보우
+    |en| Black Dragon's Bow
+    |zh-cn| 黑龙之弓
+    |ja| 黒いドラゴンの弓
 item.name.341
     |ko| 왕의 석궁
     |en| King's Crossbow
     |zh-cn| 国王的弩 
     |ja| キングスクロスボウ
+item.name.342
+    |ko| 앤리아의 보우
+    |en| Anria's Bow
+    |zh-cn| 安德里亚之弓
+    |ja| アンリアの弓
 item.name.401
     |ko| 로드
     |en| Rod
@@ -4004,11 +4855,26 @@ item.name.435
     |en| Doric Staff
     |zh-cn| 多利安杖
     |ja| ドリアンスタッフ
+item.name.436
+    |ko| 거대게 스태프
+    |en| Giant Crab Staff
+    |zh-cn| 巨蟹杖
+    |ja| 巨大カニ杖
+item.name.437
+    |ko| 검은 드래곤의 스태프
+    |en| Black Dragon's Staff
+    |zh-cn| 黑龙之杖
+    |ja| 黒いドラゴンの杖
 item.name.441
     |ko| 왕의 지휘봉
     |en| King's Sceptre 
     |zh-cn| 国王的权杖
     |ja| 王の笏
+item.name.442
+    |ko| 검은 마법사의 스태프
+    |en| Black Wizard's Staff
+    |zh-cn| 黑巫师之杖
+    |ja| 黒ウィザードの杖
 item.name.501
     |ko| 방호복
     |en| Basic Robe
@@ -4099,6 +4965,11 @@ item.name.534
     |en| Doric Robe
     |zh-cn| 多利安长袍
     |ja| ドリアンローブ
+item.name.535
+    |ko| 거대게 갑옷
+    |en| Giant Crab Armor
+    |zh-cn| 巨蟹甲
+    |ja| 巨大カニ鎧
 item.name.601
     |ko| 청동 갑옷
     |en| Bronze Armor
@@ -4199,11 +5070,31 @@ item.name.634
     |en| Raphael's Armor
     |zh-cn| 拉斐尔的甲
     |ja| ラファエルのアーマー
+item.name.635
+    |ko| 강철 고블린의 아머
+    |en| Steel Goblin's Armor
+    |zh-cn| 钢哥布林之甲
+    |ja| 鋼ゴブリンの鎧
 item.name.641
     |ko| 왕의 아머
     |en| King's Armor
     |zh-cn| 国王的盔甲
     |ja| 王の鎧
+item.name.642
+    |ko| 앤리아의 아모어
+    |en| Anria's Armor
+    |zh-cn| 安德里亚之甲
+    |ja| アンリアの鎧
+item.name.643
+    |ko| 검은 마법사 갑옷
+    |en| Black Wizard's Armor
+    |zh-cn| 黑巫师之甲
+    |ja| 黒ウィザードの鎧
+item.name.644
+    |ko| 광전사의 갑옷
+    |en| Berserker's Armor
+    |zh-cn| 狂战士的甲
+    |ja| バーサーカーの鎧
 item.name.701
     |ko| 나무반지
     |en| Wood Ring
@@ -4309,6 +5200,11 @@ item.name.743
     |en| King's Ring
     |zh-cn| 国王的戒指
     |ja| キングス・リング
+item.name.744
+    |ko| 앤리아의 링
+    |en| Anria's Ring
+    |zh-cn| 安德里亚之环
+    |ja| アンリアのリング
 item.name.801
     |ko| 나무 목걸이
     |en| Wooden Necklace
@@ -4409,6 +5305,31 @@ item.name.835
     |en| Doric Harp
     |zh-cn| 多利安哈普
     |ja| ドリアンハープ
+item.name.836
+    |ko| 고양이 방울
+    |en| Cat Bell
+    |zh-cn| 猫铃
+    |ja| キャットベル
+item.name.837
+    |ko| 튤립 정원 비밀
+    |en| The secret of Tulip Garden
+    |zh-cn| 郁金香花园的秘密
+    |ja| チューリップの庭の秘密
+item.name.838
+    |ko| 강철 고블린의 보석
+    |en| Steel Goblin's Stone
+    |zh-cn| 钢哥布林之宝石
+    |ja| 鋼ゴブリンの宝石
+item.name.841
+    |ko| 검은 마법사의 눈
+    |en| Black Wizard's Eyes
+    |zh-cn| 黑巫师之眼睛
+    |ja| 黒ウィザードの目
+item.name.842
+    |ko| 광전사의 목걸이
+    |en| Berserker's Medal
+    |zh-cn| 狂战士的项链
+    |ja| バーサーカーのネックレス
 
 
 #------------------------------------------------------------------------------
