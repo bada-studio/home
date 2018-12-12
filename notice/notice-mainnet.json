@@ -1,5 +1,17 @@
 [  
    {  
+      "id":38,
+      "titleKo":"1.5.0 Update",
+      "titleEn":"1.5.0 Update",
+      "titleImage":"https://eosknights.io/img/notice/notice1.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/boss3.png =600x280)\n# 1.5.0 Update \n보스 던전 일부 기능이 오픈했습니다. \n전체기능은 밸런스와 버그 점검 후 다음주 중 오픈 예정입니다. \n지연되어 죄송합니다.\n\n이번 버전에서 보스 던전 기능 일부를 미리 살펴 볼 수 있습니다.\n* 캐릭터의 스킬을 세팅할수 있습니다. \n* 무료 보스전 티켓을 미리 확보해 둘수 있습니다.\n* 신규 재료 15종을 확인 할 수 있습니다.\n* 신규 장비 29종을 확인 할 수 있습니다.\n\nDownload\n* [Android](https://eosknights.io/app/android/en/)\n* [iOS](https://eosknights.io/app/ios/en/)\n* Web: Refresh page\n\n개발중인 보스전의 영상은 여기서 볼 수 있습니다.\n[보스 던전 프리뷰](https://youtu.be/58cA3eLa0ck)\n\n# 장비 최대 레벨업이 6으로 상향\n최대 장비 레벨이 6으로 상향되었습니다. \n* 5에서 6레벨로 장비를 업그레이드 시킬때 30%의 확율로 성공합니다. \n* 성공시 기존(5레벨) 총 160% 보너스에서 240% 보너스로 기본스탯의 추가 80%가 부여됩니다.\n* 레벨업에 실패하면 레벨업시 사용된 재료 장비가 파괴됩니다.\n* 실패시 매직 워터가 50% 소모됩니다.\n\n# 개선사항\n## 내장지갑\n키를 기존 3개에서 최대 5개까지 입력할 수 있게 변경되었습니다.\n\n## 재료, 아이템 new 마크\n간혹 부할이나 펫 귀환후 데이터 로딩에 실패하면서 재료들을 수집해 오지 않는것 처럼 보이는 현상이 있습니다. 실제로는 재료들을 가져왔지만 재접속 후에는 재료 탭에서 new 표시가 되지 않기 때문에 어떤 것을 받아왔는지 알 수 없었습니다. 재접속했을 때 그전에 접속 했을 때 없었던 재료가 있으면 new표시가 표시되도록 개선했습니다.\n\n## 마켓 검색 버그\n간혹 잘못된 재료가 표시되는 버그가 수정되었습니다.\n\n## 보안 강화\n스크립트 봇 방지를 위해 체크썸 기능이 조금 변경 되었습니다. 변경된 체크썸은 시간을 이용합니다. 따라서 폰이나 PC의 시간이 정상 시간과 맞지 않으면 일부 action이 실패합니다. 게임을 이용하시기 전에 PC나 폰의 시간이 정확한지 확인 부탁드립니다.",
+      "bodyEn":"![](https://eosknights.io/img/notice/boss3.png =600x280)\n# 1.5.0 Update \nSome features of Boss Dungeon have been opened.\nThe full features will be opened next week after checking balance and bugs more.\nSorry for the delay.\n\nYou can preview some boss features.\n* You can set your character's skill.\n* You can get a free boss ticket or craft tickets.\n* You can check new 15 materials.\n* You can check new 29 items.\n\nDownload here\n* [Android](https://eosknights.io/app/android/en/)\n* [iOS](https://eosknights.io/app/ios/en/)\n* Web: Refresh page\n\nCheck this video.\n[Boss Dungeon Preview](https://youtu.be/58cA3eLa0ck)\n\n# Increased item maximum level to 6\n* Success with a 30% chance.\n* On success, you can get additional 80% stats of the base stats.\n* On failure, the material items used during level-up will be destroyed.\n* On failure, 50% of magic water will be consumed.\n\n# Improvements\n## built-in wallet accounts\nIncreased the maximum number of accounts from 3 to 5.\n\n## Material and item's new mark\nSometimes there seems to be a failure to get materials after returning pets or rebirth. It actually brings some materials, but after reconnecting we can not tell what was received because there is no new mark at the new material or item. After reconnecting if there are some new materials or item, new marks will be displayed.\n\n## Searching bug on market\nFixed a bug that sometimes displays an incorrect result.\n\n## Checksum\nChecksum functionality has been slightly changed to prevent script bots. The changed checksum uses the time. Therefore, some actions will fail if the local time on the phone or PC does not match. Before using the game, please check whether the time of PC or phone is correct.",
+      "datetime":"2018-12-12T00:00:00.000",
+      "expiration":"2018-12-14T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":37,
       "titleKo":"아이템 제작이벤트",
       "titleEn":"Item Craft Evet",
