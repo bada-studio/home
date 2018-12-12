@@ -1882,11 +1882,36 @@ item.sts.done
     |en| Item synthesis is completed.
     |zh-cn| 道具合成已完成。
     |ja| アイテム強化が完了しました。
+item.level.up.done.title
+    |ko| 성공!
+    |en| Success!
+    |zh-cn| 成功！
+    |ja| 成功！
+item.level.up.failure.title
+    |ko| 실패!
+    |en| Failure!
+    |zh-cn| 失败！
+    |ja| 失敗！
+item.level.up.failure.desc
+    |ko| 사용된 재료 아이템이 파괴됩니다.\n매직워터 50%가 소모되었습니다.
+    |en| The used material item is destroyed.\n50% of Magic Water was consumed.
+    |zh-cn| 使用过的材料项目被销毁。\n50％的Magic Water被消耗掉了。
+    |ja| 使用された材料アイテムが破壊されます。\nマジックウォーターの50％が消費されました。    
 item.level.up.done
     |ko| 아이템 레벨업이 완료되었습니다.
     |en| Item level up is complete.
     |zh-cn| 道具升级已完成。
     |ja| アイテムレベルアップが完了しました。
+item.level.up.failed
+    |ko| 아이템 레벨업에 실패했습니다.
+    |en| Item level up is failed.
+    |zh-cn| 道具升级失败。
+    |ja| アイテムレベルアップに失敗しました
+item.level.up.rate
+    |ko| 성공 확률: <color="#0072bc">{0:0.##}%</color>
+    |en| Probability of success: <color="#0072bc">{0:0.##}%</color>
+    |zh-cn| 成功的可能性: <color="#0072bc">{0:0.##}%</color>
+    |ja| 成功確率: <color="#0072bc">{0:0.##}%</color>
 item.synthesis.warn.score
     |ko| 재료의 점수가 더 높습니다. 그래도 강화 하시겠습니까?
     |en| The ingredient item score is higher. Would you synthesize it though?
@@ -3040,6 +3065,11 @@ dungeon.mode.Hard
     |en| Hard
     |zh-cn| 硬
     |ja| ハード
+dungeon.mode.Hell
+    |ko| 헬
+    |en| Hell
+    |zh-cn| 地狱
+    |ja| 地獄
 
 #------------------------------------------------------------------------------
 # dungeon detail
@@ -3499,9 +3529,9 @@ skill.desc.32
     |zh-cn| 本回合你的攻击力提高{1}％。
     |ja| このターン、あなたの攻撃を{1}％増加させる。 
 skill.desc.33
-    |ko| 기사의 체력을 {0}% 회복합니다.
-    |en| Heals {0}% the knight health
-    |zh-cn| 治疗骑士生命值{0}％
+    |ko| 기사의 체력을 {0} 회복합니다.
+    |en| Heals {0} the knight health
+    |zh-cn| 治疗骑士生命值{0}
     |ja| 騎士の健康{0}％を回復します
 skill.desc.34
     |ko| 적에게 {0}의 피해를 주고, 이후 {1} 턴간 {2}%의 방어력을 감소시킵니다.
@@ -3684,8 +3714,8 @@ raw.material.name.6
     |zh-cn| 孔雀羽毛
     |ja| クジャクの羽
 raw.material.name.7
-    |ko| 독개구리
-    |en| Poison Frog
+    |ko| 개구리 독
+    |en| Frog Poison
     |zh-cn| 毒蛙
     |ja| 毒ガエル
 raw.material.name.8
