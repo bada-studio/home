@@ -88,10 +88,17 @@
       <div class="chart-container">
         <canvas id="shapshotChart" width="400" height="200"></canvas>
       </div>
+      <br/>
       <h6>Delta</h6>
       <div class="chart-container">
         <canvas id="deltaChart" width="400" height="200"></canvas>
       </div>
+      </br>
+      <h6>Account Delta</h6>
+      <div class="chart-container">
+        <canvas id="accountDeltaChart" width="400" height="200"></canvas>
+      </div>
+
     </div>
 
     <script>
@@ -112,7 +119,8 @@
             knight: parseFloat(data[i].knight),
             matIventoryUp: parseFloat(data[i].matIventoryUp),
             materialTax: parseFloat(data[i].materialTax),
-            mp: parseFloat(data[i].mp)
+            mp: parseFloat(data[i].mp),
+            userCount: parseInt(data[i].userCount)
           });
         } else {
           logs[logs.length-1].itemIventoryUp = parseFloat(data[i].itemIventoryUp);
@@ -121,6 +129,7 @@
           logs[logs.length-1].matIventoryUp = parseFloat(data[i].matIventoryUp);
           logs[logs.length-1].materialTax = parseFloat(data[i].materialTax);
           logs[logs.length-1].mp = parseFloat(data[i].mp);
+          logs[logs.length-1].userCount = parseInt(data[i].userCount);
         }
       }
       
@@ -131,15 +140,17 @@
       var materialTax = [];
       var mp = [];
       var labels = [];
+      var userCount = [];
 
       for (i = 0; i < logs.length; i++) { 
         labels.push(logs[i].created);
-        itemIventoryUp.push(logs[i].itemIventoryUp);
-        itemTax.push(logs[i].itemTax);
-        knight.push(logs[i].knight);
-        matIventoryUp.push(logs[i].matIventoryUp);
-        materialTax.push(logs[i].materialTax);
-        mp.push(logs[i].mp);
+        itemIventoryUp.push(parseInt(logs[i].itemIventoryUp));
+        itemTax.push(parseInt(logs[i].itemTax));
+        knight.push(parseInt(logs[i].knight));
+        matIventoryUp.push(parseInt(logs[i].matIventoryUp));
+        materialTax.push(parseInt(logs[i].materialTax));
+        mp.push(parseInt(logs[i].mp));
+        userCount.push(parseInt(logs[i].userCount));
       }
 
       var ctx = document.getElementById("shapshotChart");
@@ -217,7 +228,8 @@
             knight: parseFloat(data[i].knight),
             matIventoryUp: parseFloat(data[i].matIventoryUp),
             materialTax: parseFloat(data[i].materialTax),
-            mp: parseFloat(data[i].mp)
+            mp: parseFloat(data[i].mp),
+            userCount: parseInt(data[i].userCount)
           });
         } else {
           logs[logs.length-1].itemIventoryUp += parseFloat(data[i].itemIventoryUp);
@@ -226,6 +238,7 @@
           logs[logs.length-1].matIventoryUp += parseFloat(data[i].matIventoryUp);
           logs[logs.length-1].materialTax += parseFloat(data[i].materialTax);
           logs[logs.length-1].mp += parseFloat(data[i].mp);
+          logs[logs.length-1].userCount += parseInt(data[i].userCount);
         }
       }
       
@@ -236,15 +249,17 @@
       var materialTax = [];
       var mp = [];
       var labels = [];
+      var userCount = [];
 
       for (i = 0; i < logs.length; i++) { 
-        labels.push(logs[i].created);
-        itemIventoryUp.push(logs[i].itemIventoryUp);
-        itemTax.push(logs[i].itemTax);
-        knight.push(logs[i].knight);
-        matIventoryUp.push(logs[i].matIventoryUp);
-        materialTax.push(logs[i].materialTax);
-        mp.push(logs[i].mp);
+        labels.push(parseInt(logs[i].created));
+        itemIventoryUp.push(parseInt(logs[i].itemIventoryUp));
+        itemTax.push(parseInt(logs[i].itemTax));
+        knight.push(parseInt(logs[i].knight));
+        matIventoryUp.push(parseInt(logs[i].matIventoryUp));
+        materialTax.push(parseInt(logs[i].materialTax));
+        mp.push(parseInt(logs[i].mp));
+        userCount.push(parseInt(logs[i].userCount));
       }
 
       var ctx = document.getElementById("deltaChart");
@@ -296,6 +311,32 @@
           scales: {
             yAxes: [{
               stacked: true,
+              ticks: {
+                beginAtZero:true
+              }
+            }]
+          }
+        }
+      });
+
+      var ctx2 = document.getElementById("accountDeltaChart");
+      var accountDeltaChart = new Chart(ctx2, {
+        type: 'line',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'Account Count',
+            data: userCount,
+            backgroundColor: 'rgba(255, 99, 132, 1)',
+            borderColor: 'rgba(255,99,132,1)',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: true,
+          scales: {
+            yAxes: [{
               ticks: {
                 beginAtZero:true
               }
