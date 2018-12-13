@@ -91,7 +91,7 @@
       <br/>
       <h6>Delta</h6>
       <div class="chart-container">
-        <canvas id="deltaChart" width="400" height="220"></canvas>
+        <canvas id="deltaChart" width="400" height="240"></canvas>
       </div>
       </br>
       <h6>Account Delta</h6>
@@ -411,10 +411,7 @@
               }
 
               // Draw the text in black, with the specified font
-              ctx.fillStyle = 'rgb(0, 0, 0, 0.5)';
-              if (index >= meta.data.length - 3) {
-                ctx.fillStyle = 'rgb(0, 0, 0, 1)';
-              }
+              ctx.fillStyle = 'rgb(0, 0, 0)';
 
               var fontSize = '8';
               var fontStyle = 'normal';
