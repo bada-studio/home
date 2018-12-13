@@ -16,10 +16,11 @@
 
     <link as=style href=js/chart/css/app.339a5c38.css rel=preload>
     <link as=style href=js/chart/css/chunk-vendors.a2442821.css rel=preload>
-    <link as=script href=js/chart/js/app.774548ed.js rel=preload>
-    <link as=script href=js/chart/js/chunk-vendors.e270cabf.js rel=preload>
     <link href=js/chart/css/app.339a5c38.css rel=stylesheet>
     <link href=js/chart/css/chunk-vendors.a2442821.css rel=stylesheet>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
   </head>
 
   <body>
@@ -79,20 +80,242 @@
         <p class="balance">{{ adminstate.dividend }}<p>
 
       </div>
+
     </main>
 
-    <div id=chart></div>
+    <div class="container" id="app">
+      <h6>Revenue</h6>
+      <div class="chart-container">
+        <canvas id="shapshotChart" width="400" height="200"></canvas>
+      </div>
+      <h6>Delta</h6>
+      <div class="chart-container">
+        <canvas id="deltaChart" width="400" height="200"></canvas>
+      </div>
+    </div>
+
+    <script>
+    $.ajax({
+      url: "https://api.eosknights.io/api/v1/revenue/revenues/hourly-snapshots",
+      type: "post",
+      data: JSON.stringify({from:0, size:1000}),
+      contentType: "application/json"
+    }).done(function(data) {
+      var logs = [];
+
+      for (i = 0; i < data.length; i++) { 
+        if (logs.length == 0 || logs[logs.length-1].created != data[i].created) {
+          logs.push({
+            created: data[i].created,
+            itemIventoryUp: parseFloat(data[i].itemIventoryUp),
+            itemTax: parseFloat(data[i].itemTax),
+            knight: parseFloat(data[i].knight),
+            matIventoryUp: parseFloat(data[i].matIventoryUp),
+            materialTax: parseFloat(data[i].materialTax),
+            mp: parseFloat(data[i].mp)
+          });
+        } else {
+          logs[logs.length-1].itemIventoryUp = parseFloat(data[i].itemIventoryUp);
+          logs[logs.length-1].itemTax = parseFloat(data[i].itemTax);
+          logs[logs.length-1].knight = parseFloat(data[i].knight);
+          logs[logs.length-1].matIventoryUp = parseFloat(data[i].matIventoryUp);
+          logs[logs.length-1].materialTax = parseFloat(data[i].materialTax);
+          logs[logs.length-1].mp = parseFloat(data[i].mp);
+        }
+      }
+      
+      var itemIventoryUp = [];
+      var itemTax = [];
+      var knight = [];
+      var matIventoryUp = [];
+      var materialTax = [];
+      var mp = [];
+      var labels = [];
+
+      for (i = 0; i < logs.length; i++) { 
+        labels.push(logs[i].created);
+        itemIventoryUp.push(logs[i].itemIventoryUp);
+        itemTax.push(logs[i].itemTax);
+        knight.push(logs[i].knight);
+        matIventoryUp.push(logs[i].matIventoryUp);
+        materialTax.push(logs[i].materialTax);
+        mp.push(logs[i].mp);
+      }
+
+      var ctx = document.getElementById("shapshotChart");
+      var shapshotChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'Magic Water',
+            data: mp,
+            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+            borderColor: 'rgba(255,99,132,1)',
+            borderWidth: 1
+          }, {
+            label: 'Knight',
+            data: knight,
+            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+            borderColor: 'rgba(54, 162, 235, 1)',
+            borderWidth: 1
+          }, {
+            label: 'ItemTax',
+            data: itemTax,
+            backgroundColor: 'rgba(255, 206, 86, 0.2)',
+            borderColor: 'rgba(255, 206, 86, 1)',
+            borderWidth: 1
+          }, {
+            label: 'MaterialTax',
+            data: materialTax,
+            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+            borderColor: 'rgba(75, 192, 192, 1)',
+            borderWidth: 1
+          }, {
+            label: 'ItemIventoryUp',
+            data: itemIventoryUp,
+            backgroundColor: 'rgba(153, 102, 255, 0.2)',
+            borderColor: 'rgba(153, 102, 255, 1)',
+            borderWidth: 1
+          }, {
+            label: 'MaterialIventoryUp',
+            data: matIventoryUp,
+            backgroundColor: 'rgba(255, 159, 64, 0.2)',
+            borderColor: 'rgba(255, 159, 64, 1)',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: true,
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero:true
+              }
+            }]
+          }
+        }
+      });
+    });
+
+
+    $.ajax({
+      url: "https://api.eosknights.io/api/v1/revenue/revenues/hourly-variations",
+      type: "post",
+      data: JSON.stringify({from:0, size:1000}),
+      contentType: "application/json"
+    }).done(function(data) {
+      var logs = [];
+
+      for (i = 0; i < data.length; i++) { 
+        if (logs.length == 0 || logs[logs.length-1].created != data[i].created) {
+          logs.push({
+            created: data[i].created,
+            itemIventoryUp: parseFloat(data[i].itemIventoryUp),
+            itemTax: parseFloat(data[i].itemTax),
+            knight: parseFloat(data[i].knight),
+            matIventoryUp: parseFloat(data[i].matIventoryUp),
+            materialTax: parseFloat(data[i].materialTax),
+            mp: parseFloat(data[i].mp)
+          });
+        } else {
+          logs[logs.length-1].itemIventoryUp += parseFloat(data[i].itemIventoryUp);
+          logs[logs.length-1].itemTax += parseFloat(data[i].itemTax);
+          logs[logs.length-1].knight += parseFloat(data[i].knight);
+          logs[logs.length-1].matIventoryUp += parseFloat(data[i].matIventoryUp);
+          logs[logs.length-1].materialTax += parseFloat(data[i].materialTax);
+          logs[logs.length-1].mp += parseFloat(data[i].mp);
+        }
+      }
+      
+      var itemIventoryUp = [];
+      var itemTax = [];
+      var knight = [];
+      var matIventoryUp = [];
+      var materialTax = [];
+      var mp = [];
+      var labels = [];
+
+      for (i = 0; i < logs.length; i++) { 
+        labels.push(logs[i].created);
+        itemIventoryUp.push(logs[i].itemIventoryUp);
+        itemTax.push(logs[i].itemTax);
+        knight.push(logs[i].knight);
+        matIventoryUp.push(logs[i].matIventoryUp);
+        materialTax.push(logs[i].materialTax);
+        mp.push(logs[i].mp);
+      }
+
+      var ctx = document.getElementById("deltaChart");
+      var deltaChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'Magic Water',
+            data: mp,
+            backgroundColor: 'rgba(255, 99, 132, 1)',
+            borderColor: 'rgba(255,99,132,1)',
+            borderWidth: 1
+          }, {
+            label: 'Knight',
+            data: knight,
+            backgroundColor: 'rgba(54, 162, 235, 1)',
+            borderColor: 'rgba(54, 162, 235, 1)',
+            borderWidth: 1
+          }, {
+            label: 'ItemTax',
+            data: itemTax,
+            backgroundColor: 'rgba(255, 206, 86, 1)',
+            borderColor: 'rgba(255, 206, 86, 1)',
+            borderWidth: 1
+          }, {
+            label: 'MaterialTax',
+            data: materialTax,
+            backgroundColor: 'rgba(75, 192, 192, 1)',
+            borderColor: 'rgba(75, 192, 192, 1)',
+            borderWidth: 1
+          }, {
+            label: 'ItemIventoryUp',
+            data: itemIventoryUp,
+            backgroundColor: 'rgba(153, 102, 255, 1)',
+            borderColor: 'rgba(153, 102, 255, 1)',
+            borderWidth: 1
+          }, {
+            label: 'MaterialIventoryUp',
+            data: matIventoryUp,
+            backgroundColor: 'rgba(255, 159, 64, 1)',
+            borderColor: 'rgba(255, 159, 64, 1)',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: true,
+          scales: {
+            yAxes: [{
+              stacked: true,
+              ticks: {
+                beginAtZero:true
+              }
+            }]
+          }
+        }
+      });
+    });
+
+
+    </script>    
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/vue/vue.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/axios/axios.min.js"></script>
     <script src="js/dashboard.js"></script>
 
-    <script src=js/chart/js/app.774548ed.js></script>
-    <script src=js/chart/js/chunk-vendors.e270cabf.js></script>
 
+    
   </body>
 </html>
