@@ -1,4 +1,4 @@
-function toEos(text) {
+function parseEos(text) {
     return parseFloat(text.replace(" EOS","")); 
 }
 
@@ -8,7 +8,7 @@ var app = new Vue({
   data: {
     adminstate: [],
     balance: [],
-    total: [],
+    total: "",
     connectionUserCount: 0
   },
   created: function () {
@@ -34,8 +34,10 @@ var app = new Vue({
     }).then(function(response) {
         var row = response.data.rows[0];
         this.adminstate = row;
-        this.total = toEos(row.player_deposit) 
-                   + toEos(row.revenue);
+        var all = parseEos(row.expenses) 
+                  + parseEos(row.revenue)
+                  + parseEos(row.dividend);
+        this.total = Number(all).toFixed(4) + " EOS";
     }.bind(this))
     .catch(function(e) {
         this.errors.push(e)
