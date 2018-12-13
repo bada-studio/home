@@ -143,7 +143,7 @@
       var userCount = [];
 
       for (i = 0; i < logs.length; i++) { 
-        labels.push(logs[i].created);
+        labels.push(logs[i].created.substring(5));
         itemIventoryUp.push(parseInt(logs[i].itemIventoryUp));
         itemTax.push(parseInt(logs[i].itemTax));
         knight.push(parseInt(logs[i].knight));
@@ -252,7 +252,7 @@
       var userCount = [];
 
       for (i = 0; i < logs.length; i++) { 
-        labels.push(parseInt(logs[i].created));
+        labels.push(logs[i].created.substring(5));
         itemIventoryUp.push(parseInt(logs[i].itemIventoryUp));
         itemTax.push(parseInt(logs[i].itemTax));
         knight.push(parseInt(logs[i].knight));
