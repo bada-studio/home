@@ -13,6 +13,14 @@
 
     <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
+
+    <link as=style href=js/chart/css/app.339a5c38.css rel=preload>
+    <link as=style href=js/chart/css/chunk-vendors.a2442821.css rel=preload>
+    <link href=js/chart/css/app.339a5c38.css rel=stylesheet>
+    <link href=js/chart/css/chunk-vendors.a2442821.css rel=stylesheet>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
   </head>
 
   <body>
@@ -29,11 +37,11 @@
             <li class="nav-item">
               <a class="nav-link" href="dashboard.html">Balance</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="stat.html">Statistics</a>
-            </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Expense</a>
+              <a class="nav-link" href="#">Statistics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="expenses.html">Expense</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="dividend.html">Dividend</a>
@@ -43,45 +51,34 @@
       </nav>
     </header>
 
-    <!-- Begin page content -->
     <main role="main" class="container" id="app">
-      <h1 class="balance mt-5">{{ adminstate.expenses }}</h1>
-      <p>전체 운영비 지출 액수</p>
-
-      <h1 class="mt-5">Expenses Logs</h1>
-      <p>최근 100개의 운영비 지출 내역을 가져옵니다.</p>
-
-      <div>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">시간</th>
-              <th scope="col">비용</th>
-              <th scope="col">사용처</th>
-              <th scope="col">메모</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="expense in expenseslog">
-              <td>{{ moment((expense.at + 1500000000) * 1000).format('l') }}</td>
-              <td>{{ expense.amount }}</td>
-              <td>{{ expense.to }}</td>
-              <td>{{ expense.memo }}</td>
-            </tr>
-          </tbody>
-        </table>      
-      </div>
-
+      <h1 class="balance mt-5" id="totalCount">0</h1>
+      <p>부활을 1번 이상한 유저의 수입니다.</p>
     </main>
 
+    <!-- Begin page content -->
+    <div class="container" id="app">
+      <h6>층수별 히스토그램</h6>
+      <div class="chart-container">
+        <canvas id="histogramChart" width="400" height="220"></canvas>
+      </div>
+      <br/>
+      <h6>구간별 스탯</h6>
+      <div class="chart-container">
+        <canvas id="statChart" width="400" height="240"></canvas>
+      </div>
+      </br>
+
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/vue/vue.min.js"></script>
-    <script src="vendor/moment/moment-with-locales.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/axios/axios.min.js"></script>
-    <script src="js/expenses.js"></script>
+    <script src="js/stat.js"></script>
+
+
+    
   </body>
 </html>

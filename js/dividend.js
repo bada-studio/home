@@ -6,7 +6,7 @@ var app = new Vue({
     dividendlog: []
   },
   created: function () {
-    var baseUrl = "https://rpc.eosys.io:443";
+    var baseUrl = "https://api.eoseoul.io";
 
     axios({
       method: 'POST',
@@ -16,6 +16,7 @@ var app = new Vue({
       },
       data: {
         json: true,
+        reverse: true,
         code: "eosknightsio",
         scope: "eosknightsio",
         table: "adminstate",
@@ -40,13 +41,14 @@ var app = new Vue({
       },
       data: {
         json: true,
+        reverse: true,
         code: "eosknightsio",
         scope: "eosknightsio",
         table: "dividendlog",
         table_key: "",
         lower_bound: "",
-        upper_bound: "-1",
-        limit: 20
+        upper_bound: "",
+        limit: 100
       }
     }).then(function(response) {
         console.log(response.data.rows[0]);

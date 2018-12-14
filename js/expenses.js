@@ -6,7 +6,7 @@ var app = new Vue({
     expenseslog: []
   },
   created: function () {
-    var baseUrl = "https://rpc.eosys.io:443";
+    var baseUrl = "https://api.eoseoul.io";
 
     axios({
       method: 'POST',
@@ -16,6 +16,7 @@ var app = new Vue({
       },
       data: {
         json: true,
+        reverse: true,
         code: "eosknightsio",
         scope: "eosknightsio",
         table: "adminstate",
@@ -40,6 +41,7 @@ var app = new Vue({
       },
       data: {
         json: true,
+        reverse: true,
         code: "eosknightsio",
         scope: "eosknightsio",
         table: "expenseslog",
