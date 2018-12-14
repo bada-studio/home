@@ -66,7 +66,7 @@
         <h6>전체 수익</h6>
         <p class="balance">{{ total }}<p>
 
-        <h6>비분배 수익</h6>
+        <h6>미분배 수익</h6>
         <p class="balance">{{ adminstate.revenue }}<p>
 
         <h6>분배 수익</h6>
@@ -84,17 +84,17 @@
     </main>
 
     <div class="container" id="app">
-      <h6>Revenue</h6>
+      <h6>누적 수익</h6>
       <div class="chart-container">
         <canvas id="shapshotChart" width="400" height="220"></canvas>
       </div>
       <br/>
-      <h6>Delta</h6>
+      <h6>데일리 수익</h6>
       <div class="chart-container">
         <canvas id="deltaChart" width="400" height="240"></canvas>
       </div>
       </br>
-      <h6>Account Delta</h6>
+      <h6>데일리 신규 가입자</h6>
       <div class="chart-container">
         <canvas id="accountDeltaChart" width="400" height="220"></canvas>
       </div>
@@ -169,38 +169,51 @@
           datasets: [{
             label: 'M-Water',
             data: mp,
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+            backgroundColor: 'rgba(255, 99, 132, 0)',
             borderColor: 'rgba(255,99,132,1)',
+            yAxisID: 'y-axis-1',
             borderWidth: 1
           }, {
             label: 'Knight',
             data: knight,
-            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+            backgroundColor: 'rgba(54, 162, 235, 0)',
             borderColor: 'rgba(54, 162, 235, 1)',
+            yAxisID: 'y-axis-1',
             borderWidth: 1
           }, {
             label: 'Tax-Item',
             data: itemTax,
-            backgroundColor: 'rgba(255, 206, 86, 0.2)',
+            backgroundColor: 'rgba(255, 206, 86, 0)',
             borderColor: 'rgba(255, 206, 86, 1)',
+            yAxisID: 'y-axis-1',
             borderWidth: 1
           }, {
             label: 'Tax-Mat',
             data: materialTax,
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+            backgroundColor: 'rgba(75, 192, 192, 0)',
             borderColor: 'rgba(75, 192, 192, 1)',
+            yAxisID: 'y-axis-1',
             borderWidth: 1
           }, {
             label: 'Ivn-Item',
             data: itemIventoryUp,
-            backgroundColor: 'rgba(153, 102, 255, 0.2)',
+            backgroundColor: 'rgba(153, 102, 255, 0)',
             borderColor: 'rgba(153, 102, 255, 1)',
+            yAxisID: 'y-axis-1',
             borderWidth: 1
           }, {
             label: 'Ivn-Material',
             data: matIventoryUp,
-            backgroundColor: 'rgba(255, 159, 64, 0.2)',
+            backgroundColor: 'rgba(255, 159, 64, 0)',
+            yAxisID: 'y-axis-1',
             borderColor: 'rgba(255, 159, 64, 1)',
+            borderWidth: 1
+          }, {
+            label: 'Account',
+            data: userCount,
+            backgroundColor: 'rgba(255, 255, 255, 0)',
+            yAxisID: 'y-axis-2',
+            borderColor: 'rgba(0, 0, 0, 0.5)',
             borderWidth: 1
           }]
         },
@@ -209,6 +222,16 @@
           maintainAspectRatio: true,
           scales: {
             yAxes: [{
+              id: 'y-axis-1',
+              position: 'left',
+              stacked: false,
+              ticks: {
+                beginAtZero:true
+              }
+            }, {
+              id: 'y-axis-2',
+              position: 'right',
+              display: true,
               ticks: {
                 beginAtZero:true
               }
