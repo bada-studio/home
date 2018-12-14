@@ -4538,7 +4538,7 @@ raw.material.name.47
     |en| Smilodon Tooth
     |zh-cn| 剑齿虎牙齿
     |ja| スミロドンの牙
-    |en| Зуб Смилодона
+    |ru| Зуб Смилодона
 raw.material.name.48
     |ko| 익룡의 발톱
     |en| Pterosaur Claw
