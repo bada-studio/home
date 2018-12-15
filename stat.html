@@ -53,7 +53,20 @@
 
     <main role="main" class="container" id="app">
       <h1 class="balance mt-5" id="totalCount">0</h1>
-      <p>부활을 1번 이상한 유저의 수입니다.</p>
+      <p>10층이상 도달한 유저의 수입니다. 아래 차트는 이 유저들을 대상으로 합니다.</p>
+      <div>
+        <h6>부활이 없었던 유저</h6>
+        <p id="player0FCount" class="balance">0</p>
+
+        <h6>1~10층 사이 유저</h6>
+        <p id="playerLt10FCount" class="balance">0</p>
+
+        <h6>기사를 1개라도 구매한 유저</h6>
+        <p id="playerWhoHasKnightCount" class="balance">0</p>
+
+        <h6>전체 기사 갯수</h6>
+        <p id="knightCount" class="balance">0</p>
+      </div>      
     </main>
 
     <!-- Begin page content -->

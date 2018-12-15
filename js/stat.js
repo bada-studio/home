@@ -87,18 +87,37 @@ async function run() {
   let url = "https://api.eoseoul.io";
   let players = await fetchPlayer(url);
   let knights = await fetchKnights(url);
-  console.log(players);
-  console.log(knights);
-
   let groups = new Map();
+  let counts = {
+    player0F: 0,
+    playerLt10F: 0,
+    playerWhoHasKnight: 0,
+    knight: 0,
+  };
+
 
   // grouping
   for (let [key, value] of players) {
-    if (value.maxfloor == 0) {
+    // knt
+    let knt = {};
+    if (knights.has(key)) {
+      knt = knights.get(key);
+      counts.playerWhoHasKnight++;
+      counts.knight += knt.rows.length;
+    }
+
+    if (value.maxfloor < 5) {
+      if (value.maxfloor == 0) { 
+        counts.player0F++;
+      } else {
+        counts.playerLt10F++;
+      }
       continue;
     }
 
-    var knt = knights.get(key);
+    if (!knights.has(key)) {
+      continue;
+    }
 
     var level = parseInt(value.maxfloor / 100);
     if (!groups.has(level)) {
@@ -151,7 +170,7 @@ async function run() {
     return a.key - b.key;
   });
 
-  return result;
+  return {result: result, counts: counts};
 }
 
 async function drawChart() {
@@ -164,8 +183,9 @@ async function drawChart() {
   let level = [];
   let luck = [];
   let totalCount = 0;
+  let share = [];
 
-  for (let value of groups) {
+  for (let value of groups.result) {
     labels.push(value.key * 100);
     count.push(value.players.length);
     level.push(value.stat.level);
@@ -178,6 +198,12 @@ async function drawChart() {
     totalCount += value.players.length;
   }
 
+  let sum = 0;
+  for (let value of count) {
+    sum += value;
+    share.push(sum / totalCount * 100);
+  }
+
   let ctx = document.getElementById("histogramChart");
   let histogramChart = new Chart(ctx, {
     type: 'line',
@@ -188,6 +214,14 @@ async function drawChart() {
         data: count,
         backgroundColor: 'rgba(255, 99, 132, 0)',
         borderColor: 'rgba(255,99,132,1)',
+        borderWidth: 1,
+        yAxisID: 'y-axis-1',
+      }, {
+        label: 'share',
+        data: share,
+        backgroundColor: 'rgba(54, 162, 235, 0)',
+        borderColor: 'rgba(54, 162, 235, 1)',
+        yAxisID: 'y-axis-2',
         borderWidth: 1
       }]
     },
@@ -196,6 +230,16 @@ async function drawChart() {
       maintainAspectRatio: true,
       scales: {
         yAxes: [{
+          id: 'y-axis-1',
+          ticks: {
+            beginAtZero:true,
+            min: 0,
+            max: 700,
+          }
+        }, {
+          id: 'y-axis-2',
+          position: 'right',
+          display: true,
           ticks: {
             beginAtZero:true
           }
@@ -270,6 +314,10 @@ async function drawChart() {
   });
 
   $("#totalCount").text(totalCount);
+  $("#player0FCount").text(groups.counts.player0F);
+  $("#playerLt10FCount").text(groups.counts.playerLt10F);
+  $("#playerWhoHasKnightCount").text(groups.counts.playerWhoHasKnight);
+  $("#knightCount").text(groups.counts.knight);
 }
 
 drawChart();
