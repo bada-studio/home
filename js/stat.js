@@ -313,12 +313,25 @@ async function drawChart() {
     }
   });
 
+  let text = "F,attack,defense,hp,luck\n";
+  for(let index = 0; index < groups.result.length; index++) {
+    const key = groups.result[index].key * 100;
+    const atv = attack[index];
+    const dfv = defense[index];
+    const hpv = hp[index];
+    const lkv = luck[index];
+    text += `${key},${atv},${dfv},${hpv},${lkv}\n`;
+  }
+
+
   $("#totalCount").text(totalCount);
   $("#player0FCount").text(groups.counts.player0F);
   $("#playerLt10FCount").text(groups.counts.playerLt10F);
   $("#playerWhoHasKnightCount").text(groups.counts.playerWhoHasKnight);
   $("#knightCount").text(groups.counts.knight);
+  $("#export").prop("href", 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
 }
+
 
 drawChart();
 
