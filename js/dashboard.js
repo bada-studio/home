@@ -388,7 +388,7 @@ Chart.plugins.register({
       var meta = chart.getDatasetMeta(i);
       if (!meta.hidden) {
         meta.data.forEach(function(element, index) {
-          if (dataset.label == "Cumulated") {
+          if (dataset.label == "Cumulated" || chart.data.datasets.length <= 2) {
             if ((index % 4) != 1 && index < meta.data.length - 1) {
               return;
             }
