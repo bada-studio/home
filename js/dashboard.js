@@ -240,6 +240,14 @@ async function drawChart() {
         pointRadius: 0,
         yAxisID: 'y-axis-2',
       }, {
+        label: 'Sum',
+        data: dailySum,
+        backgroundColor: 'rgba(0, 0, 0, 0)',
+        borderColor: 'rgba(0, 0, 0, 0.1)',
+        borderWidth: 1,
+        pointRadius: 0,
+        yAxisID: 'y-axis-3',
+      }, {
         label: 'M-Water',
         data: mp,
         backgroundColor: 'rgba(255, 99, 132, 1)',
@@ -307,6 +315,13 @@ async function drawChart() {
           ticks: {
             beginAtZero:true
           }
+        }, {
+          id: 'y-axis-3',
+          position: 'right',
+          display: false,
+          ticks: {
+            beginAtZero:true
+          }
         }]
       }
     }
@@ -366,19 +381,29 @@ Chart.plugins.register({
     var ctx = chart.ctx;
 
     chart.data.datasets.forEach(function(dataset, i) {
-      if (chart.data.datasets.length > 2 && dataset.label != "Cumulated") {
+      if (chart.data.datasets.length > 2 && dataset.label != "Cumulated" && dataset.label != "Sum") {
         return;
       }
 
       var meta = chart.getDatasetMeta(i);
       if (!meta.hidden) {
         meta.data.forEach(function(element, index) {
-          if ((index % 4) != 1 && index < meta.data.length - 1) {
-            return;
+          if (dataset.label == "Cumulated") {
+            if ((index % 4) != 1 && index < meta.data.length - 1) {
+              return;
+            }
+          } else if (dataset.label == "Sum") {
+            if ((index % 4) != 3) {
+              return;
+            }
           }
 
           // Draw the text in black, with the specified font
-          ctx.fillStyle = 'rgb(0, 0, 0)';
+          if (dataset.label == "Sum") {
+            ctx.fillStyle = 'rgb(0, 51, 204)';
+          } else {
+            ctx.fillStyle = 'rgb(0, 0, 0)';
+          }
 
           var fontSize = '10';
           var fontStyle = 'normal';
