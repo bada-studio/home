@@ -54,31 +54,31 @@
     <!-- Begin page content -->
     <main role="main" class="container" id="app">
       <h1 class="balance mt-5">{{ balance.balance }}</h1>
-      <p>컨트랙트 계좌에 유지하고 있는 EOS 잔액입니다.</p>
+      <p>Current balance in contract</p>
 
       <h1 class="mt-5">Assets</h1>
 
       <div>
-        <h6>가입자</h6>
+        <h6>Registered accounts</h6>
         <p class="balance">{{ adminstate.player_count }}</p>
 
-        <p>현재 접속자 수</p>
+        <p>Online accounts</p>
         <p class="balance">{{ connectionUserCount }}</p>
 
         <br/>
-        <h6>전체 수익</h6>
+        <h6>Total revenue</h6>
         <p class="balance">{{ total }}</p>
 
-        <h6>미분배 수익</h6>
+        <h6>Not shared yet dividend</h6>
         <p class="balance">{{ adminstate.revenue }}</p>
 
-        <h6>분배 수익</h6>
+        <h6>Shared dividend</h6>
         <p class="balance">{{ adminstate.dividend }}</p>
 
-        <h6>지출액</h6>
+        <h6>Expense</h6>
         <p class="balance">{{ adminstate.expenses }}</p>
 
-        <h6>투자금</h6>
+        <h6>Investment</h6>
         <p class="balance">{{ adminstate.investment }}</p>
 
 
@@ -87,380 +87,17 @@
     </main>
 
     <div class="container" id="app">
-      <h6>누적 수익</h6>
+      <h6>Revenue</h6>
       <div class="chart-container">
-        <canvas id="shapshotChart" width="400" height="220"></canvas>
-      </div>
-      <br/>
-      <h6>데일리 수익</h6>
-      <div class="chart-container">
-        <canvas id="deltaChart" width="400" height="240"></canvas>
+        <canvas id="deltaChart" width="400" height="200"></canvas>
       </div>
       </br>
-      <h6>데일리 신규 가입자</h6>
+      <h6>Players</h6>
       <div class="chart-container">
-        <canvas id="accountDeltaChart" width="400" height="220"></canvas>
+        <canvas id="accountDeltaChart" width="400" height="200"></canvas>
       </div>
 
     </div>
-
-    <script>
-    $.ajax({
-      url: "https://api.eosknights.io/api/v1/revenue/revenues/hourly-snapshots",
-      type: "post",
-      data: JSON.stringify({from:0, size:1000}),
-      contentType: "application/json"
-    }).done(function(data) {
-      var logs = [];
-
-      for (i = 0; i < data.length; i++) { 
-        if (logs.length == 0 || logs[logs.length-1].created != data[i].created) {
-          logs.push({
-            created: data[i].created,
-            itemIventoryUp: parseFloat(data[i].itemIventoryUp),
-            itemTax: parseFloat(data[i].itemTax),
-            knight: parseFloat(data[i].knight),
-            matIventoryUp: parseFloat(data[i].matIventoryUp),
-            materialTax: parseFloat(data[i].materialTax),
-            mp: parseFloat(data[i].mp),
-            userCount: parseInt(data[i].userCount)
-          });
-        } else {
-          logs[logs.length-1].itemIventoryUp = parseFloat(data[i].itemIventoryUp);
-          logs[logs.length-1].itemTax = parseFloat(data[i].itemTax);
-          logs[logs.length-1].knight = parseFloat(data[i].knight);
-          logs[logs.length-1].matIventoryUp = parseFloat(data[i].matIventoryUp);
-          logs[logs.length-1].materialTax = parseFloat(data[i].materialTax);
-          logs[logs.length-1].mp = parseFloat(data[i].mp);
-          logs[logs.length-1].userCount = parseInt(data[i].userCount);
-        }
-      }
-      
-      var itemIventoryUp = [];
-      var itemTax = [];
-      var knight = [];
-      var matIventoryUp = [];
-      var materialTax = [];
-      var mp = [];
-      var labels = [];
-      var userCount = [];
-      var sum = [];
-
-      for (i = 0; i < logs.length; i++) { 
-        labels.push(logs[i].created.substring(5));
-        itemIventoryUp.push(parseInt(logs[i].itemIventoryUp));
-        itemTax.push(parseInt(logs[i].itemTax));
-        knight.push(parseInt(logs[i].knight));
-        matIventoryUp.push(parseInt(logs[i].matIventoryUp));
-        materialTax.push(parseInt(logs[i].materialTax));
-        mp.push(parseInt(logs[i].mp));
-        userCount.push(parseInt(logs[i].userCount));
-        sum.push(parseInt(
-          logs[i].itemIventoryUp +
-          logs[i].itemTax +
-          logs[i].knight +
-          logs[i].matIventoryUp +
-          logs[i].materialTax + 
-          logs[i].mp));
-      }
-
-      var ctx = document.getElementById("shapshotChart");
-      var shapshotChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-          labels: labels,
-          datasets: [{
-            label: 'M-Water',
-            data: mp,
-            backgroundColor: 'rgba(255, 99, 132, 0)',
-            borderColor: 'rgba(255,99,132,1)',
-            yAxisID: 'y-axis-1',
-            borderWidth: 1
-          }, {
-            label: 'Knight',
-            data: knight,
-            backgroundColor: 'rgba(54, 162, 235, 0)',
-            borderColor: 'rgba(54, 162, 235, 1)',
-            yAxisID: 'y-axis-1',
-            borderWidth: 1
-          }, {
-            label: 'Tax-Item',
-            data: itemTax,
-            backgroundColor: 'rgba(255, 206, 86, 0)',
-            borderColor: 'rgba(255, 206, 86, 1)',
-            yAxisID: 'y-axis-1',
-            borderWidth: 1
-          }, {
-            label: 'Tax-Mat',
-            data: materialTax,
-            backgroundColor: 'rgba(75, 192, 192, 0)',
-            borderColor: 'rgba(75, 192, 192, 1)',
-            yAxisID: 'y-axis-1',
-            borderWidth: 1
-          }, {
-            label: 'Ivn-Item',
-            data: itemIventoryUp,
-            backgroundColor: 'rgba(153, 102, 255, 0)',
-            borderColor: 'rgba(153, 102, 255, 1)',
-            yAxisID: 'y-axis-1',
-            borderWidth: 1
-          }, {
-            label: 'Ivn-Material',
-            data: matIventoryUp,
-            backgroundColor: 'rgba(255, 159, 64, 0)',
-            yAxisID: 'y-axis-1',
-            borderColor: 'rgba(255, 159, 64, 1)',
-            borderWidth: 1
-          }, {
-            label: 'Account',
-            data: userCount,
-            backgroundColor: 'rgba(255, 255, 255, 0)',
-            yAxisID: 'y-axis-2',
-            borderColor: 'rgba(0, 0, 0, 0.5)',
-            borderWidth: 1
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: true,
-          scales: {
-            yAxes: [{
-              id: 'y-axis-1',
-              position: 'left',
-              stacked: false,
-              ticks: {
-                beginAtZero:true
-              }
-            }, {
-              id: 'y-axis-2',
-              position: 'right',
-              display: true,
-              ticks: {
-                beginAtZero:true
-              }
-            }]
-          }
-        }
-      });
-    });
-
-
-    $.ajax({
-      url: "https://api.eosknights.io/api/v1/revenue/revenues/hourly-variations",
-      type: "post",
-      data: JSON.stringify({from:0, size:1000}),
-      contentType: "application/json"
-    }).done(function(data) {
-      var logs = [];
-
-      for (i = 0; i < data.length; i++) { 
-        if (logs.length == 0 || logs[logs.length-1].created != data[i].created) {
-          logs.push({
-            created: data[i].created,
-            itemIventoryUp: parseFloat(data[i].itemIventoryUp),
-            itemTax: parseFloat(data[i].itemTax),
-            knight: parseFloat(data[i].knight),
-            matIventoryUp: parseFloat(data[i].matIventoryUp),
-            materialTax: parseFloat(data[i].materialTax),
-            mp: parseFloat(data[i].mp),
-            userCount: parseInt(data[i].userCount)
-          });
-        } else {
-          logs[logs.length-1].itemIventoryUp += parseFloat(data[i].itemIventoryUp);
-          logs[logs.length-1].itemTax += parseFloat(data[i].itemTax);
-          logs[logs.length-1].knight += parseFloat(data[i].knight);
-          logs[logs.length-1].matIventoryUp += parseFloat(data[i].matIventoryUp);
-          logs[logs.length-1].materialTax += parseFloat(data[i].materialTax);
-          logs[logs.length-1].mp += parseFloat(data[i].mp);
-          logs[logs.length-1].userCount += parseInt(data[i].userCount);
-        }
-      }
-      
-      var itemIventoryUp = [];
-      var itemTax = [];
-      var knight = [];
-      var matIventoryUp = [];
-      var materialTax = [];
-      var mp = [];
-      var labels = [];
-      var userCount = [];
-      var sum = [];
-
-      for (i = 0; i < logs.length; i++) { 
-        labels.push(logs[i].created.substring(5));
-        itemIventoryUp.push(parseInt(logs[i].itemIventoryUp));
-        itemTax.push(parseInt(logs[i].itemTax));
-        knight.push(parseInt(logs[i].knight));
-        matIventoryUp.push(parseInt(logs[i].matIventoryUp));
-        materialTax.push(parseInt(logs[i].materialTax));
-        mp.push(parseInt(logs[i].mp));
-        sum.push(parseInt(
-          logs[i].itemIventoryUp +
-          logs[i].itemTax +
-          logs[i].knight +
-          logs[i].matIventoryUp +
-          logs[i].materialTax + 
-          logs[i].mp));
-        userCount.push(parseInt(logs[i].userCount));
-      }
-
-      var ctx = document.getElementById("deltaChart");
-      var deltaChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-          labels: labels,
-          datasets: [{
-            label: 'Sum',
-            data: sum,
-            backgroundColor: 'rgba(0, 0, 0, 0)',
-            borderColor: 'rgba(0, 0, 0, 0.1)',
-            borderWidth: 1,
-            pointRadius: 0,
-            yAxisID: 'y-axis-2',
-          }, {
-            label: 'M-Water',
-            data: mp,
-            backgroundColor: 'rgba(255, 99, 132, 1)',
-            borderColor: 'rgba(255,99,132,1)',
-            borderWidth: 1,
-            pointRadius: 0,
-            yAxisID: 'y-axis-1',
-          }, {
-            label: 'Knight',
-            data: knight,
-            backgroundColor: 'rgba(54, 162, 235, 1)',
-            borderColor: 'rgba(54, 162, 235, 1)',
-            borderWidth: 1,
-            pointRadius: 0,
-            yAxisID: 'y-axis-1',
-          }, {
-            label: 'Tax-Item',
-            data: itemTax,
-            backgroundColor: 'rgba(255, 206, 86, 1)',
-            borderColor: 'rgba(255, 206, 86, 1)',
-            borderWidth: 1,
-            pointRadius: 0,
-            yAxisID: 'y-axis-1',
-          }, {
-            label: 'Tax-Mat',
-            data: materialTax,
-            backgroundColor: 'rgba(75, 192, 192, 1)',
-            borderColor: 'rgba(75, 192, 192, 1)',
-            borderWidth: 1,
-            pointRadius: 0,
-            yAxisID: 'y-axis-1',
-          }, {
-            label: 'Ivn-Item',
-            data: itemIventoryUp,
-            backgroundColor: 'rgba(153, 102, 255, 1)',
-            borderColor: 'rgba(153, 102, 255, 1)',
-            borderWidth: 1,
-            pointRadius: 0,
-            yAxisID: 'y-axis-1',
-          }, {
-            label: 'Ivn-Mat',
-            data: matIventoryUp,
-            backgroundColor: 'rgba(255, 159, 64, 1)',
-            borderColor: 'rgba(255, 159, 64, 1)',
-            borderWidth: 1,
-            pointRadius: 0,
-            yAxisID: 'y-axis-1',
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: true,
-          scales: {
-            yAxes: [{
-              id: 'y-axis-1',
-              position: 'left',
-              stacked: true,
-              ticks: {
-                beginAtZero:true
-              }
-            }, {
-              id: 'y-axis-2',
-              position: 'right',
-              display: false,
-              ticks: {
-                beginAtZero:true
-              }
-            }]
-          }
-        }
-      });
-
-      var ctx2 = document.getElementById("accountDeltaChart");
-      var accountDeltaChart = new Chart(ctx2, {
-        type: 'line',
-        data: {
-          labels: labels,
-          datasets: [{
-            label: 'Account Count',
-            data: userCount,
-            backgroundColor: 'rgba(255, 99, 132, 1)',
-            borderColor: 'rgba(255,99,132,1)',
-            borderWidth: 1,
-            pointRadius: 0,
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: true,
-          scales: {
-            yAxes: [{
-              ticks: {
-                beginAtZero:true
-              }
-            }]
-          }
-        }
-      });
-    });
-
-
-    // Define a plugin to provide data labels
-    Chart.plugins.register({
-      afterDatasetsDraw: function(chart) {
-        var ctx = chart.ctx;
-
-        chart.data.datasets.forEach(function(dataset, i) {
-          if (chart.data.datasets.length > 2 && dataset.label != "Sum") {
-            return;
-          }
-
-          var meta = chart.getDatasetMeta(i);
-          if (!meta.hidden) {
-            meta.data.forEach(function(element, index) {
-              if (index % 2 && index < meta.data.length - 3) {
-                return;
-              }
-
-              // Draw the text in black, with the specified font
-              ctx.fillStyle = 'rgb(0, 0, 0)';
-
-              var fontSize = '8';
-              var fontStyle = 'normal';
-              var fontFamily = 'Helvetica Neue';
-              ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily);
-
-              // Just naively convert to string for now
-              var dataString = dataset.data[index].toString();
-
-              // Make sure alignment settings are correct
-              ctx.textAlign = 'center';
-              ctx.textBaseline = 'middle';
-
-              var padding = 5;
-              var position = element.tooltipPosition();
-              ctx.fillText(dataString, position.x, position.y - (fontSize / 2) - padding);
-            });
-          }
-        });
-      }
-    });
-
-    </script>    
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
