@@ -51,7 +51,11 @@
       </nav>
     </header>
 
-    <main role="main" class="container" id="app">
+    <div id="loading" class="container">
+      <h1 class="mt-5">Loading</h1>
+      <p id="progress" class="balance">0</p>
+    </div>
+    <div role="main" class="container" id="app">
       <h1 class="balance mt-5" id="totalCount">0</h1>
       <p>10층이상 도달한 유저의 수입니다. 아래 차트는 이 유저들을 대상으로 합니다.</p>
       <div>
@@ -67,25 +71,25 @@
         <h6>전체 기사 갯수</h6>
         <p id="knightCount" class="balance">0</p>
       </div>      
-    </main>
 
-    <!-- Begin page content -->
-    <div class="container" id="app">
-      <h6>층수별 히스토그램</h6>
-      <div class="chart-container">
-        <canvas id="histogramChart" width="400" height="220"></canvas>
-      </div>
-      <br/>
-      <h6>구간별 스탯</h6>
-      <div class="chart-container">
-        <canvas id="statChart" width="400" height="240"></canvas>
-      </div>
-      </br>
-
+      <!-- Begin page content -->
       <div>
-        <a id="export" download="statistics.txt" href="" role="button" class="btn btn-info">Export</a>        
-      </div>
+        <h6>층수별 히스토그램</h6>
+        <div class="chart-container">
+          <canvas id="histogramChart" width="400" height="220"></canvas>
+        </div>
+        <br/>
+        <h6>구간별 스탯</h6>
+        <div class="chart-container">
+          <canvas id="statChart" width="400" height="240"></canvas>
+        </div>
+        </br>
 
+        <div>
+          <a id="export" download="statistics.txt" href="" role="button" class="btn btn-info">Export</a>        
+        </div>
+
+      </div>
     </div>
 
     <!-- Bootstrap core JavaScript

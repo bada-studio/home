@@ -3,7 +3,11 @@ async function fetchPlayer(url) {
   let lower_bound = "";
   const pageSize = 100;
 
+  let loadingCount = 0;
   while (true) {
+    loadingCount++;
+    $("#progress").text(loadingCount);
+
     try {
       const response = await fetch(url + '/v1/chain/get_table_rows', {
         method: "POST",
@@ -46,7 +50,11 @@ async function fetchKnights(url) {
   let lower_bound = "";
   const pageSize = 100;
 
+  let loadingCount = 0;
   while (true) {
+    loadingCount++;
+    $("#progress").text(loadingCount);
+
     try {
       const response = await fetch(url + '/v1/chain/get_table_rows', {
         method: "POST",
@@ -322,17 +330,19 @@ async function drawChart() {
     const lkv = luck[index];
     text += `${key},${atv},${dfv},${hpv},${lkv}\n`;
   }
-
-
+  
   $("#totalCount").text(totalCount);
   $("#player0FCount").text(groups.counts.player0F);
   $("#playerLt10FCount").text(groups.counts.playerLt10F);
   $("#playerWhoHasKnightCount").text(groups.counts.playerWhoHasKnight);
   $("#knightCount").text(groups.counts.knight);
   $("#export").prop("href", 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+
+  $("#loading").css("display", "none")
+  $("#app").css("display", "block")
 }
 
-
+$("#app").css("display", "none");
 drawChart();
 
 
