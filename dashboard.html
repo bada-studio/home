@@ -56,8 +56,6 @@
       <h1 class="balance mt-5">{{ balance.balance }}</h1>
       <p>Current balance in contract</p>
 
-      <h1 class="mt-5">Assets</h1>
-
       <div>
         <h6>Registered accounts</h6>
         <p class="balance">{{ adminstate.player_count }}</p>
@@ -81,17 +79,25 @@
         <h6>Investment</h6>
         <p class="balance">{{ adminstate.investment }}</p>
 
+        <br/>
+        <h6>Today revenue</h6>
+        <p class="balance" id="todayRevenue">0</p>
+
+        <h6>Today registerd account</h6>
+        <p class="balance" id="todayPlayer">0</p>
 
       </div>
 
     </main>
 
     <div class="container" id="app">
+
       <h6>Revenue</h6>
       <div class="chart-container">
         <canvas id="deltaChart" width="400" height="200"></canvas>
       </div>
       </br>
+
       <h6>Players</h6>
       <div class="chart-container">
         <canvas id="accountDeltaChart" width="400" height="200"></canvas>
