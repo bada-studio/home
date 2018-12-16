@@ -108,7 +108,7 @@ material.loading
     |en| Load materials
     |zh-cn| 加载材料。
     |ja| 材料を読み込みます。
-    |ru| Загрузка инвенторя материалов.
+    |ru| Загрузка инвентаря материалов.
 item.loading
     |ko| 아이템을 불러옵니다.
     |en| Load items
@@ -302,7 +302,7 @@ stat.name.Hp
     |en| Hp
     |zh-cn| 体力
     |ja| 体力
-    |ru| Выностивость
+    |ru| ОЖ
 stat.name.Luck
     |ko| 행운
     |en| Luck
@@ -320,7 +320,7 @@ stat.name.ExpeditionWater
     |en| Expedition magic water
     |zh-cn| 探险的魔幻水
     |ja| 遠征隊マジックウォーター
-    |ru| Добываемая волшебная вода
+    |ru| Принесет воды
 stat.name.ExpeditionTime
     |ko| 원정 시간
     |en| Expedition time
@@ -332,7 +332,7 @@ stat.name.ExpeditionDrop
     |en| {0} droprate 
     |zh-cn| {0}掉落概率
     |ja| {0}ドロップ確率
-    |ru| {0} Шанс дропа
+    |ru| {0} Дропрейт
 
 grade.name.None
     |ko| 모든 등급
@@ -567,7 +567,7 @@ mat.select.desc
     |en| Please select the material you want to search.
     |zh-cn| 请选择想要搜索的材料。
     |ja| 検索したい材料を選択してください。
-    |ru| Пожалуйста выберите материал который вы хотите найти.
+    |ru| Материал для поиска.
 mat.select.apply
     |ko| 선택
     |en| Select
@@ -631,7 +631,7 @@ wallet.notice.desc
     |en| <color="red">If you enter a private key on a routed phone, there is a risk of key takeover.</color> EOS Knights encrypts the key and stores it on the phone. We are not responsible for theft of keys by user carelessness or hacking programs.
     |zh-cn| <color="red">如果您在路由电话上输入私钥，则存在密钥接管的风险。</color> EOS Knights对密钥进行加密并将其存储在手机上。 我们不对用户疏忽或黑客程序盗窃密钥负责。
     |ja| <color="red">ルーティングされた携帯電話で個人キーを入力すると、キーが盗用される危険があります。</color>イオスナイツは、キーを暗号化して携帯電話に保存します。ユーザーの不注意やハッキングプログラムなどにより、キーが盗用されることに対する責任は負いません。
-    |ru| <color="red">Если вы вводите приватный ключ на телефоне с разблокированным рут доступом, то существует риск кражи ключа.</color> EOS Knights шифрует и хранит ваши ключи на телефоне. Мы не несем ответственности за кражу ключей по вине пользователя.
+    |ru| <color="red">Если вы вводите приватный ключ на телефоне с разблокированным рут доступом, то существует риск кражи ключа.</color> EOS Knights шифрует и хранит ваши ключи на телефоне. Мы не отвечаем за кражу ключей по вине пользователя.
 
 wallet.new.title
     |ko| 새 계정 등록
@@ -682,7 +682,7 @@ wallet.cpu.limit.desc1
     |en| Wait for the chain to get free.
     |zh-cn| 请等待空闲之后再试。
     |ja| チェーンがビジーでなくなるまでお待ちください。
-    |ru| Подождите пока нагрузка на блокчейн спадет. 
+    |ru| Подожите разгрузки блокчейна. 
 wallet.cpu.limit.desc2
     |ko| CPU에 좀더 스테이크 해보세요.
     |en| Stake more on the CPU.
@@ -719,7 +719,7 @@ wallet.new.ps.desc
     |en| Please enter your password to protect your wallet.
     |zh-cn| 请输入密码以保护您的钱包。
     |ja| ウォレットを保護するためのパスワードを入力してください。
-    |ru| Пожалуйста введите ваш пароль чтобы защитить кошелек.
+    |ru| Введите ваш пароль чтобы защитить кошелек.
 wallet.new.ps.desc2
     |ko| 6자에서 12자 사이로 입력해주세요.
     |en| PIN needs between 6 and 12 characters.
@@ -763,7 +763,7 @@ wallet.unlock.title
     |en| Unlock wallet
     |zh-cn| 解锁钱包
     |ja| ウォレットロック解除
-    |ru| Разблокировать кошелек
+    |ru| Разблокировать
 wallet.unlock.desc
     |ko| 지갑 비밀 번호를 입력하세요.
     |en| Please enter your wallet password.
@@ -815,13 +815,13 @@ stake.more.btn.run.anyway
     |en| Try
     |zh-cn| 尝试
     |ja| 試行する
-    |ru| Попробовать
+    |ru| Исполнить
 stake.more.btn.stake.more
     |ko| 좀더 스테이크
     |en| Stake More
     |zh-cn| 质押更多
     |ja| もう少しステーク
-    |ru| Застейкать больше
+    |ru| Стейк+
 stake.more.btn.wait.little
     |ko| 기다릴게요
     |en| Wait a little
@@ -1012,13 +1012,13 @@ stake.button.stake
     |en| STAKE
     |zh-cn| 抵押
     |ja| ステーク
-    |ru| Застейкать
+    |ru| Стейк+
 stake.button.unstake
     |ko| 언스테이크
     |en| UNSTAKE
     |zh-cn| 赎回
     |ja| アンステーク
-    |ru| Разстейкать
+    |ru| Стейк-
 stake.loading.failed
     |ko| 정보 조회에 실패했습니다.
     |en| Loading failed.
@@ -1088,13 +1088,13 @@ stake.error.invalid.asset
     |en| Invalid input value.
     |zh-cn| 输入有误。
     |ja| 誤った入力値です。
-    |ru| Введено не правильное количество. 
+    |ru| Введено неправильное количество. 
 stake.error.zero.asset
     |ko| '0.0000 EOS' 보다 큰 값을 입력하세요. 
     |en| Enter a value greater than '0.0000 EOS'.
     |zh-cn| 请输入比'0.0000 EOS' 大的数值。
     |ja| 0.0000 EOS'よりも大きい値を入力してください。
-    |ru| Введите количество большее чем '0.0000 EOS'.
+    |ru| Введите кол-во больше '0.0000 EOS'.
 
 loading.tip.wait.release.refresh
     |ko| 다시 불러오기 
@@ -1135,7 +1135,7 @@ title.desc
     |en| Save the village from the goblins!
     |zh-cn| 从哥布林手中拯救村庄！ 
     |ja| ゴブリンから村を救ってください！
-    |ru| Спаси эту деревню от гоблинов!
+    |ru| Спасите эту деревню от гоблинов!
 title.signin.method
     |ko| EOS Knights는 EOS 계정이 있는 홀더들을 위한 게임 입니다. <color="#0072bc">EOS 계정 생성은 지원하지 않습니다.</color>
     |en| EOS Knights is a game for holders who has an account. <color="#0072bc">EOS account creation is not supported.</color>
@@ -1202,7 +1202,7 @@ title.login.scatter.failed
     |en| Please check your scatter.
     |zh-cn| 请确认您的登录状态。
     |ja| スキャッターのログイン状態を確認してください。
-    |ru| Пожалуйста проверьте настройки вашего Scatter.
+    |ru| Проверьте настройки вашего Scatter.
 
 title.login.method.nova
     |ko| 노바 월렛
@@ -1228,7 +1228,7 @@ scatter.app.warning
     |en| Scatter has not stabilized yet. Scatter will crash when pressing ACCEPT button twice.
     |zh-cn| Scatter尚未稳定。点击两次“接受”按钮时，Scatter将崩溃。
     |ja| スキャッターアプリがまだ安定化していません。ACCEPTボタンを2回押すと、スキャッターがクラッシュするので1回のみ押してお待ちください。
-    |ru| Scatter все еще не стабилен и можешь отключиться при двойном нажатии "Принять".
+    |ru| Scatter все еще не стабилен и может отключиться при двойном нажатии "Принять".
     
 login.failed.owner
     |ko| 오너키로 로그인하실수 없습니다.
@@ -1256,13 +1256,13 @@ terms.title.terms
     |en| Terms and Conditions of Use
     |zh-cn| 使用条款
     |ja| 利用約款
-    |ru| Правила и условия использования
+    |ru| Прав. и усл. использования
 terms.title.privacy
     |ko| 개인 정보 보호
     |en| Privacy Policy
     |zh-cn| 隐私协议
     |ja| 個人情報保護
-    |ru| Политика конфиденциальности
+    |ru| Политика конф.
 terms.title.agree
     |ko| 동의 합니다.
     |en| I agree
@@ -1280,13 +1280,13 @@ terms.check.terms
     |en| Please agree to the terms and conditions.
     |zh-cn| 请同意使用条款。
     |ja| 利用約款に同意する必要があります。
-    |ru| Пожалуйста примите правила и условия использования.
+    |ru| Пожалуйста примите прав. и усл. использования.
 terms.check.privacy
     |ko| 개인 정보 보호 동의가 필요합니다.
     |en| Please agree to the privacy policy.
     |zh-cn| 请同意隐私协议。
     |ja| 個人情報保護の同意が必要です。
-    |ru| Пожалуйста примите политику конфиденциальности.
+    |ru| Пожалуйста примите политику конф.
 terms.loading.terms.failed
     |ko| 약관을 불러올 수 없습니다.
     |en| Can not load the Terms and Conditions of Use
@@ -1326,7 +1326,7 @@ all.notice.title
 chain.api.failed.network
     |ko| 네트웍 연결에 실패했습니다.\n다시 시도 해볼까요?
     |en| Network connection failed.\nTry again?
-    |zh-cn| 无法连接网络。\n再次尝试?
+    |zh-cn| 无法连接网络。\n再次尝试?.\
     |ja| ネットワーク接続に失敗しました。\n再度試みますか？
     |ru| Ошибка подключения.\nПопробовать снова?
 chain.api.failed.401
@@ -1374,26 +1374,26 @@ lobby.rebirth.text
     |en| REBIRTH
     |zh-cn| 复  活
     |ja| 復   活
-    |ru| ПЕРЕРОЖДЕНИЕ
+    |ru| В БОЙ!
 rebirth.desc
     |ko| <color="#0072bc">기사단을 부활시켜 재료와 매직워터를 획득하세요!</color>
     |en| <color="#0072bc">You can achieve materials and magic water by rebirth!</color>
     |zh-cn| <color="#0072bc">复活骑士团获得材料和魔幻水！</color>
     |ja| <color="#0072bc">騎士団を復活させて材料とマジックウォーターを獲得してください！</color>
-    |ru| <color="#0072bc">При перерождении вы получаете материалы и волшебную воду!</color>
+    |ru| <color="#0072bc">После боя вы получаете материалы и волшебную воду!</color>
 rebirth.desc.lock
     |ko| <color="#0072bc">{0}</color>초 후에 부활 할 수 있습니다.
     |en| You can revive in <color="#0072bc">{0}</color> seconds.
     |zh-cn| <color="#0072bc">{0}</color>秒后，即可复活。
     |ja| <color="#0072bc">{0}</color>秒後に復活できます。
-    |ru| Вы сможете переродиться через <color="#0072bc">{0}</color> секунд.
+    |ru| Новый бой возможен через <color="#0072bc">{0}</color> секунд.
 
 rebirth.more
     |ko| 아직 기사의 체력이 많이 남아 있습니다. 더 멀리 갈수록 좋은 재료를 얻을 확률이 큽니다. 그래도 부활 하시겠습니까?
     |en| There are still a lot of Knights hp. The further you go, the greater the chance of getting good material. Would you revive, though?
     |zh-cn| 骑士的体力还剩余很多。走的越远可以获得更好的材料。是否确认复活？
     |ja| まだ騎士の体力がたくさん残っています。更に遠くへ行くほど良い材料を得る確率が高くなります。それでも復活しますか？
-    |ru| У Ваших рыцарей по-прежнему много здоровья. Чем дальше вы проходите, тем больше шанс получить хорошие материалы. Вы действительно хотите переродить их? 
+    |ru| У Ваших рыцарей по-прежнему много здоровья. Чем дальше вы проходите, тем больше шанс получить хорошие материалы. Вы действительно хотите выйти из боя? 
 
 lobby.get.reward.text
     |ko| 보상\n획득
@@ -1476,7 +1476,7 @@ lobby.no.hire.desc
     |en| Orcs are pillaging our village.\nHire the knight to save our village!
     |zh-cn| 兽人正在抢劫我们的村庄。\n请雇佣骑士，拯救我们的村庄！ 
     |ja| オークが村を略奪しています。\n騎士を雇って村を救ってください！
-    |ru| Орки грабятнашу нашу деревню.\nНаймите этих рыцарей чтобы защититься!
+    |ru| Орки грабят нашу нашу деревню.\nНаймите этих рыцарей чтобы защититься!
 lobby.change.stage
     |ko| 스테이지
     |en| Stage
@@ -1527,13 +1527,13 @@ lobby.knight.total.kill.count
     |en| Total Kill <color="#0072bc">{0:#,##0}</color>
     |zh-cn| 消灭所有怪物 <color="#0072bc">{0:#,##0}</color>
     |ja| 全モンスター退治<color="#0072bc">{0:#,##0}</color>
-    |ru| Всего Убийств <color="#0072bc">{0:#,##0}</color>
+    |ru| Убито <color="#0072bc">{0:#,##0}</color>
 lobby.knight.mp.title
     |ko| 매직 워터
     |en| Magic water
     |zh-cn| 魔幻水
     |ja| マジックウォーター
-    |ru| Волшебная вода
+    |ru| Волш. вода
 lobby.knight.drop.rate.title
     |ko| 드랍 확률
     |en| Drop rate
@@ -1587,7 +1587,7 @@ rebirth.reward.countrebirth.inventory
     |en| Inventory
     |zh-cn| 物品栏
     |ja| インベントリー
-    |ru| Инвентарь
+    |ru| Забрать
 rebirth.full.inventory
     |ko| 인벤토리 공간이 부족합니다.\n재료를 삭제해서 매직워터로 만드세요.
     |en| Insufficient inventory space.\nTrash the materials and get Magic Water.
@@ -1599,7 +1599,7 @@ rebirth.inventory
     |en| Inventory
     |zh-cn| 物品栏
     |ja| インベントリー
-    |ru| Инвентарь
+    |ru| Забрать
     
     
 lobby.pet.gacha
@@ -1664,7 +1664,7 @@ floor.required.title
     |en| Required floor for material
     |zh-cn| 依照材料等级的最低要求层数
     |ja| 材料グレード別の最少必要階数
-    |ru| Необходимый этаж для конкретных видов материалов
+    |ru| Виды Ресурсов / Мин. Этаж
 floor.required.desc
     |ko| 유니크: <color="#0072bc">{0:#,##0}</color> 층\n레전드: <color="#0072bc">{1:#,##0}</color> 층\n고대: <color="#0072bc">{2:#,##0}</color> 층
     |en| Unique: <color="#0072bc">{0:#,##0}</color> floor\nLegendary: <color="#0072bc">{1:#,##0}</color> floor\nAncient: <color="#0072bc">{2:#,##0}</color> floor
@@ -1695,7 +1695,7 @@ lobby.sell.failed.knight
     |en| A equipped item can not be sold.
     |zh-cn| 携带中的武器无法出售。
     |ja| 装着中のアイテムは販売できません。
-    |ru| Надетый предмет не может быть выставлен на продажу.
+    |ru| Надетый предмет нельзя продать.
 
 lobby.cancel.sell
     |ko| 판매를 취소합니다
@@ -1813,13 +1813,13 @@ lobby.item.can.not.select.equipped
     |en| Can not select equipped items.
     |zh-cn| 携带中的道具无法选择。
     |ja| 着用中の装備は選択できません。
-    |ru| Не возможно выбрать надетый предмет.
+    |ru| Снимите предмет
 lobby.item.can.not.select.onsale
     |ko| 판매중인 장비는 선택할수 없습니다.
     |en| Can not select a item on sale.
     |zh-cn| 出售中的道具无法选择。
     |ja| 販売中の装備は選択できません。
-    |ru| Не возможно выбрать предмет выставленный на продажу.
+    |ru| Отмените продажу
 
 lobby.equip.detach.done
     |ko| {0} 장착 해지!
@@ -1861,7 +1861,7 @@ lobby.material.can.not.select.onsale
     |en| Can not select a material on sale.
     |zh-cn| 出售中的道具无法选择。
     |ja| 販売中の材料は選択できません。
-    |ru| Не возможно выбрать материал выставленный на продажу.
+    |ru| Отмените продажу
 
 lobby.raw.materials.destory.done    
     |ko| {0:D}개 재료를 매직 워터로 변환 완료!
@@ -1905,13 +1905,13 @@ lobby.hire.detail.desc.Knight
     |en| Has a strong stamina and attacks enemies in close range.
     |zh-cn| 拥有强大的体力，将近距离攻击敌人。
     |ja| 強い体力を持ち近距離で敵を攻撃します。
-    |ru| Имеет много выностивости и атакует противников с ближней дистанции.
+    |ru| Вынослив, атакует противников с ближней дистанции.
 lobby.hire.detail.desc.Archer
     |ko| 원거리에서 화살로 적의 심장을 꿰뚫습니다.
     |en| Pierces the enemy's heart with arrows from a distance.
     |zh-cn| 远距离使用弓箭射击敌人的心脏。
     |ja| 遠距離から矢で敵の心臓を貫きます。
-    |ru| Пронзает вражеские сердца стралами на расстоянии.
+    |ru| Пронзает вражеские сердца стрелами на расстоянии.
 lobby.hire.detail.desc.Mage
     |ko| 강력한 마법을 시전해 적을 소멸합니다.
     |en| Destroy enemies by casting powerful magic.
@@ -1931,7 +1931,7 @@ refresh.table.wait.release
     |en| Release to Load More
     |zh-cn| 重新尝试
     |ja| 再読み込み
-    |ru| Освободите чтобы загрузить больше
+    |ru| Недостаточно места для обновления
 refresh.table.wait.load
     |ko| 로딩중..
     |en| Loading..
@@ -1962,7 +1962,7 @@ lobby.mat.tab.book
     |en| Book
     |zh-cn| 材料图鉴
     |ja| 材料図鑑
-    |ru| Книга
+    |ru| Справочник
 lobby.mat.craft
     |ko| 제작
     |en| Craft
@@ -1986,7 +1986,7 @@ lobby.mat.destroy
     |en| To Magic Water
     |zh-cn| 魔幻水
     |ja| マジックウォーターで
-    |ru| В волшебную воду
+    |ru| В волш. воду
 lobby.mat.cancel
     |ko| 취소
     |en| Cancel
@@ -2029,13 +2029,13 @@ lobby.book.last.price
     |en| Last trading price <color="#0072bc">{0}</color>
     |zh-cn| 最近交易价格 <color="#0072bc">{0}</color>    
     |ja| 最近の取引価格 <color="#0072bc">{0}</color>
-    |ru| Цена послед. проданного <color="#0072bc">{0}</color>
+    |ru| Последняя продажа <color="#0072bc">{0}</color>
 lobby.book.last.price.none
     |ko| 최근 거래가격 없음
     |en| No last trading price
     |zh-cn| 没有最近交易价格
     |ja| 最近の取引価格なし
-    |ru| Нет последней цены
+    |ru| Еще не был продан
 lobby.book.difficulty
     |ko| 제작 난이도 <color="#0072bc">{0:#,##0}</color>
     |en| Craft difficulty <color="#0072bc">{0:#,##0}</color>
@@ -2066,7 +2066,7 @@ lobby.item.destroy
     |en| To Magic Water
     |zh-cn| 魔幻水
     |ja| マジックウォーターで
-    |ru| В волшебную воду
+    |ru| В волш. воду
 lobby.item.cancel
     |ko| 취소
     |en| Cancel
@@ -2084,7 +2084,7 @@ lobby.equipment.title
     |en| EQUIPMENT
     |zh-cn| 装备
     |ja| 装備
-    |ru| Надето
+    |ru| НАДЕТО
 lobby.item.tab.book    
     |ko| 아이템 도감
     |en| Book
@@ -2097,7 +2097,7 @@ statup.title
     |en| UPGRADE
     |zh-cn| 升级
     |ja| アップグレード
-    |ru| Улучшить
+    |ru| УЛУЧШИТЬ
 statup.attack.up    
     |ko| 공격력+
     |en| Attack+
@@ -2146,7 +2146,7 @@ item.detail.sell
     |en| Sell
     |zh-cn| 出售
     |ja| 販売
-    |ru| Продается
+    |ru| Продать
 item.destroy.alert
     |ko| 삭제된 아이템은 복구가 불가능합니다.\n정말 삭제 하시겠습니까?
     |en| Deleted item can not be recovered.\nDo you really want to delete it?
@@ -2158,7 +2158,7 @@ item.detail.sell.cancel
     |en| Cancel Sale
     |zh-cn| 取消出售
     |ja| 販売キャンセル
-    |ru| Вернуть с продажи
+    |ru| Отменить продажу
 item.detail.buy
     |ko| 구매
     |en| Buy
@@ -2190,7 +2190,7 @@ btn.item.level.up
     |en| LEVEL UP
     |zh-cn| 升级
     |ja| レベルアップ
-    |ru| Улучшить
+    |ru| УЛУЧШИТЬ
 lobby.item.max.level     
     |ko| 최대 레벨
     |en| Max level
@@ -2202,7 +2202,7 @@ btn.item.visit
     |en| Visit
     |zh-cn| 访问出售的玩家
     |ja| 販売者訪問
-    |ru| Посмотреть
+    |ru| Продавец
 
 item.sts.seleted
     |ko| 대상 아이템
@@ -2221,44 +2221,49 @@ item.level.limit
     |en| Required level <color="#0072bc">{0}</color>
     |zh-cn| 携带最低等级 <color="#0072bc">{0}</color>
     |ja| 着用制限レベル<color="#0072bc">{0}</color>
-    |ru| Необходимый уровень <color="#0072bc">{0}</color>
+    |ru| Мин. уровень <color="#0072bc">{0}</color>
 item.sts.done
     |ko| 아이템 강화가 완료되었습니다.
     |en| Item synthesis is completed.
     |zh-cn| 道具合成已完成。
     |ja| アイテム強化が完了しました。
-    |ru| Улучшение предмета завершено.
+    |ru| Объединение завершено. 
 item.level.up.done.title
     |ko| 성공!
     |en| Success!
     |zh-cn| 成功！
     |ja| 成功！
+    |ru| успех!
 item.level.up.failure.title
     |ko| 실패!
     |en| Failure!
     |zh-cn| 失败！
     |ja| 失敗！
+    |ru| недостаточность!
 item.level.up.failure.desc
     |ko| 사용된 재료 아이템이 파괴됩니다.\n매직워터 50%가 소모되었습니다.
     |en| The used material item is destroyed.\n50% of Magic Water was consumed.
     |zh-cn| 使用过的材料项目被销毁。\n50％的Magic Water被消耗掉了。
     |ja| 使用された材料アイテムが破壊されます。\nマジックウォーターの50％が消費されました。    
-    |ru| Объединение предметов завершено. 
+    |ru| Использованный материал уничтожен.\n50% магической воды было израсходовано
 item.level.up.done
     |ko| 아이템 레벨업이 완료되었습니다.
     |en| Item level up is complete.
     |zh-cn| 道具升级已完成。
     |ja| アイテムレベルアップが完了しました。
+    |ru| Улучшение завершено.
 item.level.up.failed
     |ko| 아이템 레벨업에 실패했습니다.
     |en| Item level up is failed.
     |zh-cn| 道具升级失败。
     |ja| アイテムレベルアップに失敗しました
+    |ru| Уровень предмета не удался.
 item.level.up.rate
     |ko| 성공 확률: <color="#0072bc">{0:0.##}%</color>
     |en| Probability of success: <color="#0072bc">{0:0.##}%</color>
     |zh-cn| 成功的可能性: <color="#0072bc">{0:0.##}%</color>
     |ja| 成功確率: <color="#0072bc">{0:0.##}%</color>
+    |ru| Вероятность успеха: <color="#0072bc">{0:0.##}%</color>
 item.synthesis.warn.score
     |ko| 재료의 점수가 더 높습니다. 그래도 강화 하시겠습니까?
     |en| The ingredient item score is higher. Would you synthesize it though?
@@ -2283,7 +2288,7 @@ raw.material.detail.visit
     |en| Visit
     |zh-cn| 访问出售的玩家
     |ja| 販売者訪問
-    |ru| Посетить
+    |ru| Продавец
 raw.material.detail.price    
     |ko| 판매가격 {0}
     |en| Price {0}
@@ -2295,7 +2300,7 @@ raw.material.detail.id.copy
     |en| The sales id has been copied.
     |zh-cn| 出售号码已被复制。
     |ja| 販売番号がコピーされました。
-    |ru| Айди продажи скопирован.
+    |ru| ID продажи скопирован.
 raw.material.detail.destroy    
     |ko| 버리기
     |en| Remove
@@ -2375,7 +2380,7 @@ all.craft.desc
     |en| You can make the following items with the current materials.
     |zh-cn| 您可以使用材料制造道具。
     |ja| 現在の材料で以下のアイテムを製作できます。
-    |ru| Вы можете создать следующие предметы с текущим количеством материалов.
+    |ru| Предметы, на которые у вас хватает материалов
 all.craft.nothing    
     |ko| 제작 가능한 아이템이 없습니다. 
     |en| There are no items craftable.
@@ -2485,7 +2490,7 @@ pet.gacha.droprate
     |en| Drop Rate\nNormal <color="#0072bc">{0:0.000}%</color>  Rare <color="#0072bc">{1:0.000}%</color>\nUnique <color="#0072bc">{2:0.000}%</color>  Legendary <color="#0072bc">{3:0.000}%</color>
     |zh-cn| 掉落概率\n一般 <color="#0072bc">{0:0.000}%</color>  稀有 <color="#0072bc">{1:0.000}%</color>\n特殊 <color="#0072bc">{2:0.000}%</color>  传奇 <color="#0072bc">{3:0.000}%</color>
     |ja| ドロップ確率\nノーマル <color="#0072bc">{0:0.000}%</color> レア<color="#0072bc">{1:0.000}%</color>\n ユニーク<color="# 0072bc">{2:0.000}%</color> レジェンド<color="#0072bc"> {3:0.000}%</color>
-    |ru| Частота выпадения\nОбычный <color="#0072bc">{0:0.000}%</color>  Редкий <color="#0072bc">{1:0.000}%</color>\nУникальный <color="#0072bc">{2:0.000}%</color>  Легендарный <color="#0072bc">{3:0.000}%</color>
+    |ru| Шанс дропа\nОбычный <color="#0072bc">{0:0.000}%</color>  Редкий <color="#0072bc">{1:0.000}%</color>\nУникальный <color="#0072bc">{2:0.000}%</color>  Легендарный <color="#0072bc">{3:0.000}%</color>
 lobby.pet.run.gacha
     |ko| 가차!
     |en| Gacha!
@@ -2529,7 +2534,7 @@ pet.select.desc
     |en| Please select a pet to send expedition.
     |zh-cn| 请选择一只宠物送远征。
     |ja| 遠征に送るペットを選択してください。
-    |ru| Пожалуйста, выберите питомца для отправки в экспедицию.
+    |ru| Выберите питомца для экспедиции.
 
 pet.exp.lock
     |ko| 기사 레벨 {0}이 필요합니다.
@@ -2542,14 +2547,14 @@ pet.exp.empty
     |en| Please select a pet to send expedition.
     |zh-cn| 请选择一只宠物送远征。
     |ja| 遠征に送るペットを選択してください。
-    |ru| Пожалуйста, выберите питомца для отправки в экспедицию.
+    |ru| Выберите питомца для экспедиции.
 
 pet.exp.running
     |ko| 원정 중
     |en| Expedition
     |zh-cn| 远征中
     |ja| 遠征中
-    |ru| В экспедиции
+    |ru| В походе
 pet.exp.resting
     |ko| 휴식중
     |en| Resting
@@ -2597,7 +2602,7 @@ mp.sales.desc
     |en| For kight and item level up, pet gacha.
     |zh-cn| 可用于角色以及装备升级、抽奖等。
     |ja| キャラクターや装備のレベルアップ、ガチャなどに使用されます。
-    |ru| Для повышения уровня рыцаря и предметов, гатча питомцев.
+    |ru| Для всевозможных улучшений.
     
 pet.detail.close
     |ko| 닫기
@@ -2610,7 +2615,7 @@ pet.detail.level.up
     |en| LEVEL UP
     |zh-cn| 升级
     |ja| レベルアップ
-    |ru| ПОВЫСИТЬ УРОВЕНЬ
+    |ru| УЛУЧШИТЬ
 pet.level
     |ko| 레벨 <color="#0072bc">{0:D}</color>
     |en| Level <color="#0072bc">{0:D}</color>
@@ -2726,7 +2731,7 @@ pet.ext.detail.14
     |en| Napping
     |zh-cn| 午睡
     |ja| 昼寝している最中
-    |ru| Дремлет
+    |ru| Вспоминает Ирину
 pet.ext.detail.15
     |ko| 쉬는 중
     |en| Resting
@@ -2808,7 +2813,7 @@ rank.floor
     |en| {0}F
     |zh-cn| {0} 层
     |ja| {0} 階
-    |ru| {0}Э
+    |ru| {0}Эт
 
 rank.visit    
     |ko| 방문
@@ -2896,37 +2901,37 @@ sales.log.time.seconds
     |en| {0} seconds ago
     |zh-cn| {0} 秒前
     |ja| {0}秒前
-    |ru| {0} секунд назад
+    |ru| {0} сек назад
 sales.log.time.minutes
     |ko| {0} 분 전
     |en| {0} minutes ago
     |zh-cn| {0} 分前
     |ja| {0}分前
-    |ru| {0} минут назад
+    |ru| {0} мин назад
 sales.log.time.hours
     |ko| {0} 시간 전
     |en| {0} hours ago
     |zh-cn| {0} 小时前
     |ja| {0}時間前
-    |ru| {0} часов назад
+    |ru| {0} час назад
 sales.log.time.days
     |ko| {0} 일 전
     |en| {0} days ago
     |zh-cn| {0} 天前
     |ja| {0}日前
-    |ru| {0} дней назад
+    |ru| {0} дн назад
 sales.log.time.months
     |ko| {0} 달 전
     |en| {0} months ago
     |zh-cn| {0} 月前
     |ja| {0}ヶ月前
-    |ru| {0} месяцев назад
+    |ru| {0} мес назад
 sales.log.time.years
     |ko| {0} 년 전
     |en| {0} years ago
     |zh-cn| {0} 年前
     |ja| {0}年前
-    |ru| {0} год(а) назад
+    |ru| {0} г. назад
 
 node.select.title
     |ko| 노드 목록
@@ -3030,7 +3035,7 @@ sell.mat.show.all
     |en| Go to Market
     |zh-cn| 市场
     |ja| すべての物件
-    |ru| Посмотреть на Рынке
+    |ru| На Рынок
 sell.log.trx
     |ko| MyEOSKit에서 트랜잭션 확인
     |en| Check transaction at MyEOSKit
@@ -3081,13 +3086,13 @@ buy.item.inventory
     |en| Expand item inventory
     |zh-cn| 道具栏扩张
     |ja| アイテムインベントリー拡張
-    |ru| Расширить инвентарь предметов на
+    |ru| Расш. инв. пред. на
 buy.material.inventory
     |ko| 재료 인벤토리 확장 
     |en| Expand material inventory
     |zh-cn| 材料栏扩张
     |ja| 材料インベントリー拡張
-    |ru| Расширить инвентарь материалов на
+    |ru| Расш. инв. мат. на
     
 setting.title
     |ko| 설정
@@ -3118,26 +3123,26 @@ setting.my.item.score
     |en| Display my item score
     |zh-cn| 显示我的道具分数
     |ja| 私のアイテム点数表示
-    |ru| Отображать уровень качества моих предметов
+    |ru| Отображать % качества
 setting.show.exclamation
     |ko| 다른 장비가 있을때 느낌표 표시
     |en| Show exclamation mark on equipment
     |zh-cn| 在装备上显示感叹号
     |ja| 他の装備があるとき感嘆符を表示
-    |ru| Отображать восклицательный знак на снаряжении
+    |ru| Показать ! Знак
     
 setting.wallet.auto.lock
     |ko| 내장 지갑 자동 잠금
     |en| Built-in wallet auto lock
     |zh-cn| 内置钱包自动锁定
     |ja| 内蔵財布オートロック
-    |ru| Авто блокировка встроенного кошелька
+    |ru| Блокировка кошелька
 setting.wallet.auto.lock.not.use
     |ko| 사용 안함
     |en| Never Lock
     |zh-cn| 从不锁定
     |ja| を無効にする
-    |ru| Никогда не блокировать
+    |ru| Никогда
 
 about.title
     |ko| 앱 정보
@@ -3169,13 +3174,13 @@ referral.title
     |en| Referral Bonus
     |zh-cn| 推荐奖金
     |ja| 推薦者リウォード
-    |ru| Реферальный Бонус
+    |ru| Реф. Бонус
 referral.desc1
     |ko| 추천 보너스는 {0}회 까지 가능합니다.
     |en| Referral bonuses can be up to {0} times.
     |zh-cn| 推荐奖金最多可达{0}次。
     |ja| 推薦ボーナスは{0}回まで可能です。
-    |ru| Реферальный бонус может быть использован до {0} раз.
+    |ru| Бонус активируется до {0} раз.
 referral.desc2
     |ko| {0}회의 보너스를 받았습니다.
     |en| You have received {0} bonuses.
@@ -3205,7 +3210,7 @@ referral.placeholder
     |en| Please enter account name
     |zh-cn| 请输入推荐人账户名。
     |ja| 推薦者のアカウント名を入力してください。
-    |ru| Пожалуйста введите название учетной записи
+    |ru| Введите название учетной записи
 referral.close    
     |ko| 닫기
     |en| Close
@@ -3272,13 +3277,13 @@ skill.dt.desc.title.current
     |en| Current Level
     |zh-cn| 目前的等级
     |ja| 現在のレベル
-    |ru| Текущий уровень
+    |ru| Тек. ур.
 skill.dt.desc.title.next
     |ko| 다음 레벨
     |en| Next Level
     |zh-cn| 下一等级
     |ja| 次のレベル
-    |ru| Следующий уровень
+    |ru| След. ур.
 skill.dt.skill.point
     |ko| <color="#0072BC">{0}</color>/{1}
     |en| <color="#0072BC">{0}</color>/{1}
@@ -3324,19 +3329,19 @@ cquest.title
     |en| Craft Quest
     |zh-cn| 物品创造任务
     |ja| クラフトクエスト
-    |ru| Квест по созданию предметов
+    |ru| Крафт Квест
 cquest.total.reward
     |ko| 전체 리워드 
     |en| Total Reward
     |zh-cn| 总奖励
     |ja| トータルリワード
-    |ru| Общее вознаграждение
+    |ru| Награда
 cquest.remaining.quantity
     |ko| 전체 리워드 
     |en| Remaining quantity
     |zh-cn| 剩余数量
     |ja| 残りの数量
-    |ru| Оставшееся количество
+    |ru| Оставшееся кол-во
 cquest.submit
     |ko| 제출 
     |en| Submit
@@ -3485,7 +3490,7 @@ stage.drop.rate
     |en| Drop rate: {0}%
     |zh-cn| 掉落概率：{0}%
     |ja| ドロップ確率: {0}%
-    |ru| Частота выпадения: {0}%
+    |ru| Шанс дропа: {0}%
 
 stage.select
     |ko| 선택
@@ -3540,13 +3545,13 @@ lobby.dungeon.ticket.free
     |en| Get Free
     |zh-cn| 免费门票
     |ja| 無料チケット
-    |ru| Бесплатно
+    |ru| Забрать
 lobby.dungeon.ticket.free.full
     |ko| 최대
     |en| Full
     |zh-cn| 充分
     |ja| フル
-    |ru| Заполненный
+    |ru| Макс.
 
 dungeon.skill.level
     |ko| Level {0}
@@ -3592,25 +3597,25 @@ dungeon.ticket.Easy
     |en| Easy mode ticket
     |zh-cn| 简易模式票
     |ja| イージーモードチケット
-    |ru| Билет для лёгкого режима
+    |ru| Лёгкий режим
 dungeon.ticket.Normal
     |ko| 노말 모드 티켓 
     |en| Normal mode ticket
     |zh-cn| 普通模式票
     |ja| ノーマルモードのチケット
-    |ru| Билет для обычного режима
+    |ru| Обычный режим
 dungeon.ticket.Hard
     |ko| 하드 모드 티켓 
     |en| Hard mode ticket
     |zh-cn| 硬模票
-    |ja| ハードモードチケット    
-    |ru| Билет для тяжёлого режима  
+    |ja| ハードモードチケット  
+    |ru| Тяжёлый режим  
 dungeon.ticket.Hell
     |ko| 헬 모드 티켓 
     |en| Hell mode ticket
     |zh-cn| 地狱模式门票
     |ja| 地獄モードチケット    
-    |ru| Билет для адского режима
+    |ru| Адский режим
     
 dungeon.mode.Easy
     |ko| 이지
@@ -3635,7 +3640,7 @@ dungeon.mode.Hell
     |en| Hell
     |zh-cn| 地狱
     |ja| 地獄
-    |ru| 
+    |ru| ад
 
 #------------------------------------------------------------------------------
 # dungeon detail
@@ -3657,7 +3662,7 @@ ltg.button.get.reward
     |en| Get Reward
     |zh-cn| 获得奖励
     |ja| 補償受ける
-    |ru| Получить Награду
+    |ru| Забрать
     
 ltg.reward.title
     |ko| 보상
@@ -3671,13 +3676,13 @@ ltg.reward.mat.noraml
     |en| Normal material drop rate
     |zh-cn| 一般材料获取概率
     |ja| 一般材料獲得確率
-    |ru| Обычная частота выпадения материала
+    |ru| Шансы дропа
 ltg.reward.mat.sp
     |ko| 보스 재료 드랍 확률
     |en| Boss material drop rate
     |zh-cn| 老板材料掉落概率
     |ja| ボスの材料ドロップ確率
-    |ru| Частота выпадения материала Босса
+    |ru| Шансы дропа Босса
 
 lgt.not.enough.ticket
     |ko| 입장 티켓이 부족합니다.
@@ -3771,7 +3776,7 @@ knight.nick.Mage
     |en| SCARLLET
     |zh-cn| 斯卡莱特 
     |ja| スカーレット
-    |ru| СКАРЛЕТ
+    |ru| СКАРЛЕТТ
 
 #------------------------------------------------------------------------------
 # skill name
@@ -4001,7 +4006,7 @@ skill.desc.out.25
     |en| Gives {0}% damage, and give {2}% poison of the attack to the enemy for the next {1} turn.
     |zh-cn| 造成{0}％伤害，并在下一个{1}转弯时向敌人提供{2}％的攻击毒药。
     |ja| {0}％のダメージを与え、次の{1}ターンの敵に攻撃の{2}％の毒を与える。
-    |ru| Наносит {0}% урона, и дополнительно отравляет на {2}% от показателя атаки, одного противника на следующие {1} хода.
+    |ru| Наносит {0}% урона, и доп. отравляет на {2}% от показат. атаки, одного противника на след. {1} хода.
 skill.desc.out.26
     |ko| 적에게 공격력의 {0}% 피해를 입히고 해당 적이 중독 상태이면 {1}%의 피해를 더 입힙니다.
     |en| Gives {0}% damage, and {1}% additional damage if the enemy is poisoned.
@@ -4013,7 +4018,7 @@ skill.desc.out.27
     |en| Gives {0}% damage, and give {2}% poison of the attack to all enemies for the next {1} turn.
     |zh-cn| 造成{0}％的伤害，并在下一个{1}转弯时对所有敌人造成{2}％的攻击毒药。
     |ja| {0}％のダメージを与え、次の{1}ターンのすべての敵に攻撃の毒を{2}％与える。
-    |ru| Наносит {0}% урона, и дополнительно {2}% урона ядом от показателя атаки, всем противникам на следующие {1} хода.
+    |ru| Наносит {0}% урона, и доп. {2}% урона ядом от показат. атаки, всем противникам на след. {1} хода.
 skill.desc.out.28
     |ko| 중독 데미지를 {1}% 늘립니다.
     |en| Increases poison damage by {1}%.
@@ -4181,11 +4186,11 @@ skill.desc.32
     |ja| このターン、あなたの攻撃を{1}％増加させる。 
     |ru| Повышает вашу атаку на {1}% в этот ход.
 skill.desc.33
-    |ko| 기사의 체력을 {0} 회복합니다.
-    |en| Heals {0} the knight health
-    |zh-cn| 治疗骑士生命值{0}
-    |ja| 騎士の健康{0}を回復します
-    |ru| Восстанавливает {0} здоровья рыцаря
+    |ko| 기사의 체력을 {0}% 회복합니다.
+    |en| Heals {0}% the knight health
+    |zh-cn| 治疗骑士生命值{0}％
+    |ja| 騎士の健康{0}％を回復します
+    |ru| Восстанавливает {0}% здоровья рыцаря
 skill.desc.34
     |ko| 적에게 {0}의 피해를 주고, 이후 {1} 턴간 {2}%의 방어력을 감소시킵니다.
     |en| Gives {0} damage, and decrease {2}% defense of the attack to the enemy for the next {1} turn.
@@ -4392,7 +4397,7 @@ raw.material.name.5
     |en| Superior Smelting Stone
     |zh-cn| 上等冶炼石
     |ja| 上級製錬石
-    |ru| Улучшенный Плавильный Камень
+    |ru| Улучш. Плавильный Камень
 raw.material.name.6
     |ko| 공작새의 깃털
     |en| Feather of a peacock
@@ -4477,7 +4482,7 @@ raw.material.name.28
     |en| Mithryl
     |zh-cn| 秘银
     |ja| ミスリル
-    |ru| Митрил
+    |ru| Мифрил
 raw.material.name.29
     |ko| 아다만티움
     |en| Adamantium
@@ -4538,7 +4543,7 @@ raw.material.name.47
     |en| Smilodon Tooth
     |zh-cn| 剑齿虎牙齿
     |ja| スミロドンの牙
-    |ru| Зуб Смилодона
+    |en| Зуб Смилодона
 raw.material.name.48
     |ko| 익룡의 발톱
     |en| Pterosaur Claw
@@ -4617,7 +4622,7 @@ raw.material.name.69
     |en| Mithryl Chiffon
     |zh-cn| 米索尔雪纺
     |ja| ミスリルシフォン
-    |ru| Митрил шифон
+    |ru| Мифрил шифон
 raw.material.name.70
     |ko| 고대용의 가죽
     |en| Ancient Dragon's Leather
@@ -4732,7 +4737,7 @@ raw.material.name.206
     |en| Blue Scales
     |zh-cn| 蓝色鳞片
     |ja| 青いうろこ
-    |ru| Синие Весы
+    |ru| Синий марлин
 raw.material.name.207
     |ko| 나팔꽃
     |en| Trumpet flower
@@ -4850,7 +4855,7 @@ raw.material.desc.10
     |en| It can only be found in the river of the Blood, the blood of the giant who died in the wars of ancient gods.
     |zh-cn| 远古神在战场中死亡的血，只能在神界的血之河流中获得。
     |ja| 古代の神々の戦争で死んだ巨神の血、神界の血の川でのみ求めることができる。
-    |ru| Его можно найти только в реке крови, крови гиганта, погибшего в войнах древних богов.
+    |ru| Её можно найти только в реке крови, крови гиганта, погибшего в войнах древних богов.
 raw.material.desc.11
     |ko| 거신의 피중에 낮은 확률로 발견된다.
     |en| It is found with low probability among Giant's Blood.
@@ -4922,7 +4927,7 @@ raw.material.desc.31
     |en| It is found with low probability among Bloodium.
     |zh-cn| 在血液中发现的可能性很小。
     |ja| ブラッディニウムの中に低い確率で発見される。
-    |ru| Он встречается с низкой вероятностью среди Bloodium.
+    |ru| Он встречается с низкой вероятностью среди Блудиум.
 raw.material.desc.41
     |ko| 비교적 쉽게 구할수 있는 뼈로 다양한 아이템의 재료가 된다.
     |en| It is a relatively easy-to-find bony material for a variety of items.
@@ -5150,7 +5155,7 @@ raw.material.desc.205
     |en| Poison in egg and egg of blowfish. Paralysis of the central nervous system leads to death.
     |zh-cn| 在河豚鸡蛋和鸡蛋的毒药。 中枢神经系统瘫痪导致死亡。
     |ja| フグの卵と内臓の毒。中枢神経を麻痺させて死につながる。
-    |ru| Яд из яица иглобрюхой рыбы. Паралич центральной нервной системы приводит к смерти.
+    |ru| Яд из икры иглобрюхой рыбы. Паралич центральной нервной системы приводит к смерти.
 raw.material.desc.206
     |ko| 은백색의 광택을 띄는 푸른 생선의 가죽
     |en| Silver white lustrous blue fish leather
@@ -5168,7 +5173,7 @@ raw.material.desc.208
     |en| The trees that the elves admire have strong magical power on every leaf.
     |zh-cn| 精灵崇拜的树木在每片叶子上都有强大的神奇力量。
     |ja| エルフが崇める木は葉した葉ごとに強い魔法力を持つ。
-    |ru| Деревья, которыми восхищаются эльфы, обладают сильной магической силой в каждом листочке.
+    |ru| Деревья, которыми восхищаются эльфы, обладают магическими листьями.
 raw.material.desc.209
     |ko| 선홍빛을 띄는 꽃잎이 겹겹으로 나서 단정한 아름다움을 느끼게 한다.
     |en| Reddish petals are layered to create a neat beauty.
@@ -5186,7 +5191,7 @@ raw.material.desc.211
     |en| Blood stones. Excite the owner's feelings.
     |zh-cn| 血石。 激发主人的感受。
     |ja| 血を引く石。所有者の感情を興奮させる。
-    |ru| Камни крови. Возбуждают чувства хозяина.
+    |ru| Камни крови. Обостряют чувства хозяина.
 raw.material.desc.212
     |ko| 강철로 된 동물의 심장. 펌프가 달려 있다.
     |en| Animal's heart of steel. There is a pump.
@@ -5204,7 +5209,7 @@ raw.material.desc.214
     |en| The lustrous black shine and well-crafted are sold at high prices.
     |zh-cn| 光泽的黑色光泽和精心制作的高价出售。
     |ja| きらめく黒輝きをツイミョよく細工されたのは、高価なの売れる。
-    |ru| Блестящий черный блеск хорошо обработанные продаются по высоким ценам.
+    |ru| Блестящий черный блеск. Хорошо обработанные продаются по высоким ценам.
 raw.material.desc.215
     |ko| 이 세계의 시스템을 통제한다고 한다.
     |en| It is said to control the system of this world.
@@ -6174,7 +6179,7 @@ item.name.724
     |en| Pterosaur  Ring
     |zh-cn| 翼龙戒指
     |ja| ミスリルの指輪
-    |ru| Кольцо Птерозавр
+    |ru| Птерозавровое Кольцо
 item.name.725
     |ko| 미스릴 반지
     |en| Mithryl Ring
@@ -6437,7 +6442,7 @@ pet.name.10
     |en| Ocean Sunfish
     |zh-cn| 太阳鱼
     |ja| マンボウ
-    |ru| Океанская Солнечная рыбка
+    |ru| Рыба-Луна
 pet.name.11
     |ko| 아기용
     |en| Baby Dragon
@@ -6636,7 +6641,7 @@ pet.desc.19
     |en| The fairy mouse is said to grant one wish.
     |zh-cn| 妖精鼠可以为你实现一个愿望。
     |ja| 妖精ネズミは願いを1つ聞いてくれるそうです。
-    |ru| Говорят, сказочная мышь исполняет одно желание.
+    |ru| Говорят, сказочная крыса исполняет одно желание.
 pet.desc.20
     |ko| 이상하게 생겼지만 아주 단단한 집을 가지고 있는 게입니다.
     |en| It looks weird, but it has a very solid house.
@@ -6660,7 +6665,7 @@ pet.desc.23
     |en| The blue dragon thinks you are his pet.
     |zh-cn| 蓝色龙以为你是它的宠物。
     |ja| 青竜はあなたが自分のペットだと思っています。
-    |ru| Голубой дракон считает тебя своим питомцем. 
+    |ru| Синий дракон считает тебя своим питомцем. 
 pet.desc.24
     |ko| 용암을 뱉는 이 도마뱀은 다루기 아주 힘듭니다.
     |en| The lava lizard is very hard to handle.
