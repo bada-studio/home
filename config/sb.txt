@@ -4113,7 +4113,13 @@ lobby.dungeon.ticket.free.full
     |ja| フル
     |ru| Макс.
     |tr| 
-
+lobby.dungeon.ticket.craft.done
+    |ko| 티켓 제작 성공!
+    |en| Ticket crafting success!
+    |zh-cn| 门票制作成功！
+    |ja| チケット製作に成功！
+    |ru| Успех производства билетов!
+    |tr| 
 dungeon.skill.level
     |ko| Level {0}
     |en| Level {0}
@@ -4133,7 +4139,7 @@ dungeon.get.reward
     |tr| 
 dungeon.won.title
     |ko| 보스를 물리쳤습니다.
-    |en| I defeated the boss.
+    |en| You defeated the boss.
     |zh-cn| 我打败了老板。 
     |ru| Босс побежден.
     |tr| 
@@ -4158,7 +4164,13 @@ dungeon.end.battle.confirm
     |ja| 放棄しますか？
     |ru| Вы хотите сдаться?
     |tr| 
-    
+dungeon.release.skill.first
+    |ko| 스킬이 선택되어 있습니다.\n먼저 스킬 버튼을 한번 더 눌러 스킬을 취소하세요. 
+    |en| Skill is selected.\nPlease press the skill button once again to cancel the skill.
+    |zh-cn| 技能被选中。\n再次按技能按钮取消技能。
+    |ja| スキルが選択されています。\n先にスキルボタンをもう一度押してスキルをキャンセルします。 
+    |ru| Навыки выбраны. Нажмите кнопку навыка еще раз, чтобы отменить навык.
+    |tr| 
 dungeon.ticket.Easy
     |ko| 이지 모드 티켓 
     |en| Easy mode ticket
@@ -5259,7 +5271,7 @@ raw.material.name.47
     |en| Smilodon Tooth
     |zh-cn| 剑齿虎牙齿
     |ja| スミロドンの牙
-    |en| Зуб Смилодона
+    |ru| Зуб Смилодона
 raw.material.name.48
     |ko| 익룡의 발톱
     |en| Pterosaur Claw
