@@ -3804,11 +3804,11 @@ skill.dt.desc.title.next
     |ru| След. ур.
     |tr| 
 skill.dt.skill.point
-    |ko| <color="#0072BC">{0}</color>/{1}
-    |en| <color="#0072BC">{0}</color>/{1}
-    |zh-cn| <color="#0072BC">{0}</color>/{1}
-    |ja| <color="#0072BC">{0}</color>/{1}
-    |ru| <color="#0072BC">{0}</color>/{1}
+    |ko| <color="#73CCF9">{0}</color>/{1}
+    |en| <color="#73CCF9">{0}</color>/{1}
+    |zh-cn| <color="#73CCF9">{0}</color>/{1}
+    |ja| <color="#73CCF9">{0}</color>/{1}
+    |ru| <color="#73CCF9">{0}</color>/{1}
     |tr| 
 skill.dt.skill.0
     |ko| 스킬이 아직 없습니다.

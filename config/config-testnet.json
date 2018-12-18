@@ -25,7 +25,10 @@
       ]
    },
    "experimental": [
-      "nova","math"
+      "nova","math","dungeon"
+   ],
+   "beta": [
+      "dungeon",
    ],
    "connections": {  
       "apiServer":"http://35.241.0.251",
