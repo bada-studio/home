@@ -368,7 +368,7 @@ stat.name.LevelLimit
     |en| Required Level
     |zh-cn| 携带限制等级
     |ja| 着用制限レベル
-    |ru| Необходимый уровень
+    |ru| Мин. уровень
     |tr| 
 stat.name.ExpeditionWater
     |ko| 원정대 매직워터
@@ -447,14 +447,14 @@ sort.type.IdHL
     |en| Most Recent
     |zh-cn| 最近的
     |ja| 最新順
-    |ru| Последние добавленные
+    |ru| Послед. добавл.
     |tr| 
 sort.type.IdLH
     |ko| 역순
     |en| Reverse
     |zh-cn| 逆序
     |ja| 逆順 
-    |ru| Первые добавленные
+    |ru| Первые добавл.
     |tr| 
 sort.type.PriceLH
     |ko| 낮은 가격순
@@ -531,7 +531,7 @@ item.type.name.Accessory
     |en| Accessory
     |zh-cn| 饰品
     |ja| アクセサリー
-    |ru| Аксесуары
+    |ru| Аксессуары
     |tr| 
     
 common.alert.purchase
@@ -1006,14 +1006,14 @@ cp.whitelist.title
     |en| Whitelist this contract
     |zh-cn| 加入许可目录
     |ja| 許可リストに追加
-    |ru| Добавить контракт в белый список
+    |ru| Контракт в белый список
     |tr| 
 cp.whitelist.desc
     |ko| 이 작업을 허용 목록에 추가하면 차후에는 수동으로 권한을 부여하지 않아도 됩니다. 
     |en| You can whitelist this action so that next time you won't have to manually authorize this.
     |zh-cn| 将此内容添加至许可目录，今后就无需手动授权。
     |ja| この操作を許可リストに追加すると、今後は手動で権限を付与する必要がなくなります。
-    |ru| Вы можете добавить этот контракт в белый список и тогда в дальнейшем Вам не нужно будет подтвержать это действие.
+    |ru| Вы можете добавить контракт в белый список и в дальнейшем Вам не нужно будет подтвержать это действие.
     |tr| 
 cp.use.wallet.title
     |ko| 내장 지갑을 사용하세요.
@@ -1539,7 +1539,7 @@ all.notice.title
 chain.api.failed.network
     |ko| 네트웍 연결에 실패했습니다.\n다시 시도 해볼까요?
     |en| Network connection failed.\nTry again?
-    |zh-cn| 无法连接网络。\n再次尝试?.\
+    |zh-cn| 无法连接网络。\n再次尝试?
     |ja| ネットワーク接続に失敗しました。\n再度試みますか？
     |ru| Ошибка подключения.\nПопробовать снова?
     |tr| 
@@ -1936,7 +1936,7 @@ floor.required.title
 floor.required.desc
     |ko| 유니크: <color="#0072bc">{0:#,##0}</color> 층\n레전드: <color="#0072bc">{1:#,##0}</color> 층\n고대: <color="#0072bc">{2:#,##0}</color> 층
     |en| Unique: <color="#0072bc">{0:#,##0}</color> floor\nLegendary: <color="#0072bc">{1:#,##0}</color> floor\nAncient: <color="#0072bc">{2:#,##0}</color> floor
-    |zh-cn| 稀有：<color="#0072bc">{0:#,##0}</color> 层\n传奇：<color="#0072bc">{1:#,##0}</color> 层\n远古：<color="#0072bc">{2:#,##0}</color> 层
+    |zh-cn| 特殊：<color="#0072bc">{0:#,##0}</color> 层\n传奇：<color="#0072bc">{1:#,##0}</color> 层\n远古：<color="#0072bc">{2:#,##0}</color> 层
     |ja| ユニーク: <color="#0072bc">{0:#,##0}</color> 階\nレジェンド: <color="#0072bc">{1:#,##0}</color> 階\n古代: <color="#0072bc">{2:#,##0}</color> 階
     |ru| Уникальные: <color="#0072bc">{0:#,##0}</color> этаж\nЛегендарные: <color="#0072bc">{1:#,##0}</color> этаж\nДревние: <color="#0072bc">{2:#,##0}</color> этаж
     |tr| 
@@ -2328,7 +2328,7 @@ search.filter.show.all
     |en| Show All
     |zh-cn| 查看全部
     |ja| すべて表示する
-    |ru| Показать Все
+    |ru| Все
     |tr| 
 search.total.count
     |ko| 전체 <color="#0072bc">{0:#,##0}</color>
@@ -2521,7 +2521,7 @@ item.detail.set.title
     |en| Set item
     |zh-cn| 套装道具
     |ja| セットアイテム
-    |ru| Выберите предмет 
+    |ru| Вещи в наборе 
     |tr| 
     
 
@@ -2530,7 +2530,7 @@ btn.item.synthesis
     |en| Synthesis
     |zh-cn| 合成
     |ja| 強化
-    |ru| Соединить
+    |ru| Синтез
     |tr| 
 btn.item.level.up
     |ko| 레벨업
@@ -2701,7 +2701,7 @@ equip.equip
     |en| Equip
     |zh-cn| 携带
     |ja| 着用
-    |ru| Одеть
+    |ru| Надеть
     |tr| 
 equip.detach
     |ko| 해제
@@ -4059,7 +4059,7 @@ stage.level.limit
     |en| Required Level: {0}
     |zh-cn| 等级限制：{0}
     |ja| レベル制限: {0}%
-    |ru| Необходимый уровень: {0}
+    |ru| Мин. уровень: {0}
     |tr| 
     
 lobby.stage.changed    
@@ -4143,20 +4143,20 @@ dungeon.get.reward
 dungeon.won.title
     |ko| 보스를 물리쳤습니다.
     |en| You defeated the boss.
-    |zh-cn| 我打败了老板。 
+    |zh-cn| 我打败了BOSS。 
     |ru| Босс побежден.
     |tr| 
 dungeon.lost.title
     |ko| 보스에 당했습니다.
     |en| You were killed by the boss.
-    |zh-cn| 你被老板杀死了。
+    |zh-cn| 你被BOSS杀死了。
     |ru| Вы были убиты боссом.
     |tr| 
 
 dungeon.end.turn.confirm
     |ko| 턴을 종료하시겠습니까?
     |en| Do you want to end the turn?
-    |zh-cn| 你想结束转弯吗？
+    |zh-cn| 你想结束回合吗？
     |ja| ターンを終了しますか？
     |ru| Вы хотите завершить ход?
     |tr| 
@@ -4220,7 +4220,7 @@ dungeon.mode.Normal
 dungeon.mode.Hard
     |ko| 하드
     |en| Hard
-    |zh-cn| 硬
+    |zh-cn| 困难
     |ja| ハード
     |ru| Тяжёлый
     |tr| 
@@ -4284,7 +4284,7 @@ ltg.reward.mat.noraml
 ltg.reward.mat.sp
     |ko| 보스 재료 드랍 확률
     |en| Boss material drop rate
-    |zh-cn| 老板材料掉落概率
+    |zh-cn| BOSS材料掉落概率
     |ja| ボスの材料ドロップ確率
     |ru| Шансы дропа Босса
     |tr| 
@@ -4666,7 +4666,7 @@ skill.desc.out.24
 skill.desc.out.25
     |ko| 적에게 공격력의 {0}%의 피해를 입히고 {1}턴간 중독을 공격력의 {2}% 만큼 부여합니다.
     |en| Gives {0}% damage, and give {2}% poison of the attack to the enemy for the next {1} turn.
-    |zh-cn| 造成{0}％伤害，并在下一个{1}转弯时向敌人提供{2}％的攻击毒药。
+    |zh-cn| 造成{0}％伤害，并在下一个{1}回合时向敌人提供{2}％的攻击毒药。
     |ja| {0}％のダメージを与え、次の{1}ターンの敵に攻撃の{2}％の毒を与える。
     |ru| Наносит {0}% урона, и доп. отравляет на {2}% от показат. атаки, одного противника на след. {1} хода.
     |tr| 
@@ -4680,7 +4680,7 @@ skill.desc.out.26
 skill.desc.out.27
     |ko| 전체 적에게 공격력의 {0}%의 피해를 입히고 {1}턴간 중독을 공격력의 {2}% 만큼 부여합니다.
     |en| Gives {0}% damage, and give {2}% poison of the attack to all enemies for the next {1} turn.
-    |zh-cn| 造成{0}％的伤害，并在下一个{1}转弯时对所有敌人造成{2}％的攻击毒药。
+    |zh-cn| 造成{0}％的伤害，并在下一个{1}回合时对所有敌人造成{2}％的攻击毒药。
     |ja| {0}％のダメージを与え、次の{1}ターンのすべての敵に攻撃の毒を{2}％与える。
     |ru| Наносит {0}% урона, и доп. {2}% урона ядом от показат. атаки, всем противникам на след. {1} хода.
     |tr| 
@@ -4715,7 +4715,7 @@ skill.desc.out.33
 skill.desc.out.34
     |ko| 적에게 공격력의 {0}%의 피해를 주고, 이후 {1} 턴간 {2}%의 방어력을 감소시킵니다.
     |en| Gives {0}% damage, and decrease {2}% defense of the attack to the enemy for the next {1} turn.
-    |zh-cn| 造成{0}％伤害，并在下一个{1}转弯时减少{2}％对敌人的攻击防御。
+    |zh-cn| 造成{0}％伤害，并在下一个{1}回合时减少{2}％对敌人的攻击防御。
     |ja| {0}％のダメージを与え、次の{1}ターンの敵への攻撃の防御を{2}％減少させます。
     |ru| Наносит {0}% урона, и понижает защиту от атак противника на {2}%, на следующие {1} хода.
     |tr| 
@@ -4838,7 +4838,7 @@ skill.desc.24
 skill.desc.25
     |ko| 적에게 {0}의 피해를 입히고 {1}턴간 중독을 {2} 부여합니다.
     |en| Gives {0} damage, and give {2} poison to the enemy for the next {1} turn.
-    |zh-cn| 造成{0}点伤害，并在下一个{1}转弯时给予敌人{2}毒药。
+    |zh-cn| 造成{0}点伤害，并在下一个{1}回合时给予敌人{2}毒药。
     |ja| {0}ダメージを与え、次の{1}ターンの敵に{2}の毒を与える。
     |ru| Наносит {0} урона, и {2} урона ядом одному противнику на следующие {1} хода.
     |tr| 
@@ -4852,7 +4852,7 @@ skill.desc.26
 skill.desc.27
     |ko| 전체 적에게 {0}의 피해를 입히고 {1}턴간 중독을 {2} 부여합니다.
     |en| Gives {0} damage, and give {2} poison to all enemies for the next {1} turn.
-    |zh-cn| 造成{0}点伤害。 并且为下一个{1}转弯的所有敌人提供{2}毒药。
+    |zh-cn| 造成{0}点伤害。 并且为下一个{1}回合的所有敌人提供{2}毒药。
     |ja| {0}ダメージを与える。 そして次の{1}ターンのためにすべての敵に{2}毒を与える。 
     |ru| Наносит {0} урона, и {2} урона ядом всем противникам на следующие {1} хода.
     |tr| 
@@ -4887,9 +4887,9 @@ skill.desc.33
 skill.desc.34
     |ko| 적에게 {0}의 피해를 주고, 이후 {1} 턴간 {2}%의 방어력을 감소시킵니다.
     |en| Gives {0} damage, and decrease {2}% defense of the attack to the enemy for the next {1} turn.
-    |zh-cn| 造成{0}伤害，并在下一个{1}转弯时减少{2}％对敌人的攻击防御。
+    |zh-cn| 造成{0}伤害，并在下一个{1}回合时减少{2}％对敌人的攻击防御。
     |ja| {0}のダメージを与え、次の{1}ターンの敵への攻撃の防御を{2}％減少させます。 
-    |ru| Наносит {0} урона, и понижает защиту от отак противника на {2}% на следующие {1} хода.
+    |ru| Наносит {0} урона, и понижает защиту от атак противника на {2}% на следующие {1} хода.
     |tr| 
 skill.desc.35
     |ko| 이번 턴의 방어도를 {1}% 증가시킵니다. 
