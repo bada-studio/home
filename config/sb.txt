@@ -31,6 +31,9 @@ common.min
 
 translator
     |en| <color="#0072BC">Russian</color>\nYZ5428, Danila, Boot
+thanks.to
+    |en| Ivan Kazmenko
+
 
 remove.confirm
     |ko| 정말로 삭제하시겠습니까?
@@ -4228,6 +4231,15 @@ dungeon.mode.Hell
     |ja| 地獄
     |ru| ад
     |tr| 
+    
+dungeon.get.lose.reward
+    |ko| 보스 던전 보상
+    |en| Boss Dungeon Reward
+    |zh-cn| 东京电视台 
+    |ja| ボスダンジョン報酬
+    |ru| Босс Подземелье Награды
+    |tr| 
+    
 
 #------------------------------------------------------------------------------
 # dungeon detail
@@ -4283,6 +4295,13 @@ lgt.not.enough.ticket
     |zh-cn| 门票不够。
     |ja| 入場チケットが不足します。
     |ru| Недостаточное билетов для входа.
+    |tr| 
+lgt.retry.message
+    |ko| 재 시도시 던전 진입 당시의 스탯으로 플레이 합니다.  
+    |en| When retrying, play with the stats at the time of entering the dungeon.
+    |zh-cn| 重试时，在进入地牢时使用统计数据。
+    |ja| 再試行時ダンジョン進入時のステータスにプレイします。
+    |ru| При повторной попытке играйте со статистикой во время входа в подземелье
     |tr| 
 
 lgt.not.enough.skill.count
@@ -4610,11 +4629,11 @@ skill.desc.out.17
     |ru| Наносит {0}% урона от показателя атаки одному противнику.
     |tr| 
 skill.desc.out.18
-    |ko| 매 턴 공격력이 {1}% 증가합니다.
-    |en| Increases attack by {1} each turn.
-    |zh-cn| 每回合增加{1}的攻击力。
-    |ja| 1ターンごとに攻撃力が{1}増加する。
-    |ru| Повышает атаку на {1} каждый ход.
+    |ko| 공격력이 {1}% 증가합니다.
+    |en| Increases attack by {1} .
+    |zh-cn| 攻击强度提高{1}％。
+    |ja| 攻撃力が{1}％増加します。
+    |ru| Повышает атаку на {1}%.
     |tr| 
 skill.desc.out.21
     |ko| 적에게 공격력의 {0}%의 피해를 줍니다.
@@ -4631,11 +4650,11 @@ skill.desc.out.22
     |ru| Наносит {0}% урона от показателя атаки всем противникам.
     |tr| 
 skill.desc.out.23
-    |ko| 다음 턴의 공격을 회피합니다.
-    |en| Avoids the next turn attack.
-    |zh-cn| 避免下一轮攻击。
-    |ja| 次のターンの攻撃を回避します。
-    |ru| Избегает атаки на следующем ходу.
+    |ko| 다음 턴의 공격을 {1}%의 확률로 회피합니다.
+    |en| Avoids the next turn attack with a {1}% chance.
+    |zh-cn| 以{1}％的几率避免下一轮攻击。。
+    |ja| {1}％の確率で次のターン攻撃を回避する。。
+    |ru| Избегает атаки следующего хода с вероятностью {1}%.
     |tr| 
 skill.desc.out.24
     |ko| 이번 턴의 공격력을 {1}% 상승시킵니다.
@@ -4803,11 +4822,11 @@ skill.desc.22
     |ru| Наносит {0} урона всем противникам.
     |tr| 
 skill.desc.23
-    |ko| 다음 턴의 공격을 회피합니다.
-    |en| Avoids the next turn attack.
-    |zh-cn| 避免下一轮攻击。
-    |ja| 次のターンの攻撃を回避します。
-    |ru| Избегает атаки на следующий ход.
+    |ko| 다음 턴의 공격을 {1}%의 확률로 회피합니다.
+    |en| Avoids the next turn attack with a {1}% chance.
+    |zh-cn| 以{1}％的几率避免下一轮攻击。。
+    |ja| {1}％の確率で次のターン攻撃を回避する。。
+    |ru| Избегает атаки следующего хода с вероятностью {1}%.
     |tr| 
 skill.desc.24
     |ko| 이번 턴의 공격력을 {1}% 상승시킵니다.
