@@ -4296,6 +4296,14 @@ lgt.not.enough.ticket
     |ja| 入場チケットが不足します。
     |ru| Недостаточное билетов для входа.
     |tr| 
+lgt.retry.already.clear    
+    |ko| 이미 클리어한 던전 입니다. 다시 시도하시겠습니까?  
+    |en| You have already cleared this dungeon. Would you like to try again?
+    |zh-cn| 你已经清除了这个地下城。 你想再试一次吗？
+    |ja| あなたは既にこのダンジョンをクリアしました。再試行しますか？
+    |ru| Вы уже очистили это подземелье. Хотите попробовать еще раз?
+    |tr| 
+
 lgt.retry.message
     |ko| 재 시도시 던전 진입 당시의 스탯으로 플레이 합니다.  
     |en| When retrying, play with the stats at the time of entering the dungeon.
