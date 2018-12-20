@@ -32,7 +32,7 @@ common.min
 translator
     |en| <color="#0072BC">Russian</color>\nYZ5428, Danila, Boot
 thanks.to
-    |en| Ivan Kazmenko
+    |en| Ivan Kazmenko\nAK21
 
 
 remove.confirm
