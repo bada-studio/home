@@ -19,7 +19,7 @@
       "telegram":"https://t.me/joinchat/IAL3EwvtSVMml_qkYPXbrw"
    },
    "experimental": [
-      "nova","math","dungeon"
+      "nova","math","dungeon","dungeon-test"
    ],
    "beta": [
       "dungeon",
