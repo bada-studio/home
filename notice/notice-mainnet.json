@@ -1,5 +1,17 @@
 [  
    {  
+      "id":42,
+      "titleKo":"아이템 제작이벤트",
+      "titleEn":"Item Craft Evet",
+      "titleImage":"https://eosknights.io/img/notice/notice4.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/notice4.png =256x256)\n# 아이템 제작이벤트\n200 EOS가 걸린 이벤트가 오늘 열립니다. 행운이 있길 바랍니다!\n* 12월 21일 금요일 오후 9시에 시작합니다.\n* 아이템과 스코어는 이벤트 직전 공개됩니다.",
+      "bodyEn":"![](https://eosknights.io/img/notice/notice4.png =256x256)\n# Item Craft Event\nEarn 200 EOS!\nWe wish you the very best of luck in your participation!\n* Event starts on Fri, December 21 at 12:00 GMT\n* Item and score conditions will be released at the start of the event.",
+      "datetime":"2018-12-21T00:00:00.000",
+      "expiration":"2018-12-22T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":41,
       "titleKo":"1.6.0 Update",
       "titleEn":"1.6.0 Update",
@@ -8,18 +20,6 @@
       "bodyEn":"# Boss dungeon updated!\n![](https://eosknights.io/img/notice/boss_new.png =620x280)\nYou can finally meet the boss! Fight against the boss and save the village!\n\n* The boss dungeon run in beta.\n* It could be stopped to patch the balance or improve boss dungeon.\n\n## Balance updated\n* All skill balance was redesigned. The skill reset fee will be just 1 magic water for the next 1 week. After then it will be increased to 2000 magic water.\n* The black dragon series's stats are increased some.\n\n## Etc\n* You can increase material and item inventory 1 more time.\n* New magic water item on the shop (100,000)\n* Russian is supported. Thanks to YZ5428, Danila, Boot.\n\n## Contract improvement\nSome issues on the contract were modified. Thanks to \"Ivan Kazmenko\".\n* Random uniform issue for the big number.\n* Bug on setting the fee for 6th level up for the legendary and ancient item. This bug makes the fee for the 6th level up lower thank 4th level up.",
       "datetime":"2018-12-20T00:00:00.000",
       "expiration":"2018-12-22T00:00:00.000",
-      "padding":40,
-      "needPopup":true,
-      "link":""
-   }, {  
-      "id":40,
-      "titleKo":"아이템 제작이벤트",
-      "titleEn":"Item Craft Evet",
-      "titleImage":"https://eosknights.io/img/notice/notice4.png",
-      "bodyKo":"![](https://eosknights.io/img/notice/notice4.png =256x256)\n# 아이템 제작이벤트\n200 EOS가 걸린 이벤트가 오늘 열립니다. 행운이 있길 바랍니다!\n* 12월 19일 수요일 오후 9시에 시작합니다.\n* 아이템과 스코어는 이벤트 직전 공개됩니다.",
-      "bodyEn":"![](https://eosknights.io/img/notice/notice4.png =256x256)\n# Item Craft Event\nEarn 200 EOS!\nWe wish you the very best of luck in your participation!\n* Event starts on Wed, December 19 at 12:00 GMT\n* Item and score conditions will be released at the start of the event.",
-      "datetime":"2018-12-19T00:00:00.000",
-      "expiration":"2018-12-20T00:00:00.000",
       "padding":40,
       "needPopup":true,
       "link":""
