@@ -36,18 +36,11 @@
       "nodes": [
          {
             "key":"eosasia",
-            "defaultFor":"",
+            "defaultFor":"en",
             "location":"Hong Kong",
             "wait":2.5,
             "api":"https://api1.eosasia.one",
             "apiMobile":"https://api1.eosasia.one"
-         }, {
-            "key":"eoscafeblock",
-            "defaultFor":"en",
-            "location":"Canada",
-            "wait":2.5,
-            "api":"https://mainnet.eoscalgary.io:443",
-            "apiMobile":"https://mainnet.eoscalgary.io:443"
          }, {
             "key":"eosys",
             "defaultFor":"ko",
