@@ -1,5 +1,17 @@
 [  
    {  
+      "id":45,
+      "titleKo":"2018 올해 EOS Knights를 사랑해 주셔서 감사합니다.",
+      "titleEn":"Thank you for loving EK 2018",
+      "titleImage":"https://eosknights.io/img/notice/notice1.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/hny.png =600x280)\n2018년 한해 EOS KNIGHTS를 사랑해주셔서 감사합니다. 정신없이 달려왔던 한해였습니다. 많은 사랑 덕분에 하루 5,000명이 플레이하는 게임으로 성장할 수 있었습니다. \n\n## 1,000 EOS 제작 이벤트\n올 한해에 많은 사랑을 주신 것에 감사드립니다. 그것에 보답하는 의미로 1,000 EOS가 걸린 올해의 마지막 이벤트를 준비했습니다. 31일 오후 21:00 에 열릴 예정입니다. \n\n## 다음 업데이트\n다음 업데이트에는 아래 내용이 개발될 예정입니다. REX가 일찍 반영된다면 1월 중 업데이트 될 예정입니다.\n\n### 신규 계정 생성 지원\n내년에는 EOS 홀더들 뿐만 아니라 일반 유저도 게임을 할수 있도록 지원할 예정입니다. 이를 위해 앱에서 신규 계정 생성을 지원할 예정입니다. CPU도 REX를 통해 일부 지원할 예정입니다. 내년에는 더 많은 플레이어들을 EOS Knights에서 만나 볼수 있으면 좋겠습니다.\n\n### 신규 컨텐츠\n신규 컨텐츠 들도 계속 개발할 예정입니다. 가장 먼저 추가될 컨텐츠는 주간 보스전 랭킹입니다. 주단위로 리셋되는 보스전으로 많은 보스를 처치한 유저들에게 기존 아이템 제작 퀘스트와 비슷한 방식으로 보상이 있을 예정입니다. 보스전은 각 난이도 마다 별도로 진행됩니다. 높은 난이도의 보스에는 더 높은 현상금이 걸립니다. \n\n2019년에도 계속 좋은 컨텐츠로 찾아뵙겠습니다. 새해 복 많이 받으세요!",
+      "bodyEn":"![](https://eosknights.io/img/notice/hny.png =600x280)\nThank you for loving EOS KNIGHTS 2018 this year. It was also the unbelievable year for the dev-team. We were able to grow into a game that 5,000 people play a day.\n\n## 1,000 EOS item crafting event.\nThank you for giving me so much love this year. We have item crating event for that. Earn 1,000 EOS! The event starts on Mon, December 31 at 12:00 GMT\n\n## Next Update\nThe following will be next update. If REX is reflected early, it will be released in January.\n\n### Free EOS accounts\nNext year, we will support not only EOS holders but also general users to play games. A player will be able to make EOS account on the game. The CPU will also be partially supported through REX. We hope we can see more players at EOS Knights next year.\n\n### Weekly boss dungeon ranking\nWe will continue to develop new content. The first content will be the weekly boss dungeon ranking. Players will receive rewards in the same way as the item crafting quests depending on the player's ranking. The ranking will be separate for each mode(Easy/ Normal /Hard / Hell). You can get more reward at the higher mode.\n\nThank you for the loving EK 2018, and we will continue to make this game fun 2019. Happy New Year!",
+      "datetime":"2018-12-31T00:00:00.000",
+      "expiration":"2019-01-02T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":44,
       "titleKo":"아이템 제작이벤트",
       "titleEn":"Item Craft Evet",
