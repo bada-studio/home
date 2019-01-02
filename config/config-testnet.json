@@ -33,8 +33,7 @@
    "connections": {  
       "apiServer":"http://35.241.0.251",
       "sockServer":"http://alpha-ck-connection.eosknights.io",
-      "apiServerMobile":"http://35.241.0.251",
-      "sockServerMobile":"http://alpha-ck-connection.eosknights.io",
+      "bastetServer":"http://localhost:3000",
       "nodes": [
          {
             "key":"eosasia-kylin",
