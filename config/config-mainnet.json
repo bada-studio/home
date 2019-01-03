@@ -31,8 +31,7 @@
    "connections": {
       "apiServer":"https://api.eosknights.io/",
       "sockServer":"https://connection.eosknights.io/",
-      "apiServerMobile":"https://api.eosknights.io/",
-      "sockServerMobile":"https://connection.eosknights.io/",
+      "bastetServer":"http://localhost:3000",
       "nodes": [
          {
             "key":"eosasia",
@@ -40,49 +39,42 @@
             "location":"Hong Kong",
             "wait":2.5,
             "api":"https://api1.eosasia.one",
-            "apiMobile":"https://api1.eosasia.one"
          }, {
             "key":"eosys",
             "defaultFor":"ko",
             "location":"South Korea",
             "wait":2.5,
             "api":"https://rpc.eosys.io:443",
-            "apiMobile":"https://rpc.eosys.io:443"
          }, {
             "key":"eosrio",
             "defaultFor":"",
             "location":"Brazil",
             "wait":2.5,
             "api":"https://api.eosrio.io:443",
-            "apiMobile":"https://api.eosrio.io:443"
          }, {
             "key":"meet.one",
             "defaultFor":"zh-cn",
             "location":"Singapore",
             "wait":2.5,
             "api":"https://mainnet.meet.one:443",
-            "apiMobile":"https://mainnet.meet.one:443"
          }, {
             "key":"franceos",
             "defaultFor":"",
             "location":"France",
             "wait":2.5,
             "api":"https://api.franceos.fr:443",
-            "apiMobile":"https://api.franceos.fr:443"
          }, {
             "key":"eosphere",
             "defaultFor":"",
             "location":"Australia",
             "wait":2.5,
             "api":"https://node1.eosphere.io:443",
-            "apiMobile":"https://node1.eosphere.io:443"
          }, {
             "key":"eosstore",
             "defaultFor":"",
             "location":"China",
             "wait":2.5,
             "api":"https://api.eosstore.co:443",
-            "apiMobile":"https://api.eosstore.co:443"
          }
       ]
    }
