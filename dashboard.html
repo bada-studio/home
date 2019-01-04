@@ -53,41 +53,41 @@
 
     <!-- Begin page content -->
     <main role="main" class="container" id="app">
-      <h1 class="balance mt-5">{{ balance.balance }}</h1>
-      <p>Current balance in contract</p>
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="balance mt-5">{{ total }}</h2>
+          <p>Total Revenue</p>
 
-      <div>
-        <h6>Registered accounts</h6>
-        <p class="balance">{{ adminstate.player_count }}</p>
+          <br/>
+          <h6>Today revenue</h6>
+          <p class="balance" id="todayRevenue">0</p>
 
-        <p>Online accounts</p>
-        <p class="balance">{{ connectionUserCount }}</p>
+          <br/>
+          <h6>Dividend-not shared</h6>
+          <p class="balance">{{ adminstate.revenue }}</p>
 
-        <br/>
-        <h6>Total revenue</h6>
-        <p class="balance">{{ total }}</p>
+          <h6>Dividend-shared</h6>
+          <p class="balance">{{ adminstate.dividend }}</p>
 
-        <h6>Dividend-not shared</h6>
-        <p class="balance">{{ adminstate.revenue }}</p>
+          <h6>Expense</h6>
+          <p class="balance">{{ adminstate.expenses }}</p>
 
-        <h6>Dividend-shared</h6>
-        <p class="balance">{{ adminstate.dividend }}</p>
+          <h6>Investment</h6>
+          <p class="balance">{{ adminstate.investment }}</p>
 
-        <h6>Expense</h6>
-        <p class="balance">{{ adminstate.expenses }}</p>
+        </div>
+        <div class="col-md-6">
+          <h2 class="balance mt-5">{{ adminstate.player_count }}</h2>
+          <p>Total Account Count</p>
+          <br/>
+          <h6>Today new account</h6>
+          <p class="balance" id="todayPlayer">0</p>
+          <br/>
+          <h6>Online accounts</h6>
+          <p class="balance">{{ connectionUserCount }}</p>
 
-        <h6>Investment</h6>
-        <p class="balance">{{ adminstate.investment }}</p>
-
-        <br/>
-        <h6>Today revenue</h6>
-        <p class="balance" id="todayRevenue">0</p>
-
-        <h6>Today registerd account</h6>
-        <p class="balance" id="todayPlayer">0</p>
-
+        </div>
       </div>
-
     </main>
 
     <div class="container" id="app">

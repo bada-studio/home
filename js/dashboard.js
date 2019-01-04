@@ -92,7 +92,7 @@ async function drawChart() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({from:0, size:1440})
+      body: JSON.stringify({from:0, size:720})
     });
 
     shapshot = JSON.parse(await response.text());
@@ -108,7 +108,7 @@ async function drawChart() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({from:0, size:1440})
+      body: JSON.stringify({from:0, size:720})
     });
   
     delta = JSON.parse(await response.text());
@@ -530,11 +530,11 @@ Chart.plugins.register({
       if (!meta.hidden) {
         meta.data.forEach(function(element, index) {
           if (dataset.label == "Cumulated" || chart.data.datasets.length <= 2) {
-            if ((index % 4) != 1 && index < meta.data.length - 1) {
+            if ((index % 3) != 1 && index < meta.data.length - 1) {
               return;
             }
           } else if (dataset.label == "Sum") {
-            if ((index % 4) != 3) {
+            if ((index % 3) != 2) {
               return;
             }
           }
