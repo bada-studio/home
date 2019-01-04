@@ -91,10 +91,57 @@ async function fetchKnights(url) {
   return result;
 }
 
+async function fetchRevenue(url) {
+  let result = new Map();
+  let lower_bound = "";
+  const pageSize = 100;
+
+  let loadingCount = 0;
+  while (true) {
+    loadingCount++;
+    $("#progress").text(loadingCount);
+
+    try {
+      const response = await fetch(url + '/v1/chain/get_table_rows', {
+        method: "POST",
+        mode: "cors", 
+        cache: "no-cache",
+        headers: {
+          'Content-Type': 'text/plain',
+        },
+        body: JSON.stringify({
+          json: true,
+          code: "eosknightsio",
+          scope: "eosknightsio",
+          table: "revenue",
+          lower_bound: lower_bound,
+          limit: pageSize
+        })
+      });
+
+      const res = JSON.parse(await response.text());
+      for (let value of res.rows) {
+        result.set(value.owner, value);
+        lower_bound = value.owner;
+      }
+
+      if (res.rows.length < pageSize) {
+        break;
+      }
+    } catch (err) {
+      console.log('fetch failed', err);
+      break;
+    }
+  }
+
+  return result;
+}
+
 async function run() {
   let url = "https://api.eoseoul.io";
   let players = await fetchPlayer(url);
   let knights = await fetchKnights(url);
+  let revenue = await fetchRevenue(url);
   let groups = new Map();
   let counts = {
     player0F: 0,
@@ -102,7 +149,6 @@ async function run() {
     playerWhoHasKnight: 0,
     knight: 0,
   };
-
 
   // grouping
   for (let [key, value] of players) {

@@ -171,26 +171,56 @@ async function drawChart() {
 
 
   var dtLogs = [];
+  var dt24Created = [];
+  var dt24ItemIventoryUp = [];
+  var dt24ItemTax = [];
+  var dt24Knight = [];
+  var dt24MatIventoryUp = [];
+  var dt24MaterialTax = [];
+  var dt24Mp = [];
+  var dt24Sum = [];
+  var dt48Sum = [];
 
   for (i = 0; i < delta.length; i++) { 
+    const vitemIventoryUp = parseFloat(delta[i].itemIventoryUp);
+    const vitemTax = parseFloat(delta[i].itemTax);
+    const vknight = parseFloat(delta[i].knight);
+    const vmatIventoryUp = parseFloat(delta[i].matIventoryUp);
+    const vmaterialTax = parseFloat(delta[i].materialTax);
+    const vmp = parseFloat(delta[i].mp);
+    const vsum = vitemIventoryUp + vitemTax + vknight + vmatIventoryUp + vmaterialTax + vmp;
+
+    if (i >= delta.length - 24) {
+      dt24Created.push(delta[i].created);
+      dt24ItemIventoryUp.push(vitemIventoryUp);
+      dt24ItemTax.push(vitemTax);
+      dt24Knight.push(vknight);
+      dt24MatIventoryUp.push(vmatIventoryUp);
+      dt24MaterialTax.push(vmaterialTax);
+      dt24Mp.push(vmp);
+      dt24Sum.push(parseInt(vsum));
+    } else if (i >= delta.length - 48) {
+      dt48Sum.push(parseInt(vsum));
+    }
+
     if (dtLogs.length == 0 || dtLogs[dtLogs.length-1].created != delta[i].created) {
       dtLogs.push({
         created: delta[i].created,
-        itemIventoryUp: parseFloat(delta[i].itemIventoryUp),
-        itemTax: parseFloat(delta[i].itemTax),
-        knight: parseFloat(delta[i].knight),
-        matIventoryUp: parseFloat(delta[i].matIventoryUp),
-        materialTax: parseFloat(delta[i].materialTax),
-        mp: parseFloat(delta[i].mp),
+        itemIventoryUp: vitemIventoryUp,
+        itemTax: vitemTax,
+        knight: vknight,
+        matIventoryUp: vmatIventoryUp,
+        materialTax: vmaterialTax,
+        mp: vmp,
         userCount: parseInt(delta[i].userCount)
       });
     } else {
-      dtLogs[dtLogs.length-1].itemIventoryUp += parseFloat(delta[i].itemIventoryUp);
-      dtLogs[dtLogs.length-1].itemTax += parseFloat(delta[i].itemTax);
-      dtLogs[dtLogs.length-1].knight += parseFloat(delta[i].knight);
-      dtLogs[dtLogs.length-1].matIventoryUp += parseFloat(delta[i].matIventoryUp);
-      dtLogs[dtLogs.length-1].materialTax += parseFloat(delta[i].materialTax);
-      dtLogs[dtLogs.length-1].mp += parseFloat(delta[i].mp);
+      dtLogs[dtLogs.length-1].itemIventoryUp += vitemIventoryUp;
+      dtLogs[dtLogs.length-1].itemTax += vitemTax;
+      dtLogs[dtLogs.length-1].knight += vknight;
+      dtLogs[dtLogs.length-1].matIventoryUp += vmatIventoryUp;
+      dtLogs[dtLogs.length-1].materialTax += vmaterialTax;
+      dtLogs[dtLogs.length-1].mp += vmp;
       dtLogs[dtLogs.length-1].userCount += parseInt(delta[i].userCount);
     }
   }
@@ -371,6 +401,117 @@ async function drawChart() {
       }
     }
   });  
+
+  const revenueLabel = [];
+  const d = new Date();
+  const hour = d.getHours();
+
+  for (let index = 0; index < 24; index++) {
+    let value = hour - 24 + index + 1;
+    if (value < 0) {
+      value += 24;
+    }
+    revenueLabel.push(value);
+  }
+
+
+  var ctx3 = document.getElementById("revenue");
+  var revenueChart = new Chart(ctx3, {
+    type: 'line',
+    data: {
+      labels: revenueLabel,
+      datasets: [{
+        label: 'Sum',
+        data: dt24Sum,
+        backgroundColor: 'rgba(0, 0, 0, 0)',
+        borderColor: 'rgba(0, 0, 0, 0.3)',
+        borderWidth: 1,
+        pointRadius: 0,
+        yAxisID: 'y-axis-2',
+      }, {
+        label: 'Yesterday',
+        data: dt48Sum,
+        backgroundColor: 'rgba(0, 0, 0, 0.2)',
+        borderColor: 'rgba(0, 0, 0, 0.3)',
+        borderWidth: 1,
+        pointRadius: 0,
+        yAxisID: 'y-axis-2',
+      }, {
+        label: 'M-Water',
+        data: dt24Mp,
+        backgroundColor: 'rgba(255, 99, 132, 1)',
+        borderColor: 'rgba(255,99,132,1)',
+        borderWidth: 1,
+        pointRadius: 0,
+        yAxisID: 'y-axis-1',
+      }, {
+        label: 'Knight',
+        data: dt24Knight,
+        backgroundColor: 'rgba(54, 162, 235, 1)',
+        borderColor: 'rgba(54, 162, 235, 1)',
+        borderWidth: 1,
+        pointRadius: 0,
+        yAxisID: 'y-axis-1',
+      }, {
+        label: 'Tax-Item',
+        data: dt24ItemTax,
+        backgroundColor: 'rgba(255, 206, 86, 1)',
+        borderColor: 'rgba(255, 206, 86, 1)',
+        borderWidth: 1,
+        pointRadius: 0,
+        yAxisID: 'y-axis-1',
+      }, {
+        label: 'Tax-Mat',
+        data: dt24MaterialTax,
+        backgroundColor: 'rgba(75, 192, 192, 1)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        borderWidth: 1,
+        pointRadius: 0,
+        yAxisID: 'y-axis-1',
+      }, {
+        label: 'Ivn-Item',
+        data: dt24ItemIventoryUp,
+        backgroundColor: 'rgba(153, 102, 255, 1)',
+        borderColor: 'rgba(153, 102, 255, 1)',
+        borderWidth: 1,
+        pointRadius: 0,
+        yAxisID: 'y-axis-1',
+      }, {
+        label: 'Ivn-Mat',
+        data: dt24MatIventoryUp,
+        backgroundColor: 'rgba(255, 159, 64, 1)',
+        borderColor: 'rgba(255, 159, 64, 1)',
+        borderWidth: 1,
+        pointRadius: 0,
+        yAxisID: 'y-axis-1',
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      scales: {
+        yAxes: [{
+          id: 'y-axis-1',
+          position: 'left',
+          stacked: true,
+          ticks: {
+            beginAtZero:true,
+            min: 0,
+            max: 150,
+          }
+        }, {
+          id: 'y-axis-2',
+          position: 'right',
+          display: true,
+          ticks: {
+            beginAtZero:true,
+            min: 0,
+            max: 150,
+          }
+        }]
+      }
+    }
+  });
 }
 
 drawChart();
