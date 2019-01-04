@@ -363,6 +363,13 @@ async function drawChart() {
     data: {
       labels: labels,
       datasets: [{
+        label: 'Cumulated',
+        data: userCount,
+        backgroundColor: 'rgba(255, 255, 255, 0)',
+        yAxisID: 'y-axis-2',
+        borderColor: 'rgba(0, 0, 0, 0.5)',
+        borderWidth: 1
+      }, {
         label: 'Newly Registerd',
         data: userDelta,
         backgroundColor: 'rgba(255, 99, 132, 1)',
@@ -370,13 +377,6 @@ async function drawChart() {
         borderWidth: 1,
         pointRadius: 0,
         yAxisID: 'y-axis-1',
-      }, {
-        label: 'Cumulated',
-        data: userCount,
-        backgroundColor: 'rgba(255, 255, 255, 0)',
-        yAxisID: 'y-axis-2',
-        borderColor: 'rgba(0, 0, 0, 0.5)',
-        borderWidth: 1
       }]
     },
     options: {
@@ -411,7 +411,7 @@ async function drawChart() {
     if (value < 0) {
       value += 24;
     }
-    revenueLabel.push(value);
+    revenueLabel.push(value + ":00");
   }
 
 
@@ -497,7 +497,7 @@ async function drawChart() {
           ticks: {
             beginAtZero:true,
             min: 0,
-            max: 150,
+            max: 140,
           }
         }, {
           id: 'y-axis-2',
@@ -506,7 +506,7 @@ async function drawChart() {
           ticks: {
             beginAtZero:true,
             min: 0,
-            max: 150,
+            max: 140,
           }
         }]
       }
@@ -530,11 +530,11 @@ Chart.plugins.register({
       if (!meta.hidden) {
         meta.data.forEach(function(element, index) {
           if (dataset.label == "Cumulated" || chart.data.datasets.length <= 2) {
-            if ((index % 3) != 1 && index < meta.data.length - 1) {
+            if (index != 0 && (index % 4) != 3 && index < meta.data.length - 1) {
               return;
             }
           } else if (dataset.label == "Sum") {
-            if ((index % 3) != 2) {
+            if (index != 0 && (index % 4) != 1) {
               return;
             }
           }
