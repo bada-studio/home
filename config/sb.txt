@@ -30,7 +30,7 @@ common.min
 translator
     |en| <color="#0072BC">Russian</color>\nYZ5428, Danila, Boot
 thanks.to
-    |en| Ivan Kazmenko\nAK21
+    |en| Ivan Kazmenko\nAK26
 
 
 remove.confirm
@@ -634,7 +634,7 @@ wallet.notice.title
     |ru| Предупреждение
 wallet.notice.desc
     |ko| <color="red">루팅된 폰에서 개인키를 입력 하시면 키 탈취의 위험이 있습니다.</color> 이오스 나이츠는 키를 암호화 해서 폰에 저장합니다. 유저 부주의나 해킹 프로그램 등에 의해 키가 탈취되는것에 책임을 지지 않습니다.
-    |en| <color="red">If you enter a private key on a routed phone, there is a risk of key takeover.</color> EOS Knights encrypts the key and stores it on the phone. We are not responsible for theft of keys by user carelessness or hacking programs.
+    |en| <color="red">If you enter a private key on a rooted phone, there is a risk of key takeover.</color> EOS Knights encrypts the key and stores it on the phone. We are not responsible for theft of keys by user carelessness or hacking programs.
     |zh-cn| <color="red">如果您在路由电话上输入私钥，则存在密钥接管的风险。</color> EOS Knights对密钥进行加密并将其存储在手机上。 我们不对用户疏忽或黑客程序盗窃密钥负责。
     |ja| <color="red">ルーティングされた携帯電話で個人キーを入力すると、キーが盗用される危険があります。</color>イオスナイツは、キーを暗号化して携帯電話に保存します。ユーザーの不注意やハッキングプログラムなどにより、キーが盗用されることに対する責任は負いません。
     |ru| <color="red">Если вы вводите приватный ключ на телефоне с разблокированным рут доступом, то существует риск кражи ключа.</color> EOS Knights шифрует и хранит ваши ключи на телефоне. Мы не отвечаем за кражу ключей по вине пользователя.
@@ -880,10 +880,10 @@ create.account.new.button
     
 create.account.notice
     |ko| 하루에 200개의 계정을 무료로 생성합니다. <color="red">루팅된 폰에서 시도하면 키 탈취의 위험이 있습니다.</color>
-    |en| We create 200 free account per day. <color="red">Don't create an account on a routed phone, there is a risk of key takeover.</color>    
-    |zh-cn| 每天免费创建200个帐户。 <color="red">尝试使用路由式移动电话可能会对密钥进行除臭。</color>
-    |ja| 一日に200個のアカウントを無料で作成します。 <color="red">ルーティングされた携帯電話でしようとするキー脱臭の危険があります。</color>
-    |ru| Мы создаем 200 бесплатных аккаунтов в день. <color="red">Не создавайте аккаунт на маршрутизируемом телефоне.</color>
+    |en| We create 200 free account per day. <color="red">Don't create an account on a rooted phone, there is a risk of key takeover.</color>    
+    |zh-cn| 每天免费创建200个帐户。 <color="red">不要在有根电话上创建帐户，存在密钥接管的风险。</color>
+    |ja| 一日に200個のアカウントを無料で作成します。 <color="red">根ざした電話でアカウントを作成しないでください。キーの買収のリスクがあります。</color>
+    |ru| Мы создаем 200 бесплатных аккаунтов в день. <color="red">Не создавайте учетную запись на рутированном телефоне.</color>
 create.account.backup.notice
     |ko| 개인키를 모두 백업해두세요. 잃어버리면 복구가 불가능합니다.
     |en| Please backup your private keys to safe area. If you lose private key, we cannot restore it.    
@@ -922,6 +922,24 @@ bind.account.title
     |zh-cn| 绑定EOS帐户
     |ja| EOSアカウントをバインド
     |ru| Привязать аккаунт EOS
+bind.account.notice
+    |ko| 루팅된 폰에서 계정 연결을 하지마세요. 키 탈취 위험이 있습니다.
+    |en| Don't bind an account on a rooted phone, there is a risk of key takeover.
+    |zh-cn| 不要在root电话上绑定帐户，存在密钥接管的风险。
+    |ja| 根ざした電話にアカウントをバインドしないでください。キーの買収の危険性があります。
+    |ru| Не связывайте аккаунт на рутированном телефоне, есть риск захвата ключа.
+bind.run.button
+    |ko| 계정 연결
+    |en| Bind
+    |zh-cn| 帐户关联
+    |ja| アカウントリンク
+    |ru| Привязка аккаунта
+bind.oauth.error
+    |ko| 기기당 1개의 소셜 로그인만 가능합니다.\n기존에 로그인한 계정으로 인증해주세요.
+    |en| Only one social sign-in per device is allowed.\nPlease sign in with your previous account.
+    |zh-cn| 每台设备只允许一次社交登录。\n请使用您之前的帐户登录。
+    |ja| デバイスごとに1つのソーシャルサインインのみが許可されています。\n前のアカウントでサインインしてください。
+    |ru| Разрешен только один социальный вход на устройство.\nПожалуйста, войдите в свой предыдущий аккаунт.
 
 stake.more.btn.run.anyway
     |ko| 시도하기
@@ -3221,7 +3239,7 @@ setting.bgm
     |ru| Фоновая Музыка
 setting.effect.sound
     |ko| 효과음
-    |en| Effect sound
+    |en| Effect Sound
     |zh-cn| 效果音乐
     |ja| 効果音
     |ru| Звуковые Эффекты
@@ -3233,20 +3251,20 @@ setting.node
     |ru| Узел
 setting.my.item.score
     |ko| 내 아이템 점수 표시
-    |en| Display my item score
+    |en| Display my Item S  core
     |zh-cn| 显示我的道具分数
     |ja| 私のアイテム点数表示
     |ru| Отображать % качества
 setting.show.exclamation
     |ko| 다른 장비가 있을때 느낌표 표시
-    |en| Show exclamation mark on equipment
+    |en| Show Exclamation Mark on Equipment
     |zh-cn| 在装备上显示感叹号
     |ja| 他の装備があるとき感嘆符を表示
     |ru| Показать ! Знак
     
 setting.wallet.auto.lock
     |ko| 내장 지갑 자동 잠금
-    |en| Built-in wallet auto lock
+    |en| Built-in Wallet Auto Lock
     |zh-cn| 内置钱包自动锁定
     |ja| 内蔵財布オートロック
     |ru| Блокировка кошелька
