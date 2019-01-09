@@ -497,7 +497,7 @@ async function drawChart() {
           ticks: {
             beginAtZero:true,
             min: 0,
-            max: 140,
+            max: 120,
           }
         }, {
           id: 'y-axis-2',
@@ -506,7 +506,7 @@ async function drawChart() {
           ticks: {
             beginAtZero:true,
             min: 0,
-            max: 140,
+            max: 120,
           }
         }]
       }
