@@ -141,11 +141,12 @@ async function run() {
   let url = "https://api.eoseoul.io";
   let players = await fetchPlayer(url);
   let knights = await fetchKnights(url);
-  let revenue = await fetchRevenue(url);
+  //let revenue = await fetchRevenue(url);
   let groups = new Map();
   let counts = {
     player0F: 0,
     playerLt10F: 0,
+    totalFloorSum: 0,
     playerWhoHasKnight: 0,
     knight: 0,
   };
@@ -173,6 +174,8 @@ async function run() {
       continue;
     }
 
+    counts.totalFloorSum += value.maxfloor;
+
     var level = parseInt(value.maxfloor / 100);
     if (!groups.has(level)) {
       groups.set(level, {
@@ -186,6 +189,8 @@ async function run() {
       item.knights.push(knt);
     }
   }
+
+  console.log(counts.totalFloorSum/counts.playerLt10F);
 
   // calculate
   for (let [key, value] of groups) {
@@ -382,6 +387,7 @@ async function drawChart() {
   $("#playerLt10FCount").text(groups.counts.playerLt10F);
   $("#playerWhoHasKnightCount").text(groups.counts.playerWhoHasKnight);
   $("#knightCount").text(groups.counts.knight);
+  $("#avgFloor").text(groups.counts.totalFloorSum / totalCount);
   $("#export").prop("href", 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
 
   $("#loading").css("display", "none")
