@@ -36,26 +36,11 @@
       "bastetServer":"http://localhost:3000",
       "nodes": [
          {
-            "key":"eosasia-kylin",
+            "key":"test",
             "defaultFor":"ko",
-            "location":"Hong kong",
+            "location":"Seoul",
             "wait":1.5,
-            "api":"https://api-kylin.eosasia.one",
-            "apiMobile":"https://api-kylin.eosasia.one"
-         }, {
-            "key":"eoslaomao-kylin",
-            "defaultFor":"ko",
-            "location":"Japan",
-            "wait":1.5,
-            "api":"https://api-kylin.eoslaomao.com",
-            "apiMobile":"https://api-kylin.eoslaomao.com"
-         }, {
-            "key":"meetone-kylin",
-            "defaultFor":"ko",
-            "location":"Hong knong",
-            "wait":1.5,
-            "api":"https://api-kylin.meet.one",
-            "apiMobile":"https://api-kylin.meet.one"
+            "api":"http://121.168.149.101:8888"
          }
       ]
    }
