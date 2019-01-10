@@ -13,7 +13,7 @@
       "ios":"",
       "android":"https://play.google.com/store/apps/details?id=com.bada.ck"
    },
-   "contract":"eosknightstn",
+   "contract":"eosknightsio",
    "transactionWait": {
       "normalWait":0.5,
       "longWait":0.5,
