@@ -3,7 +3,7 @@
       "ios":"1.5.0",
       "android":"1.5.0"
    },
-   "maintenance": true,
+   "maintenance": false,
    "maintenanceMessage": {
       "bodyKo":"점검 중입니다.",
       "bodyEn":"Maintenance break",
