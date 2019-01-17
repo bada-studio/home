@@ -166,7 +166,9 @@ async function drawChart() {
       ssLogs[i].knight +
       ssLogs[i].matIventoryUp +
       ssLogs[i].materialTax + 
-      ssLogs[i].mp));
+      ssLogs[i].mp) +
+      111
+    );
   }
 
 
