@@ -1,5 +1,17 @@
 [  
    {  
+      "id":52,
+      "titleKo":"아이템 제작이벤트",
+      "titleEn":"Item Craft Event",
+      "titleImage":"https://eosknights.io/img/notice/notice1.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/notice1.png =256x256)\n# 아이템 제작이벤트!\n200 EOS가 걸린 이벤트가 오늘 열립니다. 행운이 있길 바랍니다!\n* 1월 25일 금요일 오후 9시에 시작합니다.\n* 아이템과 스코어는 이벤트 직전 공개됩니다.",
+      "bodyEn":"![](https://eosknights.io/img/notice/notice1.png =256x256)\n# Item Craft Event!\nEarn 200 EOS!\nWe wish you the very best of luck in your participation!\n* Event starts on Tue, January 25 at 12:00 GMT\n* Item and score conditions will be released at the start of the event.",
+      "datetime":"2019-01-25T00:00:00.000",
+      "expiration":"2019-01-27T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":51,
       "titleKo":"PROCHAIN x EOSKNIGHTS",
       "titleEn":"PROCHAIN x EOSKNIGHTS",
@@ -8,18 +20,6 @@
       "bodyEn":"![](https://eosknights.io/img/notice/ekpro.png =600x280)\n# PROCHAIN x EOSKNIGHTS\nGet 2,500,000 FREE Magic Water from PROCHAIN. You can get 250 Magic Water by a click.\n\n[Get it!](https://chain.pro/web-prabox/#/MagicWater/3/41)",
       "datetime":"2019-01-25T00:00:00.000",
       "expiration":"2019-01-27T00:00:00.000",
-      "padding":40,
-      "needPopup":true,
-      "link":""
-   }, {  
-      "id":50,
-      "titleKo":"아이템 제작이벤트",
-      "titleEn":"Item Craft Evet",
-      "titleImage":"https://eosknights.io/img/notice/notice1.png",
-      "bodyKo":"![](https://eosknights.io/img/notice/notice1.png =256x256)\n# 아이템 제작이벤트!\n200 EOS가 걸린 이벤트가 오늘 열립니다. 행운이 있길 바랍니다!\n* 1월 22일 화요일 오후 9시에 시작합니다.\n* 아이템과 스코어는 이벤트 직전 공개됩니다.",
-      "bodyEn":"![](https://eosknights.io/img/notice/notice1.png =256x256)\n# Item Craft Event!\nEarn 200 EOS!\nWe wish you the very best of luck in your participation!\n* Event starts on Tue, January 22 at 12:00 GMT\n* Item and score conditions will be released at the start of the event.",
-      "datetime":"2019-01-22T00:00:00.000",
-      "expiration":"2019-01-23T00:00:00.000",
       "padding":40,
       "needPopup":true,
       "link":""
