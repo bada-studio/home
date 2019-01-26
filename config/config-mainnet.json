@@ -31,7 +31,7 @@
    "connections": {
       "apiServer":"https://api.eosknights.io/",
       "sockServer":"https://connection.eosknights.io/",
-      "bastetServer":"http://localhost:3000",
+      "bastetServer":"https://bastet.eosknights.io/",
       "nodes": [
          {
             "key":"eosasia",
