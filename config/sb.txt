@@ -20,6 +20,18 @@ korean.ro
 korean.euro
     |ko| 으로
 
+common.days
+    |ko| 일
+    |en| Days
+    |zh-cn| 天
+    |ja| 日
+    |ru| дней
+common.hours
+    |ko| 시간
+    |en| Hours
+    |zh-cn| 小時
+    |ja| 時間
+    |ru| часов
 common.min
     |ko| 분
     |en| Min
@@ -69,6 +81,20 @@ push.alert.sell.item.desc
     |zh-cn| 哇！我的道具已卖给{0}！
     |ja| うわ！私のアイテムが{0}に売れた！
     |ru| Уау! Мой предмет был продан за {0}!
+
+common.copied
+    |ko| 클립보드에 복사되었습니다.
+    |en| Key copied to clipboard.
+    |zh-cn| 密钥复制到剪贴板。
+    |ja| クリップボードにキーがコピーされました。
+    |ru| Ключ скопирован в буфер обмена.
+
+common.loading.failed
+    |ko| 데이터를 불러올 수 없습니다.
+    |en| Can not load data.
+    |zh-cn| 無法加載數據。
+    |ja| データを読み込むことができません。
+    |ru| Данные не могут быть загружены.
 
 #------------------------------------------------------------------------------
 # loading scene
@@ -142,6 +168,18 @@ skills.loading
 knight.loading
     |ko| 기사를 불러옵니다.
     |en| Load knights
+    |zh-cn| 加载骑士。
+    |ja| 騎士を読み込みます。
+    |ru| Загрузка рыцарей.
+dungeon.loading
+    |ko| 던전을 불러옵니다.
+    |en| Load Dungeon
+    |zh-cn| 加载骑士。
+    |ja| 騎士を読み込みます。
+    |ru| Загрузка рыцарей.
+globalvar.loading
+    |ko| 전역 변수를 불러옵니다.
+    |en| Load Global Variable
     |zh-cn| 加载骑士。
     |ja| 騎士を読み込みます。
     |ru| Загрузка рыцарей.
@@ -278,6 +316,18 @@ title.login.notice.title
     |zh-cn| 注意
     |ja| 注意
     |ru| Предупреждение
+title.clear.cache
+    |ko| 캐시 지우기
+    |en| Clear Cache
+    |zh-cn| 清除缓存
+    |ja| キャッシュの消去
+    |ru| Очистить кэш
+title.cache.clear.done
+    |ko| 캐시를 지웠습니다.
+    |en| Clearing the cache is done.
+    |zh-cn| 清除缓存已完成
+    |ja| キャッシュをクリアする
+    |ru| очистка кеша сделана
 title.new.account.break
     |ko| 죄송합니다. 신규 가입은 당분간 중단됩니다. 자세한 내용은 홈페이지를 참고해주세요.
     |en| Sorry. Signup has been temporarily suspended. For more information, please visit our homepage.
@@ -597,11 +647,11 @@ use.web.version
 # wallet
 #------------------------------------------------------------------------------
 wallet.title
-    |ko| EOS 라이트 월렛
-    |en| EOS Light Wallet
-    |zh-cn| EOS轻钱包
-    |ja| EOSライトウォレット
-    |ru| EOS Light Wallet
+    |ko| EOS 빌트인 월렛
+    |en| EOS Built-in Wallet
+    |zh-cn| EOS内置钱包
+    |ja| EOSビルトインウォレット
+    |ru| EOS Встроенный кошелек
 wallet.select.account
     |ko| 로그인할 계정을 선택하세요.
     |en| Select an account to sign in.
@@ -621,11 +671,11 @@ wallet.no.account
     |ja| 登録されたキーがありません。
     |ru| У вас нет ни одного зарегистрированного ключа.
 wallet.new.account
-    |ko| 계정 추가하기
-    |en| Add a new account
-    |zh-cn| 增加新账号
-    |ja| アカウントを追加する
-    |ru| Добавить новый аккаунт
+    |ko| 새 계정
+    |en| New account
+    |zh-cn| 新账户
+    |ja| 新しいアカウント
+    |ru| Новый аккаунт
 wallet.notice.title
     |ko| 주의
     |en| Warnning
@@ -639,6 +689,19 @@ wallet.notice.desc
     |ja| <color="red">ルーティングされた携帯電話で個人キーを入力すると、キーが盗用される危険があります。</color>イオスナイツは、キーを暗号化して携帯電話に保存します。ユーザーの不注意やハッキングプログラムなどにより、キーが盗用されることに対する責任は負いません。
     |ru| <color="red">Если вы вводите приватный ключ на телефоне с разблокированным рут доступом, то существует риск кражи ключа.</color> EOS Knights шифрует и хранит ваши ключи на телефоне. Мы не отвечаем за кражу ключей по вине пользователя.
 
+wallet.free.account
+    |ko| 무료 EOS 계정 생성
+    |en| Create Free EOS Account
+    |zh-cn| 创建免费的EOS帐户
+    |ja| 無料のEOSアカウントを作成する
+    |ru| Создать аккаунт EOS
+wallet.free.account.desc
+    |ko| 하루에 <color="#0072BC">100</color>개의 계정을 무료로 생성합니다.
+    |en| We create <color="#0072BC">100</color> free account per day.    
+    |zh-cn| 每天免费创建<color="#0072BC">100</color>个帐户。
+    |ja| 一日に<color="#0072BC">100</color>個のアカウントを無料で作成します。
+    |ru| Мы создаем <color="#0072BC">100</color> бесплатных аккаунтов в день.
+    
 wallet.new.title
     |ko| 새 계정 등록
     |en| Add a new account
@@ -807,11 +870,11 @@ wallet.unlock.error.pass
     |ja| パスワードが一致していません。
     |ru| Пароли не совпадают.
 wallet.update.password
-    |ko| 지갑 비밀번호 변경
-    |en| Change wallet password
-    |zh-cn| 更改钱包密码
-    |ja| ウォレットパスワード変更
-    |ru| Изменить пароль кошелька
+    |ko| 비밀번호 변경
+    |en| Change password
+    |zh-cn| 更改密码
+    |ja| パスワードの変更
+    |ru| Изменить пароль
 
 wallet.sugar
     |en| 08316604928CC85F5E4D0D0C33CE4AE50CCE1CB150AFCA5D2DE2F18AE05E1977
@@ -878,12 +941,24 @@ create.account.new.button
     |ja| アカウントを作成する
     |ru| Создать учетную запись
     
+new.account.help.title
+    |ko| 계정 생성
+    |en| Create Account
+    |zh-cn| 创建帐号
+    |ja| アカウントを作成する
+    |ru| Создать учетную запись
+new.account.help.body
+    |ko| ## 내장지갑\n내장 지갑에서 하루 100개의 무료 계정 생성을 지원합니다.\n\n# 외부 생성 툴\n아래 툴을 통해 계정을 생성할 수 있습니다.\n* [irex](https://irex.io)   
+    |en| ## Built-in Wallet\nSupports creation of 100 free accounts per day in a wallet.\n\n# External creation tool\nYou can create an account using the tools below.\n* [irex](https://irex.io)    
+    |zh-cn| ##內置錢包\n支持在錢包中每天創建100個免費帳戶。\n\n＃外部創建工具\n您可以使用以下工具創建帳戶。\n* [irex]（https://irex.io） 
+    |ja| ##内蔵財布\n内蔵財布から一日100個の無料アカウントの作成をサポートします。\n\n＃外部生成ツール\n下のツールを使用してアカウントを作成することができます。\n* [irex]（https://irex.io）
+    |ru| ## Встроенный кошелек\nПоддерживает создание 100 бесплатных аккаунтов в день в кошельке.\n\n# Внешний инструмент создания\nВы можете создать учетную запись, используя инструменты ниже.\n* [irex](https://irex.io)     
 create.account.notice
-    |ko| 하루에 200개의 계정을 무료로 생성합니다. <color="red">루팅된 폰에서 시도하면 키 탈취의 위험이 있습니다.</color>
-    |en| We create 200 free account per day. <color="red">Don't create an account on a rooted phone, there is a risk of key takeover.</color>    
-    |zh-cn| 每天免费创建200个帐户。 <color="red">不要在有根电话上创建帐户，存在密钥接管的风险。</color>
-    |ja| 一日に200個のアカウントを無料で作成します。 <color="red">根ざした電話でアカウントを作成しないでください。キーの買収のリスクがあります。</color>
-    |ru| Мы создаем 200 бесплатных аккаунтов в день. <color="red">Не создавайте учетную запись на рутированном телефоне.</color>
+    |ko| 하루에 100개의 계정을 무료로 생성합니다. <color="red">루팅된 폰에서 시도하면 키 탈취의 위험이 있습니다.</color>
+    |en| We create 100 free account per day. <color="red">Don't create an account on a rooted phone, there is a risk of key takeover.</color>    
+    |zh-cn| 每天免费创建100个帐户。 <color="red">不要在有根电话上创建帐户，存在密钥接管的风险。</color>
+    |ja| 一日に100個のアカウントを無料で作成します。 <color="red">根ざした電話でアカウントを作成しないでください。キーの買収のリスクがあります。</color>
+    |ru| Мы создаем 100 бесплатных аккаунтов в день. <color="red">Не создавайте учетную запись на рутированном телефоне.</color>
 create.account.backup.notice
     |ko| 개인키를 모두 백업해두세요. 잃어버리면 복구가 불가능합니다.
     |en| Please backup your private keys to safe area. If you lose private key, we cannot restore it.    
@@ -896,6 +971,12 @@ create.account.key.copy
     |zh-cn| 密钥复制到剪贴板。\n请备份所有私钥。\n如果你失去它，你无法恢复它。
     |ja| クリップボードにキーがコピーされました。\n秘密鍵の両方をバックアップしてください。\n失われてしまうと回復が不可能です。
     |ru| Ключ скопирован в буфер обмена.\nПереместите свои ключи в безопасное место.\nЕсли вы потеряете закрытый ключ, мы не сможем его восстановить.
+create.exceed.free.account
+    |ko| 무료 계정 생성이 마감되었습니다.\n잠시후 다시 확인해주세요.    
+    |en| Free account creation is ran out.\nPlease try it later.
+    |zh-cn| 免费帐户创建已用完。 请稍后再试。
+    |ja| 無料アカウントの作成が終了しました。しばらくして再試行してください。
+    |ru| Бесплатное создание аккаунта закончилось. Пожалуйста, попробуйте позже.
 create.account.failed
     |ko| 계정 생성에 실패했습니다.
     |en| Account creation failed.
@@ -908,6 +989,13 @@ create.account.success
     |zh-cn| 帐户创建成功！
     |ja| アカウントの作成に成功！
     |ru| Создание аккаунта успешно!
+
+create.account.backup.first
+    |ko| 복사 버튼을 눌러 개인키를 먼저 백업하세요.
+    |en| Please press the copy button to back up your private key first.    
+    |zh-cn| 按“复制”按钮首先备份您的私钥。
+    |ja| まずコピーボタンを押して秘密鍵をバックアップしてください。
+    |ru| Пожалуйста, нажмите кнопку копирования, чтобы сначала создать резервную копию вашего закрытого ключа.
          
 create.account.key.copied
     |ko| 클립보드에 복사되었습니다.\n안전한 곳으로 키를 옮기세요.
@@ -1098,6 +1186,34 @@ atm.failed.withdraw
     |zh-cn| 提现失败。
     |ja| 出金に失敗しました。
     |ru| Ошибка снятия средств.
+
+
+no.balance.title
+    |ko| 잔고 부족
+    |en| Low Balance
+    |zh-cn| 低平衡
+    |ja| 残高不足
+    |ru| Низкий баланс
+no.balance.inc.title
+    |ko| 잔고를 늘리려면
+    |en| To increase your balance
+    |zh-cn| 增加你的平衡
+    |ja| 残高を増やすには
+    |ru| Чтобы увеличить свой баланс
+no.balance.inc.desc1
+    |ko| 거래소에서 이 계정으로 출금
+    |en| EOS withdrawal on this account from exchange
+    |zh-cn| Exchange將EOS撤回此帳戶
+    |ja| このアカウントに取引所でEOS出金
+    |ru| Вывод EOS на этот счет с биржи
+no.balance.inc.desc2
+    |ko| 다른 계정에서 이 계정으로 EOS 이체
+    |en| Transfer EOS from another account to this account
+    |zh-cn| 將EOS從其他帳戶轉移到此帳戶
+    |ja| 他のアカウントからこのアカウントにEOSを転送する
+    |ru| Перевести EOS с другого аккаунта на этот аккаунт
+    
+    
 
 #------------------------------------------------------------------------------
 # Stake
@@ -1291,12 +1407,12 @@ title.key.placeholder
     |zh-cn| 请输入您的密钥。
     |ja| ここに個人キーを入力してください。
     |ru| Пожалуйств введите ваш приватный ключ.
-title.new.account
-    |ko| 신규 계정 생성은 <color="#0072bc">여기</color>를 참고하세요.
-    |en| To create a new account, see <color="#0072bc">here</color>.
-    |zh-cn| 生成新的账号，请参考 <color="#0072bc">这里</color>。
-    |ja| 新規アカウントの生成は<color="#0072bc">ここ</color>を参照してください。
-    |ru| Для создания нового аккаунта перейдите <color="#0072bc">сюда</color>.
+title.need.new.account
+    |ko| EOS 계정이 없어요.
+    |en| I do not have an EOS account.
+    |zh-cn| 我沒有EOS帳戶。
+    |ja| EOSアカウントがありません。
+    |ru| У меня нет учетной записи EOS.
 
 title.login.method.meet.one
     |ko| MEET.ONE 지갑
@@ -1790,6 +1906,18 @@ floor.record.desc
     |zh-cn| <color="#0072bc">{0:#,##0}</color> 层
     |ja| <color="#0072bc">{0:#,##0}</color>階
     |ru| <color="#0072bc">{0:#,##0}</color> этаж
+avg.floor.record.title
+    |ko| 최고 층수 기록 (전체 유저 평균)
+    |en| Floor record (Overall player average)
+    |zh-cn| 最高层数记录（整體球員平均值）
+    |ja| 最高階数記録（全プレーヤーの平均）
+    |ru| Рекордный этаж(В среднем для всех игроков)
+avg.floor.record.desc
+    |ko| <color="#0072bc">{0:#,##0}</color> 층\n<color="#0072bc">{1:N2}</color> (Global droprate factor)
+    |en| <color="#0072bc">{0:#,##0}</color> floor\n<color="#0072bc">{1:N2}</color> (Global droprate factor)
+    |zh-cn| <color="#0072bc">{0:#,##0}</color> 层\n<color="#0072bc">{1:N2}</color> (Global droprate factor)
+    |ja| <color="#0072bc">{0:#,##0}</color>階\n<color="#0072bc">{1:N2}</color> (Global droprate factor)
+    |ru| <color="#0072bc">{0:#,##0}</color> этаж\n<color="#0072bc">{1:N2}</color> (Global droprate factor)s
 floor.required.title
     |ko| 재료 등급별 최소 필요 층수
     |en| Required floor for material
@@ -1882,7 +2010,7 @@ lobby.item.stat
     |en| <color="#0072bc">{0:#,##0}</color>
 
 lobby.item.stat.percent
-    |en| <color="#0072bc">{0:#,##0}%</color>
+    |en| <color="#0072bc">{0:N2}%</color>
 
 lobby.item.stat.up
     |ko| <color="#0072bc">{0:#,##0}</color> (다음 레벨 <color="#0aae00">+{1:#,##0}</color>)
@@ -1892,11 +2020,11 @@ lobby.item.stat.up
     |ru| <color="#0072bc">{0:#,##0}</color> (След. уровень <color="#0aae00">+{1:#,##0}</color>)
 
 lobby.item.stat.up.percent
-    |ko| <color="#0072bc">{0:#,##0}%</color> (다음 레벨 <color="#0aae00">+{1:#,##0}%</color>)
-    |en| <color="#0072bc">{0:#,##0}%</color> (Next Level <color="#0aae00">+{1:#,##0}%</color>)
-    |zh-cn| <color="#0072bc">{0:#,##0}%</color> (升级 <color="#0aae00">+{1:#,##0}%</color>)
-    |ja| <color="#0072bc">{0:#,##0}%</color> (次のレベル<color="#0aae00">+{1:#,##0}%</color>)
-    |ru| <color="#0072bc">{0:#,##0}%</color> (След. уровень <color="#0aae00">+{1:#,##0}%</color>)
+    |ko| <color="#0072bc">{0:N2}%</color> (다음 레벨 <color="#0aae00">+{1:N2}%</color>)
+    |en| <color="#0072bc">{0:N2}%</color> (Next Level <color="#0aae00">+{1:N2}%</color>)
+    |zh-cn| <color="#0072bc">{0:N2}%</color> (升级 <color="#0aae00">+{1:N2}%</color>)
+    |ja| <color="#0072bc">{0:N2}%</color> (次のレベル<color="#0aae00">+{1:N2}%</color>)
+    |ru| <color="#0072bc">{0:N2}%</color> (След. уровень <color="#0aae00">+{1:N2}%</color>)
 
 lobby.item.stat.range.desc    
     |ko| <color="#0072bc">{0:#,##0}-{1:#,##0}</color>  확률 <color="#0072bc">{2:D}%</color> 
@@ -2223,6 +2351,13 @@ lobby.item.tab.book
     |ja| アイテム図鑑
     |ru| Справочник
     
+lobby.hire.knight.first
+    |ko| 기사를 먼저 고용하세요.
+    |en| Please hire a knight first.
+    |zh-cn| 請先僱一個騎士。
+    |ja| 最初に騎士を雇ってください。
+    |ru| Пожалуйста, сначала наймите рыцаря.
+
 statup.title
     |ko| 업그레이드
     |en| UPGRADE
@@ -3552,6 +3687,42 @@ quest.start.after
     |ja| {0}の後に新しいイベントが開始されます。\nしばらくお待ちください。
     |ru| Новое событие будет проведено после {0}.\nПожалуйста, подождите немного.
 
+
+#------------------------------------------------------------------------------
+# craft quest
+#------------------------------------------------------------------------------
+dquest.title
+    |ko| 던전 제작 퀘스트
+    |en| Dungeon Quest
+    |zh-cn| 地下城任務
+    |ja| ダンジョンクエスト
+    |ru| Темница Квест
+dquest.reward
+    |ko| {0} {1} 보상
+    |en| {0} {1} Reward
+    |zh-cn| {0}{1}奖励
+    |ja| {0}{1}補償
+    |ru| {0} {1} Награда
+dquest.top.count.desc
+    |ko| {0}위 까지 보상이 주어집니다.
+    |en| Get in the top {0} for rewards.
+    |zh-cn| 獲得前{0}名的獎勵。
+    |ja| {0}位までの報酬が支払われます。
+    |ru| Получить в топ-{0} наград.
+dquest.no.submit
+    |ko| 기록 없음
+    |en| No record
+    |zh-cn| 沒有記錄
+    |ja| 記録なし
+    |ru| Нет записи
+
+dquest.faq
+    |ko| # 던전 퀘스트\n던전 퀘스트는 일주일간 던전을 더 많이 클리어한 플레이어에게 보상을 주는 이벤트입니다.\n\n## 어떻게 참가하나요?\n이벤트 기간 중 던전을 클리어하면 자동 참가됩니다.\n\n## 점수는 어떻게 계산되나요?\n던전을 클리어하면 점수를 획득합니다. 던전별로 점수가 다릅니다.\n* 치즈의 기사: 5점\n* 악마의 해변: 6점\n* 튤립 정원: 7점\n* 강철 고블린 군단: 8점\n* 붉은 드래곤: 9점\n\n## 보상은 어떻게 지급되나요?\n상위 랭킹 유저의 전체 점수 중 내 점수 만큼 보상을 가져갑니다. 예를들어 상위 플레이어들의 점수 합이 100점이고 내 점수가 10점이라면 보상의 10%가 내 몫 입니다.
+    |en| # Dungeon Quest\nDungeon Quest is an event with rewards for players who have cleared dungeons for a week.\n\n## How do I participate?\nIf you clear the dungeon during the event, it will automatically participate.\n\n## How is the score calculated?\nWhen you clear the dungeon, you earn points. Score varies by dungeon.\n* Knights of Cheese: 5 points\n* Devil's Beach: 6 points\n* Tulip Garden: 7 points\n* Steel Goblin Legion: 8 points\n* Red Dragon: 9 points\n\n## How is the reward calculated?\nIf you are in the top ranking, you will get a reward depends on the point you've got. For example, if the sum of the all the top player's point is 100 and your point is 10, then 10% of the reward is your share.
+    |zh-cn| # Dungeon Quest\nDungeon Quest是一項為已經清除地牢一周的玩家提供獎勵的活動。\n\n## 我如何參加？\n如果您在活動期間清除地牢，它將自動參與。\n\n## 如何計算分數？\n當您清除地牢時，您將獲得積分。 分數因地下城而異。\n* 奶酪騎士：5分\n* 魔鬼海灘：6分\n* 鬱金香花園：7分\n* 鋼精靈軍團：8分\n* 紅龍：9分\n\n## 如何計算獎勵？\n如果您處於最高排名，您將獲得獎勵取決於您獲得的積分。 例如，如果所有頂級玩家的積分總和為100而你的積分為10，那麼獎勵的10％就是你的份額。
+    |ja|  # ダンジョンクエスト\nDungeon Questは、1週間ダンジョンをクリアしたプレイヤーに報酬を与えるイベントです。\n\n## どのように参加しますか？\nイベント中にダンジョンをクリアすると、自動的に参加します。\n\n## スコアはどのように計算されますか？\nダンジョンをクリアすると、ポイントを獲得できます。 スコアはダンジョンによって異なります。\n* チーズオブナイツ：5ポイント\n* デビルズビーチ：6ポイント\n* チューリップガーデン：7ポイント\n* スチールゴブリン軍団：8ポイント\n* レッドドラゴン：9点\n\n## 報酬はどのように計算されますか？\nあなたがトップランキングにいるならば、あなたはあなたが持っているポイントに応じて報酬を得るでしょう。 例えば、すべてのトッププレイヤーのポイントの合計が100であなたのポイントが10の場合、報酬の10％があなたのシェアです。
+    |ru| # Dungeon Quest\nDungeon Quest - полезное событие для игроков, которые очистили больше подземелий за неделю.\n\n## Как мне принять участие?\nЕсли вы очистите подземелье во время мероприятия, оно будет автоматически участвовать.\n\n## Как рассчитывается оценка?\nКогда вы очищаете подземелье, вы зарабатываете очки. Оценка зависит от подземелья.\n* Сырные изделия: 5 баллов\n* Пляж Дьявола: 6 баллов\n* Тюльпановый сад: 7 баллов\n* Стальной корпус гоблинов: 8 очков\n* Красный Дракон: 9 очков\n\n## Как рассчитывается награда?\nЛучшие пользователи рейтинга будут вознаграждены моим счетом. Например, если сумма лучших игроков равна 100, а мой счет равен 10, то моя доля составляет 10% вознаграждения.
+
 #------------------------------------------------------------------------------
 # stage name
 #------------------------------------------------------------------------------
@@ -3615,6 +3786,18 @@ stage.name.9
     |zh-cn| 博拉火山
     |ja| ボラ火山
     |ru| Вулкан Бора
+stage.name.10
+    |ko| 정령 버섯 숲
+    |en| Elemental Mushroom Forest
+    |zh-cn| 精神蘑菇森林
+    |ja| 精霊キノコの森
+    |ru| Элементный Грибной Лес
+stage.name.11
+    |ko| 알함브라 궁전
+    |en| Alhambra Palace
+    |zh-cn| 阿罕布拉宮
+    |ja| アルハンブラ宮殿
+    |ru| Дворец Альгамбра
     
 stage.drop.rate
     |ko| 드랍 확률: {0}%
@@ -3677,6 +3860,12 @@ lobby.dungeon.ticket.free
     |zh-cn| 免费门票
     |ja| 無料チケット
     |ru| Забрать
+lobby.dungeon.ticket.craft
+    |ko| 제작
+    |en| Craft
+    |zh-cn| 制作
+    |ja| 製作
+    |ru| Создать
 lobby.dungeon.ticket.free.full
     |ko| 최대
     |en| Full
@@ -3758,6 +3947,13 @@ dungeon.ticket.Hell
     |ja| 地獄モードチケット    
     |ru| Адский режим
     
+dungeon.mode
+    |ko| 모드
+    |en| Mode
+    |zh-cn| 模式
+    |ja| モード
+    |ru| Режим
+
 dungeon.mode.Easy
     |ko| 이지
     |en| Easy
