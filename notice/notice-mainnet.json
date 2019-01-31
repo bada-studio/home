@@ -1,5 +1,17 @@
 [  
    {  
+      "id":56,
+      "titleKo":"Bug",
+      "titleEn":"Bug",
+      "titleImage":"https://eosknights.io/img/notice/bug1.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/bug1.png =533×244)\n부활시 드랍 재료가 잘못 표시되는 버그가 있습니다.\n두번째 재료가 첫번째 재료로 잘못 표시됩니다. \n불편을 드려 죄송합니다.\n\n* 안드로이드버전은 수정되었습니다. 재설치츨 부탁드립니다.\n* 웹버전도 수정 되었습니다.\n* iOS 버전은 내일 중 수정 예정입니다.",
+      "bodyEn":"![](https://eosknights.io/img/notice/bug1.png =533×244)\nThere is a bug where the drop material is displayed incorrectly when rebirth.\nThe second material is incorrectly diplyed as the first material.\n\n* The Android version has been fixed. Please re-install.\n* The web version has also been fixed.\n* The iOS version will be fixed tomorrow.\n\nWe apologize for any inconvenience.",
+      "datetime":"2019-01-31T00:00:00.000",
+      "expiration":"2019-02-02T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":55,
       "titleKo":"1.8.0 Update News",
       "titleEn":"1.8.0 Update News",
