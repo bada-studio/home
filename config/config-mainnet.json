@@ -1,9 +1,9 @@
 {  
    "minVersion": {
-      "ios":"1.5.0",
-      "android":"1.5.0"
+      "ios":"1.8.0",
+      "android":"1.8.0"
    },
-   "maintenance": true,
+   "maintenance": false,
    "maintenanceMessage": {
       "bodyKo":"1.8.0 버전업을 준비중입니다.",
       "bodyEn":"Maintenance break for 1.8.0 Update",
@@ -34,8 +34,14 @@
       "bastetServer":"https://bastet.eosknights.io/",
       "nodes": [
          {
-            "key":"eosasia",
+            "key":"eoscafeblock",
             "defaultFor":"en",
+            "location":"Canada",
+            "wait":2.5,
+            "api":"https://eos.eoscafeblock.com",
+         }, {
+            "key":"eosasia",
+            "defaultFor":"",
             "location":"Hong Kong",
             "wait":2.5,
             "api":"https://api1.eosasia.one",
