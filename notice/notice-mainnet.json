@@ -1,5 +1,17 @@
 [  
    {  
+      "id":54,
+      "titleKo":"점검 중",
+      "titleEn":"Maintance Break",
+      "titleImage":"https://eosknights.io/img/notice/notice1.png",
+      "bodyKo":"업데이트를 위한 점검을 시작합니다. 1시간~2시간 가량 소요될 예정입니다.",
+      "bodyEn":"Maintenance break for 1.8.0 Update. It will last 1-2 hours.",
+      "datetime":"2019-01-31T00:00:00.000",
+      "expiration":"2019-02-02T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":53,
       "titleKo":"1월 업데이트",
       "titleEn":"January Update",
