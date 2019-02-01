@@ -1,5 +1,17 @@
 [  
    {  
+      "id":59,
+      "titleKo":"아이템 제작이벤트",
+      "titleEn":"Item Craft Evet",
+      "titleImage":"https://eosknights.io/img/resource/origin/item/item_825.png",
+      "bodyKo":"![](http://eosknights.io/img/notice/pig.png =256x256)\n# EOS Knights와 함께 즐거운 설날 되세요!\n2019년 설날을 맞이해서 풍성한 이벤트를 준비했습니다. \n즐거운 명절 되시고, 올 한해 복 많이 받으세요!\n\n## MEET.ONE의 아이템 제작 이벤트\n* 1,000 EOS 상금\n* 2월 2일 21:00 - 2월 4일 21:00\n\n## 주간 보스전 이벤트\n* 1,000 EOS 상금\n* 2월 6일 21:00 - 2월 13일 21:00",
+      "bodyEn":"![](http://eosknights.io/img/notice/pig.png =256x256)\n# Happy Lunar New Year with EOS Knights!\nWe have BIG events for the new lunar year day!\nBe happy holidays with EK!\n\n## Item Crafting Event (Sponsored by MEET.ONE)\n* 1,000 EOS \n* Fab 2 at 12:00 GMT - Fab 4 at 12:00 GMT\n\n## Weekly Dungeon Event\n* 1,000 EOS \n* Fab 6 at 12:00 GMT - Fab 13 at 12:00 GMT",
+      "datetime":"2019-02-01T00:00:00.000",
+      "expiration":"2019-02-13T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":58,
       "titleKo":"Bug",
       "titleEn":"Bug",
