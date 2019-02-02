@@ -45,12 +45,6 @@
             "location":"Hong Kong",
             "wait":2.5,
             "api":"https://api1.eosasia.one",
-         }, {
-            "key":"eosys",
-            "defaultFor":"",
-            "location":"South Korea",
-            "wait":2.5,
-            "api":"https://rpc.eosys.io:443",
          }, { 
             "key":"eosrio",
             "defaultFor":"",

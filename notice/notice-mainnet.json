@@ -1,17 +1,5 @@
 [  
    {  
-      "id":61,
-      "titleKo":"노드 이용 안내",
-      "titleEn":"Change your node",
-      "titleImage":"http://eosknights.io/img/notice/notice1.png",
-      "bodyKo":"![](http://eosknights.io/img/notice/notice1.png =256x256)\nEOSYS 노드 정상화 되었습니다! 불편을 드려 죄송합니다.",
-      "bodyEn":"![](http://eosknights.io/img/notice/notice1.png =256x256)\nEOSYS node has been restored! We apologize for any inconvenience.",
-      "datetime":"2019-02-02T00:00:00.000",
-      "expiration":"2019-02-03T00:00:00.000",
-      "padding":40,
-      "needPopup":true,
-      "link":""
-   }, {  
       "id":59,
       "titleKo":"아이템 제작이벤트",
       "titleEn":"Item Craft Evet",
