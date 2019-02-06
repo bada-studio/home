@@ -1,5 +1,17 @@
 [  
    {  
+      "id":60,
+      "titleKo":"주간 던전 이벤트",
+      "titleEn":"Weakly Dungeon Event",
+      "titleImage":"http://eosknights.io/img/notice/notice1.png",
+      "bodyKo":"![](http://eosknights.io/img/notice/wb.png =600x280)\n# 설날 기념 주간 보스 던전 이벤트!\n설 연휴 잘 보내셨나요? 고단했던 설연휴 이제 EOS Knights로 날려버리세요! 오늘 저녁 9시 1,000 EOS가 걸린 주간 보스 던전 이벤트가 시작됩니다.\n* 1,000 EOS 상금\n* 2월 6일 21:00 - 2월 13일 21:00",
+      "bodyEn":"![](http://eosknights.io/img/notice/wb.png =600x280)\n# Happy Lunar New Year with Weekly Dungeon Event!\nWe have a BIG boss dungeon event for the new lunar year day!\nBe happy holidays with EK!\n* 1,000 EOS \n* Fab 6 at 12:00 GMT - Fab 13 at 12:00 GMT",
+      "datetime":"2019-02-06T00:00:00.000",
+      "expiration":"2019-02-13T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":59,
       "titleKo":"아이템 제작이벤트",
       "titleEn":"Item Craft Evet",
