@@ -92,7 +92,7 @@ async function drawChart() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({from:0, size:720})
+      body: JSON.stringify({from:0, size:2160})
     });
 
     shapshot = JSON.parse(await response.text());
@@ -108,7 +108,7 @@ async function drawChart() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({from:0, size:720})
+      body: JSON.stringify({from:0, size:2160})
     });
   
     delta = JSON.parse(await response.text());
