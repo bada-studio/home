@@ -58,6 +58,18 @@
             "wait":2.5,
             "api":"https://mainnet.meet.one:443",
          }, {
+            "key":"eoseoul",
+            "defaultFor":"ko",
+            "location":"Korea",
+            "wait":2.5,
+            "api":"https://api.eoseoul.io",
+         }, {
+            "key":"eosys",
+            "defaultFor":"",
+            "location":"Korea",
+            "wait":2.5,
+            "api":"https://rpc.eosys.io",
+         }, {
             "key":"franceos",
             "defaultFor":"",
             "location":"France",
