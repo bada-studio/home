@@ -1,5 +1,17 @@
 [  
    {  
+      "id":67,
+      "titleKo":"보스 던전 이벤트",
+      "titleEn":"Boss Dungeon Event",
+      "titleImage":"http://eosknights.io/img/notice/notice1.png",
+      "bodyKo":"![](http://eosknights.io/img/notice/wb.png =600x280)\n# 보스 던전 이벤트가 시작됩니다!\n오늘 저녁 9시 400 EOS가 걸린 주간 보스 던전 이벤트가 시작됩니다.\n* 400 EOS 상금\n* 2월 22일 21:00 - 2월 26일 21:00",
+      "bodyEn":"![](http://eosknights.io/img/notice/wb.png =600x280)\n# Dungeon Event!\nWe have a boss dungeon event with 400 EOS today!\n* Fab 22 at 12:00 GMT - Fab 26 at 12:00 GMT",
+      "datetime":"2019-02-22T00:00:00.000",
+      "expiration":"2019-02-26T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":66,
       "titleKo":"업데이트 뉴스",
       "titleEn":"Updat News",
