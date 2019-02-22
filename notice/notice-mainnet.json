@@ -1,5 +1,17 @@
 [  
    {  
+      "id":68,
+      "titleKo":"BuiltOnEOSIO",
+      "titleEn":"BuiltOnEOSIO",
+      "titleImage":"http://eosknights.io/img/notice/notice1.png",
+      "bodyKo":"![](http://eosknights.io/img/notice/boe.png =600x204)\nEOSIO Medium에서 EOS Knights의 이야기를 볼 수 있습니다.\n여기를 확인해주세요.\n\n[#BuiltOnEOSIO](https://medium.com/eosio/builtoneosio-eos-knights-proves-itself-to-be-a-game-chainger-46c5b9ba729c)\n",
+      "bodyEn":"![](http://eosknights.io/img/notice/boe.png =600x204)\nYou can see the story of EOS Knights in EOSIO Medium.\nCheck here.\n[#BuiltOnEOSIO](https://medium.com/eosio/builtoneosio-eos-knights-proves-itself-to-be-a-game-chainger-46c5b9ba729c)\n",
+      "datetime":"2019-02-22T00:00:00.000",
+      "expiration":"2019-02-24T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":67,
       "titleKo":"보스 던전 이벤트",
       "titleEn":"Boss Dungeon Event",
