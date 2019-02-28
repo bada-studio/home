@@ -1,5 +1,17 @@
 [  
    {  
+      "id":69,
+      "titleKo":"1.9.0 업데이트",
+      "titleEn":"1.9.0 Update",
+      "titleImage":"http://eosknights.io/img/notice/notice1.png",
+      "bodyKo":"![](http://eosknights.io/img/notice/notice1.png =256x256)\n\n# 업데이트 사전 공지\n잠시 후 4시부터 업데이트가 있을 예정입니다. 업데이트 작업은 1시간 정도 소요됩니다. 스킨 시스템과 연금술사 시스템이 추가되고 밸런스 업데이트가 있을 예정입니다. 신규 펫 2종도 만나보실 수 있습니다.\n\n## 스킨 업데이트\n![](http://eosknights.io/img/notice/guide2.jpg =326x512)\n* 다양한 모습의 기사 캐릭터들을 만나보세요!\n* 스킨은 오리아 부터 순차적으로 업데이트 될 예정입니다.\n* 스킨 판매는 오늘 21:00에 시작합니다.\n* 각 스킨은은 수량이 제한되어 있으며 유저 마켓에서 재판매 가능합니다.\n* 발급되는 오리아 스킨은 70개로 제한되어있습니다. \n* 이는 액티브 플레이어의 1%만 소유할 수 있는 수량입니다.\n\n## 연금술사 업데이트\n![](http://eosknights.io/img/notice/guide1.jpg =326x512)\n* 안쓰는 재료를 모아서 상위 재료로 변경할 수 있습니다. \n* 재료를 많이 녹일수록 상위재료가 될 확율이 높아집니다.\n* 확률은 여러분이 즐겁게 게임을 즐 길 수 있도록 점차적으로 수정될 예정입니다.\n* 보스전 재료들을 제외됩니다.\n\n## 펫 업데이트\n![](http://eosknights.io/img/resource/origin/pet/pet_26.png =256x256)\n* 신규 고대 펫 2종이 추가 됩니다.\n* 밸런스도 업데이트 됩니다.\n* 펫 원정시간이 기존 8/ 8/ 12/ 16시간에서 12/ 18/ 24/ 30/ 48(신규고대) 시간으로 늘어납니다. \n* 시간당 드롭되는 매직워터 양이 50% 증가합니다.\n* 펫을 입양하면 부활시 해당 등급의 재료 드랍확율이 20% 상승합니다.\n\n## 밸런스 업데이트\n* 매물 취소 후 재등록 시간이 기존 최대 10분에서 최대 1분으로 변경됩니다.\n* 던전 아이템 중 무기류와 악세사리 장비들의 스탯이 모두 10% 상승되었습니다. 기존에 발급된 재료에도 소급 적용됩니다.\n \n## iOS 노바 월렛 서포트\n* iOS에서 노바 월렛이 연동됩니다.\n\n## MEET.ONE 초대코드\n* 전체 2,000개의 밋원 지갑 초대 코드를 받을 수 있습니다.\n* 밋원 지갑에 초대 코드를 입력하면 무료 계정 생성이 가능합니다.\n\n곧 준비해서 뵙겠습니다.\n감사합니다.\n",
+      "bodyEn":"![](http://eosknights.io/img/notice/notice1.png =256x256)\n\n# Update notice\nThere will be system update at 07:00 UTC.  It will take 1 hour. Skin, alchemist system, new pet are added. There is balance update as well.\n\n## Skin update\n![](http://eosknights.io/img/notice/guide2.jpg =326x512)\n* Let's meet various Knights Characters! \n* Skin update start from Oria\n* Skin sale will be started at 12:00 UTC today.\n* Number of Skin is limited and you can trade on the user market\n* Only 70 Oria skin will be released; 1% of active player can buy.\n\n## Alchemist update\n![](http://eosknights.io/img/notice/guide1.jpg =326x512)\n* Can make upper grade material by melting materials that you don't use\n* Success rate will increase if you melt more materials\n* The rate will be update for balance of game\n* Dungeon materials are excluded\n\n## Pet update\n![](http://eosknights.io/img/resource/origin/pet/pet_26.png =256x256)\n* 2 kind of new pet are added\n* Balance updated\n* Pet expedition time is change from 8/ 8/ 12/ 16 hours to 12/ 18/ 24/ 30/ 48 hours\n* Amount of magic water drop will increase by 50%\n* Material drop rate increases by 20%, when you adopt pet \n\n## Balance update\n* Time, between sale cancel and re sale registration, are shorten from 10 min to 1 min\n* Dungeon weapon/accessory item' stats are increased by 10%. including current items that you already have\n\n## iOS Nova wallet support\n* Nova wallet can be used at iOS\n\n## MEET.ONE referral code\n* can get 2,000 MEET.ONE wallet referral code\n* put referral code on MEET.ONE wallet, then can get free account\n\nSee you soon with the update above.\nThanks.",
+      "datetime":"2019-02-28T00:00:00.000",
+      "expiration":"2019-03-02T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":68,
       "titleKo":"BuiltOnEOSIO",
       "titleEn":"BuiltOnEOSIO",
