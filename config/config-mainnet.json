@@ -1,12 +1,12 @@
 {  
    "minVersion": {
-      "ios":"1.8.0",
-      "android":"1.8.0"
+      "ios":"1.9.0",
+      "android":"1.9.0"
    },
-   "maintenance": false,
+   "maintenance": true,
    "maintenanceMessage": {
-      "bodyKo":"1.8.0 버전업을 준비중입니다.",
-      "bodyEn":"Maintenance break for 1.8.0 Update",
+      "bodyKo":"1.9.0 버전업을 준비중입니다.",
+      "bodyEn":"Maintenance break for 1.9.0 Update",
    },
    "newAccount": true,
    "downloadUrl": {
