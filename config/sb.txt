@@ -2919,17 +2919,17 @@ pet.gacha.LowClass
     |ja| 一般ペットガチャ <color="#0072bc">x {0:#,##0}</color>
     |ru| Основная Гача <color="#0072bc">x {0:#,##0}</color>
 pet.gacha.desc.HighClass    
-    |ko| 레어 / 유니크 / 레전드
-    |en| Rare / Unique / Legendary
-    |zh-cn| 稀有 / 特殊 / 传奇
-    |ja| レア / ユニーク / レジェンド
-    |ru| Редкий / Уникальный / Легендарный
+    |ko| 레어/ 유니크/ 레전드/ 고대
+    |en| Rare/ Unique/ Legendary/ Ancient
+    |zh-cn| 稀有/ 特殊/ 传奇/ 远古 
+    |ja| レア/ ユニーク/ レジェンド/ 古代
+    |ru| Редкий/ Уникальный/ Легендарный/ Древний
 pet.gacha.desc.LowClass
-    |ko| 노말 / 레어 / 유니크
-    |en| Normal / Rare / Unique
-    |zh-cn| 一般 / 稀有 / 特殊
-    |ja| ノーマル / レア / ユニーク
-    |ru| Обычный / Редкий / Уникальный
+    |ko| 노말/ 레어/ 유니크
+    |en| Normal/ Rare/ Unique
+    |zh-cn| 一般/ 稀有/ 特殊
+    |ja| ノーマル/ レア/ ユニーク
+    |ru| Обычный/ Редкий/ Уникальный
 pet.gacha.droprate
     |ko| 드랍 확률\n노멀 <color="#0072bc">{0:0.000}%</color>  레어 <color="#0072bc">{1:0.000}%</color>\n유니크 <color="#0072bc">{2:0.000}%</color>  레전드 <color="#0072bc">{3:0.000}%</color>\n고대 <color="#0072bc">{4:0.000}%</color>
     |en| Drop Rate\nNormal <color="#0072bc">{0:0.000}%</color>  Rare <color="#0072bc">{1:0.000}%</color>\nUnique <color="#0072bc">{2:0.000}%</color>  Legendary <color="#0072bc">{3:0.000}%</color>\nAncient <color="#0072bc">{4:0.000}%</color>
