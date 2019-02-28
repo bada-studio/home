@@ -177,6 +177,12 @@ dungeon.loading
     |zh-cn| 加载骑士。
     |ja| 騎士を読み込みます。
     |ru| Загрузка рыцарей.
+skin.loading
+    |ko| 스킨을 불러옵니다.
+    |en| Load Skin
+    |zh-cn| 加载皮肤
+    |ja| 騎士を読み込みます。
+    |ru| Загрузить скин
 globalvar.loading
     |ko| 전역 변수를 불러옵니다.
     |en| Load Global Variable
@@ -280,6 +286,12 @@ title.failed.skills
     |zh-cn| 无法加载技能
     |ja| スキルを読み込めませんでした
     |ru| Не удалось загрузить навыки.
+title.failed.skin
+    |ko| 스킨을 불러오지 못했습니다.
+    |en| Could not load skin.
+    |zh-cn| 无法加载皮肤。
+    |ja| スキンを読み込めませんでした。
+    |ru| Не удалось загрузить кожу.
 title.failed.dungeon
     |ko| 던전을 불러오지 못했습니다.
     |en| Could not load dungeons.
@@ -389,6 +401,12 @@ stat.name.ExpeditionDrop
     |zh-cn| {0}掉落概率
     |ja| {0}ドロップ確率
     |ru| {0} Дропрейт
+stat.name.PetAttachBonus
+    |ko| {0} 드랍 보너스 (입양)
+    |en| {0} drop bonus (Adoption)
+    |zh-cn| {0}掉落奖金(採納)
+    |ja| {0}ドロップボーナス(養子縁組)
+    |ru| {0} Дроп бонус (принятие)
 
 grade.name.None
     |ko| 모든 등급
@@ -948,11 +966,11 @@ new.account.help.title
     |ja| アカウントを作成する
     |ru| Создать учетную запись
 new.account.help.body
-    |ko| ## 내장지갑\n내장 지갑에서 하루 100개의 무료 계정 생성을 지원합니다.\n\n# 외부 생성 툴\n아래 툴을 통해 계정을 생성할 수 있습니다.\n* [irex](https://irex.io)   
-    |en| ## Built-in Wallet\nSupports creation of 100 free accounts per day in a wallet.\n\n# External creation tool\nYou can create an account using the tools below.\n* [irex](https://irex.io)    
-    |zh-cn| ##內置錢包\n支持在錢包中每天創建100個免費帳戶。\n\n＃外部創建工具\n您可以使用以下工具創建帳戶。\n* [irex]（https://irex.io） 
-    |ja| ##内蔵財布\n内蔵財布から一日100個の無料アカウントの作成をサポートします。\n\n＃外部生成ツール\n下のツールを使用してアカウントを作成することができます。\n* [irex]（https://irex.io）
-    |ru| ## Встроенный кошелек\nПоддерживает создание 100 бесплатных аккаунтов в день в кошельке.\n\n# Внешний инструмент создания\nВы можете создать учетную запись, используя инструменты ниже.\n* [irex](https://irex.io)     
+    |ko| ## 내장지갑\n내장 지갑에서 하루 100개의 무료 계정 생성을 지원합니다.\n\n## MEET.ONE 초대 코드\nMEET.ONE 지갑에서 초대코드 등록이 가능합니다. 등록 가능한 수량이 제한되어 있습니다.\n* [초대코드 등록 방법](https://www.youtube.com/watch?v=lC8x5N6lgp4&t=21s)\n\n## 외부 생성 툴\n아래 툴을 통해 계정을 생성할 수 있습니다.\n* [irex](https://irex.io)   
+    |en| ## Built-in Wallet\nSupports creation of 100 free accounts per day in a wallet.\n\n## MEET.ONE invitation code\nYou can register an invitation code in the MEET.ONE wallet. The quantity of the code is limited.\n* [How to register an invitation code](https://www.youtube.com/watch?v=lC8x5N6lgp4&t=21s)\n\n## External creation tool\nYou can create an account using the tools below.\n* [irex](https://irex.io)    
+    |zh-cn| ## 內置錢包\n支持在錢包中每天創建100個免費帳戶。\n\n## MEET.ONE邀请码\n您可以在MEET.ONE钱包中注册邀请码。 代码数量有限。\n* [如何注册您的邀请代码](https://www.youtube.com/watch?v=lC8x5N6lgp4&t=21s)\n\n## 外部創建工具\n您可以使用以下工具創建帳戶。\n* [irex]（https://irex.io） 
+    |ja| ## 内蔵財布\n内蔵財布から一日100個の無料アカウントの作成をサポートします。\n\n## MEET.ONE招待コード\nMEET.ONEウォレットに招待コードを登録できます。 コードの量は限られています。\n* [招待コード登録方法](https://www.youtube.com/watch?v=lC8x5N6lgp4&t=21s)\n\n## 外部生成ツール\n下のツールを使用してアカウントを作成することができます。\n* [irex]（https://irex.io）
+    |ru| ## Встроенный кошелек\nПоддерживает создание 100 бесплатных аккаунтов в день в кошельке.\n\n## MEET.ONE код приглашения\nВы можете зарегистрировать код приглашения в кошельке MEET.ONE. Количество кода ограничено.\n* [Как зарегистрировать свой код приглашения](https://www.youtube.com/watch?v=lC8x5N6lgp4&t=21s)\n\n## Внешний инструмент создания\nВы можете создать учетную запись, используя инструменты ниже.\n* [irex](https://irex.io)     
 create.account.notice
     |ko| 하루에 100개의 계정을 무료로 생성합니다. <color="red">루팅된 폰에서 시도하면 키 탈취의 위험이 있습니다.</color>
     |en| We create 100 free account per day. <color="red">Don't create an account on a rooted phone, there is a risk of key takeover.</color>    
@@ -1213,7 +1231,167 @@ no.balance.inc.desc2
     |ja| 他のアカウントからこのアカウントにEOSを転送する
     |ru| Перевести EOS с другого аккаунта на этот аккаунт
     
+
+#------------------------------------------------------------------------------
+# skin
+#------------------------------------------------------------------------------
+skin.box.title
+    |ko| 스킨
+    |en| Skin
+    |zh-cn| 皮肤
+    |ja| スキン
+    |ru| кожа
+skin.box.my.title
+    |ko| 내 스킨
+    |en| My Skin
+    |zh-cn| 我的皮肤
+    |ja| 私のスキン
+    |ru| Моя кожа
+skin.box.market.title
+    |ko| 마켓
+    |en| Marketplace
+    |zh-cn| 市场
+    |ja| マーケット
+    |ru| Рынок
+skin.box.apply
+    |ko| 적용
+    |en| Apply
+    |zh-cn| 应用
+    |ja| 適用する
+    |ru| Применять
+skin.box.sell
+    |ko| 판매
+    |en| Sell
+    |zh-cn| 出售
+    |ja| 販売
+    |ru| Продать
+skin.box.cancel.sell
+    |ko| 판매 취소
+    |en| Cancel Sale
+    |zh-cn| 取消出售
+    |ja| 販売キャンセル
+    |ru| Отменить продажу
+
+
+#------------------------------------------------------------------------------
+# Meet.One
+#------------------------------------------------------------------------------
+meet.one.invitation.code.title
+    |ko| MEET.ONE\n초대 코드
+    |en| MEET.ONE\nInvitation Code
+    |zh-cn| MEET.ONE\n邀请码
+    |ja| MEET.ONE\n招待コード
+    |ru| MEET.ONE\nКод приглашения
+invitation.code.title
+    |ko| 초대 코드
+    |en| Invitation Code
+    |zh-cn| 邀请码
+    |ja| 招待コード
+    |ru| Код приглашения
+invitation.message
+    |ko| 페이스북 연동을 해서 밋원 초대 코드를 받으세요.
+    |en| Get an invitation code with facebook login. 
+    |zh-cn| 使用facebook登录获取邀请码。
+    |ja| Facebookログインで招待コードを入手してください。
+    |ru| Получить код приглашения с помощью логина на Facebook
+invitation.no.available
+    |ko| 무료 계정 생성이 마감되었습니다.    
+    |en| Free account creation is ran out.
+    |zh-cn| 免费帐户创建已用完。
+    |ja| 無料アカウントの作成が終了しました。
+    |ru| Бесплатное создание аккаунта закончилось.
+invitation.get.button
+    |ko| 초대 코드 받기    
+    |en| Get Invitation Code
+    |zh-cn| 获取邀请码
+    |ja| 招待コードを入手
+    |ru| Получить код приглашения
+invitation.how.to
+    |ko| 초대코드 등록 방법    
+    |en| How to register your invitation code
+    |zh-cn| 如何注册您的邀请代码
+    |ja| 招待コード登録方法
+    |ru| Как зарегистрировать свой код приглашения
+
+#------------------------------------------------------------------------------
+# Alchemist
+#------------------------------------------------------------------------------
+alchemist.title
+    |ko| 연금술사
+    |en| Alchemist
+    |zh-cn| 方士
+    |ja| 錬金術師
+    |ru| алхимик
+alchemist.desc
+    |ko| 재료를 합성해서 더 높은 등급의 재료를 얻으세요!
+    |en| Synthesize materials to get a higher grade!
+    |zh-cn| 合成材料以获得更高的等级！
+    |ja| より高いグレードを得るために材料を総合してください！
+    |ru| Синтезируйте материалы, чтобы получить более высокую оценку!
+alchemist.apply
+    |ko| 합성
+    |en| Synthesis
+    |zh-cn| 合成
+    |ja| 合成
+    |ru| синтез
+alchemist.required.material.count
+    |ko| 필요 재료 개수: {0}-{1} 
+    |en| Required Material Count: {0}-{1}
+    |zh-cn| 所需物料数量: {0}-{1}
+    |ja| 必要材料数: {0}-{1}
+    |ru| Необходимое количество материалов: {0}-{1}
+alchemist.done.tile
+    |ko| 새로운 재료! 
+    |en| New Material!
+    |zh-cn| 新材料！
+    |ja| 新素材！
+    |ru| Новый материал!
     
+
+#------------------------------------------------------------------------------
+# Skin Name
+#------------------------------------------------------------------------------
+skin.name.11
+    |en| ERIC
+    |zh-cn| 埃里克
+    |ja| エリック
+    |ru| ЭРИК
+skin.name.21
+    |ko| 오리아
+    |en| ORIA
+    |zh-cn| 奥里亚 
+    |ja| オリア
+    |ru| ОРИЯ
+skin.name.22
+    |ko| 뱀파이어 헌터 오리아
+    |en| Vampire Hunter ORIA
+    |zh-cn| 吸血鬼猎人奥里亚 
+    |ja| ヴァンパイアハンターオリア
+    |ru| Охотник на вампиров ОРИЯ
+skin.name.23
+    |ko| 암살자 오리아
+    |en| Assassin ORIA
+    |zh-cn| 刺客奥里亚 
+    |ja| 暗殺者オリア
+    |ru| убийца ОРИЯ
+skin.name.24
+    |ko| 라이더 오리아
+    |en| Rider ORIA
+    |zh-cn| 骑士奥里亚 
+    |ja| ライダーオリア
+    |ru| наездник ОРИЯ
+skin.name.25
+    |ko| 바니바니 오리아
+    |en| Bunny Bunny ORIA
+    |zh-cn| 兔子兔子奥里亚 
+    |ja| バニーバニーオリア
+    |ru| Зайчик зайчик ОРИЯ
+skin.name.31
+    |ko| 스칼렛
+    |en| SCARLLET
+    |zh-cn| 斯卡莱特 
+    |ja| スカーレット
+    |ru| СКАРЛЕТТ
 
 #------------------------------------------------------------------------------
 # Stake
@@ -2752,11 +2930,11 @@ pet.gacha.desc.LowClass
     |ja| ノーマル / レア / ユニーク
     |ru| Обычный / Редкий / Уникальный
 pet.gacha.droprate
-    |ko| 드랍 확률\n노멀 <color="#0072bc">{0:0.000}%</color>  레어 <color="#0072bc">{1:0.000}%</color>\n유니크 <color="#0072bc">{2:0.000}%</color>  레전드 <color="#0072bc">{3:0.000}%</color>
-    |en| Drop Rate\nNormal <color="#0072bc">{0:0.000}%</color>  Rare <color="#0072bc">{1:0.000}%</color>\nUnique <color="#0072bc">{2:0.000}%</color>  Legendary <color="#0072bc">{3:0.000}%</color>
-    |zh-cn| 掉落概率\n一般 <color="#0072bc">{0:0.000}%</color>  稀有 <color="#0072bc">{1:0.000}%</color>\n特殊 <color="#0072bc">{2:0.000}%</color>  传奇 <color="#0072bc">{3:0.000}%</color>
-    |ja| ドロップ確率\nノーマル <color="#0072bc">{0:0.000}%</color> レア<color="#0072bc">{1:0.000}%</color>\n ユニーク<color="# 0072bc">{2:0.000}%</color> レジェンド<color="#0072bc"> {3:0.000}%</color>
-    |ru| Шанс дропа\nОбычный <color="#0072bc">{0:0.000}%</color>  Редкий <color="#0072bc">{1:0.000}%</color>\nУникальный <color="#0072bc">{2:0.000}%</color>  Легендарный <color="#0072bc">{3:0.000}%</color>
+    |ko| 드랍 확률\n노멀 <color="#0072bc">{0:0.000}%</color>  레어 <color="#0072bc">{1:0.000}%</color>\n유니크 <color="#0072bc">{2:0.000}%</color>  레전드 <color="#0072bc">{3:0.000}%</color>\n고대 <color="#0072bc">{4:0.000}%</color>
+    |en| Drop Rate\nNormal <color="#0072bc">{0:0.000}%</color>  Rare <color="#0072bc">{1:0.000}%</color>\nUnique <color="#0072bc">{2:0.000}%</color>  Legendary <color="#0072bc">{3:0.000}%</color>\nAncient <color="#0072bc">{4:0.000}%</color>
+    |zh-cn| 掉落概率\n一般 <color="#0072bc">{0:0.000}%</color>  稀有 <color="#0072bc">{1:0.000}%</color>\n特殊 <color="#0072bc">{2:0.000}%</color>  传奇 <color="#0072bc">{3:0.000}%</color>\n远古 <color="#0072bc">{4:0.000}%</color>
+    |ja| ドロップ確率\nノーマル <color="#0072bc">{0:0.000}%</color> レア<color="#0072bc">{1:0.000}%</color>\n ユニーク<color="# 0072bc">{2:0.000}%</color> レジェンド<color="#0072bc"> {3:0.000}%</color>\n古代 <color="#0072bc">{4:0.000}%</color>
+    |ru| Шанс дропа\nОбычный <color="#0072bc">{0:0.000}%</color>  Редкий <color="#0072bc">{1:0.000}%</color>\nУникальный <color="#0072bc">{2:0.000}%</color>  Легендарный <color="#0072bc">{3:0.000}%</color>\nДревний <color="#0072bc">{4:0.000}%</color>
 lobby.pet.run.gacha
     |ko| 가차!
     |en| Gacha!
@@ -3692,7 +3870,7 @@ quest.start.after
 # craft quest
 #------------------------------------------------------------------------------
 dquest.title
-    |ko| 던전 퀘스트
+    |ko| 던전 제작 퀘스트
     |en| Dungeon Quest
     |zh-cn| 地下城任務
     |ja| ダンジョンクエスト
@@ -6885,6 +7063,18 @@ pet.name.24
     |zh-cn| 火蜥蜴
     |ja| サラマンダー
     |ru| Саламандра
+pet.name.25
+    |ko| 황금사자
+    |en| Golden Leo
+    |zh-cn| 金狮
+    |ja| 黄金のライオン
+    |ru| Золотой лев
+pet.name.26
+    |ko| 용왕
+    |en| Yong Wang
+    |zh-cn| 龙王
+    |ja| 竜王
+    |ru| Саламандра
     
 pet.desc.1
     |ko| 꿈틀거리는 작고 아름다운 생명체.
@@ -7030,3 +7220,15 @@ pet.desc.24
     |zh-cn| 吐熔岩的蜥蜴很难对付。
     |ja| 溶岩を吐くこのトカゲはとても扱いづらいです。
     |ru| Огненную ящерицу очень трудно приручить
+pet.desc.25
+    |ko| 황금 레오의 가죽은 황금 청금석으로 되어 있습니다.
+    |en| Golden Leo's leather is made of golden lapis lazuli.
+    |zh-cn| Golden Leo的皮革由金色青金石制成。
+    |ja| 黄金レオの革は、金ラピスラズリになっています。
+    |ru| Кожа Золотого Льва изготовлена из золотого лазурита.
+pet.desc.26
+    |ko| 7개의 구슬을 가져다 주면 하나의 소원을 이루어 준다고 합니다.
+    |en| If you bring 7 beads, it is said to make one wish.
+    |zh-cn| 如果你带7个珠子，据说可以做出一个愿望。
+    |ja| 7つの玉を持ってくれば1つの願いをかなえてくれるとします。
+    |ru| Если вы принесете 7 бусин, то, как говорят, загадать одно желание.
