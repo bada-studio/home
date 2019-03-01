@@ -36,6 +36,7 @@ var app = new Vue({
         var all = parseEos(row.expenses) 
                   + parseEos(row.revenue)
                   + parseEos(row.dividend);
+                  + parseEos(row.loss);
         this.total = Number(all).toFixed(4) + " EOS";
     }.bind(this))
     .catch(function(e) {
