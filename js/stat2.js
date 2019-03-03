@@ -194,32 +194,18 @@ async function drawChart() {
     data: {
       labels: labels,
       datasets: [{
-        label: 'SellingCount',
-        data: sellingCount,
-        backgroundColor: 'rgba(54, 162, 235, 0.2)',
-        borderColor: 'rgba(54, 162, 235, 1)',
-        yAxisID: 'y-axis-1',
-        borderWidth: 1
-      }, {
-        label: 'BuyingCount',
-        data: buyingCount,
-        backgroundColor: 'rgba(255, 206, 86, 0.2)',
-        borderColor: 'rgba(255, 206, 86, 1)',
-        yAxisID: 'y-axis-1',
-        borderWidth: 1
-      }, {
-        label: 'SellingAmount',
+        label: 'Selling',
         data: sellingAmount,
         backgroundColor: 'rgba(75, 192, 192, 0.2)',
         borderColor: 'rgba(75, 192, 192, 1)',
-        yAxisID: 'y-axis-2',
+        yAxisID: 'y-axis-1',
         borderWidth: 1
       }, {
-        label: 'BuyingAmount',
+        label: 'Buying',
         data: buyingAmount,
-        backgroundColor: 'rgba(255, 255, 255, 0.2)',
-        yAxisID: 'y-axis-2',
-        borderColor: 'rgba(0, 0, 0, 0.5)',
+        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+        borderColor: 'rgba(255,99,132,1)',
+        yAxisID: 'y-axis-1',
         borderWidth: 1
       }]
     },
@@ -231,13 +217,6 @@ async function drawChart() {
           id: 'y-axis-1',
           position: 'left',
           stacked: false,
-          ticks: {
-            beginAtZero:true
-          }
-        }, {
-          id: 'y-axis-2',
-          position: 'right',
-          display: false,
           ticks: {
             beginAtZero:true
           }
