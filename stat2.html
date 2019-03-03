@@ -13,6 +13,14 @@
 
     <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
+
+    <link as=style href=js/chart/css/app.339a5c38.css rel=preload>
+    <link as=style href=js/chart/css/chunk-vendors.a2442821.css rel=preload>
+    <link href=js/chart/css/app.339a5c38.css rel=stylesheet>
+    <link href=js/chart/css/chunk-vendors.a2442821.css rel=stylesheet>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
   </head>
 
   <body>
@@ -32,57 +40,50 @@
             <li class="nav-item">
               <a class="nav-link" href="stat.html">Statistics</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="stat2.html">Statistics2</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Statistics2</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="expenses.html">Expense</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="">Dividend</a>
+            <li class="nav-item">
+              <a class="nav-link" href="dividend.html">Dividend</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <!-- Begin page content -->
-    <main role="main" class="container" id="app">
-      <h1 class="balance mt-5">{{ adminstate.dividend }}</h1>
-      <p>전체 수익 배분 액수</p>
+    <div id="loading" class="container">
+      <h1 class="mt-5">Loading</h1>
+      <p id="progress" class="balance">0</p>
+    </div>
+    <div role="main" class="container" id="app">
 
-      <h1 class="mt-5">Dividened Logs</h1>
-      <p>최근 20개의 수익 쉐어 내역을 가져옵니다</p>
-      <br/>
-      <div v-for="dividend in dividendlog">
-        <div>지급일 {{ moment((dividend.at + 1500000000) * 1000).format('l') }}</div>
-        <div class="balance">분배액 {{ dividend.amount }}</div>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">주주</th>
-              <th scope="col">액수</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="log in dividend.to">
-              <td>{{ log.to }}</td>
-              <td>{{ log.amount }}</td>
-            </tr>
-          </tbody>
-        </table>      
+      <!-- Begin page content -->
+      <div>
+        <h6>구매 히스토 그램</h6>
+        <div class="chart-container">
+          <canvas id="histogramChart" width="400" height="220"></canvas>
+        </div>
+        <br/>
+
+        <h6>구매 히스토 그램</h6>
+        <div class="chart-container">
+          <canvas id="histogramChart2" width="400" height="220"></canvas>
+        </div>
+        <br/>
       </div>
-
-    </main>
-
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/vue/vue.min.js"></script>
-    <script src="vendor/moment/moment-with-locales.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/axios/axios.min.js"></script>
-    <script src="js/dividend.js"></script>
+    <script src="js/stat2.js"></script>
+
+
+    
   </body>
 </html>
