@@ -93,7 +93,7 @@ async function drawChart() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({from:0, size:2160})
+      body: JSON.stringify({from:0, size:720})
     });
 
     shapshot = JSON.parse(await response.text());
@@ -109,7 +109,7 @@ async function drawChart() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({from:0, size:2160})
+      body: JSON.stringify({from:0, size:720})
     });
   
     delta = JSON.parse(await response.text());
@@ -129,6 +129,7 @@ async function drawChart() {
         matIventoryUp: parseFloat(shapshot[i].matIventoryUp),
         materialTax: parseFloat(shapshot[i].materialTax),
         mp: parseFloat(shapshot[i].mp),
+        cooMat: parseFloat(shapshot[i].cooMat),
         userCount: parseInt(shapshot[i].userCount)
       });
     } else {
@@ -138,6 +139,7 @@ async function drawChart() {
       ssLogs[ssLogs.length-1].matIventoryUp = parseFloat(shapshot[i].matIventoryUp);
       ssLogs[ssLogs.length-1].materialTax = parseFloat(shapshot[i].materialTax);
       ssLogs[ssLogs.length-1].mp = parseFloat(shapshot[i].mp);
+      ssLogs[ssLogs.length-1].cooMat = parseFloat(shapshot[i].cooMat);
       ssLogs[ssLogs.length-1].userCount = parseInt(shapshot[i].userCount);
     }
   }
@@ -148,6 +150,7 @@ async function drawChart() {
   var matIventoryUp = [];
   var materialTax = [];
   var mp = [];
+  var cooMat = [];
   var labels = [];
   var userCount = [];
   var sum = [];
@@ -160,6 +163,7 @@ async function drawChart() {
     matIventoryUp.push(parseInt(ssLogs[i].matIventoryUp));
     materialTax.push(parseInt(ssLogs[i].materialTax));
     mp.push(parseInt(ssLogs[i].mp));
+    cooMat.push(parseInt(ssLogs[i].cooMat));
     userCount.push(parseInt(ssLogs[i].userCount));
     sum.push(parseInt(
       ssLogs[i].itemIventoryUp +
@@ -167,7 +171,8 @@ async function drawChart() {
       ssLogs[i].knight +
       ssLogs[i].matIventoryUp +
       ssLogs[i].materialTax + 
-      ssLogs[i].mp) +
+      ssLogs[i].mp +
+      ssLogs[i].cooMat) +
       111
     );
   }
@@ -181,6 +186,7 @@ async function drawChart() {
   var dt24MatIventoryUp = [];
   var dt24MaterialTax = [];
   var dt24Mp = [];
+  var dt24CooMat = [];
   var dt24Sum = [];
   var dt48Sum = [];
 
@@ -191,6 +197,7 @@ async function drawChart() {
     const vmatIventoryUp = parseFloat(delta[i].matIventoryUp);
     const vmaterialTax = parseFloat(delta[i].materialTax);
     const vmp = parseFloat(delta[i].mp);
+    const vcooMat = parseFloat(delta[i].cooMat);
     const vsum = vitemIventoryUp + vitemTax + vknight + vmatIventoryUp + vmaterialTax + vmp;
 
     if (i >= delta.length - 24) {
@@ -201,6 +208,7 @@ async function drawChart() {
       dt24MatIventoryUp.push(vmatIventoryUp);
       dt24MaterialTax.push(vmaterialTax);
       dt24Mp.push(vmp);
+      dt24CooMat.push(vcooMat);
       dt24Sum.push(parseInt(vsum));
     } else if (i >= delta.length - 48) {
       dt48Sum.push(parseInt(vsum));
@@ -215,6 +223,7 @@ async function drawChart() {
         matIventoryUp: vmatIventoryUp,
         materialTax: vmaterialTax,
         mp: vmp,
+        cooMat: vcooMat,
         userCount: parseInt(delta[i].userCount)
       });
     } else {
@@ -224,6 +233,7 @@ async function drawChart() {
       dtLogs[dtLogs.length-1].matIventoryUp += vmatIventoryUp;
       dtLogs[dtLogs.length-1].materialTax += vmaterialTax;
       dtLogs[dtLogs.length-1].mp += vmp;
+      dtLogs[dtLogs.length-1].cooMat += vcooMat;
       dtLogs[dtLogs.length-1].userCount += parseInt(delta[i].userCount);
     }
   }
@@ -234,6 +244,7 @@ async function drawChart() {
   var matIventoryUp = [];
   var materialTax = [];
   var mp = [];
+  var cooMat = [];
   var labels = [];
   var userDelta = [];
   var dailySum = [];
@@ -246,10 +257,12 @@ async function drawChart() {
     matIventoryUp.push(parseInt(dtLogs[i].matIventoryUp));
     materialTax.push(parseInt(dtLogs[i].materialTax));
     mp.push(parseInt(dtLogs[i].mp));
+    cooMat.push(parseInt(dtLogs[i].cooMat));
     dailySum.push(parseInt(
       dtLogs[i].itemIventoryUp +
       dtLogs[i].itemTax +
       dtLogs[i].knight +
+      dtLogs[i].cooMat +
       dtLogs[i].matIventoryUp +
       dtLogs[i].materialTax + 
       dtLogs[i].mp));
@@ -325,6 +338,14 @@ async function drawChart() {
         data: matIventoryUp,
         backgroundColor: 'rgba(255, 159, 64, 1)',
         borderColor: 'rgba(255, 159, 64, 1)',
+        borderWidth: 1,
+        pointRadius: 0,
+        yAxisID: 'y-axis-1',
+      }, {
+        label: 'Skin',
+        data: cooMat,
+        backgroundColor: 'rgba(133, 214, 169, 1)',
+        borderColor: 'rgba(133, 214, 169, 1)',
         borderWidth: 1,
         pointRadius: 0,
         yAxisID: 'y-axis-1',
@@ -487,6 +508,14 @@ async function drawChart() {
         borderWidth: 1,
         pointRadius: 0,
         yAxisID: 'y-axis-1',
+      }, {
+        label: 'Skin',
+        data: dt24CooMat,
+        backgroundColor: 'rgba(133, 214, 169, 1)',
+        borderColor: 'rgba(133, 214, 169, 1)',
+        borderWidth: 1,
+        pointRadius: 0,
+        yAxisID: 'y-axis-1',
       }]
     },
     options: {
@@ -500,7 +529,7 @@ async function drawChart() {
           ticks: {
             beginAtZero:true,
             min: 0,
-            max: 120,
+            max: 30,
           }
         }, {
           id: 'y-axis-2',
@@ -509,7 +538,7 @@ async function drawChart() {
           ticks: {
             beginAtZero:true,
             min: 0,
-            max: 120,
+            max: 30,
           }
         }]
       }
