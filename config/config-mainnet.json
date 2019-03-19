@@ -51,6 +51,12 @@
             "location":"Brazil",
             "wait":2.5,
             "api":"https://api.eosrio.io:443",
+         }, { 
+            "key":"eosauthority",
+            "defaultFor":"",
+            "location":"London",
+            "wait":2.5,
+            "api":"https://publicapi-mainnet.eosauthority.com",
          }, {
             "key":"meet.one",
             "defaultFor":"zh-cn",
