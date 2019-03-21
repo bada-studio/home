@@ -48,9 +48,15 @@
          }, {
             "key":"eoscanada",
             "defaultFor":"",
-            "location":"Montreal, Canada",
+            "location":"Canada",
             "wait":2.5,
             "api":"https://mainnet.eoscanada.com"
+         }, {
+            "key":"eosnation",
+            "defaultFor":"",
+            "location":"Canada",
+            "wait":2.5,
+            "api":"https://api.eosn.io"
          }, {
             "key":"eosnewyork",
             "defaultFor":"",
