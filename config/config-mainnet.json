@@ -45,6 +45,18 @@
             "location":"Hong Kong",
             "wait":2.5,
             "api":"https://api1.eosasia.one",
+         }, {
+            "key":"eoscanada",
+            "defaultFor":"",
+            "location":"Montreal, Canada",
+            "wait":2.5,
+            "api":"https://mainnet.eoscanada.com",
+         }, {
+            "key":"eosnewyork",
+            "defaultFor":"",
+            "location":"Cook Islands",
+            "wait":2.5,
+            "api":"https://api.eosnewyork.io",
          }, { 
             "key":"eosrio",
             "defaultFor":"",
@@ -81,6 +93,12 @@
             "location":"Australia",
             "wait":2.5,
             "api":"https://node1.eosphere.io:443",
+         }, {
+            "key":"eoslaomao",
+            "defaultFor":"",
+            "location":"Tokyo",
+            "wait":2.5,
+            "api":"https://api.eoslaomao.com",
          }
       ]
    }
