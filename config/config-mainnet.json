@@ -6,7 +6,7 @@
    "maintenance": false,
    "maintenanceMessage": {
       "bodyKo":"1.9.0 버전업을 준비중입니다.",
-      "bodyEn":"Maintenance break for 1.9.0 Update",
+      "bodyEn":"Maintenance break for 1.9.0 Update"
    },
    "newAccount": true,
    "downloadUrl": {
@@ -22,10 +22,10 @@
       "nova","math","dungeon","dungeon-test"
    ],
    "beta": [
-      "dungeon",
+      "dungeon"
    ],
    "tester": [
-      "raindaysmain",
+      "raindaysmain"
    ],
    "contract":"eosknightsio",
    "connections": {
@@ -38,67 +38,67 @@
             "defaultFor":"en",
             "location":"Canada",
             "wait":2.5,
-            "api":"https://eos.eoscafeblock.com",
+            "api":"https://eos.eoscafeblock.com"
          }, {
             "key":"eosasia",
             "defaultFor":"",
             "location":"Hong Kong",
             "wait":2.5,
-            "api":"https://api1.eosasia.one",
+            "api":"https://api1.eosasia.one"
          }, {
             "key":"eoscanada",
             "defaultFor":"",
             "location":"Montreal, Canada",
             "wait":2.5,
-            "api":"https://mainnet.eoscanada.com",
+            "api":"https://mainnet.eoscanada.com"
          }, {
             "key":"eosnewyork",
             "defaultFor":"",
             "location":"Cook Islands",
             "wait":2.5,
-            "api":"https://api.eosnewyork.io",
+            "api":"https://api.eosnewyork.io"
          }, { 
             "key":"eosrio",
             "defaultFor":"",
             "location":"Brazil",
             "wait":2.5,
-            "api":"https://api.eosrio.io:443",
+            "api":"https://api.eosrio.io:443"
          }, { 
             "key":"eosauthority",
             "defaultFor":"",
             "location":"London",
             "wait":2.5,
-            "api":"https://publicapi-mainnet.eosauthority.com",
+            "api":"https://publicapi-mainnet.eosauthority.com"
          }, {
             "key":"meet.one",
             "defaultFor":"zh-cn",
             "location":"Singapore",
             "wait":2.5,
-            "api":"https://mainnet.meet.one:443",
+            "api":"https://mainnet.meet.one:443"
          }, {
             "key":"eoseoul",
             "defaultFor":"ko",
             "location":"Korea",
             "wait":2.5,
-            "api":"https://api.eoseoul.io",
+            "api":"https://api.eoseoul.io"
          }, {
             "key":"eosys",
             "defaultFor":"",
             "location":"Korea",
             "wait":2.5,
-            "api":"https://rpc.eosys.io",
+            "api":"https://rpc.eosys.io"
          }, {
             "key":"eosphere",
             "defaultFor":"",
             "location":"Australia",
             "wait":2.5,
-            "api":"https://node1.eosphere.io:443",
+            "api":"https://node1.eosphere.io:443"
          }, {
             "key":"eoslaomao",
             "defaultFor":"",
             "location":"Tokyo",
             "wait":2.5,
-            "api":"https://api.eoslaomao.com",
+            "api":"https://api.eoslaomao.com"
          }
       ]
    }
