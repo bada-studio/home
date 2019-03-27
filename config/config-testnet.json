@@ -34,6 +34,8 @@
       "apiServer":"http://35.241.0.251",
       "sockServer":"http://alpha-ck-connection.eosknights.io",
       "bastetServer":"http://localhost:3000",
+      "newsServer":"http://localhost:8080",
+      "newsSockServer":"http://localhost:8081",
       "nodes": [
          {
             "key":"test",

@@ -32,6 +32,8 @@
       "apiServer":"https://api.eosknights.io/",
       "sockServer":"https://connection.eosknights.io/",
       "bastetServer":"https://bastet.eosknights.io/",
+      "newsServer":"https://news.eosknights.io/",
+      "newsSockServer":"https://news-sock.eosknights.io/",
       "nodes": [
          {
             "key":"eoscafeblock",
