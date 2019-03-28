@@ -28,7 +28,7 @@
       "raindaysmain"
    ],
    "contract":"eosknightsio",
-   "leaderBoardCountryOrder":["CN","KR","US","ID","RU","GB","IT","TW","MY","DE","UA","CA","HK","JP","NL","AU","SG","FR","PL","TR","ES","NZ","RO","VN","SE","IN","PH","AT","PK","PT","BY","MO","DK","MX","IL","VE","BG","BR","CR","CH","TH","LV","FI","BE","EE","NO","AL","AE","ZA","IE","CL","HU","GR","CZ","CO","SI","LT","AR","PR","ME","NG","HR","CY","EG","UZ","IS","EC","PA","SK","MA","PE","RS","JM","SA","MP","KW","UG","KH","TT","MK","ZM","LA","GU","DO","GE","GG","LK","KZ","AZ","MN","MT","MR","GT","LU","BB","MD"],
+   "leaderBoardCountryOrder":["CN","KR","US","ID","RU","GB","IT","MY","DE","UA","CA","JP","NL","AU","SG","FR","PL","TR","ES","NZ","RO","VN","SE","IN","PH","AT","PK","PT","BY","MO","DK","MX","IL","VE","BG","BR","CR","CH","TH","LV","FI","BE","EE","NO","AL","AE","ZA","IE","CL","HU","GR","CZ","CO","SI","LT","AR","PR","ME","NG","HR","CY","EG","UZ","IS","EC","PA","SK","MA","PE","RS","JM","SA","MP","KW","UG","KH","TT","MK","ZM","LA","GU","DO","GE","GG","LK","KZ","AZ","MN","MT","MR","GT","LU","BB","MD"],
    "connections": {
       "apiServer":"https://api.eosknights.io/",
       "sockServer":"https://connection.eosknights.io/",
