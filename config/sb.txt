@@ -38,6 +38,37 @@ common.min
     |zh-cn| 分
     |ja| 分
     |ru| Мин
+common.sec
+    |ko| 초
+    |en| Sec
+    |zh-cn| 秒
+    |ja| 秒
+    |ru| секунд
+
+common.days.ago
+    |ko| 일전
+    |en| days ago
+    |zh-cn| 天前
+    |ja| 日前
+    |ru| дня назад
+common.hours.ago
+    |ko| 시간전
+    |en| hours ago
+    |zh-cn| 小时前
+    |ja| 時間前
+    |ru| часа назад
+common.min.ago
+    |ko| 분전
+    |en| minutes ago
+    |zh-cn| 分钟前
+    |ja| 分前
+    |ru| минут назад
+common.sec.ago
+    |ko| 초전
+    |en| seconds ago
+    |zh-cn| 秒前
+    |ja| 秒前
+    |ru| секунд назадs
 
 translator
     |en| <color="#0072BC">Russian</color>\nYZ5428, Danila, Boot
@@ -183,6 +214,12 @@ skin.loading
     |zh-cn| 加载皮肤
     |ja| 騎士を読み込みます。
     |ru| Загрузить скин
+comment.loading
+    |ko| 코멘트를 불러옵니다.
+    |en| Load Comment
+    |zh-cn| 加载评论
+    |ja| コメントを読み込む
+    |ru| Загрузить комментарий
 globalvar.loading
     |ko| 전역 변수를 불러옵니다.
     |en| Load Global Variable
@@ -661,6 +698,32 @@ use.web.version
     |ja| モバイルでは不可能です。\nウェブバージョンを利用してください。
     |ru| Не доступно через мобильные телефоны. \nПожалуйста используйте веб версию.
 
+local.noti.rebirth.title
+    |ko| 부활!
+    |en| REBIRTH!
+    |zh-cn| 复活!
+    |ja| 復活
+    |ru| В БОЙ!
+local.noti.rebirth.desc
+    |ko| {0} 님의 모든 기사가 쓰러졌습니다. 기사를 부활하세요!
+    |en| {0}'s all knights were dead! Rebirth the knights for the new battle! 
+    |zh-cn| {0}所有的骑士都死了！ 为新的战斗重生骑士！
+    |ja| {0}のすべての騎士は死んだ！ 新しい戦いのために騎士を復活させよう！
+    |ru| {0} все рыцари были мертвы! Возрождение рыцарей для новой битвы!
+local.noti.petexp.title
+    |ko| 펫 원정 완료!
+    |en| Pet Expedition Complete!
+    |zh-cn| 宠物探险完成！
+    |ja| ペット遠征完了！
+    |ru| Экспедиция питомцев завершена!
+local.noti.petexp.desc
+    |ko| {0} 님의 {1} 펫이 복귀했습니다. 보상을 확인하세요!
+    |en| {0}'s {1} was returned. Check the reward out! 
+    |zh-cn| {0}的{1}被退回了。 检查奖励！
+    |ja| {0}の{1}が返却されました。 報酬をチェックアウト！
+    |ru| {1} {0} было возвращено. Проверьте награду!
+
+
 #------------------------------------------------------------------------------
 # wallet
 #------------------------------------------------------------------------------
@@ -989,6 +1052,12 @@ create.account.key.copy
     |zh-cn| 密钥复制到剪贴板。\n请备份所有私钥。\n如果你失去它，你无法恢复它。
     |ja| クリップボードにキーがコピーされました。\n秘密鍵の両方をバックアップしてください。\n失われてしまうと回復が不可能です。
     |ru| Ключ скопирован в буфер обмена.\nПереместите свои ключи в безопасное место.\nЕсли вы потеряете закрытый ключ, мы не сможем его восстановить.
+create.account.key.message
+    |ko| 버튼을 눌러 키를 복사하세요.\n안전한 곳에 키를 백업하세요.
+    |en| Click the button to copy the key.\nPlease back up your key in a safe place.
+    |zh-cn| 单击按钮以复制密钥。\n请在安全的地方备份钥匙。
+    |ja| ボタンをクリックしてキーをコピーします。\n鍵は安全な場所に保管してください。
+    |ru| Нажмите кнопку, чтобы скопировать ключ.\nПожалуйста, сохраните ваш ключ в безопасном месте.
 create.exceed.free.account
     |ko| 무료 계정 생성이 마감되었습니다.\n잠시후 다시 확인해주세요.    
     |en| Free account creation is ran out.\nPlease try it later.
@@ -1393,6 +1462,30 @@ skin.name.31
     |zh-cn| 斯卡莱特 
     |ja| スカーレット
     |ru| СКАРЛЕТТ
+skin.name.32
+    |ko| 마법소녀 스칼렛
+    |en| Magical Girl SCARLLET
+    |zh-cn| 神奇的女孩斯卡莱特 
+    |ja| まほうしょうじょスカーレット
+    |ru| Волшебная Девушка СКАРЛЕТТ
+skin.name.33
+    |ko| 서큐버스 스칼렛
+    |en| Succubus SCARLLET
+    |zh-cn| 魔女斯卡莱特 
+    |ja| サキュバススカーレット
+    |ru| Succubus СКАРЛЕТТ
+skin.name.34
+    |ko| 사제 스칼렛
+    |en| Priestess SCARLLET
+    |zh-cn| 女祭司斯卡莱特 
+    |ja| 巫女スカーレット
+    |ru| жрица СКАРЛЕТТ
+skin.name.35
+    |ko| 고양이 스칼렛
+    |en| Cat SCARLLET
+    |zh-cn| 猫斯卡莱特 
+    |ja| ネコスカーレット
+    |ru| Кошка СКАРЛЕТТ
 
 #------------------------------------------------------------------------------
 # Stake
@@ -2480,7 +2573,12 @@ lobby.book.difficulty
     |zh-cn| 制作难度 <color="#0072bc">{0:#,##0}</color>
     |ja| 製作の難易度 <color="#0072bc">{0:#,##0}</color>
     |ru| Сложность крафта <color="#0072bc">{0:#,##0}</color>
-    
+lobby.book.uncraftable
+    |ko| 제작 불가
+    |en| Uncraftable
+    |zh-cn| 没有生产
+    |ja| 製作不可
+    |ru| Нет производства
 lobby.item.tab.my
     |ko| 내 아이템
     |en| My Item
@@ -3324,22 +3422,16 @@ left.nav.about
         
 player.popup.max.floor
     |ko| 최대 도달 층수 {0}
-    |en| Maximum reaching floor <color="#0072bc">{0}</color>
+    |en| Maximum Reaching Floor <color="#0072bc">{0}</color>
     |zh-cn| 最高到达层数 {0}
     |ja| 最大到達階数 {0}
     |ru| Максимально достигнутый этаж <color="#0072bc">{0}</color>
 player.popup.selling
-    |ko| 판매 액 <color="#0072bc">{0}</color>
-    |en| Sales amount <color="#0072bc">{0}</color>
-    |zh-cn| 出售金额 <color="#0072bc">{0}</color>
-    |ja| 販売額 <color="#0072bc">{0}</color>
-    |ru| Объём продаж <color="#0072bc">{0}</color>
-player.popup.selling.count
-    |ko| 판매 <color="#0072bc">{0}</color> 
-    |en| Number of sales <color="#0072bc">{0}</color>
-    |zh-cn| 出售 <color="#0072bc">{0}</color>
-    |ja| 販売 <color="#0072bc">{0}</color>
-    |ru| Количество продаж <color="#0072bc">{0}</color>
+    |ko| 판매 <color="#0072bc">{0}</color> <color="#ccc">/</color> <color="#0072bc">{1}</color>개
+    |en| Sales <color="#0072bc">{0}</color> <color="#ccc">/</color> <color="#0072bc">{1}</color>
+    |zh-cn| 拍卖 <color="#0072bc">{0}</color> <color="#ccc">/</color> <color="#0072bc">{1}</color>个
+    |ja| 販売 <color="#0072bc">{0}</color> <color="#ccc">/</color> <color="#0072bc">{1}</color>個
+    |ru| продажа <color="#0072bc">{0}</color> <color="#ccc">/</color> <color="#0072bc">{1}</color>
 
 sales.log.time.seconds
     |ko| {0} 초 전
@@ -3771,7 +3863,7 @@ skill.dt.reset.done
 #------------------------------------------------------------------------------
 cquest.title
     |ko| 아이템 제작 퀘스트
-    |en| Craft Quest
+    |en| Crafting Quest
     |zh-cn| 物品创造任务
     |ja| クラフトクエスト
     |ru| Крафт Квест
@@ -4011,6 +4103,136 @@ player.popup.no.knight
     |zh-cn| 骑士不存在。
     |ja| 騎士が存在しません。
     |ru| Нет рыцарей.
+
+
+#------------------------------------------------------------------------------
+# comment
+#------------------------------------------------------------------------------
+comment.empty
+    |ko| 메시지가 없습니다.
+    |en| No message.
+    |zh-cn| 没有消息
+    |ja| メッセージなし
+    |ru| Нет сообщений
+comment.report
+    |ko| 폭력/혐오/선정 적인 게시글을 신고할수 있습니다.\n\n신고하시겠습니까?
+    |en| You can report violent / abominable / sexually suggestive posts.\n\nDo you want to report?
+    |zh-cn| 您可以报告暴力/恶意/性暗示的帖子。\n\n你想举报吗？
+    |ja| 暴力/憎悪の/扇情的なスレッドを履いできます。\n\n申告しますか？
+    |ru| Вы можете сообщать о насильственных / отвратительных / сексуально внушающих сообщения\n\nВы хотите сообщить об этом?
+comment.hide
+    |ko| 차단된 글입니다.
+    |en| Blocked posts.
+    |zh-cn| 被阻止的帖子。s
+    |ja| ブロックされた文です。
+    |ru| Заблокированные сообщения.
+comment.clear.price
+    |ko| 블럭된 게시물을 해지하기 위 <color="#0072bc">{0}</color> 매직워터가 필요합니다.
+    |en| It needs <color="#0072bc">{0}</color> Magic Water to clear the blocked post.
+    |zh-cn| 需要<color="#0072bc">{0}</color>个Magic Water来清除被阻挡的帖子。
+    |ja| ブロックされたポストをクリアするには<color="#0072bc">{0}</color>のマジックウォーターが必要です。
+    |ru| Требуется <color="#0072bc">{0}</color> Волшебной Воды, чтобы очистить заблокированный пост.    
+comment.ib.message.title
+    |ko| 메시지
+    |en| Message
+    |zh-cn| 信息
+    |ja| メッセージ
+    |ru| Сообщение 
+comment.ib.link.title
+    |ko| 링크
+    |en| Link
+    |zh-cn| 链接
+    |ja| リンク
+    |ru| Ссылка на сайт 
+comment.ib.write
+    |ko| 쓰기
+    |en| Write
+    |zh-cn| 写
+    |ja| 書きます
+    |ru| Написать 
+comment.ib.done
+    |ko| 프로필 업데이트 완료!
+    |en| Profile Update Done!
+    |zh-cn| 资料更新完成！ 
+    |ja| プロファイルの更新完了！
+    |ru| Обновление профиля сделано!
+
+
+#------------------------------------------------------------------------------
+# news
+#------------------------------------------------------------------------------
+news.desc.ItemLevelUp.success
+    |ko| {0} Lv.{1} 업 성공
+    |en| {0} Lv.{1} Up Success
+    |zh-cn| {0}Lv.{1}成功
+    |ja| {0}Lv.{1}アップ成功
+    |ru| {0} Ур.{1} Вверх Успех
+news.desc.ItemLevelUp.failed
+    |ko| {0} Lv.{1} 업 실패
+    |en| {0} Lv.{1} Up Failed
+    |zh-cn| {0}Lv.{1}失败
+    |ja| {0}Lv.{1}アップ失敗
+    |ru| {0} Ур.{1} Вверх Не удалось
+news.desc.ItemCraftQuest.success
+    |ko| 제작 퀘스트 성공 {0}%
+    |en| Crafting Quest Success {0}%
+    |zh-cn| 物品创造任务成功{0}%
+    |ja| クラフトクエスト成功{0}%
+    |ru| Крафт Квест успех {0}%
+news.desc.ItemCraftQuest.failed
+    |ko| 제작 퀘스트 실패 {0}%
+    |en| Crafting Quest Failed {0}%
+    |zh-cn| 物品创造任务失败{0}%
+    |ja| クラフトクエスト失敗{0}%
+    |ru| Крафт Квест Не удалось {0}%
+news.desc.PetGacha
+    |ko| {0} 획득
+    |en| Got {0}
+    |zh-cn| 获得{0}
+    |ja| {0}獲得
+    |ru| Получил {0}
+news.desc.GetMaterial
+    |ko| {0} 획득
+    |en| Got {0}
+    |zh-cn| 获得{0}
+    |ja| {0}獲得
+    |ru| Получил {0}
+news.desc.GetMaterial777
+    |ko| {0} x 3 획득
+    |en| Got {0} x 3
+    |zh-cn| 获得{0}x3
+    |ja| {0}x3獲得
+    |ru| Получил {0} x 3
+news.desc.LevelUp
+    |ko| {0} Lv.{1} 업
+    |en| {0} Lv.{1} Up
+    |zh-cn| {0}Lv.{1}
+    |ja| {0}Lv.{1}アップ
+    |ru| {0} Ур.{1} Вверх
+news.desc.Buy
+    |ko| {0} 구매 / {1}
+    |en| {0} Purchase / {1} 
+    |zh-cn| {0} 购买/{1}
+    |ja| {0} 購入/{1}
+    |ru| {0} Покупка / {1}
+news.desc.Sell
+    |ko| {0} 판매 / {1}
+    |en| Sold {0} / {1} 
+    |zh-cn| {0} 拍卖/{1}
+    |ja| {0} 販売/{1}
+    |ru| Продано {0} / {1}
+news.desc.BuyKnight
+    |ko| {0} 고용
+    |en| {0} Hiring
+    |zh-cn| {0}雇用
+    |ja| {0}雇用
+    |ru| {0} Найм
+news.desc.BuyMp
+    |ko| {0:#,##0} 매직 워터 구매
+    |en| {0:#,##0} Magic Water Purchase
+    |zh-cn| {0:#,##0}魔幻水购买
+    |ja| {0:#,##0}マジックウォーター購入
+    |ru| {0:#,##0} Волш. вода Покупка 
 
 #------------------------------------------------------------------------------
 # dungeon
@@ -5220,7 +5442,7 @@ raw.material.name.88
     |en| Peridot
     |zh-cn| 橄榄石
     |ja| ペリドット
-    |en| Перидот
+    |ru| Перидот
 raw.material.name.89
     |ko| 문스톤
     |en| Moonstone
@@ -5823,6 +6045,12 @@ item.name.115
     |zh-cn| 掠夺者的大剑
     |ja| 略奪者の大剣
     |ru| Великий меч Хищника
+item.name.116
+    |ko| 권위의 검
+    |en| Authority Sword
+    |zh-cn| 权威之剑
+    |ja| オーソリティソード
+    |ru| Меч власти
 item.name.121
     |ko| 소드브레이커
     |en| Sword Breaker
@@ -5991,6 +6219,12 @@ item.name.215
     |zh-cn| 侏儒的斧头
     |ja| ドワーフアックス
     |ru| Топор Гнома
+item.name.216
+    |ko| 자유의 해머
+    |en| Hammer of Liberty
+    |zh-cn| 自由之锤
+    |ja| 自由のハンマー
+    |ru| Молот Свободы
 item.name.221
     |ko| 상급 드워프 액스
     |en| Advanced Dwarf Axe
@@ -6141,6 +6375,12 @@ item.name.315
     |zh-cn| 高级弩
     |ja| オパールボウ
     |ru| Опаловый Лук
+item.name.316
+    |ko| 노바 보우
+    |en| NOVA Bow
+    |zh-cn| NOVA弓
+    |ja| NOVAボウ
+    |ru| NOVA Лук
 item.name.321
     |ko| 적각궁
     |en| Red Bone Bow
@@ -6285,6 +6525,12 @@ item.name.415
     |zh-cn| 掠夺者的拐杖
     |ja| 略奪者の杖
     |ru| Посох Хищника
+item.name.416
+    |ko| 단풍 지팡이
+    |en| Maple Staff
+    |zh-cn| 枫员
+    |ja| メープルスタッフ
+    |ru| Кленовый посох
 item.name.421
     |ko| 미스틱 로드
     |en| Mystic Rod
@@ -6543,6 +6789,12 @@ item.name.615
     |zh-cn| 英雄盔甲
     |ja| ヒーローのアーマー
     |ru| Броня Героя
+item.name.616
+    |ko| 네이션 아머
+    |en| Nation Armor
+    |zh-cn| 民族护甲
+    |ja| ネイションアーマー
+    |ru| Nation Броня
 item.name.621
     |ko| 뱀파이어의 플레이트
     |en| Vampire Plate
@@ -6915,6 +7167,20 @@ item.name.842
     |zh-cn| 狂战士的项链
     |ja| バーサーカーのネックレス
     |ru| Медаль Берсерка
+
+
+item.sponsor.1
+    |en| EOS Authority
+item.sponsor.2
+    |en| EOS New York
+item.sponsor.3
+    |en| NOVA
+item.sponsor.4
+    |en| EOS Canada
+item.sponsor.5
+    |en| EOS Nation
+item.sponsor.6
+    |en| MEET.ONE
 
 
 #------------------------------------------------------------------------------
