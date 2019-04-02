@@ -31,7 +31,7 @@
       "dungeon",
    ],
    "connections": {  
-      "apiServer":"http://35.241.0.251",
+      "apiServer":"http://jungle2.cryptolions.io",
       "sockServer":"http://alpha-ck-connection.eosknights.io",
       "bastetServer":"http://localhost:3000",
       "newsServer":"http://localhost:8080",
