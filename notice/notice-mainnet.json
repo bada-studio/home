@@ -1,5 +1,17 @@
 [  
    {  
+      "id":83,
+      "titleKo":"아이템 제작 이벤트",
+      "titleEn":"Item Crafting Evet",
+      "titleImage":"https://eosknights.io/img/notice/notice1.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/notice1.png =256x256)\n# 아이템 제작 이벤트\n100 EOS가 걸린 이벤트가 오늘 열립니다. 행운이 있길 바랍니다!\n* 4월 4일 오후 9시에 시작합니다.\n* 아이템과 스코어는 이벤트 직전 공개됩니다.",
+      "bodyEn":"![](https://eosknights.io/img/notice/notice1.png =256x256)\n# Item Crafting Quest!\nWe have a item crafting event today. Earn 100 EOS!\nWe wish you the very best of luck in your participation!\n\n* Event starts on April 4 at 12:00 GMT\n* Item and score conditions will be released at the start of the event.",
+      "datetime":"2019-04-04T00:00:00.000",
+      "expiration":"2019-04-05T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":82,
       "titleKo":"Make your EOS fun with EOS Nation",
       "titleEn":"Make your EOS fun with EOS Nation",
@@ -32,18 +44,6 @@
       "bodyEn":"![](http://eosknights.io/img/notice/skin3.png =600x214)\n\n## Update Completed!\nPlease download here.\n* [iOS](https://eosknights.io/app/ios/en/)\n* [Andorid](https://eosknights.io/app/android/en/)\n* Web: Reload the page\n\n## Update completed\n* Company name is changed from \"Bada studio\" to \"Biscuit\". New intro BI implemented based on the change\n* Scarllet skin release: Each skin has only limited amount, 100 piece \n* Scarllet skin will be released 12:00 GMT today.\n* Real-time news: You can check real time news from other players \n* Mobile rebirth alarm\n* Ranking by country: You can check ranking wihtin country by select national flag\n* Personal comment space: You can put one line comment/link on the personal page. (check below image), Other players can see my comment/link. (Don't write abusive language, others can notify and biscuit team will block the inappropriate comment/link) \n![](https://eosknights.io/img/notice/comment.png =326x512)\n\n## Etc\n* Alchemist update will be done on next update\n* Please update again if you already updated the build before you see this notice.\n* We apologize for any inconvenience.\n\nThanks\nTeam Biscuit",
       "datetime":"2019-03-29T00:00:00.000",
       "expiration":"2019-04-02T00:00:00.000",
-      "padding":40,
-      "needPopup":true,
-      "link":""
-   }, {  
-      "id":77,
-      "titleKo":"아이템 제작 이벤트",
-      "titleEn":"Item Crafting Evet",
-      "titleImage":"https://eosknights.io/img/notice/notice1.png",
-      "bodyKo":"![](https://eosknights.io/img/notice/notice1.png =256x256)\n# 아이템 제작 이벤트\n100 EOS가 걸린 이벤트가 오늘 열립니다. 행운이 있길 바랍니다!\n* 3월 28일 오후 9시에 시작합니다.\n* 아이템과 스코어는 이벤트 직전 공개됩니다.",
-      "bodyEn":"![](https://eosknights.io/img/notice/notice1.png =256x256)\n# Item Crafting Quest!\nWe have a item crafting event today. Earn 100 EOS!\nWe wish you the very best of luck in your participation!\n\n* Event starts on March 28 at 12:00 GMT\n* Item and score conditions will be released at the start of the event.",
-      "datetime":"2019-03-28T00:00:00.000",
-      "expiration":"2019-03-29T00:00:00.000",
       "padding":40,
       "needPopup":true,
       "link":""
