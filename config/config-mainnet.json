@@ -10,8 +10,8 @@
    },
    "newAccount": true,
    "downloadUrl": {
-      "ios":"",
-      "android":"https://play.google.com/store/apps/details?id=com.bada.ck"
+      "ios":"https://eosknights.io/app/ios/en/",
+      "android":"https://eosknights.io/app/android/en/"
    },
    "url": {
       "monitor":"https://bloks.io/live",
