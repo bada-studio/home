@@ -37,17 +37,17 @@
       "newsSockServer":"http://121.168.149.101:8011",
       "nodes": [
          {
+            "key":"cryptolions",
+            "defaultFor":"ko",
+            "location":"Seoul",
+            "wait":1.5,
+            "api":"https://jungle2.cryptolions.io"
+         }, {
             "key":"home",
             "defaultFor":"ko",
             "location":"Seoul",
             "wait":1.5,
             "api":"http://121.168.149.101:8888"
-         }, {
-            "key":"cryptolions",
-            "defaultFor":"ko",
-            "location":"Seoul",
-            "wait":1.5,
-            "api":"http://jungle2.cryptolions.io"
          }
       ]
    }
