@@ -31,11 +31,10 @@
       "dungeon",
    ],
    "connections": {  
-      "apiServer":"http://35.241.0.251",
-      "sockServer":"http://alpha-ck-connection.eosknights.io",
+      "apiServer":"http://121.168.149.101:8080",
       "bastetServer":"http://localhost:3000",
-      "newsServer":"http://localhost:8080",
-      "newsSockServer":"http://localhost:8081",
+      "newsServer":"http://121.168.149.101:8010",
+      "newsSockServer":"http://121.168.149.101:8011",
       "nodes": [
          {
             "key":"home",
