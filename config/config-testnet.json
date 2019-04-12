@@ -37,6 +37,18 @@
       "newsSockServer":"http://121.168.149.101:8011",
       "nodes": [
          {
+            "key":"alohaeos",
+            "defaultFor":"ko",
+            "location":"Hawaii",
+            "wait":1.5,
+            "api":"https://api.jungle.alohaeos.com/"
+         }, {
+            "key":"eosphere",
+            "defaultFor":"ko",
+            "location":"Australia",
+            "wait":1.5,
+            "api":"https://jungle.eosphere.io/"
+         }, {
             "key":"eosnation",
             "defaultFor":"ko",
             "location":"Canada",
