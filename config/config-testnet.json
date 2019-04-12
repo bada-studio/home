@@ -37,6 +37,12 @@
       "newsSockServer":"http://121.168.149.101:8011",
       "nodes": [
          {
+            "key":"eosnation",
+            "defaultFor":"ko",
+            "location":"Canada",
+            "wait":1.5,
+            "api":"https://jungle.eosn.io/"
+         }, {
             "key":"cryptolions",
             "defaultFor":"ko",
             "location":"Seoul",
