@@ -6220,11 +6220,11 @@ item.name.215
     |ja| ドワーフアックス
     |ru| Топор Гнома
 item.name.216
-    |ko| 자유의 해머
-    |en| Hammer of Liberty
+    |ko| 자유의 메이스
+    |en| Mace of Liberty
     |zh-cn| 自由之锤
-    |ja| 自由のハンマー
-    |ru| Молот Свободы
+    |ja| 自由のメイス
+    |ru| Булава Свободы
 item.name.221
     |ko| 상급 드워프 액스
     |en| Advanced Dwarf Axe
