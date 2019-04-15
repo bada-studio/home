@@ -1,5 +1,17 @@
 [  
    {  
+      "id":87,
+      "titleKo":"EK Cup is Comming",
+      "titleEn":"EK Cup is Comming",
+      "titleImage":"https://eosknights.io/img/notice/notice1.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/ekcup2.jpg =600x454)\n1회 EK. Cup으로 가는 포탈이 다음주 월요일에 열립니다.\n4월 22일 모두가 동일한 출반선에 서게 됩니다.\n다함께 더 높이!",
+      "bodyEn":"![](https://eosknights.io/img/notice/ekcup2.jpg =600x454)\nPortal to 1st EK. Cup will open on next Monday\n22nd April. everyone will be set on equal start line\nLet's go higher!",
+      "datetime":"2019-04-15T00:00:00.000",
+      "expiration":"2019-04-21T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":86,
       "titleKo":"아이템 제작 이벤트",
       "titleEn":"Item Crafting Evet",
