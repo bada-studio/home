@@ -6221,7 +6221,7 @@ item.name.215
     |ru| Топор Гнома
 item.name.216
     |ko| 자유의 메이스
-    |en| Mace of Liberty
+    |en| Liberty Mace
     |zh-cn| 自由之锤
     |ja| 自由のメイス
     |ru| Булава Свободы
