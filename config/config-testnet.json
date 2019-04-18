@@ -31,10 +31,10 @@
       "dungeon",
    ],
    "connections": {  
-      "apiServer":"http://121.168.149.101:8020",
+      "apiServer":"http://raindays.net:8020",
       "bastetServer":"http://localhost:3000",
-      "newsServer":"http://121.168.149.101:8010",
-      "newsSockServer":"http://121.168.149.101:8011",
+      "newsServer":"http://raindays.net:8010",
+      "newsSockServer":"http://raindays.net:8011",
       "nodes": [
          {
             "key":"alohaeos",
