@@ -37,35 +37,35 @@
       "newsSockServer":"http://raindays.net:8011",
       "nodes": [
          {
-            "key":"alohaeos",
-            "defaultFor":"ko",
-            "location":"Hawaii",
-            "wait":1.5,
-            "api":"https://api.jungle.alohaeos.com/"
-         }, {
-            "key":"eosphere",
-            "defaultFor":"ko",
-            "location":"Australia",
-            "wait":1.5,
-            "api":"https://jungle.eosphere.io/"
-         }, {
-            "key":"eosnation",
-            "defaultFor":"ko",
-            "location":"Canada",
-            "wait":1.5,
-            "api":"https://jungle.eosn.io/"
-         }, {
-            "key":"cryptolions",
-            "defaultFor":"ko",
-            "location":"Seoul",
-            "wait":1.5,
-            "api":"https://jungle2.cryptolions.io"
-         }, {
             "key":"home",
             "defaultFor":"ko",
             "location":"Seoul",
             "wait":1.5,
             "api":"http://121.168.149.101:8888"
+         }, {
+            "key":"cryptolions",
+            "defaultFor":"",
+            "location":"Seoul",
+            "wait":1.5,
+            "api":"https://jungle2.cryptolions.io"
+         }, {
+            "key":"alohaeos",
+            "defaultFor":"",
+            "location":"Hawaii",
+            "wait":1.5,
+            "api":"https://api.jungle.alohaeos.com/"
+         }, {
+            "key":"eosphere",
+            "defaultFor":"",
+            "location":"Australia",
+            "wait":1.5,
+            "api":"https://jungle.eosphere.io/"
+         }, {
+            "key":"eosnation",
+            "defaultFor":"",
+            "location":"Canada",
+            "wait":1.5,
+            "api":"https://jungle.eosn.io/"
          }
       ]
    }
