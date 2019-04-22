@@ -12,7 +12,7 @@ var app = new Vue({
   },
   created: function () {
     var baseUrl = "https://rpc.eosys.io:443";
-    let connectionUrl = "https://connection.eosknights.io"
+    let connectionUrl = "https://news.eosknights.io/"
 
     axios({
       method: 'POST',
@@ -93,7 +93,7 @@ async function drawChart() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({from:0, size:5760})
+      body: JSON.stringify({from:0, size:720})
     });
 
     shapshot = JSON.parse(await response.text());
@@ -109,7 +109,7 @@ async function drawChart() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({from:0, size:5760})
+      body: JSON.stringify({from:0, size:720})
     });
   
     delta = JSON.parse(await response.text());
