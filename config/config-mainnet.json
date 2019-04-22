@@ -3,10 +3,10 @@
       "ios":"1.10.0",
       "android":"1.10.0"
    },
-   "maintenance": false,
+   "maintenance": true,
    "maintenanceMessage": {
-      "bodyKo":"1.9.0 버전업을 준비중입니다.",
-      "bodyEn":"Maintenance break for 1.9.0 Update"
+      "bodyKo":"2.0.0 버전업을 준비중입니다.",
+      "bodyEn":"Maintenance break for 2.0.0 Update"
    },
    "newAccount": true,
    "downloadUrl": {
