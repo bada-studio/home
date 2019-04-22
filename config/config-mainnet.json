@@ -3,7 +3,7 @@
       "ios":"1.10.0",
       "android":"1.10.0"
    },
-   "maintenance": true,
+   "maintenance": false,
    "maintenanceMessage": {
       "bodyKo":"2.0.0 버전업을 준비중입니다.",
       "bodyEn":"Maintenance break for 2.0.0 Update"
