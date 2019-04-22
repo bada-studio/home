@@ -1,7 +1,7 @@
 {  
    "minVersion": {
-      "ios":"1.10.0",
-      "android":"1.10.0"
+      "ios":"2.0.0",
+      "android":"2.0.0"
    },
    "maintenance": false,
    "maintenanceMessage": {
