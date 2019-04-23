@@ -129,6 +129,7 @@ async function drawChart() {
         matIventoryUp: parseFloat(shapshot[i].matIventoryUp),
         materialTax: parseFloat(shapshot[i].materialTax),
         mp: parseFloat(shapshot[i].mp),
+        dmw: parseFloat(shapshot[i].dmw),
         cooMat: parseFloat(shapshot[i].cooMat),
         userCount: parseInt(shapshot[i].userCount)
       });
@@ -139,6 +140,7 @@ async function drawChart() {
       ssLogs[ssLogs.length-1].matIventoryUp = parseFloat(shapshot[i].matIventoryUp);
       ssLogs[ssLogs.length-1].materialTax = parseFloat(shapshot[i].materialTax);
       ssLogs[ssLogs.length-1].mp = parseFloat(shapshot[i].mp);
+      ssLogs[ssLogs.length-1].dmw = parseFloat(shapshot[i].dmw);
       ssLogs[ssLogs.length-1].cooMat = parseFloat(shapshot[i].cooMat);
       ssLogs[ssLogs.length-1].userCount = parseInt(shapshot[i].userCount);
     }
@@ -150,6 +152,7 @@ async function drawChart() {
   var matIventoryUp = [];
   var materialTax = [];
   var mp = [];
+  var dmw = [];
   var cooMat = [];
   var labels = [];
   var userCount = [];
@@ -163,6 +166,7 @@ async function drawChart() {
     matIventoryUp.push(parseInt(ssLogs[i].matIventoryUp));
     materialTax.push(parseInt(ssLogs[i].materialTax));
     mp.push(parseInt(ssLogs[i].mp));
+    dmw.push(parseInt(ssLogs[i].dmw));
     cooMat.push(parseInt(ssLogs[i].cooMat));
     userCount.push(parseInt(ssLogs[i].userCount));
     sum.push(parseInt(
@@ -172,6 +176,7 @@ async function drawChart() {
       ssLogs[i].matIventoryUp +
       ssLogs[i].materialTax + 
       ssLogs[i].mp +
+      ssLogs[i].dmw +
       ssLogs[i].cooMat) +
       111
     );
@@ -186,6 +191,7 @@ async function drawChart() {
   var dt24MatIventoryUp = [];
   var dt24MaterialTax = [];
   var dt24Mp = [];
+  var dt24Dmw = [];
   var dt24CooMat = [];
   var dt24Sum = [];
   var dt48Sum = [];
@@ -197,8 +203,9 @@ async function drawChart() {
     const vmatIventoryUp = parseFloat(delta[i].matIventoryUp);
     const vmaterialTax = parseFloat(delta[i].materialTax);
     const vmp = parseFloat(delta[i].mp);
+    const vdmw = parseFloat(delta[i].dmw);
     const vcooMat = parseFloat(delta[i].cooMat);
-    const vsum = vitemIventoryUp + vitemTax + vknight + vmatIventoryUp + vmaterialTax + vmp;
+    const vsum = vitemIventoryUp + vitemTax + vknight + vmatIventoryUp + vmaterialTax + vmp + vdmw;
 
     if (i >= delta.length - 24) {
       dt24Created.push(delta[i].created);
@@ -208,6 +215,7 @@ async function drawChart() {
       dt24MatIventoryUp.push(vmatIventoryUp);
       dt24MaterialTax.push(vmaterialTax);
       dt24Mp.push(vmp);
+      dt24Dmw.push(vdmw);
       dt24CooMat.push(vcooMat);
       dt24Sum.push(parseInt(vsum));
     } else if (i >= delta.length - 48) {
@@ -223,6 +231,7 @@ async function drawChart() {
         matIventoryUp: vmatIventoryUp,
         materialTax: vmaterialTax,
         mp: vmp,
+        dmw: vdmw,
         cooMat: vcooMat,
         userCount: parseInt(delta[i].userCount)
       });
@@ -233,6 +242,7 @@ async function drawChart() {
       dtLogs[dtLogs.length-1].matIventoryUp += vmatIventoryUp;
       dtLogs[dtLogs.length-1].materialTax += vmaterialTax;
       dtLogs[dtLogs.length-1].mp += vmp;
+      dtLogs[dtLogs.length-1].dmw += vdmw;
       dtLogs[dtLogs.length-1].cooMat += vcooMat;
       dtLogs[dtLogs.length-1].userCount += parseInt(delta[i].userCount);
     }
@@ -244,6 +254,7 @@ async function drawChart() {
   var matIventoryUp = [];
   var materialTax = [];
   var mp = [];
+  var dmw = [];
   var cooMat = [];
   var labels = [];
   var userDelta = [];
@@ -257,6 +268,7 @@ async function drawChart() {
     matIventoryUp.push(parseInt(dtLogs[i].matIventoryUp));
     materialTax.push(parseInt(dtLogs[i].materialTax));
     mp.push(parseInt(dtLogs[i].mp));
+    dmw.push(parseInt(dtLogs[i].dmw));
     cooMat.push(parseInt(dtLogs[i].cooMat));
     dailySum.push(parseInt(
       dtLogs[i].itemIventoryUp +
@@ -265,7 +277,8 @@ async function drawChart() {
       dtLogs[i].cooMat +
       dtLogs[i].matIventoryUp +
       dtLogs[i].materialTax + 
-      dtLogs[i].mp));
+      dtLogs[i].mp +
+      dtLogs[i].dmw));
     userDelta.push(parseInt(dtLogs[i].userCount));
   }
 
@@ -298,6 +311,14 @@ async function drawChart() {
         data: mp,
         backgroundColor: 'rgba(255, 99, 132, 1)',
         borderColor: 'rgba(255,99,132,1)',
+        borderWidth: 1,
+        pointRadius: 0,
+        yAxisID: 'y-axis-1',
+      }, {
+        label: 'M-Water',
+        data: dmw,
+        backgroundColor: 'rgba(0, 0, 0, 1)',
+        borderColor: 'rgba(0,0,0,1)',
         borderWidth: 1,
         pointRadius: 0,
         yAxisID: 'y-axis-1',
@@ -465,6 +486,14 @@ async function drawChart() {
         data: dt24Mp,
         backgroundColor: 'rgba(255, 99, 132, 1)',
         borderColor: 'rgba(255,99,132,1)',
+        borderWidth: 1,
+        pointRadius: 0,
+        yAxisID: 'y-axis-1',
+      }, {
+        label: 'M-Water',
+        data: dt24Dmw,
+        backgroundColor: 'rgba(0, 0, 0, 1)',
+        borderColor: 'rgba(0,0,0,1)',
         borderWidth: 1,
         pointRadius: 0,
         yAxisID: 'y-axis-1',
