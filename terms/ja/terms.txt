@@ -10,7 +10,7 @@ The Company may modify the Terms and Conditions or Separate Terms and Conditions
 
 3. Privacy
 3.1. EOS account names will be collected to use this service.
-3.2. The Company does not collect any other person's personal information.
+3.2. Device and Usage information. We may collect data about your device and how you and your device interact with our Game. For example, we may collect your feature usage patterns, location data, and your interactions with us. We may also collect data about your device and the network you use to connect to our Game; this may include data such as your IP address, browser type, operating system, and referring URLs.
 
 4. Provision of the Service
 4.1. Users shall supply the necessary PC, mobile phone device, communication device, operating system, and data connection necessary for using the Service under Users'own responsibility and at Users'own expense.
