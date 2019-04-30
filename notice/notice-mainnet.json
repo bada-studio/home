@@ -1,5 +1,17 @@
 [  
    {  
+      "id":92,
+      "titleKo":"아이템 제작 이벤트",
+      "titleEn":"Item Crafting Evet",
+      "titleImage":"https://eosknights.io/img/notice/notice1.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/notice1.png =256x256)\n# 아이템 제작 이벤트\n100 EOS가 걸린 이벤트가 오늘 열립니다. 행운이 있길 바랍니다!\n* 4월 30일 오후 9시에 시작합니다.\n* 아이템과 스코어는 이벤트 직전 공개됩니다.",
+      "bodyEn":"![](https://eosknights.io/img/notice/notice1.png =256x256)\n# Item Crafting Quest!\nWe have a item crafting event today. Earn 100 EOS!\nWe wish you the very best of luck in your participation!\n\n* Event starts on April 30 at 12:00 GMT\n* Item and score conditions will be released at the start of the event.",
+      "datetime":"2019-04-30T00:00:00.000",
+      "expiration":"2019-05-01T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":91,
       "titleKo":"Update News",
       "titleEn":"Update News",
