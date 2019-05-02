@@ -1,5 +1,17 @@
 [  
    {  
+      "id":93,
+      "titleKo":"에릭 스킨 판매!",
+      "titleEn":"Get ERIC Skin",
+      "titleImage":"https://eosknights.io/img/notice/notice1.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/skin4.jpg =600x280)\n## 에릭 스킨 판매가 곧 시작됩니다.\n다양한 모습의 에릭을 만나보세요!\n* 오늘 21:00에 시작 합니다.\n* 각 스킨은 100개로 제한되어 있습니다.\n\n캐릭터를 클릭하면 구매한 스킨을 확인할 수 있습니다.\n![](https://eosknights.io/img/notice/skin5.jpg =326x513)\n\n감사합니다.\n비스킷 팀",
+      "bodyEn":"![](https://eosknights.io/img/notice/skin4.jpg =600x280)\n## ERIC skin sale is coming.\nGet your own ERIC!\n* Sale will open at 12:00 UTC\n* Each skin has limited amount, only 100 will be released\n\nYou can see the skins, when you touch Knights.\n![](https://eosknights.io/img/notice/skin5.jpg =326x513)\n\nThanks\nTeam Biscuit",
+      "datetime":"2019-05-02T00:00:00.000",
+      "expiration":"2019-05-04T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":92,
       "titleKo":"아이템 제작 이벤트",
       "titleEn":"Item Crafting Evet",
