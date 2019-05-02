@@ -1,5 +1,17 @@
 [  
    {  
+      "id":94,
+      "titleKo":"에릭 스킨 판매 연기",
+      "titleEn":"ERIC skin release is delayed.",
+      "titleImage":"https://eosknights.io/img/notice/notice5.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/notice5.png =256x256)\n## 에릭 스킨 판매가 연기되었습니다.\niOS 버전의 설치가 원할하지 않은 관계로 스킨 판매 일정이 연기되었습니다. 해당 이슈와 연기 죄송합니다ㅠㅠ\n스킨 판매는 다음주 초 다시 진행될 예정입니다. 다시한번 불편을 드려 죄송합니다.\n\n감사합니다.\n비스킷 팀",
+      "bodyEn":"![](https://eosknights.io/img/notice/notice5.png =256x256)\n## ERIC skin release is delayed.\nBecause of iOS update issue, the skin sale is delayed. We are very sorry for the issue and delay. We will fix it by early next week. Again sorry for the inconvenience.\n\nThanks\nTeam Biscuit",
+      "datetime":"2019-05-02T00:00:00.000",
+      "expiration":"2019-05-04T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":93,
       "titleKo":"에릭 스킨 판매!",
       "titleEn":"Get ERIC Skin",
