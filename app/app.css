@@ -19,6 +19,13 @@ body > .container {
   width:700px;
 }
 
+@media (max-width: 768px) {
+    body > .container {
+      padding: 50px 10px;
+      width: 90%;    
+    }
+}
+
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
