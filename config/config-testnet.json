@@ -31,7 +31,7 @@
       "dungeon",
    ],
    "connections": {  
-      "apiServer":"http://121.168.149.101:8020",
+      "apiServer":"http://121.168.149.101:8050",
       "bastetServer":"http://localhost:3000",
       "newsServer":"http://raindays.net:8010",
       "newsSockServer":"http://raindays.net:8011",
