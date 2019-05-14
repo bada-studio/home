@@ -1464,6 +1464,12 @@ skin.name.15
     |zh-cn| 天使埃里克
     |ja| 天使エリック
     |ru| ангел ЭРИК
+skin.name.16
+    |ko| 바이트 워리어
+    |en| Byte Warrior
+    |zh-cn| 字节战士
+    |ja| バイト戦士
+    |ru| Байт воин
 skin.name.21
     |ko| 오리아
     |en| ORIA
@@ -1494,6 +1500,12 @@ skin.name.25
     |zh-cn| 兔子兔子奥里亚 
     |ja| バニーバニーオリア
     |ru| Зайчик зайчик ОРИЯ
+skin.name.26
+    |ko| 떠오르는 태양
+    |en| Rising Sun
+    |zh-cn| 新星
+    |ja| 新しい星
+    |ru| Восходящее солнце
 skin.name.31
     |ko| 스칼렛
     |en| SCARLLET
@@ -1524,6 +1536,12 @@ skin.name.35
     |zh-cn| 猫斯卡莱特 
     |ja| ネコスカーレット
     |ru| Кошка СКАРЛЕТТ
+skin.name.36
+    |ko| 미친 과학자
+    |en| Mad Scientist
+    |zh-cn| 迷的科学家
+    |ja| マッドサイエンティスト
+    |ru| Увлекательный ученый
 
 #------------------------------------------------------------------------------
 # Stake
@@ -2139,6 +2157,12 @@ rebirth.mp
     |zh-cn| 获得的魔幻水 <color="#0072bc">{0:#,##0}</color>
     |ja| 獲得マジックウォーター<color="#0072bc">{0:#,##0}</color>
     |ru| Волшебная вода <color="#0072bc">{0:#,##0}</color>
+rebirth.dmw
+    |ko| 획득 다크 매직 워터 <color="#0072bc">{0:#,##0}</color>    
+    |en| Dark Magic water <color="#0072bc">{0:#,##0}</color>
+    |zh-cn| 获得的黑魔幻水 <color="#0072bc">{0:#,##0}</color>
+    |ja| 獲得ダークマジックウォーター<color="#0072bc">{0:#,##0}</color>
+    |ru| темно Волшебная вода <color="#0072bc">{0:#,##0}</color>
 rebirth.reward.countrebirth.inventory
     |ko| 인벤토리
     |en| Inventory
@@ -2151,6 +2175,12 @@ rebirth.full.inventory
     |zh-cn| 物品栏空间不足。\n删除材料获得魔幻水。
     |ja| インベントリースペースが不足しています。\n材料を削除してマジックウォーターで作ってください。
     |ru| Недостаточно места в инвентаре.\nРаспылите материалы и получите Волшебную воду.
+rebirth.full.inventory.dmw
+    |ko| 인벤토리 공간이 부족합니다.\n재료를 삭제해서 다크 매직워터로 만드세요.
+    |en| Insufficient inventory space.\nTrash the materials and get Dark Magic Water.
+    |zh-cn| 物品栏空间不足。\n删除材料获得黑魔幻水。
+    |ja| インベントリースペースが不足しています。\n材料を取り除き、ダークマジックウォーターで作ってください。
+    |ru| Недостаточно места в инвентаре.\nУничтожьте материалы и получите Темную Магическую Воду.
 rebirth.inventory
     |ko| 인벤토리
     |en| Inventory
@@ -2247,6 +2277,12 @@ lobby.insufficient.powder
     |zh-cn| 魔幻水不足。 
     |ja| マジックウォーターが不足しています。
     |ru| Недостаточно волшебной воды.
+lobby.insufficient.dmw
+    |ko| 다크 매직 워터가 부족합니다.
+    |en| Insufficient dark magic water.
+    |zh-cn| 黑暗魔幻水不足。 
+    |ja| ダークマジックウォーターが足りません。
+    |ru| Недостаточно темной волшебной воды.
 
 lobby.raw.mat.count.text
     |en| <color="#0072bc">{0:D}</color> / {1:D}
@@ -2302,6 +2338,12 @@ lobby.sale.can.not.found.item
     |zh-cn| 无法找到相应道具。
     |ja| 当アイテムが見つかりません。
     |ru| Предмет не найден
+lobby.sale.can.not.buy.season
+    |ko| 이번 시즌에는 이 등급의 아이템을 구매할 수 없습니다.
+    |en| You can not purchase items of this grade during this season.
+    |zh-cn| 这个季节你不能买这个等级。
+    |ja| あなたは今シーズンこのレベルのアイテムを買うことはできません。
+    |ru| Вы не можете покупать предметы этого уровня в течение этого сезона.
 lobby.sale.seller
     |ko| 판매자 <color="#0072bc">{0}</color>
     |en| Seller <color="#0072bc">{0}</color>
@@ -2425,6 +2467,13 @@ lobby.raw.material.destory
     |ja| {0:D}個の材料をマジックウォーターにしますか？
     |ru| Вы действительно хотите распылить в волшебную воду {0:D} материал(а)?
 
+lobby.raw.material.destory.dmw
+    |ko| {0:D}개의 재료를 다크 매직 워터로 만들겠습니까?
+    |en| Are you sure you want to make dark magic water with {0:D} material(s)?
+    |zh-cn| 是否使用{0:D}个材料制作黑魔幻水？
+    |ja| {0:D}個の材料をダークマジックウォーターにしますか？
+    |ru| Вы действительно хотите распылить в волшебную воду {0:D} материал(а)?
+
 lobby.material.can.not.select.onsale
     |ko| 판매중인 재료는 선택할수 없습니다.
     |en| Can not select a material on sale.
@@ -2437,6 +2486,13 @@ lobby.raw.materials.destory.done
     |en| Removed {0:D} materials!
     |zh-cn| 已经使用{0:D}个材料制作魔幻水！
     |ja| {0:D}個の材料をマジックウォーターに変換完了！
+    |ru| Распылено {0:D} материалов!
+
+lobby.raw.materials.destory.done.dmw    
+    |ko| {0:D}개 재료를 다크 매직 워터로 변환 완료!
+    |en| Removed {0:D} materials!
+    |zh-cn| 已经使用{0:D}个材料制作黑魔幻水！
+    |ja| {0:D}個の材料をダークマジックウォーターに変換完了！
     |ru| Распылено {0:D} материалов!
 
 lobby.max.inventory.size
@@ -2556,6 +2612,12 @@ lobby.mat.destroy
     |zh-cn| 魔幻水
     |ja| マジックウォーターで
     |ru| В волш. воду
+lobby.mat.destroy.dmw
+    |ko| 다크 매직 워터로
+    |en| To Dark Magic Water
+    |zh-cn| 黑魔法水
+    |ja| ダークマジックウォーターへ
+    |ru| К темной магии воды
 lobby.mat.cancel
     |ko| 취소
     |en| Cancel
@@ -2641,6 +2703,12 @@ lobby.item.destroy
     |zh-cn| 魔幻水
     |ja| マジックウォーターで
     |ru| В волш. воду
+lobby.item.destroy.dmw
+    |ko| 다크 매직 워터로
+    |en| To Dark Magic Water
+    |zh-cn| 黑魔法水
+    |ja| ダークマジックウォーターへ
+    |ru| К темной магии воды
 lobby.item.cancel
     |ko| 취소
     |en| Cancel
@@ -3171,6 +3239,13 @@ lobby.mp.goods.purchased
     |ja| マジックウォーター購入が完了しました！
     |ru| Волшебная вода куплена!
 
+lobby.dmw.goods.purchased
+    |ko| 다크 매직 워터 구매가 완료되었습니다!
+    |en| Purchase of dark magic water is complete!
+    |zh-cn| 已购买黑魔幻水！
+    |ja| ダークマジックウォーター購入が完了しました！
+    |ru| темно Волшебная вода куплена!
+
 mp.sales.title
     |ko| 매직 워터
     |en| Magic Water
@@ -3181,7 +3256,7 @@ mp.sales.title
 dmw.sales.title
     |ko| 다크 매직 워터
     |en| Dark Magic Water
-    |zh-cn| 黑暗魔幻水
+    |zh-cn| 黑魔幻水
     |ja| ダークマジックウォーター
     |ru| Темная Магия Воды
 dmw.sales.spending
@@ -3193,6 +3268,13 @@ dmw.sales.desc
     |zh-cn| 您最多可以购买{0}。
     |ja| 最大{0}まで購入できます。
     |ru| Вы можете приобрести до {0}.
+
+dmw.nodmwsales.desc
+    |ko| 다크 매직 워터를 구매할 수 없는 시즌입니다.
+    |en| You can not purchase DMW this season.
+    |zh-cn| 你这个季节不能购买DMW。
+    |ja| あなたは今シーズンDMWを購入することはできません。
+    |ru| Вы не можете приобрести DMW в этом сезоне.
     
 mp.sales.desc
     |ko| 캐릭터 및 장비의 레벨업, 가차 등에 사용 됩니다.    
@@ -3667,7 +3749,7 @@ buy.log.type.mp
 buy.log.type.dmw    
     |ko| 다크 매직 워터 구매 
     |en| Dark Magic Water Purchase
-    |zh-cn| 黑魔法水购买
+    |zh-cn| 黑魔幻水购买
     |ja| ダークマジックウォーター購入
     |ru| Закупка воды темной магии
             
@@ -3937,11 +4019,11 @@ season.detach.first
 
 
 season.help
-    |ko| ### 동일한 조건으로 출발한다고 하는데, 기존에 획득한 재료, 아이템, 펫, MW가 모두 사라지는 건가요?  \n아닙니다. 기존에 보유하고 있던 기사, 재료, 아이템, 펫, MW는 모두 그대로 입니다. 단지 EK. CUP 포털로 이동하게 되면, EK. Cup에서만 모든 계정이 동일한 조건으로 세팅되어 있습니다. 다시 돌아오면 기존에 보유하고 있던 기사, 재료, 아이템, 펫은 그대로 유지 됩니다.\n\n### 기사들이 10배 강력해 진다는것은 어떤 의미 인가요?  \nEK. Cup에서는 모든 기사의 공경력이 10배로 강화됩니다. 따라서 대회 기간인 3일간 배틀이 매우 빠르게 전개됩니다. 기존 배틀에서 도달해보지 못한 층수까지 빠르게 도달하고 좋은 재료와 아이템을 얻는 경험을 할 수 있게 됩니다. 단, EK. Cup에서 획득한 재료, 아이템, 펫, Dark Magic Water는 대회 종료와 함께 모두 소멸 됩니다.\n\n### Dark Magic Water는 무엇인가요?\nDMW (Dark Magic Water)는 EK. Cup에서만 사용되는 화폐 입니다. EK. CUP 시작시 모든 참가자에게 9,000 DMW가 주어집니다. EK. CUP에서 기사 레벨업, 아이템 강화, 펫 갓차 등에 사용됩니다. 대회가 종료되면 DMW는 기사, 재료, 아이템, 펫과함께 모두 소멸 됩니다.\n\n### EK. CUP에서는 아이템 없이 싸우기만 하는건가요?\n아닙니다. 몬스터와 싸우면서 재료를 획득할 수 있고, 획득한 재료로 아이템을 만들 수 있으며, Pet도 입양할 수 있습니다.\n\n### 도달 층수 기록은 어떤 기준으로 측정 되나요?\n부활 버튼을 누르는 시점에 도달한 층수가 EOS 체인에 기록 됩니다. 대회 기간동안 가장 높은 층까지 도달한 기록으로 경쟁하게 됩니다. 기사가 모두 죽은 상태에도 부활버튼을 누르지 않으면 도달한 층수가 EOS 체인에 기록되지 않습니다. 꼭 부활 버튼을 눌러야 합니다.\n\n### 2명 이상이 같은 층까지 도달할 경우 동점 처리가 되나요?\n아닙니다. 같은 층까지 도달한 경우에는 시간상 먼저 도달한 순서로 순위가 결정됩니다. 게임 시스템상 동시에 같은 층까지 도달하는 경우는 발생할 수 없습니다. 따라서 동점은 존재하지 않습니다.\n\n### 대회가 끝나는 시점에 기사가 계속 몬스터와 싸우고 있으면 층수는 어떻게 기록 되나요?\n대회 기간중에 부활 버튼을 누르지 않을 경우 EOS 체인에 기록이 등록 되지 않습니다. 따라서 대회 종료 시간이 다가올 경우 언제 부활버튼을 누를지 전략적으로 판단해야 합니다.\n\n### '죽음을 거스르는 대검'을 만들고 제출한 뒤에도 대회 기간동안 계속 사용할 수 있나요?\n사용할 수 없습니다. 아이템을 제작하고 한번 제출하면 대회 기간중에도 사용할 수 없습니다.\n\n### EK. CUP에서도 글로벌 드롭 레이트가 적용 되나요?\n아닙니다. EK. CUP에서는 글로벌 드롭 레이트가 적용되지 않습니다.
-    |en| ### I've heard that we will start with the same condition. Will all materials, items and pets that I have gotten be destroyed?\nNo, those will remain there as they are now. This condition applies to EK. CUP event only. After you have returned to your current battle mode, every materials, items, pets and MW will be existed.\n\n### What do you mean of 10X stronger knights?\nThe attack stat of ERIC, ORIA, SCALLET will be increased by 10X. You can enjoy faster battle, reach higher floors and get higher class materials/items during the event. However, all the materials, items, pets and Dark Magic Water will be destroyed at the end.\n\n### What is Dark Magic Water(DMW)?\nDMW is MW only for EK. CUP event. At the beginning of EK. CUP, 9,000 DMW will be provided to all participants. DMW can be used for Knights level up, synthesize items, pet gatcha etc. At the end of the EK. CUP DMW will get destroyed with all materials, items and pets.\n\n### Should I fight with monster without items and pets?\nNo. Although you start without any materials, items and pets you'll be able to collect these by performing rebirth including DMW. Pets can be purchased with DMW by clicking on Pet Gacha\n\n### What is the definition of floor record? How do you decide the ranking of participants?\nWhen you push the rebirth button, the number of floor will be recorded on the EOS blockchain. All the participants who compete against each other with the highest number of floor will get recorded during the EK. CUP. Please remember, if you forget to click on the rebirth button this record will not get updated.\n\nIf you don't push rebirth button, you cannot get your floor number recorded. Therefore, you should decide strategically when you push rebirth button around the end of EK. CUP. At the end of EK. CUP, if Knights are still fighting with monster, the record will not be updated.\n\n### Is there a tie on the ranking?\nNo, there is no tie. If more than 2 participants record the same number of floor then someone who has reached it first will win. Based on our system, players cannot reach the same number of floor simultaneously.\n\n### 'The Great Sword Against Death' can be equipped after I submit?\nNo, you cannot use it after you submit.\n\n### Global drop rate is applied on EK. Cap as well?\nNo. There is no global drop rate during the event.
-    |zh-cn| ### 听说所有玩家以相同初始条件开启游戏，那么此前获得的所有材料、装备和宠物都会被销毁吗？\n不会，所有物品均会保留，该条件仅适用于 EK. Cup。在玩家返回当前战斗模式后，所有的材料、装备、宠物和魔幻水（MW）都还在。\n\n### 10X 攻击力的骑士是？\n指 ERIC、ORIA、SCALLET 这三种角色的攻击力均提高 10 倍。在活动期间，玩家可以享受更快速的战斗、到达更高的楼层、获得更高级的材料/装备。但是，所有材料、装备、宠物以及黑暗魔幻水将在活动结束被销毁。\n\n### 什么是黑暗魔法水（DMW）？\nDMW 仅适用于 EK. Cup，在 EK. Cup 活动开启时，所有玩家均能获得 9,000 DMW。 DMW 可用于升级骑士、合成装备、Pet gatcha 等。在 EK. Cup 结束后，DMW 将与所有材料、物品和宠物一起销毁。\n\n### 玩家可以在没有装备和宠物情况下与怪物战斗？\n虽然活动刚开启时没有任何材料、装备和宠物，但玩家可以通过 DMW 复活来收集，点击 Pet Gacha 便可以用 DMW 购买宠物。\n\n### 楼层记录如何定义？玩家排名如何决定？\n当按下复活按钮时，楼层数将记录在 EOS 链上。在 EK. Cup 活动期间，所有在最高层数的玩家都将被记录。请记住，若忘记点击复活，将无法更新楼层数。\n若没有点击复活按钮，将无法得到个人的楼层数记录。因此，在 EK. Cup 活动最后，玩家需要有策略地决定何时复活。在 EK. Cup 结束时，如果骑士仍然在与怪物战斗，记录将不会被更新。\n\n### 排名是否有任何平局情况？\n没有的。若有超过 2 个玩家的楼层数记录相同，那么最先到达该楼层的玩家获胜。根据游戏的系统，不存在玩家在同一时间达到相同楼层数。\n\n### “死亡装备”能在提交后装备吗？\n不行，提交后将无法再使用该装备。\n\n### 全局掉落率也适用于 EK. Cup？\n不会。活动期间没有全局掉落率。
-    |ja| ### 同じ条件で出発するとするが、既存のに獲得した材料、アイテム、ペット、MWがすべて消えるのですか？\nありません。既存の保有していた記事、材料、アイテム、ペット、MWはすべてそのままです。ただEK。 Cupポータルに移動すると、EK。 Cupのみすべてのアカウントが同じ条件でセッティングされています。戻ってきたら、既存の保有していた記事、材料、アイテム、ペットはそのまま維持されます。\n\n### 記事が10倍強力でなることはどのような意味ですか？\nEK。 Cupでは、すべての記事のボールキャリアが10倍に強化されます。したがって、大会期間の3日間バトルが非常に迅速に展開されます。既存のバトルで到達たことのない階数まで急速に到達し、良い材料とアイテムを得る経験をすることができるようになります。ただし、EK。 Cupで獲得した材料、アイテム、ペット、Dark Magic Waterは大会終了と一緒にすべて消滅します。\n\n### Dark Magic Waterは何ですか？\nDMW（Dark Magic Water）はEK。 Cupでのみ使用されている通貨です。 EK。 Cup起動時にすべての参加者に9,000 DMWが与えられます。 EK。 Cupで記事レベルアップ、アイテム強化、ペットガトチャなどに使用されます。大会が終了するとDMWは記事、材料、アイテム、ペットと一緒にすべて消滅します。\n\n### EK。 Cupでアイテムなしで戦うだけいますか？\nありません。モンスターと戦いながら材料を獲得することができ、獲得した材料でアイテムを作成することができ、Petも養子縁組することができます。\n\n### に達する階数の記録はどのような基準で測定できますか？\n復活ボタンを押す時点に到達した階数がEOSチェーンに記録されます。大会期間中に最も高い階まで到達した記録で競い合います。記事がすべて死んだ状態でも復活ボタンを押さないと到達した階数がEOSチェーンに記録されません。必ず復活ボタンを押す必要があります。\n\n### 2人以上が同じ階まで到達した場合同点処理ができますか？\nありません。同じ階まで到達した場合には、時間的、まず到達した順に順位が決定されます。ゲームシステム上、同時に同じ階まで到達する場合は発生することができません。したがってタイは存在しません。\n\n### 大会が終わる時点での記事が続いモンスターと戦っていると階数はどのように記録できますか？\n大会期間中に復活ボタンを押さない場合はEOSチェーンに記録が登録されていません。したがって大会終了時間が近づく場合、いつ復活ボタンを押すか、戦略的に判断する必要があります。\n\n###「死に逆らうアイテム」を作成し提出した後も、大会期間中に継続して使用することができますか？\n使用することができません。アイテムを製作して、一度提出すると、大会期間中にも使用することができません。\n\n### EK。 Cupでもグローバルドロップレートが適用されますか？\nありません。 EK。 Cupでは、グローバルドロップレートが適用されません。
-    |ru| ### Я слышал, что мы начнем с того же условия. Будут ли уничтожены все полученные материалы, предметы и домашние животные?\nНет, они останутся там, как сейчас. Это условие относится к ЭК. Только кубок После того, как вы вернетесь в свой текущий боевой режим, все материалы, предметы, питомцы и MW будут существовать.\n\n### Что вы имеете в виду в 10 раз сильнее рыцарей?\nСтатистика атаки ERIC, ORIA, SCALLET будет увеличена в 10 раз. Вы можете наслаждаться более быстрой битвой, достигать более высоких этажей и получать материалы / предметы более высокого класса во время события. Однако все материалы, предметы, питомцы и Темная Магия Воды будут уничтожены в конце.\n\n### Что такое темная магия воды (DMW)?\nDMW - это MW только для EK. Кубок событий. В начале эк. Кубок, 9000 DMW будет предоставлен всем участникам. DMW можно использовать для повышения уровня Рыцаря, синтеза предметов, пэт-гатча и т. Д. В конце EK. Кубок DMW будет уничтожен всеми материалами, предметами и питомцами.\n\n### Должен ли я сражаться с монстром без предметов и питомцев?\nНет. Хотя вы начинаете без каких-либо материалов, предметов и домашних животных, вы сможете собрать их, выполнив перерождение, включая DMW. Домашние животные могут быть куплены с DMW, нажимая на Pet Gacha\n\n### Какое определение записи пола? Как вы решаете рейтинг участников?\nКогда вы нажимаете кнопку перерождения, номер этажа будет записан в блокчейне EOS. Все участники, которые соревнуются друг с другом с наибольшим количеством этажей, будут зарегистрированы во время EK. Кружка. Пожалуйста, помните, что если вы забудете нажать кнопку перерождения, эта запись не будет обновлена.\n\nЕсли вы не нажмете кнопку перерождения, вы не сможете записать свой номер этажа. Таким образом, вы должны принять стратегическое решение, когда вы нажимаете кнопку перерождения в конце EK. Кружка. В конце ек. Кубок, если рыцари все еще сражаются с монстром, запись не будет обновлена.\n\n### Есть ли связь в рейтинге?\nНет, галстука нет. Если более 2 участников запишут одинаковое количество этажей, победит тот, кто достиг этого уровня первым. По нашей системе игроки не могут одновременно достичь одинакового количества этажей.\n\n### «Великий предмет против смерти» можно экипировать после того, как я отправлю?\nНет, вы не можете использовать его после отправки.\n\n### Глобальная скорость выпадения применяется к EK. Кепка также?\nНет. Глобальная скорость выпадения во время мероприятия отсутствует.
+    |ko| ### 동일한 조건으로 출발한다고 하는데, 기존에 획득한 재료, 아이템, 펫, MW가 모두 사라지는 건가요?  \n아닙니다. 기존에 보유하고 있던 기사, 재료, 아이템, 펫, MW는 모두 그대로 입니다. 단지 EK. CUP 포털로 이동하게 되면, EK. Cup에서만 모든 계정이 동일한 조건으로 세팅되어 있습니다. 다시 돌아오면 기존에 보유하고 있던 기사, 재료, 아이템, 펫은 그대로 유지 됩니다.\n\n### 기사들이 10배 강력해 진다는것은 어떤 의미 인가요?  \nEK. Cup에서는 모든 기사의 공경력이 10배로 강화됩니다. 따라서 대회 기간인 3일간 배틀이 매우 빠르게 전개됩니다. 기존 배틀에서 도달해보지 못한 층수까지 빠르게 도달하고 좋은 재료와 아이템을 얻는 경험을 할 수 있게 됩니다. 단, EK. Cup에서 획득하거나 구매한 재료, 아이템, 펫, Dark Magic Water는 대회 종료와 함께 모두 소멸 됩니다.\n\n### Dark Magic Water는 무엇인가요?\nDMW (Dark Magic Water)는 EK. Cup에서만 사용되는 화폐 입니다. EK. CUP 시작시 모든 참가자에게 일정한 DMW가 주어집니다. EK. CUP에서 기사 레벨업, 아이템 강화, 펫 가차 등에 사용됩니다. 대회가 종료되면 DMW는 기사, 재료, 아이템, 펫과함께 모두 소멸 됩니다.\n\n### EK. CUP에서는 아이템 없이 싸우기만 하는건가요?\n아닙니다. 몬스터와 싸우면서 재료를 획득할 수 있고, 획득한 재료로 아이템을 만들 수 있으며, Pet도 입양할 수 있습니다.\n\n### 도달 층수 기록은 어떤 기준으로 측정 되나요?\n부활 버튼을 누르는 시점에 도달한 층수가 EOS 체인에 기록 됩니다. 대회 기간동안 가장 높은 층까지 도달한 기록으로 경쟁하게 됩니다. 기사가 모두 죽은 상태에도 부활버튼을 누르지 않으면 도달한 층수가 EOS 체인에 기록되지 않습니다. 꼭 부활 버튼을 눌러야 합니다.\n\n### 2명 이상이 같은 층까지 도달할 경우 동점 처리가 되나요?\n아닙니다. 같은 층까지 도달한 경우에는 시간상 먼저 도달한 순서로 순위가 결정됩니다. 게임 시스템상 동시에 같은 층까지 도달하는 경우는 발생할 수 없습니다. 따라서 동점은 존재하지 않습니다.\n\n### 대회가 끝나는 시점에 기사가 계속 몬스터와 싸우고 있으면 층수는 어떻게 기록 되나요?\n대회 기간중에 부활 버튼을 누르지 않을 경우 EOS 체인에 기록이 등록 되지 않습니다. 따라서 대회 종료 시간이 다가올 경우 언제 부활버튼을 누를지 전략적으로 판단해야 합니다.\n\n### '죽음을 거스르는 대검'을 만들고 제출한 뒤에도 대회 기간동안 계속 사용할 수 있나요?\n사용할 수 없습니다. 아이템을 제작하고 한번 제출하면 대회 기간중에도 사용할 수 없습니다.\n\n### EK. CUP에서도 글로벌 드롭 레이트가 적용 되나요?\n아닙니다. EK. CUP에서는 글로벌 드롭 레이트가 적용되지 않습니다.
+    |en| ### I've heard that we will start with the same condition. Will all materials, items and pets that I have gotten be destroyed?\nNo, those will remain there as they are now. This condition applies to EK. CUP event only. After you have returned to your current battle mode, every materials, items, pets and MW will be existed.\n\n### What do you mean of 10X stronger knights?\nThe attack stat of ERIC, ORIA, SCALLET will be increased by 10X. You can enjoy faster battle, reach higher floors and get higher class materials/items during the event. However, all the materials, items, pets and Dark Magic Water will be destroyed at the end.\n\n### What is Dark Magic Water(DMW)?\nDMW is MW only for EK. CUP event. At the beginning of EK. CUP, a certain DMW will be provided to all participants. DMW can be used for Knights level up, synthesize items, pet gatcha etc. At the end of the EK. CUP DMW will get destroyed with all materials, items and pets.\n\n### Should I fight with monster without items and pets?\nNo. Although you start without any materials, items and pets you'll be able to collect these by performing rebirth including DMW. Pets can be purchased with DMW by clicking on Pet Gacha\n\n### What is the definition of floor record? How do you decide the ranking of participants?\nWhen you push the rebirth button, the number of floor will be recorded on the EOS blockchain. All the participants who compete against each other with the highest number of floor will get recorded during the EK. CUP. Please remember, if you forget to click on the rebirth button this record will not get updated.\n\nIf you don't push rebirth button, you cannot get your floor number recorded. Therefore, you should decide strategically when you push rebirth button around the end of EK. CUP. At the end of EK. CUP, if Knights are still fighting with monster, the record will not be updated.\n\n### Is there a tie on the ranking?\nNo, there is no tie. If more than 2 participants record the same number of floor then someone who has reached it first will win. Based on our system, players cannot reach the same number of floor simultaneously.\n\n### 'The Great Sword Against Death' can be equipped after I submit?\nNo, you cannot use it after you submit.\n\n### Global drop rate is applied on EK. Cap as well?\nNo. There is no global drop rate during the event.
+    |zh-cn| ### 听说所有玩家以相同初始条件开启游戏，那么此前获得的所有材料、装备和宠物都会被销毁吗？\n不会，所有物品均会保留，该条件仅适用于 EK. Cup。在玩家返回当前战斗模式后，所有的材料、装备、宠物和魔幻水（MW）都还在。\n\n### 10X 攻击力的骑士是？\n指 ERIC、ORIA、SCALLET 这三种角色的攻击力均提高 10 倍。在活动期间，玩家可以享受更快速的战斗、到达更高的楼层、获得更高级的材料/装备。但是，所有材料、装备、宠物以及黑魔幻水将在活动结束被销毁。\n\n### 什么是黑魔幻水（DMW）？\nDMW 仅适用于 EK. Cup，在 EK. Cup 活动开启时，所有玩家均能获得 某些 DMW。 DMW 可用于升级骑士、合成装备、Pet gatcha 等。在 EK. Cup 结束后，DMW 将与所有材料、物品和宠物一起销毁。\n\n### 玩家可以在没有装备和宠物情况下与怪物战斗？\n虽然活动刚开启时没有任何材料、装备和宠物，但玩家可以通过 DMW 复活来收集，点击 Pet Gacha 便可以用 DMW 购买宠物。\n\n### 楼层记录如何定义？玩家排名如何决定？\n当按下复活按钮时，楼层数将记录在 EOS 链上。在 EK. Cup 活动期间，所有在最高层数的玩家都将被记录。请记住，若忘记点击复活，将无法更新楼层数。\n若没有点击复活按钮，将无法得到个人的楼层数记录。因此，在 EK. Cup 活动最后，玩家需要有策略地决定何时复活。在 EK. Cup 结束时，如果骑士仍然在与怪物战斗，记录将不会被更新。\n\n### 排名是否有任何平局情况？\n没有的。若有超过 2 个玩家的楼层数记录相同，那么最先到达该楼层的玩家获胜。根据游戏的系统，不存在玩家在同一时间达到相同楼层数。\n\n### “死亡装备”能在提交后装备吗？\n不行，提交后将无法再使用该装备。\n\n### 全局掉落率也适用于 EK. Cup？\n不会。活动期间没有全局掉落率。
+    |ja| ### 同じ条件で出発するとするが、既存のに獲得した材料、アイテム、ペット、MWがすべて消えるのですか？\nありません。既存の保有していた記事、材料、アイテム、ペット、MWはすべてそのままです。ただEK。 Cupポータルに移動すると、EK。 Cupのみすべてのアカウントが同じ条件でセッティングされています。戻ってきたら、既存の保有していた記事、材料、アイテム、ペットはそのまま維持されます。\n\n### 記事が10倍強力でなることはどのような意味ですか？\nEK。 Cupでは、すべての記事のボールキャリアが10倍に強化されます。したがって、大会期間の3日間バトルが非常に迅速に展開されます。既存のバトルで到達たことのない階数まで急速に到達し、良い材料とアイテムを得る経験をすることができるようになります。ただし、EK。 Cupで獲得した材料、アイテム、ペット、Dark Magic Waterは大会終了と一緒にすべて消滅します。\n\n### Dark Magic Waterは何ですか？\nDMW（Dark Magic Water）はEK。 Cupでのみ使用されている通貨です。 EK. Cup 起動時にすべての参加者に 一定 DMW が与えられます。 EK. Cupで記事レベルアップ、アイテム強化、ペットガトチャなどに使用されます。大会が終了するとDMWは記事、材料、アイテム、ペットと一緒にすべて消滅します。\n\n### EK。 Cupでアイテムなしで戦うだけいますか？\nありません。モンスターと戦いながら材料を獲得することができ、獲得した材料でアイテムを作成することができ、Petも養子縁組することができます。\n\n### に達する階数の記録はどのような基準で測定できますか？\n復活ボタンを押す時点に到達した階数がEOSチェーンに記録されます。大会期間中に最も高い階まで到達した記録で競い合います。記事がすべて死んだ状態でも復活ボタンを押さないと到達した階数がEOSチェーンに記録されません。必ず復活ボタンを押す必要があります。\n\n### 2人以上が同じ階まで到達した場合同点処理ができますか？\nありません。同じ階まで到達した場合には、時間的、まず到達した順に順位が決定されます。ゲームシステム上、同時に同じ階まで到達する場合は発生することができません。したがってタイは存在しません。\n\n### 大会が終わる時点での記事が続いモンスターと戦っていると階数はどのように記録できますか？\n大会期間中に復活ボタンを押さない場合はEOSチェーンに記録が登録されていません。したがって大会終了時間が近づく場合、いつ復活ボタンを押すか、戦略的に判断する必要があります。\n\n###「死に逆らうアイテム」を作成し提出した後も、大会期間中に継続して使用することができますか？\n使用することができません。アイテムを製作して、一度提出すると、大会期間中にも使用することができません。\n\n### EK. Cupでもグローバルドロップレートが適用されますか？\nありません。 EK. Cupでは、グローバルドロップレートが適用されません。
+    |ru| ### Я слышал, что мы начнем с того же условия. Будут ли уничтожены все полученные материалы, предметы и домашние животные?\nНет, они останутся там, как сейчас. Это условие относится к ЭК. Только кубок После того, как вы вернетесь в свой текущий боевой режим, все материалы, предметы, питомцы и MW будут существовать.\n\n### Что вы имеете в виду в 10 раз сильнее рыцарей?\nСтатистика атаки ERIC, ORIA, SCALLET будет увеличена в 10 раз. Вы можете наслаждаться более быстрой битвой, достигать более высоких этажей и получать материалы / предметы более высокого класса во время события. Однако все материалы, предметы, питомцы и Темная Магия Воды будут уничтожены в конце.\n\n### Что такое темная магия воды (DMW)?\nDMW - это MW только для EK. Кубок событий. В начале эк. Кубок, определенная DMW будет предоставлен всем участникам. DMW можно использовать для повышения уровня Рыцаря, синтеза предметов, пэт-гатча и т. Д. В конце EK. Кубок DMW будет уничтожен всеми материалами, предметами и питомцами.\n\n### Должен ли я сражаться с монстром без предметов и питомцев?\nНет. Хотя вы начинаете без каких-либо материалов, предметов и домашних животных, вы сможете собрать их, выполнив перерождение, включая DMW. Домашние животные могут быть куплены с DMW, нажимая на Pet Gacha\n\n### Какое определение записи пола? Как вы решаете рейтинг участников?\nКогда вы нажимаете кнопку перерождения, номер этажа будет записан в блокчейне EOS. Все участники, которые соревнуются друг с другом с наибольшим количеством этажей, будут зарегистрированы во время EK. Кружка. Пожалуйста, помните, что если вы забудете нажать кнопку перерождения, эта запись не будет обновлена.\n\nЕсли вы не нажмете кнопку перерождения, вы не сможете записать свой номер этажа. Таким образом, вы должны принять стратегическое решение, когда вы нажимаете кнопку перерождения в конце EK. Кружка. В конце ек. Кубок, если рыцари все еще сражаются с монстром, запись не будет обновлена.\n\n### Есть ли связь в рейтинге?\nНет, галстука нет. Если более 2 участников запишут одинаковое количество этажей, победит тот, кто достиг этого уровня первым. По нашей системе игроки не могут одновременно достичь одинакового количества этажей.\n\n### «Великий предмет против смерти» можно экипировать после того, как я отправлю?\nНет, вы не можете использовать его после отправки.\n\n### Глобальная скорость выпадения применяется к EK. Кепка также?\nНет. Глобальная скорость выпадения во время мероприятия отсутствует.
 season.reward.popup.title
     |ko| EK. CUP 보상
     |en| EK. CUP Rewards
@@ -3965,7 +4047,13 @@ season.warning
     |en| All materials, items, pets, and DMW were used during the cup will be destroyed.    
     |zh-cn| 杯子中使用的所有材料，物品，宠物和DMW都将被销毁。    
     |ja| カップの間に使われたすべての材料、アイテム、ペットとDMWは破壊されます。    
-    |ru| Все материалы, предметы, питомцы и DMW, использованные во время кубка, будут уничтожены.    
+    |ru| Все материалы, предметы, питомцы и DMW, использованные во время кубка, будут уничтожены.
+season.warning.market
+    |ko| Cup 대회에서 구매한 재료, 아이템은 종료 후 모두 사라지며, 정해진 등급까지만 구매 가능합니다.
+    |en| All materials, items, pets will be destroyed after the cup, and you can only purchase up to certain grade.
+    |zh-cn| 所有材料，物品，宠物都将在杯子后销毁，而您只能购买一定等级。
+    |ja| すべての材料、アイテム、ペットはカップの後に破壊されます、そしてあなたは特定の等級までしか購入できません。
+    |ru| Все материалы, предметы, домашние животные будут уничтожены после чашки, и вы можете приобрести только до определенного сорта.
 season.start.after
     |ko| {0} 뒤에 새로운 이벤트가 시작됩니다.\n잠시만 기다려주세요.
     |en| A new cup will be held after {0}.\nPlease wait for a little.
