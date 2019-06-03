@@ -1,5 +1,17 @@
 [  
    {  
+      "id":102,
+      "titleKo":"4th EOSKnights Cup(EK. Cup)",
+      "titleEn":"4th EOSKnights Cup(EK. Cup)",
+      "titleImage":"https://eosknights.io/img/notice/notice1.png",
+      "bodyKo":"## 4th EK. CUP이 내일 시작됩니다.\n\n![](https:/eosknights.io/img/notice/ekcup4_k.jpg =600x544)\n\n4th EK. CUP이 내일 오후 9시에 시작됩니다.\n* 6월 4일 오후 9시 -6월 6일 오후 9시; 2일간, 대회 기간 3일에서 2일로 조정\n* 공격력이 기존 10X에서 15X로 강화된 캐릭터 Byte Warrior, Mad Scientist, Rising Sun 과 함께\n\n리워드:\n* 'King's Armor'을 가장 먼저 제작한 1명 60 EOS 획득 (3rd EK. CUP에서 30 EOS 이월)\n* 가장 높은 층까지 도달한 1등-100등 각각 2 EOS 획득\n* 그외 모든 참가자는 도달한 층수 만큼 MW 획득 (단, 최대 1,000 MW로 제한)\n\n그외 규칙:\n* 재료마켓 오픈 (Normal부터 Legendary까지)\n* 대회 시작시 25,000 Dark Magic Water(DMW) 제공\n* 대회 시작시 Level 1 Byte Warrior, Mad Scientist, Rising Sun 제공\n* DMW는 EK. Cup에서만 사용하는 MW\n* 4th EK. Cup에서 모든 기사의 공격력이 15배 강화됨\n* 4개 이상의 재료가 필요한 아이템 제작시, 1개 재료가 모자랄 경우 DMW를 사용하여 제작 가능\n\n주의!!! EK. Cup에서 획득한 재료, 아이템, 펫, DMW는 대회 종료와 함께 모두 소멸 됩니다.\n\n[FAQ Link](https://github.com/bada-studio/knights_support/wiki/EK.-Cup-FAQ-ko)",
+      "bodyEn":"## 4st EOSKnights Cup(EK. Cup) will open at 4th Jun. 12:00 (UTC)\n\n![](https:/eosknights.io/img/notice/ekcup4_e.jpg =600x544)\n\n4th EK. CUP will start at 4th Jun.\n* From Tuesday, Jun. 4th at 12:00(UTC) - To Thursday, Jun. 6th until 12:00(UTC); 2 days\n* EK. CUP period is shortened from 3 days to 2 days\n* Compete with 15X stronger characters; Byte Warrior, Mad Scientist, Rising Sun\n\nReward to be claimed:\n* 60 EOS: the first account who successfully crafts and submit 'King's Armor'; 30 EOS carried over, from 3rd EK. CUP\n* 2 EOS: Top 100 accounts who reach the highest floor\n* MW: Every participant get MW, based on number of floors they climb (1,000 MW is max reward)\n\nMiscellaneous:\n* There will be Normal - Legendary material market on the event\n* There also will be given 25,000 Dark Magic Water(DMW) at the beginning\n* DMW can be used for EK. Cup only!\n* There will a level 1 Knight of Byte Warrior, Mad Scientist and Rising Sun be provided at start\n* During the event the attack of all Knights will be 15X stronger than usual\n* Certain items require 4 materials. 1 out of these 4 materials can be replaced by DMW\n\nAttention!!!!   All materials, items, pets and DMW were used during the cup will be destroyed!\n\n[FAQ Link](https://github.com/bada-studio/knights_support/wiki/EK.-Cup-FAQ--en)",
+      "datetime":"2019-06-03T00:00:00.000",
+      "expiration":"2019-06-05T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":101,
       "titleKo":"아이템 제작 이벤트",
       "titleEn":"Item Crafting Evet",
