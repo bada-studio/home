@@ -226,6 +226,12 @@ season.loading
     |zh-cn| EK Cup正在加载
     |ja| EKカップ読み込み中
     |ru| EK Cup Загрузка
+village.loading
+    |ko| 마을을 불러옵니다.
+    |en| Village Loading
+    |zh-cn| Village 正在加载
+    |ja| Village 読み込み中
+    |ru| Village Загрузка
 globalvar.loading
     |ko| 전역 변수를 불러옵니다.
     |en| Load Global Variable
@@ -347,6 +353,12 @@ title.failed.account
     |zh-cn| 无法获取账户信息。
     |ja| アカウント情報を読み込めませんでした。
     |ru| Не удалось загрузить информацию об аккаунте.
+title.failed.village
+    |ko| 마을 정보를 읽지 못했습니다.
+    |en| Could not load village data
+    |zh-cn| 无法加载村庄数据
+    |ja| 村のデータを読み込めませんでした
+    |ru| Не удалось загрузить данные деревни
 title.empty.account.name
     |ko| 계정 이름을 입력하세요.
     |en| Please enter your account name.
@@ -1043,11 +1055,11 @@ new.account.help.title
     |ja| アカウントを作成する
     |ru| Создать учетную запись
 new.account.help.body
-    |ko| ## 내장지갑\n내장 지갑에서 하루 100개의 무료 계정 생성을 지원합니다.\n\n## MEET.ONE 초대 코드\nMEET.ONE 지갑에서 초대코드 등록이 가능합니다. 등록 가능한 수량이 제한되어 있습니다.\n* [초대코드 등록 방법](https://www.youtube.com/watch?v=lC8x5N6lgp4&t=21s)\n\n## 외부 생성 툴\n아래 툴을 통해 계정을 생성할 수 있습니다.\n* [irex](https://irex.io)   
-    |en| ## Built-in Wallet\nSupports creation of 100 free accounts per day in a wallet.\n\n## MEET.ONE invitation code\nYou can register an invitation code in the MEET.ONE wallet. The quantity of the code is limited.\n* [How to register an invitation code](https://www.youtube.com/watch?v=lC8x5N6lgp4&t=21s)\n\n## External creation tool\nYou can create an account using the tools below.\n* [irex](https://irex.io)    
-    |zh-cn| ## 內置錢包\n支持在錢包中每天創建100個免費帳戶。\n\n## MEET.ONE邀请码\n您可以在MEET.ONE钱包中注册邀请码。 代码数量有限。\n* [如何注册您的邀请代码](https://www.youtube.com/watch?v=lC8x5N6lgp4&t=21s)\n\n## 外部創建工具\n您可以使用以下工具創建帳戶。\n* [irex]（https://irex.io） 
-    |ja| ## 内蔵財布\n内蔵財布から一日100個の無料アカウントの作成をサポートします。\n\n## MEET.ONE招待コード\nMEET.ONEウォレットに招待コードを登録できます。 コードの量は限られています。\n* [招待コード登録方法](https://www.youtube.com/watch?v=lC8x5N6lgp4&t=21s)\n\n## 外部生成ツール\n下のツールを使用してアカウントを作成することができます。\n* [irex]（https://irex.io）
-    |ru| ## Встроенный кошелек\nПоддерживает создание 100 бесплатных аккаунтов в день в кошельке.\n\n## MEET.ONE код приглашения\nВы можете зарегистрировать код приглашения в кошельке MEET.ONE. Количество кода ограничено.\n* [Как зарегистрировать свой код приглашения](https://www.youtube.com/watch?v=lC8x5N6lgp4&t=21s)\n\n## Внешний инструмент создания\nВы можете создать учетную запись, используя инструменты ниже.\n* [irex](https://irex.io)     
+    |ko| ## 외부 생성 툴\n아래 툴을 통해 계정을 생성할 수 있습니다.\n* [irex](https://irex.io)   
+    |en| ## External creation tool\nYou can create an account using the tools below.\n* [irex](https://irex.io)    
+    |zh-cn| ## 外部創建工具\n您可以使用以下工具創建帳戶。\n* [irex]（https://irex.io） 
+    |ja| ## 外部生成ツール\n下のツールを使用してアカウントを作成することができます。\n* [irex]（https://irex.io）
+    |ru| ## Внешний инструмент создания\nВы можете создать учетную запись, используя инструменты ниже.\n* [irex](https://irex.io)     
 create.account.notice
     |ko| 하루에 100개의 계정을 무료로 생성합니다. <color="red">루팅된 폰에서 시도하면 키 탈취의 위험이 있습니다.</color>
     |en| We create 100 free account per day. <color="red">Don't create an account on a rooted phone, there is a risk of key takeover.</color>    
@@ -2013,6 +2025,12 @@ lobby.tab.chat
     |zh-cn| 聊天
     |ja| チャット
     |ru| ЧАТ
+lobby.tab.village
+    |ko| 마을
+    |en| VILLAGE
+    |zh-cn| 村
+    |ja| 村
+    |ru| Деревня
 
 lobby.knight.tab.all
     |ko| 모두
@@ -4019,11 +4037,11 @@ season.detach.first
 
 
 season.help
-    |ko| ### 동일한 조건으로 출발한다고 하는데, 기존에 획득한 재료, 아이템, 펫, MW가 모두 사라지는 건가요?  \n아닙니다. 기존에 보유하고 있던 기사, 재료, 아이템, 펫, MW는 모두 그대로 입니다. 단지 EK. CUP 포털로 이동하게 되면, EK. Cup에서만 모든 계정이 동일한 조건으로 세팅되어 있습니다. 다시 돌아오면 기존에 보유하고 있던 기사, 재료, 아이템, 펫은 그대로 유지 됩니다.\n\n### 기사들이 10배 강력해 진다는것은 어떤 의미 인가요?  \nEK. Cup에서는 모든 기사의 공경력이 10배로 강화됩니다. 따라서 대회 기간인 3일간 배틀이 매우 빠르게 전개됩니다. 기존 배틀에서 도달해보지 못한 층수까지 빠르게 도달하고 좋은 재료와 아이템을 얻는 경험을 할 수 있게 됩니다. 단, EK. Cup에서 획득하거나 구매한 재료, 아이템, 펫, Dark Magic Water는 대회 종료와 함께 모두 소멸 됩니다.\n\n### Dark Magic Water는 무엇인가요?\nDMW (Dark Magic Water)는 EK. Cup에서만 사용되는 화폐 입니다. EK. CUP 시작시 모든 참가자에게 일정한 DMW가 주어집니다. EK. CUP에서 기사 레벨업, 아이템 강화, 펫 가차 등에 사용됩니다. 대회가 종료되면 DMW는 기사, 재료, 아이템, 펫과함께 모두 소멸 됩니다.\n\n### EK. CUP에서는 아이템 없이 싸우기만 하는건가요?\n아닙니다. 몬스터와 싸우면서 재료를 획득할 수 있고, 획득한 재료로 아이템을 만들 수 있으며, Pet도 입양할 수 있습니다.\n\n### 도달 층수 기록은 어떤 기준으로 측정 되나요?\n부활 버튼을 누르는 시점에 도달한 층수가 EOS 체인에 기록 됩니다. 대회 기간동안 가장 높은 층까지 도달한 기록으로 경쟁하게 됩니다. 기사가 모두 죽은 상태에도 부활버튼을 누르지 않으면 도달한 층수가 EOS 체인에 기록되지 않습니다. 꼭 부활 버튼을 눌러야 합니다.\n\n### 2명 이상이 같은 층까지 도달할 경우 동점 처리가 되나요?\n아닙니다. 같은 층까지 도달한 경우에는 시간상 먼저 도달한 순서로 순위가 결정됩니다. 게임 시스템상 동시에 같은 층까지 도달하는 경우는 발생할 수 없습니다. 따라서 동점은 존재하지 않습니다.\n\n### 대회가 끝나는 시점에 기사가 계속 몬스터와 싸우고 있으면 층수는 어떻게 기록 되나요?\n대회 기간중에 부활 버튼을 누르지 않을 경우 EOS 체인에 기록이 등록 되지 않습니다. 따라서 대회 종료 시간이 다가올 경우 언제 부활버튼을 누를지 전략적으로 판단해야 합니다.\n\n### '죽음을 거스르는 대검'을 만들고 제출한 뒤에도 대회 기간동안 계속 사용할 수 있나요?\n사용할 수 없습니다. 아이템을 제작하고 한번 제출하면 대회 기간중에도 사용할 수 없습니다.\n\n### EK. CUP에서도 글로벌 드롭 레이트가 적용 되나요?\n아닙니다. EK. CUP에서는 글로벌 드롭 레이트가 적용되지 않습니다.
-    |en| ### I've heard that we will start with the same condition. Will all materials, items and pets that I have gotten be destroyed?\nNo, those will remain there as they are now. This condition applies to EK. CUP event only. After you have returned to your current battle mode, every materials, items, pets and MW will be existed.\n\n### What do you mean of 10X stronger knights?\nThe attack stat of ERIC, ORIA, SCALLET will be increased by 10X. You can enjoy faster battle, reach higher floors and get higher class materials/items during the event. However, all the materials, items, pets and Dark Magic Water will be destroyed at the end.\n\n### What is Dark Magic Water(DMW)?\nDMW is MW only for EK. CUP event. At the beginning of EK. CUP, a certain DMW will be provided to all participants. DMW can be used for Knights level up, synthesize items, pet gatcha etc. At the end of the EK. CUP DMW will get destroyed with all materials, items and pets.\n\n### Should I fight with monster without items and pets?\nNo. Although you start without any materials, items and pets you'll be able to collect these by performing rebirth including DMW. Pets can be purchased with DMW by clicking on Pet Gacha\n\n### What is the definition of floor record? How do you decide the ranking of participants?\nWhen you push the rebirth button, the number of floor will be recorded on the EOS blockchain. All the participants who compete against each other with the highest number of floor will get recorded during the EK. CUP. Please remember, if you forget to click on the rebirth button this record will not get updated.\n\nIf you don't push rebirth button, you cannot get your floor number recorded. Therefore, you should decide strategically when you push rebirth button around the end of EK. CUP. At the end of EK. CUP, if Knights are still fighting with monster, the record will not be updated.\n\n### Is there a tie on the ranking?\nNo, there is no tie. If more than 2 participants record the same number of floor then someone who has reached it first will win. Based on our system, players cannot reach the same number of floor simultaneously.\n\n### 'The Great Sword Against Death' can be equipped after I submit?\nNo, you cannot use it after you submit.\n\n### Global drop rate is applied on EK. Cap as well?\nNo. There is no global drop rate during the event.
-    |zh-cn| ### 听说所有玩家以相同初始条件开启游戏，那么此前获得的所有材料、装备和宠物都会被销毁吗？\n不会，所有物品均会保留，该条件仅适用于 EK. Cup。在玩家返回当前战斗模式后，所有的材料、装备、宠物和魔幻水（MW）都还在。\n\n### 10X 攻击力的骑士是？\n指 ERIC、ORIA、SCALLET 这三种角色的攻击力均提高 10 倍。在活动期间，玩家可以享受更快速的战斗、到达更高的楼层、获得更高级的材料/装备。但是，所有材料、装备、宠物以及黑魔幻水将在活动结束被销毁。\n\n### 什么是黑魔幻水（DMW）？\nDMW 仅适用于 EK. Cup，在 EK. Cup 活动开启时，所有玩家均能获得 某些 DMW。 DMW 可用于升级骑士、合成装备、Pet gatcha 等。在 EK. Cup 结束后，DMW 将与所有材料、物品和宠物一起销毁。\n\n### 玩家可以在没有装备和宠物情况下与怪物战斗？\n虽然活动刚开启时没有任何材料、装备和宠物，但玩家可以通过 DMW 复活来收集，点击 Pet Gacha 便可以用 DMW 购买宠物。\n\n### 楼层记录如何定义？玩家排名如何决定？\n当按下复活按钮时，楼层数将记录在 EOS 链上。在 EK. Cup 活动期间，所有在最高层数的玩家都将被记录。请记住，若忘记点击复活，将无法更新楼层数。\n若没有点击复活按钮，将无法得到个人的楼层数记录。因此，在 EK. Cup 活动最后，玩家需要有策略地决定何时复活。在 EK. Cup 结束时，如果骑士仍然在与怪物战斗，记录将不会被更新。\n\n### 排名是否有任何平局情况？\n没有的。若有超过 2 个玩家的楼层数记录相同，那么最先到达该楼层的玩家获胜。根据游戏的系统，不存在玩家在同一时间达到相同楼层数。\n\n### “死亡装备”能在提交后装备吗？\n不行，提交后将无法再使用该装备。\n\n### 全局掉落率也适用于 EK. Cup？\n不会。活动期间没有全局掉落率。
-    |ja| ### 同じ条件で出発するとするが、既存のに獲得した材料、アイテム、ペット、MWがすべて消えるのですか？\nありません。既存の保有していた記事、材料、アイテム、ペット、MWはすべてそのままです。ただEK。 Cupポータルに移動すると、EK。 Cupのみすべてのアカウントが同じ条件でセッティングされています。戻ってきたら、既存の保有していた記事、材料、アイテム、ペットはそのまま維持されます。\n\n### 記事が10倍強力でなることはどのような意味ですか？\nEK。 Cupでは、すべての記事のボールキャリアが10倍に強化されます。したがって、大会期間の3日間バトルが非常に迅速に展開されます。既存のバトルで到達たことのない階数まで急速に到達し、良い材料とアイテムを得る経験をすることができるようになります。ただし、EK。 Cupで獲得した材料、アイテム、ペット、Dark Magic Waterは大会終了と一緒にすべて消滅します。\n\n### Dark Magic Waterは何ですか？\nDMW（Dark Magic Water）はEK。 Cupでのみ使用されている通貨です。 EK. Cup 起動時にすべての参加者に 一定 DMW が与えられます。 EK. Cupで記事レベルアップ、アイテム強化、ペットガトチャなどに使用されます。大会が終了するとDMWは記事、材料、アイテム、ペットと一緒にすべて消滅します。\n\n### EK。 Cupでアイテムなしで戦うだけいますか？\nありません。モンスターと戦いながら材料を獲得することができ、獲得した材料でアイテムを作成することができ、Petも養子縁組することができます。\n\n### に達する階数の記録はどのような基準で測定できますか？\n復活ボタンを押す時点に到達した階数がEOSチェーンに記録されます。大会期間中に最も高い階まで到達した記録で競い合います。記事がすべて死んだ状態でも復活ボタンを押さないと到達した階数がEOSチェーンに記録されません。必ず復活ボタンを押す必要があります。\n\n### 2人以上が同じ階まで到達した場合同点処理ができますか？\nありません。同じ階まで到達した場合には、時間的、まず到達した順に順位が決定されます。ゲームシステム上、同時に同じ階まで到達する場合は発生することができません。したがってタイは存在しません。\n\n### 大会が終わる時点での記事が続いモンスターと戦っていると階数はどのように記録できますか？\n大会期間中に復活ボタンを押さない場合はEOSチェーンに記録が登録されていません。したがって大会終了時間が近づく場合、いつ復活ボタンを押すか、戦略的に判断する必要があります。\n\n###「死に逆らうアイテム」を作成し提出した後も、大会期間中に継続して使用することができますか？\n使用することができません。アイテムを製作して、一度提出すると、大会期間中にも使用することができません。\n\n### EK. Cupでもグローバルドロップレートが適用されますか？\nありません。 EK. Cupでは、グローバルドロップレートが適用されません。
-    |ru| ### Я слышал, что мы начнем с того же условия. Будут ли уничтожены все полученные материалы, предметы и домашние животные?\nНет, они останутся там, как сейчас. Это условие относится к ЭК. Только кубок После того, как вы вернетесь в свой текущий боевой режим, все материалы, предметы, питомцы и MW будут существовать.\n\n### Что вы имеете в виду в 10 раз сильнее рыцарей?\nСтатистика атаки ERIC, ORIA, SCALLET будет увеличена в 10 раз. Вы можете наслаждаться более быстрой битвой, достигать более высоких этажей и получать материалы / предметы более высокого класса во время события. Однако все материалы, предметы, питомцы и Темная Магия Воды будут уничтожены в конце.\n\n### Что такое темная магия воды (DMW)?\nDMW - это MW только для EK. Кубок событий. В начале эк. Кубок, определенная DMW будет предоставлен всем участникам. DMW можно использовать для повышения уровня Рыцаря, синтеза предметов, пэт-гатча и т. Д. В конце EK. Кубок DMW будет уничтожен всеми материалами, предметами и питомцами.\n\n### Должен ли я сражаться с монстром без предметов и питомцев?\nНет. Хотя вы начинаете без каких-либо материалов, предметов и домашних животных, вы сможете собрать их, выполнив перерождение, включая DMW. Домашние животные могут быть куплены с DMW, нажимая на Pet Gacha\n\n### Какое определение записи пола? Как вы решаете рейтинг участников?\nКогда вы нажимаете кнопку перерождения, номер этажа будет записан в блокчейне EOS. Все участники, которые соревнуются друг с другом с наибольшим количеством этажей, будут зарегистрированы во время EK. Кружка. Пожалуйста, помните, что если вы забудете нажать кнопку перерождения, эта запись не будет обновлена.\n\nЕсли вы не нажмете кнопку перерождения, вы не сможете записать свой номер этажа. Таким образом, вы должны принять стратегическое решение, когда вы нажимаете кнопку перерождения в конце EK. Кружка. В конце ек. Кубок, если рыцари все еще сражаются с монстром, запись не будет обновлена.\n\n### Есть ли связь в рейтинге?\nНет, галстука нет. Если более 2 участников запишут одинаковое количество этажей, победит тот, кто достиг этого уровня первым. По нашей системе игроки не могут одновременно достичь одинакового количества этажей.\n\n### «Великий предмет против смерти» можно экипировать после того, как я отправлю?\nНет, вы не можете использовать его после отправки.\n\n### Глобальная скорость выпадения применяется к EK. Кепка также?\nНет. Глобальная скорость выпадения во время мероприятия отсутствует.
+    |ko| ### 동일한 조건으로 출발한다고 하는데, 기존에 획득한 재료, 아이템, 펫, MW가 모두 사라지는 건가요?  \n아닙니다. 기존에 보유하고 있던 기사, 재료, 아이템, 펫, MW는 모두 그대로 입니다. 단지 EK. CUP 포털로 이동하게 되면, EK. Cup에서만 모든 계정이 동일한 조건으로 세팅되어 있습니다. 다시 돌아오면 기존에 보유하고 있던 기사, 재료, 아이템, 펫은 그대로 유지 됩니다.\n\n### 기사들이 강력해 진다는것은 어떤 의미 인가요?  \nEK. Cup에서는 모든 기사의 공격력이 일정 배수로 강화됩니다. 따라서 대회 기간동안 배틀이 매우 빠르게 전개됩니다. 기존 배틀에서 도달해보지 못한 층수까지 빠르게 도달하고 좋은 재료와 아이템을 얻는 경험을 할 수 있게 됩니다. 단, EK. Cup에서 획득하거나 구매한 재료, 아이템, 펫, Dark Magic Water는 대회 종료와 함께 모두 소멸 됩니다.\n\n### Dark Magic Water는 무엇인가요?\nDMW (Dark Magic Water)는 EK. Cup에서만 사용되는 화폐 입니다. EK. CUP 시작시 모든 참가자에게 일정한 DMW가 주어집니다. EK. CUP에서 기사 레벨업, 아이템 강화, 펫 가차 등에 사용됩니다. 대회가 종료되면 DMW는 기사, 재료, 아이템, 펫과함께 모두 소멸 됩니다.\n\n### EK. CUP에서는 아이템 없이 싸우기만 하는건가요?\n아닙니다. 몬스터와 싸우면서 재료를 획득할 수 있고, 획득한 재료로 아이템을 만들 수 있으며, Pet도 입양할 수 있습니다.\n\n### 도달 층수 기록은 어떤 기준으로 측정 되나요?\n부활 버튼을 누르는 시점에 도달한 층수가 EOS 체인에 기록 됩니다. 대회 기간동안 가장 높은 층까지 도달한 기록으로 경쟁하게 됩니다. 기사가 모두 죽은 상태에도 부활버튼을 누르지 않으면 도달한 층수가 EOS 체인에 기록되지 않습니다. 꼭 부활 버튼을 눌러야 합니다.\n\n### 2명 이상이 같은 층까지 도달할 경우 동점 처리가 되나요?\n아닙니다. 같은 층까지 도달한 경우에는 시간상 먼저 도달한 순서로 순위가 결정됩니다. 게임 시스템상 동시에 같은 층까지 도달하는 경우는 발생할 수 없습니다. 따라서 동점은 존재하지 않습니다.\n\n### 대회가 끝나는 시점에 기사가 계속 몬스터와 싸우고 있으면 층수는 어떻게 기록 되나요?\n대회 기간중에 부활 버튼을 누르지 않을 경우 EOS 체인에 기록이 등록 되지 않습니다. 따라서 대회 종료 시간이 다가올 경우 언제 부활버튼을 누를지 전략적으로 판단해야 합니다.\n\n### 상금이 걸린 장비를 만들고 제출한 뒤에도 대회 기간동안 계속 사용할 수 있나요?\n사용할 수 없습니다. 아이템을 제작하고 한번 제출하면 대회 기간중에도 사용할 수 없습니다.\n\n### EK. CUP에서도 글로벌 드롭 레이트가 적용 되나요?\n아닙니다. EK. CUP에서는 글로벌 드롭 레이트가 적용되지 않습니다.
+    |en| ### I've heard that we will start with the same condition. Will all materials, items and pets that I have gotten be destroyed?\nNo, those will remain there as they are now. This condition applies to EK. CUP event only. After you have returned to your current battle mode, every materials, items, pets and MW will be existed.\n\n### What do you mean of certain X stronger knights?\nThe attack stat of ERIC, ORIA, SCALLET will be increased by certain X. You can enjoy faster battle, reach higher floors and get higher class materials/items during the event. However, all the materials, items, pets and Dark Magic Water will be destroyed at the end.\n\n### What is Dark Magic Water(DMW)?\nDMW is MW only for EK. CUP event. At the beginning of EK. CUP, a certain DMW will be provided to all participants. DMW can be used for Knights level up, synthesize items, pet gatcha etc. At the end of the EK. CUP DMW will get destroyed with all materials, items and pets.\n\n### Should I fight with monster without items and pets?\nNo. Although you start without any materials, items and pets you'll be able to collect these by performing rebirth including DMW. Pets can be purchased with DMW by clicking on Pet Gacha\n\n### What is the definition of floor record? How do you decide the ranking of participants?\nWhen you push the rebirth button, the number of floor will be recorded on the EOS blockchain. All the participants who compete against each other with the highest number of floor will get recorded during the EK. CUP. Please remember, if you forget to click on the rebirth button this record will not get updated.\n\nIf you don't push rebirth button, you cannot get your floor number recorded. Therefore, you should decide strategically when you push rebirth button around the end of EK. CUP. At the end of EK. CUP, if Knights are still fighting with monster, the record will not be updated.\n\n### Is there a tie on the ranking?\nNo, there is no tie. If more than 2 participants record the same number of floor then someone who has reached it first will win. Based on our system, players cannot reach the same number of floor simultaneously.\n\n### The prized equipment can be equipped after I submit?\nNo, you cannot use it after you submit.\n\n### Global drop rate is applied on EK. Cap as well?\nNo. There is no global drop rate during the event.
+    |zh-cn| ### 听说所有玩家以相同初始条件开启游戏，那么此前获得的所有材料、装备和宠物都会被销毁吗？\n不会，所有物品均会保留，该条件仅适用于 EK. Cup。在玩家返回当前战斗模式后，所有的材料、装备、宠物和魔幻水（MW）都还在。\n\n### 某些X 攻击力的骑士是？\n指 ERIC、ORIA、SCALLET 这三种角色的攻击力均提高 某些 倍。在活动期间，玩家可以享受更快速的战斗、到达更高的楼层、获得更高级的材料/装备。但是，所有材料、装备、宠物以及黑魔幻水将在活动结束被销毁。\n\n### 什么是黑魔幻水（DMW）？\nDMW 仅适用于 EK. Cup，在 EK. Cup 活动开启时，所有玩家均能获得 某些 DMW。 DMW 可用于升级骑士、合成装备、Pet gatcha 等。在 EK. Cup 结束后，DMW 将与所有材料、物品和宠物一起销毁。\n\n### 玩家可以在没有装备和宠物情况下与怪物战斗？\n虽然活动刚开启时没有任何材料、装备和宠物，但玩家可以通过 DMW 复活来收集，点击 Pet Gacha 便可以用 DMW 购买宠物。\n\n### 楼层记录如何定义？玩家排名如何决定？\n当按下复活按钮时，楼层数将记录在 EOS 链上。在 EK. Cup 活动期间，所有在最高层数的玩家都将被记录。请记住，若忘记点击复活，将无法更新楼层数。\n若没有点击复活按钮，将无法得到个人的楼层数记录。因此，在 EK. Cup 活动最后，玩家需要有策略地决定何时复活。在 EK. Cup 结束时，如果骑士仍然在与怪物战斗，记录将不会被更新。\n\n### 排名是否有任何平局情况？\n没有的。若有超过 2 个玩家的楼层数记录相同，那么最先到达该楼层的玩家获胜。根据游戏的系统，不存在玩家在同一时间达到相同楼层数。\n\n### 珍贵的设备 能在提交后装备吗？\n不行，提交后将无法再使用该装备。\n\n### 全局掉落率也适用于 EK. Cup？\n不会。活动期间没有全局掉落率。
+    |ja| ### 同じ条件で出発するとするが、既存のに獲得した材料、アイテム、ペット、MWがすべて消えるのですか？\nありません。既存の保有していた記事、材料、アイテム、ペット、MWはすべてそのままです。ただEK。 Cupポータルに移動すると、EK。 Cupのみすべてのアカウントが同じ条件でセッティングされています。戻ってきたら、既存の保有していた記事、材料、アイテム、ペットはそのまま維持されます。\n\n### 記事が一定倍強力でなることはどのような意味ですか？\nEK。 Cupでは、すべての記事のボールキャリアが一定倍に強化されます。したがって、大会期間の3日間バトルが非常に迅速に展開されます。既存のバトルで到達たことのない階数まで急速に到達し、良い材料とアイテムを得る経験をすることができるようになります。ただし、EK。 Cupで獲得した材料、アイテム、ペット、Dark Magic Waterは大会終了と一緒にすべて消滅します。\n\n### Dark Magic Waterは何ですか？\nDMW（Dark Magic Water）はEK。 Cupでのみ使用されている通貨です。 EK. Cup 起動時にすべての参加者に 一定 DMW が与えられます。 EK. Cupで記事レベルアップ、アイテム強化、ペットガトチャなどに使用されます。大会が終了するとDMWは記事、材料、アイテム、ペットと一緒にすべて消滅します。\n\n### EK。 Cupでアイテムなしで戦うだけいますか？\nありません。モンスターと戦いながら材料を獲得することができ、獲得した材料でアイテムを作成することができ、Petも養子縁組することができます。\n\n### に達する階数の記録はどのような基準で測定できますか？\n復活ボタンを押す時点に到達した階数がEOSチェーンに記録されます。大会期間中に最も高い階まで到達した記録で競い合います。記事がすべて死んだ状態でも復活ボタンを押さないと到達した階数がEOSチェーンに記録されません。必ず復活ボタンを押す必要があります。\n\n### 2人以上が同じ階まで到達した場合同点処理ができますか？\nありません。同じ階まで到達した場合には、時間的、まず到達した順に順位が決定されます。ゲームシステム上、同時に同じ階まで到達する場合は発生することができません。したがってタイは存在しません。\n\n### 大会が終わる時点での記事が続いモンスターと戦っていると階数はどのように記録できますか？\n大会期間中に復活ボタンを押さない場合はEOSチェーンに記録が登録されていません。したがって大会終了時間が近づく場合、いつ復活ボタンを押すか、戦略的に判断する必要があります。\n\n###高価な機器 を作成し提出した後も、大会期間中に継続して使用することができますか？\n使用することができません。アイテムを製作して、一度提出すると、大会期間中にも使用することができません。\n\n### EK. Cupでもグローバルドロップレートが適用されますか？\nありません。 EK. Cupでは、グローバルドロップレートが適用されません。
+    |ru| ### Я слышал, что мы начнем с того же условия. Будут ли уничтожены все полученные материалы, предметы и домашние животные?\nНет, они останутся там, как сейчас. Это условие относится к ЭК. Только кубок После того, как вы вернетесь в свой текущий боевой режим, все материалы, предметы, питомцы и MW будут существовать.\n\n### Что вы имеете в виду в определенный раз сильнее рыцарей?\nСтатистика атаки ERIC, ORIA, SCALLET будет увеличена в определенный раз. Вы можете наслаждаться более быстрой битвой, достигать более высоких этажей и получать материалы / предметы более высокого класса во время события. Однако все материалы, предметы, питомцы и Темная Магия Воды будут уничтожены в конце.\n\n### Что такое темная магия воды (DMW)?\nDMW - это MW только для EK. Кубок событий. В начале эк. Кубок, определенная DMW будет предоставлен всем участникам. DMW можно использовать для повышения уровня Рыцаря, синтеза предметов, пэт-гатча и т. Д. В конце EK. Кубок DMW будет уничтожен всеми материалами, предметами и питомцами.\n\n### Должен ли я сражаться с монстром без предметов и питомцев?\nНет. Хотя вы начинаете без каких-либо материалов, предметов и домашних животных, вы сможете собрать их, выполнив перерождение, включая DMW. Домашние животные могут быть куплены с DMW, нажимая на Pet Gacha\n\n### Какое определение записи пола? Как вы решаете рейтинг участников?\nКогда вы нажимаете кнопку перерождения, номер этажа будет записан в блокчейне EOS. Все участники, которые соревнуются друг с другом с наибольшим количеством этажей, будут зарегистрированы во время EK. Кружка. Пожалуйста, помните, что если вы забудете нажать кнопку перерождения, эта запись не будет обновлена.\n\nЕсли вы не нажмете кнопку перерождения, вы не сможете записать свой номер этажа. Таким образом, вы должны принять стратегическое решение, когда вы нажимаете кнопку перерождения в конце EK. Кружка. В конце ек. Кубок, если рыцари все еще сражаются с монстром, запись не будет обновлена.\n\n### Есть ли связь в рейтинге?\nНет, галстука нет. Если более 2 участников запишут одинаковое количество этажей, победит тот, кто достиг этого уровня первым. По нашей системе игроки не могут одновременно достичь одинакового количества этажей.\n\n### ценное оборудование можно экипировать после того, как я отправлю?\nНет, вы не можете использовать его после отправки.\n\n### Глобальная скорость выпадения применяется к EK. Кепка также?\nНет. Глобальная скорость выпадения во время мероприятия отсутствует.
 season.reward.popup.title
     |ko| EK. CUP 보상
     |en| EK. CUP Rewards
@@ -4097,6 +4115,258 @@ medal.name.5
     |zh-cn| 骑士奖章
     |ja| 騎士メダル
     |ru| Рыцарь медаль
+    
+#------------------------------------------------------------------------------
+# Village
+#------------------------------------------------------------------------------
+village.btn.move
+    |ko| 옮기기
+    |en| Move
+    |zh-cn| 移动
+    |ja| 移動
+    |ru| перемещение
+village.btn.dig
+    |ko| 파내기
+    |en| Dig
+    |zh-cn| 挖
+    |ja| 掘る
+    |ru| копать землю
+village.btn.collect
+    |ko| 수령하기
+    |en| Collect
+    |zh-cn| 搜集
+    |ja| 集める
+    |ru| собирать
+village.btn.clear
+    |ko| 초기화
+    |en| Clear
+    |zh-cn| 重置
+    |ja| 初期化
+    |ru| Очистить
+village.btn.use
+    |ko| 사용
+    |en| Use
+    |zh-cn| 使用
+    |ja| つかいます
+    |ru| использование
+village.btn.build
+    |ko| 건설하기
+    |en| Build
+    |zh-cn| 建立
+    |ja| 造る
+    |ru| строить
+village.btn.merge
+    |ko| 합성하기
+    |en| Merge
+    |zh-cn| 合并
+    |ja| マージ
+    |ru| сливаться
+village.title.move
+    |ko| 건물 이동
+    |en| Building migration
+    |zh-cn| 移动建筑物
+    |ja| 建物の移動
+    |ru| Движущиеся здания
+village.title.build.new
+    |ko| 새 건물 건설
+    |en| New building construction
+    |zh-cn| 建筑施工
+    |ja| 建物の建設
+    |ru| Строительство
+village.title.merge.new
+    |ko| 건물 합성하기
+    |en| Merge buildings
+    |zh-cn| 合并建筑物
+    |ja| 建物をマージする
+    |ru| Объединить здания
+village.title.demolish
+    |ko| 파내기
+    |en| Digging
+    |zh-cn| 挖掘
+    |ja| 掘る
+    |ru| рытье
+village.desc.demolish
+    |ko| 장애물 제거 보상
+    |en| Obstacle remove reward
+    |zh-cn| 障碍消除奖励
+    |ja| 障害物から報酬を削除
+    |ru| Препятствие удалить награду
+village.desc.pickaxe.onlyonce
+    |ko| 모든 곡괭이는 한번 사용하면 사라집니다.
+    |en| All pickaxes disappear once you use them.
+    |zh-cn| 使用后，所有镐都会消失。
+    |ja| すべてのつるはしは、一度使用すると、消えます。
+    |ru| Все кирки исчезают, как только вы их используете.
+village.desc.selectpickaxe
+    |ko| 사용할 곡괭이를 선택하세요
+    |en| Select the pickaxe to use
+    |zh-cn| 选择要使用的镐
+    |ja| 使用するつるはしを選択
+    |ru| Выберите кирку для использования
+village.desc.nopickaxe
+    |ko| 보유 중인 곡괭이가 없습니다.
+    |en| No pickaxes to use
+    |zh-cn| 没有镐使用
+    |ja| 使用するつるはしはありません
+    |ru| Нет кирки для использования
+    
+village.name.11
+    |ko| 잡초
+    |en| Weed
+    |zh-cn| 野草
+    |ja| 雑草
+    |ru| сорняк
+village.name.12
+    |ko| 잡초
+    |en| Weed
+    |zh-cn| 野草
+    |ja| 雑草
+    |ru| сорняк
+village.name.13
+    |ko| 잡초
+    |en| Weed
+    |zh-cn| 野草
+    |ja| 雑草
+    |ru| сорняк
+village.name.14
+    |ko| 잡초
+    |en| Weed
+    |zh-cn| 野草
+    |ja| 雑草
+    |ru| сорняк
+village.name.21
+    |ko| 나무
+    |en| Tree
+    |zh-cn| 树
+    |ja| 木
+    |ru| дерево
+village.name.22
+    |ko| 나무
+    |en| Tree
+    |zh-cn| 树
+    |ja| 木
+    |ru| дерево
+village.name.23
+    |ko| 나무
+    |en| Tree
+    |zh-cn| 树
+    |ja| 木
+    |ru| дерево
+village.name.24
+    |ko| 나무
+    |en| Tree
+    |zh-cn| 树
+    |ja| 木
+    |ru| дерево
+village.name.31
+    |ko| 돌
+    |en| Rock
+    |zh-cn| 岩石
+    |ja| 岩
+    |ru| камень
+village.name.32
+    |ko| 돌
+    |en| Rock
+    |zh-cn| 岩石
+    |ja| 岩
+    |ru| камень
+village.name.33
+    |ko| 돌
+    |en| Rock
+    |zh-cn| 岩石
+    |ja| 岩
+    |ru| камень
+village.name.34
+    |ko| 돌
+    |en| Rock
+    |zh-cn| 岩石
+    |ja| 岩
+    |ru| камень
+village.name.41
+    |ko| 매직워터 저장소
+    |en| Magicwater Storage
+    |zh-cn| MagicWater存储
+    |ja| MagicWater ストレージ
+    |ru| MagicWater для хранения
+village.name.51
+    |ko| 기사의 쉼터
+    |en| Shelter of knight
+    |zh-cn| 骑士的住所
+    |ja| 騎士の避難所
+    |ru| Приют рыцаря
+village.name.61
+    |ko| 궁수의 쉼터
+    |en| Shelter of archer
+    |zh-cn| 射手的住所
+    |ja| 射手の避難所
+    |ru| Приют лучника
+village.name.71
+    |ko| 마법사의 쉼터
+    |en| Shelter of mage
+    |zh-cn| 法师的庇护所
+    |ja| メイジの避難所
+    |ru| Приют мага
+village.name.81
+    |ko| 장식물
+    |en| Decoration
+    |zh-cn| 装饰
+    |ja| デコレーション
+    |ru| Украшение
+village.name.91
+    |ko| 장식물
+    |en| Decoration
+    |zh-cn| 装饰
+    |ja| デコレーション
+    |ru| Украшение
+village.name.101
+    |ko| 장식물
+    |en| Decoration
+    |zh-cn| 装饰
+    |ja| デコレーション
+    |ru| Украшение
+    
+village.msg.full
+    |ko| 새로운 건물을 지을 공간이 부족합니다.
+    |en| Insufficient building space.
+    |zh-cn| 建筑空间不足。
+    |ja| 建物のスペースが足りません。
+    |ru| Недостаточно места в здании.
+village.msg.build.done
+    |ko| {0} 건설 완료!
+    |en| {0} Built!
+    |zh-cn| {0}已建成！
+    |ja| {0}が建てられました。
+    |ru| {0} Построен!
+village.msg.merge.done
+    |ko| 건물 합성 완료!
+    |en| Buildings merged!
+    |zh-cn| 建筑合并
+    |ja| 建物が合併しました
+    |ru| Здание объединено
+village.msg.demolish.done
+    |ko| {0} 파괴하여 매직워터 획득!
+    |en| Acquire magic water by demolish {0}!
+    |zh-cn| 通过拆除{0}获取魔法水！
+    |ja| {0}を破壊して魔法の水を手に入れよう！
+    |ru| Приобретите волшебную воду, разрушив {0}!
+village.msg.pickaxe.done
+    |ko| 곡괭이를 사용하였습니다.
+    |en| Using the pickaxe has finished.
+    |zh-cn| 使用镐已经完成。
+    |ja| つるはしの使用は終了しました。
+    |ru| Использование кирки закончено.
+village.msg.nopickaxes.selected
+    |ko| 선택된 곡괭이 없음!
+    |en| No pickaxes selected!
+    |zh-cn| 没有选择镐！
+    |ja| つるはしが選択されていません！
+    |ru| Не выбраны кирки!
+village.msg.comingsoon
+    |ko| 곧 마을 건설이 시작됩니다!
+    |en| Construction of the village will begin soon!
+    |zh-cn| 村庄的建设即将开始！
+    |ja| すぐに村の建設が開始されます！
+    |ru| Строительство поселка начнется в ближайшее время!
     
 #------------------------------------------------------------------------------
 # Skill Box
@@ -6499,6 +6769,12 @@ item.name.205
     |zh-cn| 利斧
     |ja| バトルアックス
     |ru| Боевой Топор
+item.name.206
+    |ko| 단단한 곡괭이
+    |en| Hard Pickaxe
+    |zh-cn| 硬 鹤嘴锄
+    |ja| つるはし
+    |ru| твердая кирка
 item.name.211
     |ko| 토마호크
     |en| Tomahawk
@@ -6535,6 +6811,12 @@ item.name.216
     |zh-cn| 自由之锤
     |ja| 自由のメイス
     |ru| Булава Свободы
+item.name.217
+    |ko| 반짝이는 곡괭이
+    |en| Sparkling Pickaxe
+    |zh-cn| 闪闪发光的 鹤嘴锄
+    |ja| きらめくつるはし
+    |ru| кирка игристая
 item.name.221
     |ko| 상급 드워프 액스
     |en| Advanced Dwarf Axe
@@ -6571,6 +6853,12 @@ item.name.226
     |zh-cn| 秘银锤子
     |ja| ミスリルハンマー
     |ru| Мифриловый Молот
+item.name.227
+    |ko| 불타오르는 곡괭이
+    |en| Flaming Pickaxe
+    |zh-cn| 炽盛 鹤嘴锄
+    |ja| 燃えるつるはし
+    |ru| Пылающая кирка
 item.name.231
     |ko| 풀문
     |en| The Full Moon
