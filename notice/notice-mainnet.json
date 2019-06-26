@@ -1,5 +1,17 @@
 [  
    {  
+      "id":105,
+      "titleKo":"iOS 업데이트 이슈 공지",
+      "titleEn":"iOS update issue notice",
+      "titleImage":"https://eosknights.io/img/notice/notice5.png",
+      "bodyKo":"##iOS 업데이트 이슈 공지\n\n![](http://eosknights.io/img/notice/notice5.png =256x256)\n\n안녕하세요. 금번 EOS village 업데이트의 경우,\niOS 버전에 문제가 발생하여 내일 업데이트가 이루어질 예정입니다.\n불편을 드려 대단히 죄송합니다.\n최대한 빠르게 수정하고 다시 재공지 드리겠습니다.\n\n다시한번 불편을 드려 죄송합니다.\n비스킷 팀",
+      "bodyEn":"##iOS update issue notice\n\n![](http://eosknights.io/img/notice/notice5.png =256x256)\n\nThere is an issue on iOS version for EOS village update.\nWe are fixing the bug and will update and release it tomorrow. \nWe are very sorry for your inconvenience. \nWe will revert with fixed iOS version ASAP.\n\nAgain, sorry for the trouble\nTeam Biscuit.",
+      "datetime":"2019-06-26T00:00:00.000",
+      "expiration":"2019-06-28T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":104,
       "titleKo":"Update News",
       "titleEn":"Update News",
