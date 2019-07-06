@@ -40,9 +40,9 @@
          {
             "key":"home",
             "defaultFor":"ko",
-            "location":"Seoul",
+            "location":"Japan",
             "wait":1.5,
-            "api":"http://121.168.149.101:8888"
+            "api":"https://api-kylin.eoslaomao.com"
          }, {
             "key":"cryptolions",
             "defaultFor":"",
