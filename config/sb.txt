@@ -1055,11 +1055,11 @@ new.account.help.title
     |ja| アカウントを作成する
     |ru| Создать учетную запись
 new.account.help.body
-    |ko| ## 외부 생성 툴\n아래 툴을 통해 계정을 생성할 수 있습니다.\n* [wombat](https://www.getwombat.io/)   
-    |en| ## External creation tool\nYou can create an account using the tools below.\n* [wombat](https://www.getwombat.io/)    
-    |zh-cn| ## 外部創建工具\n您可以使用以下工具創建帳戶。\n* [wombat](https://www.getwombat.io/)
-    |ja| ## 外部生成ツール\n下のツールを使用してアカウントを作成することができます。\n* [wombat](https://www.getwombat.io/)
-    |ru| ## Внешний инструмент создания\nВы можете создать учетную запись, используя инструменты ниже.\n* [wombat](https://www.getwombat.io/)
+    |ko| ## 외부 생성 툴\n아래 툴을 통해 계정을 생성할 수 있습니다.\n* [wombat](https://www.getwombat.io/eos-knights-on-wombat)   
+    |en| ## External creation tool\nYou can create an account using the tools below.\n* [wombat](https://www.getwombat.io/eos-knights-on-wombat)    
+    |zh-cn| ## 外部創建工具\n您可以使用以下工具創建帳戶。\n* [wombat](https://www.getwombat.io/eos-knights-on-wombat)
+    |ja| ## 外部生成ツール\n下のツールを使用してアカウントを作成することができます。\n* [wombat](https://www.getwombat.io/eos-knights-on-wombat)
+    |ru| ## Внешний инструмент создания\nВы можете создать учетную запись, используя инструменты ниже.\n* [wombat](https://www.getwombat.io/eos-knights-on-wombat)
 create.account.notice
     |ko| 하루에 100개의 계정을 무료로 생성합니다. <color="red">루팅된 폰에서 시도하면 키 탈취의 위험이 있습니다.</color>
     |en| We create 100 free account per day. <color="red">Don't create an account on a rooted phone, there is a risk of key takeover.</color>    
