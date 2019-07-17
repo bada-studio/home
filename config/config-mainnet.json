@@ -92,12 +92,6 @@
             "wait":2.5,
             "api":"https://api.eoseoul.io"
          }, {
-            "key":"eosys",
-            "defaultFor":"",
-            "location":"Korea",
-            "wait":2.5,
-            "api":"https://rpc.eosys.io"
-         }, {
             "key":"eosphere",
             "defaultFor":"",
             "location":"Australia",
