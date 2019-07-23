@@ -2,7 +2,6 @@
 <html lang="en">
 
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -26,6 +25,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/new-age.css" rel="stylesheet">
+    <script type="text/javascript" src="http://jsgetip.appspot.com"></script>
 
   </head>
 
@@ -106,7 +106,7 @@
                 <a href="https://play.google.com/store/apps/details?id=com.bada.ck" class="btn btn-xl" target="_blank"><img src="/img/icon-google.png"> Play</a>                
               </div>
 
-              <div class="badge-link">
+              <div class="badge-link" id="apkLinkBox" style="display: none">
                 <a href="https://github.com/bada-studio/home/releases/download/2.1.4/knights.apk" class="btn btn-xl" target="_blank"><img src="/img/icon-apk.png"> APK</a>                
               </div>
 
@@ -324,6 +324,24 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/new-age.min.js"></script>
+
+    <script>
+
+    $.ajax({ 
+      url: "https://bastet.eosknights.io/country/" + ip(), 
+      method: "GET"
+    })
+    .done(function(text) { 
+      if(text != "KR") {
+        $('#apkLinkBox').css("display", "inline");
+      }
+    }) 
+    .fail(function(xhr, status, errorThrown) {
+      console.log(errorThrown);
+    });
+
+
+    </script>
 
   </body>
 
