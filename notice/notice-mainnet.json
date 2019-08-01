@@ -1,5 +1,17 @@
 [  
    {
+      "id":109,
+      "titleKo":"7th EK. CUP sponsored by Wombat",
+      "titleEn":"7th EK. CUP sponsored by Wombat",
+      "titleImage":"https://eosknights.io/img/wombat.png",
+      "bodyKo":"## 7th EK. CUP sponsored by Wombat이 오늘 (8/2, 금요일) 오후 9시에 시작됩니다.\n\n7th EK. CUP sponsored by Wombat이 7일간 진행 됩니다.\n[Wombat](https://www.getwombat.io/eos-knights-on-wombat)은 무료로 account가 생성 가능한 EOS wallet 입니다.\n\n![](https://eosknights.io/img/notice/wbe.jpg =600x469)\n\n7th EK CUP은 King's Armor 제작 가능성을 높히기 위해 7일간 진행됩니다.\n* 8월 2일 금요일 오후 9시 -8월 9일 금요일 오후 9시; 7일간\n* 공격력이 15X로 강화된 Knights와 함께\n\n리워드:\n* 'King's Armor'을 가장 먼저 제작한 1명 150 EOS 획득 (3rd-7th EK. CUP에서 120 EOS 이월)\n* 가장 높은 층까지 도달한 1등-100등 각각 1.5 EOS 획득\n* 그외 모든 참가자는 도달한 층수 만큼 MW 획득 (단, 최대 1,000 MW로 제한)\n\n그외 규칙:\n* 재료마켓 오픈 (Normal부터 Legendary까지)\n* 대회 시작시 15,000 Dark Magic Water(DMW) 제공\n* 대회 시작시 Level 1 Byte Warrior, Mad Scientist, Rising Sun 제공\n* DMW는 EK. Cup에서만 사용하는 MW\n* 4개 이상의 재료가 필요한 아이템 제작시, 1개 재료가 모자랄 경우 DMW를 사용하여 제작 가능\n주의!!! EK. Cup에서 획득한 재료, 아이템, 펫, DMW는 대회 종료와 함께 모두 소멸 됩니다.\n\n[FAQ Link](https://github.com/bada-studio/knights_support/wiki/EK.-Cup-FAQ-ko)",
+      "bodyEn":"## 7th EK Cup sponsored by Wombat will open at 2nd Aug. 12:00 (UTC)\n\n7th EK CUP sponsored by Wombat will compete for 7 days\nYou can make free EOS account with [Wombat wallet](https://www.getwombat.io/eos-knights-on-wombat)\n![](https://eosknights.io/img/notice/wbe.jpg)\n\n7th EK. CUP will start at 2nd Aug. for 7 days\n7th EK. CUP will be longer than usual to increase the chance to make King's Armor\n* From Friday, Aug. 2nd at 12:00(UTC) - To Friday, Aug. 9th until 12:00(UTC); 7 days\n* Compete with 15X stronger Knights\n\nReward to be claimed:\n* 150 EOS: the first account who successfully crafts and submit 'King's Armor'; 120 EOS carried over, from 3rd-7th EK. CUP\n* 1.5 EOS: Top 100 accounts who reach the highest floor\n* MW: Every participant get MW, based on number of floors they climb (1,000 MW is max reward)\n\nMiscellaneous:\n* There will be Normal - Legendary material market on the event\n* There also will be given 15,000 Dark Magic Water(DMW) at the beginning\n* DMW can be used for EK. Cup only!\n* There will a level 1 Knights be provided at start\n* Certain items require 4 materials. 1 out of these 4 materials can be replaced by DMW\n\nAttention!!!!   All materials, items, pets and DMW were used during the cup will be destroyed!\n\n[FAQ Link](https://github.com/bada-studio/knights_support/wiki/EK.-Cup-FAQ--en)",
+      "datetime":"2019-08-02T00:00:00.000",
+      "expiration":"2019-08-09T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":108,
       "titleKo":"New Wallet",
       "titleEn":"New Wallet",
