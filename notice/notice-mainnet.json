@@ -1,5 +1,17 @@
 [  
    {  
+      "id":116,
+      "titleKo":"공지사항",
+      "titleEn":"Notice",
+      "titleImage":"https://eosknights.io/img/notice/notice1.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/notice1.png =256x256)\n\n최근 미디어에서 잘못된 뉴스가 있어 정정 드립니다. EOS Knights는 EOS 생태계를 떠나지 않습니다.\n\n* 비스킷팀은 새로운 프로젝트인 Knight Story를 개발중 입니다.\n* Knight Story는 게임의 확장성과 블록체인의 새로운 가능성을 실험하기 위하여 여러 블록체인을 지원할 예정입니다.\n* Knight Story를 개발하는 가장 큰 이유는 기존 EOS knights 연계성을 가지고 지속적으로 업데이트 가능한 게임을 개발하기 위함 입니다.\n* EOS Knights 그리고 그 유저 분들과 새로운 프로젝트 Knight Story를 연계하는 것이 본 프로젝트의 가장 큰 목적입니다.\n* 우리는 EOSIO 프로토콜을 지원하고 있습니다.\n* 앞으로도 지속적으로 EOS 블록체인을 지원해 나갈 예정입니다.",
+      "bodyEn":"![](https://eosknights.io/img/notice/notice1.png =256x256)\n\nWe are not leaving the EOS ecosystem, contrary to what this article states.\nIn the interests of setting the record straight, here are a few points that we wish to make:\n\n* We are developing a new project called Knight Story. \n* The Knight Story will support multiple top tier blockchains within one game to expand the global access and reach of the game.\n* The intention was for the next iteration of Knight Story to build a sustainably updatable structure without disconnecting from EOS Knights and the EOS Knights community.\n* Linking Knight Story with EOS Knight is one of the most important goals we had in mind.\n* We remain strong and committed supporters of the EOSIO protocol and the EOS blockchain.\n* We continue to actively work with the EOS blockchain.",
+      "datetime":"2019-10-23T00:00:00.000",
+      "expiration":"2019-10-26T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":115,
       "titleKo":"12th EK. CUP",
       "titleEn":"12th EK. CUP",
