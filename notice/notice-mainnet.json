@@ -1,5 +1,17 @@
 [  
    {  
+      "id":118,
+      "titleKo":"14th EK CUP. 연기",
+      "titleEn":"14th EK CUP. postponed",
+      "titleImage":"https://eosknights.io/img/notice/notice5.png",
+      "bodyKo":"![](https://eosknights.io/img/notice/notice5.png =256x256)\n\n최근 EOS 네트워크가 혼잡하여 EOS 관련 dapp 실행에 어려움을 겪고 있습니다. 따라서 금번 EK CUP은 EOS 네트워크의 상황을 지속적으로 모니터링한뒤, 진행이 가능한 시점에 시작하도록 하겠습니다. 시작 하루전 공지 드리도록 하겠습니다.\n\n감사합니다.",
+      "bodyEn":"![](https://eosknights.io/img/notice/notice5.png =256x256)\n\nRecently, it is difficult to run EOS related dapp because of a issue on EOS network. We are monitoring the network status. After the network return to normal congestion level, we will open the 14th EK CUP.\n\nWe will notice one day before we start the 14th EK CUP.\nThanks",
+      "datetime":"2019-11-04T00:00:00.000",
+      "expiration":"2019-11-06T00:00:00.000",
+      "padding":40,
+      "needPopup":true,
+      "link":""
+   }, {  
       "id":117,
       "titleKo":"13th EK. CUP",
       "titleEn":"13th EK. CUP",
